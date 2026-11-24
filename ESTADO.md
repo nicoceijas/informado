@@ -4,7 +4,8 @@
 
 ## Dónde estamos
 
-- **Fase actual:** 2 · Agrupador de temas y app (próximo)
+- **Fase actual:** 3 · Prueba de uso (2 semanas) — esperando que se active GitHub Pages
+- **Fase 2 terminada (24/11):** agrupador (177 temas con 2+ diarios por semana, 4 s por corrida), señal de jerarquía por posición en la home, app instalable. Todo corre cada 2 h.
 - **Fase 1 terminada (24/11):** el recolector corre cada 2 horas en GitHub Actions. Primera corrida: ~2.500 notas de 9 diarios en menos de un minuto, sin errores.
 - **Fase 0 terminada (24/11):** 9 de 10 diarios con fuentes verificadas. Resumen en `docs/fase0-fuentes.md`.
 - **Próximo hito:** primera versión instalable en el celular (Hoy, Semana, Tema comparado, Armá tu semana, Guardadas)
@@ -21,11 +22,15 @@
 | 24/11 | Sindicales y Ciudad se asignan por palabras clave con prioridad sobre la sección, porque casi ningún diario tiene esas secciones. |
 | 24/11 | Se excluyen las ediciones de otros países (Infobae, La Nación, Clarín, El Cronista) por la URL. |
 | 24/11 | Crónica queda afuera de la versión 1: no tiene RSS ni sitemap públicos. |
+| 24/11 | Jerarquía (40% del puntaje): posición de la nota en la home de cada diario (top 3, top 10, top 25) y marca de edición impresa de Página/12. |
+| 24/11 | Un tema necesita notas de al menos 2 diarios. Propuesta semanal: hasta 2 por sección, completando 12 con los de mayor puntaje. |
+| 24/11 | «Semana» usa los últimos 7 días móviles hasta que haya una semana calendario completa (1/12). |
 | 24/11 | Calibración 1: Sindicales gana sobre cualquier sección; Ciudad solo sobre secciones genéricas; se descartan notas automáticas (clima, quiniela, horóscopo). Cada corrida reaplica las reglas a toda la semana. |
 
 ## Pendientes del usuario
 
-- Ninguno por ahora.
+- [ ] Activar GitHub Pages: Settings → Pages → Source: **GitHub Actions** (un clic; el proceso automático no tiene permiso para hacerlo).
+- [ ] Instalar la app en el celular y usarla 2 semanas. Domingo: «Armá tu semana» y «Enviar feedback».
 
 ## Pendientes técnicos
 
@@ -33,8 +38,9 @@
 - [x] Tabla de secciones de cada diario → Política, Economía, Internacionales, Sindicales, Ciudad, Fútbol.
 - [ ] Crónica: leer la home directamente (versión 1.1).
 - [x] Recolector (cada 2 h, minuto 17 UTC) y clasificador de temas, con 11 pruebas.
-- [ ] Agrupador y puntaje.
-- [ ] App web instalable.
+- [x] Agrupador y puntaje (umbral 0,30, ventana 72 h, grupos de más de 35 notas se parten).
+- [x] App web instalable: Hoy, Semana, Tema comparado, Armá tu semana, Guardadas, búsqueda de temas propios, feedback como issue.
+- [ ] Fusionar temas desde la app (versión 1.1).
 - [ ] Tareas programadas de revisión (diaria y semanal).
 
 ## Datos
