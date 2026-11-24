@@ -1,0 +1,154 @@
+# Fuentes de Informado
+# Verificadas desde GitHub Actions el 24/11/2026 (ver sondeo/RESULTADO.md).
+#
+# Regla de contenido: de cada nota se guarda solo título, bajada (recortada a 40 palabras),
+# fecha, sección y enlace. Nunca el cuerpo de la nota, aunque el feed lo traiga.
+#
+# rss:      feeds con bajada. Fuente principal.
+# sitemaps: sitemaps de noticias. Suman volumen (título y fecha, a veces palabras clave), sin bajada.
+# excluir_secciones: primer tramo de la URL que no entra (ediciones de otros países, servicios, etc.).
+
+user_agent: "InformadoBot/0.1 (+https://github.com/nicoceijas/informado)"
+pausa_entre_pedidos_seg: 1
+recorte_bajada_palabras: 40
+
+excluir_secciones_comunes:
+  - videos
+  - videoloop
+  - astrologia
+  - horoscopo
+  - loterias
+  - loterias-y-quinielas
+  - recetas
+  - avisos
+  - comercial
+  - fotos
+  - podcast
+
+diarios:
+  clarin:
+    nombre: Clarín
+    home: https://www.clarin.com
+    impreso: true
+    rss:
+      politica: https://www.clarin.com/rss/politica/
+      economia: https://www.clarin.com/rss/economia/
+      mundo: https://www.clarin.com/rss/mundo/
+      sociedad: https://www.clarin.com/rss/sociedad/
+      ciudades: https://www.clarin.com/rss/ciudades/
+      deportes: https://www.clarin.com/rss/deportes/
+      ultimo: https://www.clarin.com/rss/lo-ultimo/
+    sitemaps:
+      - https://www.clarin.com/sitemaps/sitemap_google_news.xml
+    excluir_secciones: [estados-unidos, new-york-times-international-weekly, fama, espectaculos]
+    nota: "RSS chicos (10 notas cada uno) pero con bajada. El sitemap trae unas 900 notas de 48 h."
+
+  lanacion:
+    nombre: La Nación
+    home: https://www.lanacion.com.ar
+    impreso: true
+    rss:
+      ultimo: https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml
+      politica: https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/politica/?outputType=xml
+      economia: https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/economia/?outputType=xml
+      mundo: https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/el-mundo/?outputType=xml
+      sociedad: https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/sociedad/?outputType=xml
+      deportes: https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/deportes/?outputType=xml
+    sitemaps:
+      - https://www.lanacion.com.ar/sitemap-news.xml
+    excluir_secciones: [usa, estados-unidos, clima, lifestyle, espectaculos, propiedades]
+    nota: "La mejor fuente: RSS con categoría y bajada. El feed trae el texto completo, que se descarta."
+
+  pagina12:
+    nombre: Página/12
+    home: https://www.pagina12.com.ar
+    impreso: true
+    rss:
+      ultimo: https://www.pagina12.com.ar/arc/outboundfeeds/rss/?outputType=xml
+    sitemaps:
+      - https://www.pagina12.com.ar/arc/outboundfeeds/breakingnews-short.xml
+    excluir_secciones: []
+    sin_seccion_en_url: true
+    nota: "La URL no indica sección (solo la fecha). El tema se asigna por palabras clave. El sitemap marca 'Edición Impresa' en las palabras clave: sirve como señal de jerarquía."
+
+  infobae:
+    nombre: Infobae
+    home: https://www.infobae.com
+    impreso: false
+    rss:
+      politica: https://www.infobae.com/arc/outboundfeeds/rss/category/politica/
+      economia: https://www.infobae.com/arc/outboundfeeds/rss/category/economia/
+      mundo: https://www.infobae.com/arc/outboundfeeds/rss/category/america/
+      sociedad: https://www.infobae.com/arc/outboundfeeds/rss/category/sociedad/
+      deportes: https://www.infobae.com/arc/outboundfeeds/rss/category/deportes/
+    sitemaps: []
+    excluir_secciones: [espana, colombia, peru, mexico, estados-unidos, teleshow, tendencias, entretenimiento, malditos-nerds]
+    nota: "Se usan solo los RSS por sección. El feed general y el sitemap mezclan las ediciones de otros países."
+
+  ambito:
+    nombre: Ámbito
+    home: https://www.ambito.com
+    impreso: true
+    rss:
+      ultimo: https://www.ambito.com/rss/pages/home.xml
+      politica: https://www.ambito.com/rss/pages/politica.xml
+      economia: https://www.ambito.com/rss/pages/economia.xml
+      mundo: https://www.ambito.com/rss/pages/mundo.xml
+      finanzas: https://www.ambito.com/rss/pages/finanzas.xml
+    sitemaps:
+      - https://www.ambito.com/sitemap-news.xml
+    excluir_secciones: [espectaculos, autos, lifestyle, real-estate]
+
+  perfil:
+    nombre: Perfil
+    home: https://www.perfil.com
+    impreso: true
+    rss:
+      ultimo: https://www.perfil.com/feed
+      mundo: https://www.perfil.com/feed/internacional
+    sitemaps:
+      - https://www.perfil.com/sitemap/news.xml
+    excluir_secciones: [cordoba, nea, entretenimiento, modo-fontevecchia, canal-e, mas-perfil]
+    nota: "Los RSS de política y economía casi no traen notas. Se usa el general, el internacional y el sitemap."
+
+  cronista:
+    nombre: El Cronista
+    home: https://www.cronista.com
+    impreso: true
+    rss:
+      ultimo: https://www.cronista.com/files/rss/news.xml
+      economia_politica: https://www.cronista.com/files/rss/economia-politica.xml
+    sitemaps:
+      - https://www.cronista.com/arc/outboundfeeds/sitemap-news/latest/?outputType=xml
+    excluir_secciones: [espana, usa, mexico, en, clase]
+
+  ole:
+    nombre: Olé
+    home: https://www.ole.com.ar
+    impreso: true
+    rss:
+      ultimo: https://www.ole.com.ar/rss/ultimas-noticias/
+      futbol_primera: https://www.ole.com.ar/rss/futbol-primera/
+    sitemaps:
+      - https://www.ole.com.ar/sitemaps/sitemap_google_news.xml
+    excluir_secciones: [autos, fuera-de-juego]
+    tema_por_defecto: futbol
+    nota: "Diario deportivo: las secciones son clubes. Todo cuenta como Fútbol salvo tenis, básquet y polideportivo."
+
+  popular:
+    nombre: Diario Popular
+    home: https://www.diariopopular.com.ar
+    impreso: true
+    rss:
+      ultimo: https://www.diariopopular.com.ar/rss/home.xml
+      politica: https://www.diariopopular.com.ar/rss/politica.xml
+    sitemaps:
+      - https://www.diariopopular.com.ar/sitemap-news.xml
+    excluir_secciones: [espectaculos, turismo, salud]
+
+  cronica:
+    nombre: Crónica
+    home: https://www.cronica.com.ar
+    impreso: true
+    activo: false
+    nota: "Sin RSS ni sitemap de noticias públicos. Pendiente: leer la home directamente (versión 1.1)."

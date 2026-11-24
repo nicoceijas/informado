@@ -1,0 +1,68 @@
+# Tabla de temas de Informado
+#
+# Cómo se asigna el tema a una nota, en este orden:
+#   1. Reglas por palabras clave (Sindicales y Ciudad atraviesan secciones: ningún diario las tiene).
+#   2. Sección del diario (primer tramo de la URL o el feed del que vino).
+#   3. Si no hay sección (Página/12) o es genérica, palabras clave de todos los temas.
+#   4. Si nada coincide: "otros". Se guarda igual, por si más adelante sumás temas.
+#
+# Las palabras se comparan como palabras completas (no "pro" dentro de "provincia"), sin tildes
+# y en minúsculas, contra título + bajada + palabras clave del sitemap.
+
+temas:
+  politica:
+    nombre: Política
+    secciones: [politica, el-pais, economia-politica]
+    palabras: [congreso, diputados, senado, gobierno nacional, casa rosada, milei, ministro, oposicion,
+               peronismo, kirchnerismo, libertad avanza, pro, ucr, gobernador, legislatura, decreto,
+               justicia, corte suprema, fiscal, elecciones, sesion]
+
+  economia:
+    nombre: Economía
+    secciones: [economia, finanzas, finanzas-mercados, negocios, rural, energia, energia-y-mineria,
+                novedades-fiscales, campo]
+    palabras: [dolar, inflacion, indec, bcra, banco central, reservas, tesoro, licitacion, deuda,
+               fmi, tarifas, impuesto, arca, jubilacion, salario, riesgo pais, exportaciones, superavit]
+
+  internacionales:
+    nombre: Internacionales
+    secciones: [mundo, el-mundo, internacional, internacionales, america]
+    palabras: [trump, casa blanca, union europea, onu, otan, ucrania, rusia, china, israel, gaza,
+               brasil, lula, chile, uruguay, venezuela, papa leon]
+
+  sindicales:
+    nombre: Sindicales
+    secciones: []
+    prioridad: alta   # gana sobre la sección: un paro en "Economía" va a Sindicales
+    palabras: [cgt, cta, gremio, gremial, sindicato, sindical, paritaria, paro general, paro de,
+               huelga, medida de fuerza, plan de lucha, convenio colectivo, uom, ate, uta, camioneros,
+               bancarios, docentes, ctera, utedyc, smata, delegados, reforma laboral]
+
+  ciudad:
+    nombre: Ciudad
+    secciones: [ciudades, ciudad-de-buenos-aires, sururbano]
+    prioridad: alta   # gana sobre "sociedad" o "información general"
+    palabras: [caba, porteno, portenos, ciudad de buenos aires, legislatura portena, jorge macri,
+               conurbano, amba, gran buenos aires, subte, emova, premetro, colectivos, linea de colectivo,
+               trenes, aysa, edenor, edesur, corte de luz, corte de agua, palermo, recoleta, la matanza,
+               quilmes, avellaneda, lomas de zamora, kicillof]
+
+  futbol:
+    nombre: Fútbol
+    secciones: [futbol, futbol-primera, futbol-ascenso, futbol-internacional, seleccion, river-plate,
+                boca-juniors, racing, independiente, san-lorenzo, estudiantes, gimnasia-y-esgrima,
+                rosario-central, newells-old-boys, lanus, velez, huracan, talleres, belgrano, instituto]
+    # La sección "deportes" de los diarios generales entra solo si menciona fútbol:
+    secciones_condicionales:
+      deportes: [futbol, gol, river, boca, racing, independiente, san lorenzo, seleccion argentina,
+                 scaloni, liga profesional, afa, copa libertadores, sudamericana, torneo, dt, clasico]
+    palabras: [liga profesional, afa, copa libertadores, copa sudamericana, scaloni, seleccion argentina]
+
+# Secciones que no entran a ningún tema y van a "otros" sin evaluar palabras clave.
+secciones_otros: [espectaculos, entretenimiento, teleshow, fama, lifestyle, tecnologia, tecno,
+                  ciencia, ciencia-y-tecnologia, salud, autos, turismo, cultura, policiales, seguridad,
+                  opinion, opiniones, columnistas, tenis, basquet, poli, automovilismo]
+
+# Secciones genéricas: no definen tema por sí solas, se decide por palabras clave.
+secciones_genericas: [sociedad, informacion-general, informacion-gral, general, ultimo, actualidad,
+                      ambito-nacional, ambito-debate, provincia]

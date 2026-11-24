@@ -4,7 +4,8 @@
 
 ## Dónde estamos
 
-- **Fase actual:** 0 · Relevamiento de diarios (en curso)
+- **Fase actual:** 1 · Recolector (próximo)
+- **Fase 0 terminada (24/11):** 9 de 10 diarios con fuentes verificadas. Resumen en `docs/fase0-fuentes.md`.
 - **Próximo hito:** primera versión instalable en el celular (Hoy, Semana, Tema comparado, Armá tu semana, Guardadas)
 
 ## Decisiones tomadas
@@ -16,6 +17,9 @@
 | 24/11 | Infraestructura de la etapa de prueba: GitHub Actions (proceso cada 2 h) + GitHub Pages (app). Repositorio público. |
 | 24/11 | Fuentes: solo diarios nacionales. Se guarda título, bajada breve y enlace; nunca la nota completa. |
 | 24/11 | Agenda de la semana próxima e imágenes de tapa quedan para la versión 1.1. |
+| 24/11 | Sindicales y Ciudad se asignan por palabras clave con prioridad sobre la sección, porque casi ningún diario tiene esas secciones. |
+| 24/11 | Se excluyen las ediciones de otros países (Infobae, La Nación, Clarín, El Cronista) por la URL. |
+| 24/11 | Crónica queda afuera de la versión 1: no tiene RSS ni sitemap públicos. |
 
 ## Pendientes del usuario
 
@@ -23,8 +27,9 @@
 
 ## Pendientes técnicos
 
-- [ ] Relevar feeds RSS y sitemaps de cada diario.
-- [ ] Tabla de secciones de cada diario → Política, Economía, Internacionales, Sindicales, Ciudad, Fútbol.
+- [x] Relevar feeds RSS y sitemaps de cada diario.
+- [x] Tabla de secciones de cada diario → Política, Economía, Internacionales, Sindicales, Ciudad, Fútbol.
+- [ ] Crónica: leer la home directamente (versión 1.1).
 - [ ] Recolector.
 - [ ] Agrupador y puntaje.
 - [ ] App web instalable.
