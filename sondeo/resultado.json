@@ -1,0 +1,1856 @@
+{
+ "fecha": "2026-11-24T18:48:08.898448+00:00",
+ "diarios": {
+  "clarin": {
+   "nombre": "Clarín",
+   "impreso": true,
+   "feeds": {
+    "ultimo": {
+     "url": "https://www.clarin.com/rss/lo-ultimo/",
+     "status": 200,
+     "bytes": 10547,
+     "ms": 56,
+     "final_url": "https://www.clarin.com/rss/lo-ultimo/",
+     "ctype": "text/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 10,
+     "campos": [
+      "creator",
+      "description",
+      "enclosure",
+      "guid",
+      "id",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Nazareth Castellanos, neurocientífica: \"Ayudar nos hace más felices y no es cursy, es humano\"",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Una viuda de 84 años logró jubilarse y saldar las deudas médicas tras la muerte de su esposo por un cáncer cerebral luego de que su amiga le",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "politica": {
+     "url": "https://www.clarin.com/rss/politica/",
+     "status": 200,
+     "bytes": 10654,
+     "ms": 63,
+     "final_url": "https://www.clarin.com/rss/politica/",
+     "ctype": "text/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 10,
+     "campos": [
+      "creator",
+      "description",
+      "enclosure",
+      "guid",
+      "id",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Homenaje a Mario Santucho: en medio de la polémica, el fiscal Stornelli pidió suspender el acto en la Facultad de Sociales de la UBA",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Cumbre libertaria en el inicio de una semana clave: dudas por la economía y la urgencia por las PASO y el Presupuesto",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "economia": {
+     "url": "https://www.clarin.com/rss/economia/",
+     "status": 200,
+     "bytes": 10037,
+     "ms": 48,
+     "final_url": "https://www.clarin.com/rss/economia/",
+     "ctype": "text/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 10,
+     "campos": [
+      "creator",
+      "description",
+      "enclosure",
+      "guid",
+      "id",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "¿Qué pasa en el campo?: pese a la cosecha record predomina la cautela a la hora de invertir",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Dos exfundadores de Mercado Libre recaudan US$ 650 millones para invertir en firmas de IA en América latina",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "mundo": {
+     "url": "https://www.clarin.com/rss/mundo/",
+     "status": 200,
+     "bytes": 10556,
+     "ms": 72,
+     "final_url": "https://www.clarin.com/rss/mundo/",
+     "ctype": "text/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 10,
+     "campos": [
+      "creator",
+      "description",
+      "enclosure",
+      "guid",
+      "id",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "El corpiño rojo de Jensen Huang: Trump bromea en redes por el caso Nvidia, pero en el Congreso asoma una investigación",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Robaron en Anmer Hall, la casa de campo de Kate y William en Sandringham: hay dos detenidos",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "sociedad": {
+     "url": "https://www.clarin.com/rss/sociedad/",
+     "status": 200,
+     "bytes": 10828,
+     "ms": 62,
+     "final_url": "https://www.clarin.com/rss/sociedad/",
+     "ctype": "text/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 10,
+     "campos": [
+      "creator",
+      "description",
+      "enclosure",
+      "guid",
+      "id",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "La influencer de cocina de bajo costo que rechazó una oferta millonaria de un casino online: \"No puedo incentivarte a economizar y después d",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Conflicto en el Garrahan: protesta de ATE dentro del hospital por despidos y suspensiones",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "ciudades": {
+     "url": "https://www.clarin.com/rss/ciudades/",
+     "status": 200,
+     "bytes": 10328,
+     "ms": 52,
+     "final_url": "https://www.clarin.com/rss/ciudades/",
+     "ctype": "text/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 10,
+     "campos": [
+      "creator",
+      "description",
+      "enclosure",
+      "guid",
+      "id",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Los colores de la primavera porteña más allá de los jacarandás: las flores que le dan color a Palermo y el nuevo espacio que cuenta su histo",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Cambio de mano en Acoyte y Honorio Pueyrredón: desde qué hora de mañana se modifica la circulación en dos avenidas clave de Caballito",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "deportes": {
+     "url": "https://www.clarin.com/rss/deportes/",
+     "status": 200,
+     "bytes": 11162,
+     "ms": 75,
+     "final_url": "https://www.clarin.com/rss/deportes/",
+     "ctype": "text/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 10,
+     "campos": [
+      "creator",
+      "description",
+      "enclosure",
+      "guid",
+      "id",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Fábregas contó cómo protege a Nico Paz de las comparaciones con Messi: \"Es muy humilde y tiene un DT detrás que no va a dejar que se venga a",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Instituto vs. River, por los cuartos del Clausura: se confirmó que se jugará en Alta Córdoba y sin hinchas visitantes",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    }
+   },
+   "sitemaps": {
+    "https://www.clarin.com/sitemap-news.xml": {
+     "status": 404,
+     "error": "Not Found"
+    },
+    "https://www.clarin.com/sitemap_news.xml": {
+     "status": 404,
+     "error": "Not Found"
+    },
+    "https://www.clarin.com/sitemaps/sitemap_google_news.xml": {
+     "status": 200,
+     "bytes": 708145,
+     "ms": 169,
+     "final_url": "https://www.clarin.com/sitemaps/sitemap_google_news.xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 901,
+     "con_news": 901,
+     "subsitemaps": 0
+    }
+   },
+   "robots": {
+    "status": 200,
+    "sitemaps": [
+     "https://www.clarin.com/sitemaps/index.xml",
+     "https://www.clarin.com/sitemaps/index_services.xml",
+     "https://www.clarin.com/sitemaps/sitemap_google_news.xml"
+    ],
+    "disallow_relevante": []
+   },
+   "home": {
+    "status": 200,
+    "bytes": 3000000,
+    "ms": 120,
+    "final_url": "https://www.clarin.com",
+    "ctype": "text/html; charset=utf-8"
+   }
+  },
+  "lanacion": {
+   "nombre": "La Nación",
+   "impreso": true,
+   "feeds": {
+    "ultimo": {
+     "url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml",
+     "status": 200,
+     "bytes": 762885,
+     "ms": 71,
+     "final_url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 87,
+     "campos": [
+      "category",
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [
+      "Autos",
+      "Campo",
+      "Ciencia",
+      "Cuidado del cuerpo y belleza",
+      "Cultura",
+      "Deportes",
+      "Dólar Hoy",
+      "Economía",
+      "El Mundo",
+      "Espectáculos",
+      "Estados Unidos",
+      "Famosos",
+      "Florida",
+      "Fútbol",
+      "Lifestyle",
+      "Migraciones",
+      "Música",
+      "Personajes",
+      "Política",
+      "Qué sale?",
+      "Recetas",
+      "Rugby",
+      "Seguridad",
+      "Sociedad",
+      "Teatro",
+      "Tecnología",
+      "Tenis"
+     ],
+     "ejemplos": [
+      {
+       "titulo": "El acto de homenaje a Mario Santucho en la UBA, el reino del revés",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Paloma San Basilio, 76 años: “Desayuno un huevo pasado por agua todas las mañanas”",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "politica": {
+     "url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/politica/?outputType=xml",
+     "status": 200,
+     "bytes": 545987,
+     "ms": 76,
+     "final_url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/politica/?outputType=xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 59,
+     "campos": [
+      "category",
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [
+      "LN+",
+      "Política"
+     ],
+     "ejemplos": [
+      {
+       "titulo": "El acto de homenaje a Mario Santucho en la UBA, el reino del revés",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Javier Milei y sus medidas, en vivo: crece la polémica por el homenaje a Santucho en la UBA y se define la sesión por las PASO",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "economia": {
+     "url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/economia/?outputType=xml",
+     "status": 200,
+     "bytes": 622717,
+     "ms": 322,
+     "final_url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/economia/?outputType=xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 79,
+     "campos": [
+      "category",
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [
+      "Campo",
+      "Dólar Hoy",
+      "Economía",
+      "El Mundo",
+      "Futuria",
+      "Ganadería",
+      "Negocios",
+      "Tecnología"
+     ],
+     "ejemplos": [
+      {
+       "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotizan el oficial y el paralelo este martes 24 de noviembre, minuto a minuto",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Por qué la devaluación en Brasil abarata las vacaciones 2027 y preocupa en el turismo argentino",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "mundo": {
+     "url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/el-mundo/?outputType=xml",
+     "status": 200,
+     "bytes": 398045,
+     "ms": 596,
+     "final_url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/el-mundo/?outputType=xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 46,
+     "campos": [
+      "category",
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [
+      "El Mundo",
+      "Estados Unidos"
+     ],
+     "ejemplos": [
+      {
+       "titulo": "Feijóo, líder del PP en España, contra TVE: “Parece una televisión norcoreana y los informativos son una vergüenza”",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Elecciones España 2026, EN VIVO: qué dicen las encuestas en los días previos",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "sociedad": {
+     "url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/sociedad/?outputType=xml",
+     "status": 200,
+     "bytes": 523657,
+     "ms": 417,
+     "final_url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/sociedad/?outputType=xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 61,
+     "campos": [
+      "category",
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [
+      "Sociedad",
+      "Tecnología"
+     ],
+     "ejemplos": [
+      {
+       "titulo": "Qué se sabe de la búsqueda de Raúl Moyano en Tucumán, tras un mes desaparecido: “Una señal de celular es la referencia en la montaña”",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Qué se sabe del local de comida que explotó cuando festejaban el aniversario de Ezpeleta: un muerto",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "deportes": {
+     "url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/deportes/?outputType=xml",
+     "status": 200,
+     "bytes": 634779,
+     "ms": 112,
+     "final_url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/deportes/?outputType=xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 73,
+     "campos": [
+      "category",
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [
+      "Ajedrez",
+      "Argentinos Juniors",
+      "Atletismo",
+      "Automovilismo",
+      "Basquetbol",
+      "Boca",
+      "Boxeo",
+      "Deportes",
+      "Fútbol",
+      "Gimnasia (LP)",
+      "Motociclismo",
+      "Polo",
+      "River",
+      "Rugby",
+      "San Lorenzo",
+      "Tenis"
+     ],
+     "ejemplos": [
+      {
+       "titulo": "Paredes, Blanco y Merentiel: los líderes del vestuario de Boca, con el sello de la selección argentina",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Fixture de los Pumas 7s para el Seven de Dubái, por el Circuito Mundial 2026-2027",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    }
+   },
+   "sitemaps": {
+    "https://www.lanacion.com.ar/arc/outboundfeeds/news-sitemap/?outputType=xml": {
+     "status": 200,
+     "bytes": 159,
+     "ms": 445,
+     "final_url": "https://www.lanacion.com.ar/arc/outboundfeeds/news-sitemap/?outputType=xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 0,
+     "con_news": 0,
+     "subsitemaps": 0
+    },
+    "https://www.lanacion.com.ar/sitemap-news.xml": {
+     "status": 200,
+     "bytes": 990869,
+     "ms": 40,
+     "final_url": "https://www.lanacion.com.ar/sitemap-news.xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 1000,
+     "con_news": 1000,
+     "subsitemaps": 0
+    }
+   },
+   "robots": {
+    "status": 200,
+    "sitemaps": [
+     "https://www.lanacion.com.ar/sitemap-index.xml",
+     "https://www.lanacion.com.ar/sitemap-news.xml",
+     "https://www.lanacion.com.ar/sitemap-videos-jw.xml",
+     "https://www.lanacion.com.ar/sitemap-index-historico.xml",
+     "https://www.lanacion.com.ar/sitemap-articles-evergreen.xml",
+     "https://www.lanacion.com.ar/sitemap-section-index.xml"
+    ],
+    "disallow_relevante": []
+   },
+   "home": {
+    "status": 200,
+    "bytes": 1148994,
+    "ms": 94,
+    "final_url": "https://www.lanacion.com.ar",
+    "ctype": "text/html; charset=utf-8"
+   }
+  },
+  "pagina12": {
+   "nombre": "Página/12",
+   "impreso": true,
+   "feeds": {
+    "ultimo": {
+     "url": "https://www.pagina12.com.ar/rss/portada",
+     "status": 404,
+     "error": "Not Found",
+     "con_ua_navegador": 404
+    },
+    "politica": {
+     "url": "https://www.pagina12.com.ar/rss/secciones/el-pais/notas",
+     "status": 404,
+     "error": "Not Found",
+     "con_ua_navegador": 404
+    },
+    "economia": {
+     "url": "https://www.pagina12.com.ar/rss/secciones/economia/notas",
+     "status": 404,
+     "error": "Not Found",
+     "con_ua_navegador": 404
+    },
+    "mundo": {
+     "url": "https://www.pagina12.com.ar/rss/secciones/el-mundo/notas",
+     "status": 404,
+     "error": "Not Found",
+     "con_ua_navegador": 404
+    },
+    "sociedad": {
+     "url": "https://www.pagina12.com.ar/rss/secciones/sociedad/notas",
+     "status": 404,
+     "error": "Not Found",
+     "con_ua_navegador": 404
+    },
+    "deportes": {
+     "url": "https://www.pagina12.com.ar/rss/secciones/deportes/notas",
+     "status": 404,
+     "error": "Not Found",
+     "con_ua_navegador": 404
+    }
+   },
+   "sitemaps": {
+    "https://www.pagina12.com.ar/sitemap-news.xml": {
+     "status": 404,
+     "error": "Not Found"
+    },
+    "https://www.pagina12.com.ar/sitemaps/news.xml": {
+     "status": 404,
+     "error": "Not Found"
+    },
+    "https://www.pagina12.com.ar/arc/outboundfeeds/breakingnews-sitemap.xml": {
+     "status": 200,
+     "bytes": 190577,
+     "ms": 246,
+     "final_url": "https://www.pagina12.com.ar/arc/outboundfeeds/breakingnews-sitemap.xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 200,
+     "con_news": 200,
+     "subsitemaps": 0
+    },
+    "https://www.pagina12.com.ar/arc/outboundfeeds/breakingnews-short.xml": {
+     "status": 200,
+     "bytes": 85448,
+     "ms": 84,
+     "final_url": "https://www.pagina12.com.ar/arc/outboundfeeds/breakingnews-short.xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 100,
+     "con_news": 100,
+     "subsitemaps": 0
+    }
+   },
+   "robots": {
+    "status": 200,
+    "sitemaps": [
+     "https://www.pagina12.com.ar/arc/outboundfeeds/breakingnews-sitemap.xml",
+     "https://www.pagina12.com.ar/arc/outboundfeeds/breakingnews-short.xml"
+    ],
+    "disallow_relevante": []
+   },
+   "home": {
+    "status": 200,
+    "bytes": 925808,
+    "ms": 93,
+    "final_url": "https://www.pagina12.com.ar",
+    "ctype": "text/html; charset=utf-8"
+   }
+  },
+  "infobae": {
+   "nombre": "Infobae",
+   "impreso": false,
+   "feeds": {
+    "ultimo": {
+     "url": "https://www.infobae.com/arc/outboundfeeds/rss/",
+     "status": 200,
+     "bytes": 665687,
+     "ms": 84,
+     "final_url": "https://www.infobae.com/arc/outboundfeeds/rss/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 100,
+     "campos": [
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Dos bases de datos abiertas expusieron 3.500 millones de contraseñas, números de identidad y documentos",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Crean un análisis de sangre que podría estimar el riesgo de deterioro cognitivo hasta 10 años antes",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "politica": {
+     "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/politica/",
+     "status": 200,
+     "bytes": 1029289,
+     "ms": 493,
+     "final_url": "https://www.infobae.com/arc/outboundfeeds/rss/category/politica/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 100,
+     "campos": [
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Santilli debuta en el Senado: defenderá la gestión económica admitiendo un crecimiento desigual",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Karina Milei reunió a la mesa política para avanzar con la agenda legislativa",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "economia": {
+     "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/economia/",
+     "status": 200,
+     "bytes": 1006822,
+     "ms": 61,
+     "final_url": "https://www.infobae.com/arc/outboundfeeds/rss/category/economia/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 100,
+     "campos": [
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "El dólar superó por primera vez los $1.600 en el Banco Nación y alcanzó precios récord en todos los segmentos",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "¿Por qué sube el dólar?: los 8 factores que impulsaron la cotización oficial a un nuevo récord",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "mundo": {
+     "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/america/",
+     "status": 200,
+     "bytes": 826368,
+     "ms": 528,
+     "final_url": "https://www.infobae.com/arc/outboundfeeds/rss/category/america/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 100,
+     "campos": [
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "La exclusión de Taiwán de Interpol dificulta la cooperación contra el crimen internacional",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Día de Acción de Gracias en Florida: qué supermercados, farmacias y tiendas abrirán o cerrarán",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "sociedad": {
+     "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/sociedad/",
+     "status": 200,
+     "bytes": 939475,
+     "ms": 713,
+     "final_url": "https://www.infobae.com/arc/outboundfeeds/rss/category/sociedad/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 100,
+     "campos": [
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Pidieron la suspensión de la licencia de conducir de la streamer que realizó trompos con una camioneta rosa en Pinamar",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Extraditaron desde Filipinas a King Papa, acusado de una megaestafa a mujeres en Argentina para financiar el terrorismo en África",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "deportes": {
+     "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/deportes/",
+     "status": 200,
+     "bytes": 951807,
+     "ms": 478,
+     "final_url": "https://www.infobae.com/arc/outboundfeeds/rss/category/deportes/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 100,
+     "campos": [
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Conmoción en el mundo del deporte: a los 33 años, murió la apneísta Jeanine Grasmeijer",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Las dos glorias de Boca que confirmaron su presencia en la despedida de Carlos Tevez y cuándo se venderán las entradas",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    }
+   },
+   "sitemaps": {
+    "https://www.infobae.com/arc/outboundfeeds/news-sitemap/": {
+     "status": 200,
+     "bytes": 98425,
+     "ms": 319,
+     "final_url": "https://www.infobae.com/arc/outboundfeeds/news-sitemap/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 100,
+     "con_news": 100,
+     "subsitemaps": 0
+    },
+    "https://www.infobae.com/sitemap-news.xml": {
+     "status": 404,
+     "error": "Not Found"
+    },
+    "https://www.infobae.com/arc/outboundfeeds/news-sitemap2/": {
+     "status": 200,
+     "bytes": 58148,
+     "ms": 250,
+     "final_url": "https://www.infobae.com/arc/outboundfeeds/news-sitemap2/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 100,
+     "con_news": 100,
+     "subsitemaps": 0
+    },
+    "https://www.infobae.com/arc/outboundfeeds/news-sitemap2/category/america/": {
+     "status": 200,
+     "bytes": 59257,
+     "ms": 266,
+     "final_url": "https://www.infobae.com/arc/outboundfeeds/news-sitemap2/category/america/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 100,
+     "con_news": 100,
+     "subsitemaps": 0
+    },
+    "https://www.infobae.com/arc/outboundfeeds/news-sitemap2/category/teleshow/": {
+     "status": 200,
+     "bytes": 59549,
+     "ms": 223,
+     "final_url": "https://www.infobae.com/arc/outboundfeeds/news-sitemap2/category/teleshow/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 100,
+     "con_news": 100,
+     "subsitemaps": 0
+    }
+   },
+   "robots": {
+    "status": 200,
+    "sitemaps": [
+     "https://www.infobae.com/arc/outboundfeeds/sitemap2/",
+     "https://www.infobae.com/arc/outboundfeeds/news-sitemap2/",
+     "https://www.infobae.com/arc/outboundfeeds/sitemap2/category/america/",
+     "https://www.infobae.com/arc/outboundfeeds/news-sitemap2/category/america/",
+     "https://www.infobae.com/arc/outboundfeeds/sitemap2/category/teleshow/",
+     "https://www.infobae.com/arc/outboundfeeds/news-sitemap2/category/teleshow/",
+     "https://www.infobae.com/arc/outboundfeeds/sitemap-index-static/",
+     "https://www.infobae.com/arc/outboundfeeds/news-sitemap/category/estados-unidos/",
+     "https://www.infobae.com/arc/outboundfeeds/sitemap/category/estados-unidos/",
+     "https://www.infobae.com/arc/outboundfeeds/news-sitemap/category/mexico/",
+     "https://www.infobae.com/arc/outboundfeeds/sitemap/category/mexico/",
+     "https://www.infobae.com/arc/outboundfeeds/news-sitemap/category/espana/",
+     "https://www.infobae.com/arc/outboundfeeds/sitemap/category/espana/",
+     "https://www.infobae.com/arc/outboundfeeds/news-sitemap/category/colombia/",
+     "https://www.infobae.com/arc/outboundfeeds/sitemap/category/colombia/"
+    ],
+    "disallow_relevante": []
+   },
+   "home": {
+    "status": 200,
+    "bytes": 494918,
+    "ms": 164,
+    "final_url": "https://www.infobae.com/estados-unidos/",
+    "ctype": "text/html; charset=utf-8"
+   }
+  },
+  "ambito": {
+   "nombre": "Ámbito",
+   "impreso": true,
+   "feeds": {
+    "ultimo": {
+     "url": "https://www.ambito.com/rss/pages/home.xml",
+     "status": 200,
+     "bytes": 20340,
+     "ms": 67,
+     "final_url": "https://www.ambito.com/rss/pages/home.xml",
+     "ctype": "text/xml",
+     "xml_ok": true,
+     "items": 20,
+     "campos": [
+      "author",
+      "category",
+      "description",
+      "enclosure",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [
+      "Ambito Nacional",
+      "Autos",
+      "Economía",
+      "Finanzas",
+      "Mundo",
+      "Negocios",
+      "Política",
+      "Real Estate",
+      "Tecnología"
+     ],
+     "ejemplos": [
+      {
+       "titulo": "Dólar bajo presión: las causas detrás de la suba y las dudas sobre la estrategia del Gobierno para contenerla",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "El riesgo país trepa 7,2% y ya supera los 1.100 puntos, mientras la sangría de los bonos no se detiene",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "politica": {
+     "url": "https://www.ambito.com/rss/pages/politica.xml",
+     "status": 200,
+     "bytes": 21214,
+     "ms": 46,
+     "final_url": "https://www.ambito.com/rss/pages/politica.xml",
+     "ctype": "text/xml",
+     "xml_ok": true,
+     "items": 20,
+     "campos": [
+      "category",
+      "description",
+      "enclosure",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [
+      "Política"
+     ],
+     "ejemplos": [
+      {
+       "titulo": "Javier Milei recibió al presidente de Polonia y mantuvo una reunión bilateral",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Diego Santilli brinda su primer informe de gestión y ya envió las casi 1300 respuestas a los senadores",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "economia": {
+     "url": "https://www.ambito.com/rss/pages/economia.xml",
+     "status": 200,
+     "bytes": 73345,
+     "ms": 51,
+     "final_url": "https://www.ambito.com/rss/pages/economia.xml",
+     "ctype": "text/xml",
+     "xml_ok": true,
+     "items": 99,
+     "campos": [
+      "creator",
+      "description",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Brasil profundiza el ajuste fiscal: el Congreso aprobó un paquete de recortes y Lula prepara nuevas medidas",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "La UE pone topes a la importación de autos híbridos de China y otros países",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "mundo": {
+     "url": "https://www.ambito.com/rss/pages/mundo.xml",
+     "status": 200,
+     "bytes": 70480,
+     "ms": 75,
+     "final_url": "https://www.ambito.com/rss/pages/mundo.xml",
+     "ctype": "text/xml",
+     "xml_ok": true,
+     "items": 99,
+     "campos": [
+      "creator",
+      "description",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "China prepara el lanzamiento de la nave tripulada Shenzhou-2",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Gisèle Pelicot denunció el uso de fotos íntimas suyas para la promoción de un libro: \"Me siento humillada\"",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "finanzas": {
+     "url": "https://www.ambito.com/rss/pages/finanzas.xml",
+     "status": 200,
+     "bytes": 18417,
+     "ms": 54,
+     "final_url": "https://www.ambito.com/rss/pages/finanzas.xml",
+     "ctype": "text/xml",
+     "xml_ok": true,
+     "items": 20,
+     "campos": [
+      "category",
+      "description",
+      "enclosure",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [
+      "Finanzas"
+     ],
+     "ejemplos": [
+      {
+       "titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este lunes 24 de noviembre",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Dólar blue hoy: a cuánto opera este martes 24 de noviembre",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    }
+   },
+   "sitemaps": {
+    "https://www.ambito.com/sitemap-news.xml": {
+     "status": 200,
+     "bytes": 98551,
+     "ms": 52,
+     "final_url": "https://www.ambito.com/sitemap-news.xml",
+     "ctype": "application/xml",
+     "xml_ok": true,
+     "urls": 195,
+     "con_news": 195,
+     "subsitemaps": 0
+    },
+    "https://www.ambito.com/sitemaps/news.xml": {
+     "status": 404,
+     "error": "Not Found"
+    }
+   },
+   "robots": {
+    "status": 200,
+    "sitemaps": [
+     "https://www.ambito.com/sitemap.xml",
+     "https://www.ambito.com/sitemap/images-full/sitemap-index.xml",
+     "https://www.ambito.com/sitemap/videos-full/sitemap-index.xml",
+     "https://www.ambito.com/sitemap-news.xml"
+    ],
+    "disallow_relevante": []
+   },
+   "home": {
+    "status": 200,
+    "bytes": 378179,
+    "ms": 135,
+    "final_url": "https://www.ambito.com",
+    "ctype": "text/html; charset=UTF-8"
+   }
+  },
+  "perfil": {
+   "nombre": "Perfil",
+   "impreso": true,
+   "feeds": {
+    "ultimo": {
+     "url": "https://www.perfil.com/feed",
+     "status": 200,
+     "bytes": 63015,
+     "ms": 60,
+     "final_url": "https://www.perfil.com/feed",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 50,
+     "campos": [
+      "author",
+      "content",
+      "description",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "En RDI explicaron la polémica por el homenaje a Mario Roberto Santucho en la UBA",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Passerini, tras echar a Pinsiroli: \"Eché a un mentiroso que estaba tratando de cubrir su ineptitud\"",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "politica": {
+     "url": "https://www.perfil.com/feed/politica",
+     "status": 200,
+     "bytes": 2974,
+     "ms": 148,
+     "final_url": "https://www.perfil.com/feed/politica",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 2,
+     "campos": [
+      "author",
+      "content",
+      "description",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Entrevista polémica",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Tomás Rebord defendió el desarrollo industrial argentino y criticó al liberalismo de Milei: \"No tiene sentido discutir eso\"",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "economia": {
+     "url": "https://www.perfil.com/feed/economia",
+     "status": 200,
+     "bytes": 5748,
+     "ms": 121,
+     "final_url": "https://www.perfil.com/feed/economia",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 4,
+     "campos": [
+      "author",
+      "content",
+      "description",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Emiliano Libman en RDEco: “No creo que colapse Paraguay como colapsó Argentina en el 2001”",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Miguel Ponce advirtió en RDEco sobre el impacto del escándalo bancario en Paraguay: “La cadena de pagos se ha cortado”",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "mundo": {
+     "url": "https://www.perfil.com/feed/internacional",
+     "status": 200,
+     "bytes": 62319,
+     "ms": 122,
+     "final_url": "https://www.perfil.com/feed/internacional",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 50,
+     "campos": [
+      "author",
+      "content",
+      "description",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Jensen Huang regresó a Nvidia: fue recibido con una ovación por sus empleados y pidió disculpas",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Lula analiza no invitar a Milei a su jura y mantiene su embajada en la Argentina con un encargado de negocios",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "sociedad": {
+     "url": "https://www.perfil.com/feed/sociedad",
+     "status": 404,
+     "error": "Not Found",
+     "con_ua_navegador": 404
+    },
+    "deportes": {
+     "url": "https://www.perfil.com/feed/deportes",
+     "status": 200,
+     "bytes": 61080,
+     "ms": 63,
+     "final_url": "https://www.perfil.com/feed/deportes",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 50,
+     "campos": [
+      "author",
+      "content",
+      "description",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "La tarde del 'Cocayo': la última victoria de Instituto ante River",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Instituto y la ilusión del técnico Diego Flores",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    }
+   },
+   "sitemaps": {
+    "https://www.perfil.com/sitemap-news.xml": {
+     "status": 404,
+     "error": "Not Found"
+    },
+    "https://www.perfil.com/sitemap/news.xml": {
+     "status": 200,
+     "bytes": 187538,
+     "ms": 185,
+     "final_url": "https://www.perfil.com/sitemap/news.xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 340,
+     "con_news": 340,
+     "subsitemaps": 0
+    }
+   },
+   "robots": {
+    "status": 200,
+    "sitemaps": [
+     "https://www.perfil.com/sitemap.xml",
+     "https://www.perfil.com/sitemap/news.xml",
+     "https://www.perfil.com/sitemap/sections.xml",
+     "https://www.perfil.com/sitemap/authors.xml"
+    ],
+    "disallow_relevante": []
+   },
+   "home": {
+    "status": 200,
+    "bytes": 631486,
+    "ms": 92,
+    "final_url": "https://www.perfil.com",
+    "ctype": "text/html; charset=utf-8"
+   }
+  },
+  "cronista": {
+   "nombre": "El Cronista",
+   "impreso": true,
+   "feeds": {
+    "ultimo": {
+     "url": "https://www.cronista.com/files/rss/news.xml",
+     "status": 200,
+     "bytes": 592042,
+     "ms": 151,
+     "final_url": "https://www.cronista.com/arc/outboundfeeds/news/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 68,
+     "campos": [
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "La Mesa Política se prepara para el súper jueves del Congreso y ultima la lista de extraordinarias",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Calendario de pagos AUH ANSES diciembre: fechas de cobro confirmadas",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "economia_politica": {
+     "url": "https://www.cronista.com/files/rss/economia-politica.xml",
+     "status": 200,
+     "bytes": 276778,
+     "ms": 341,
+     "final_url": "https://www.cronista.com/arc/outboundfeeds/economia-politica/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 31,
+     "campos": [
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "YPF avanza con su plan para el norte de Vaca Muerta y suma un nuevo proyecto al RIGI",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "La Mesa Política se prepara para el súper jueves del Congreso y ultima la lista de extraordinarias",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "finanzas": {
+     "url": "https://www.cronista.com/files/rss/finanzas-mercados.xml",
+     "status": 404,
+     "error": "Not Found",
+     "con_ua_navegador": 404
+    },
+    "mundo": {
+     "url": "https://www.cronista.com/files/rss/internacionales.xml",
+     "status": 404,
+     "error": "Not Found",
+     "con_ua_navegador": 404
+    },
+    "arc_ultimo": {
+     "url": "https://www.cronista.com/arc/outboundfeeds/rss/?outputType=xml",
+     "status": 200,
+     "bytes": 651210,
+     "ms": 83,
+     "final_url": "https://www.cronista.com/arc/outboundfeeds/rss/?outputType=xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 100,
+     "campos": [
+      "content",
+      "creator",
+      "description",
+      "encoded",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Confirmado por el Gobierno: los jubilados pueden retirar sus medicamentos gratis en las farmacias si cobran una pensión no contributiva",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "YPF avanza con su plan para el norte de Vaca Muerta y suma un nuevo proyecto al RIGI",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    }
+   },
+   "sitemaps": {
+    "https://www.cronista.com/arc/outboundfeeds/news-sitemap/?outputType=xml": {
+     "status": 404,
+     "error": "Not Found"
+    },
+    "https://www.cronista.com/sitemap-news.xml": {
+     "status": 404,
+     "error": "Not Found"
+    },
+    "https://www.cronista.com/arc/outboundfeeds/sitemap-news-index/?outputType=xml": {
+     "status": 200,
+     "bytes": 3475,
+     "ms": 85,
+     "final_url": "https://www.cronista.com/arc/outboundfeeds/sitemap-news-index/?outputType=xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 0,
+     "con_news": 0,
+     "subsitemaps": 30
+    },
+    "https://www.cronista.com/arc/outboundfeeds/google-news-feed/": {
+     "status": 200,
+     "bytes": 701938,
+     "ms": 209,
+     "final_url": "https://www.cronista.com/arc/outboundfeeds/google-news-feed/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 0,
+     "con_news": 0,
+     "subsitemaps": 0
+    },
+    "https://www.cronista.com/arc/outboundfeeds/en/google-news-feed/": {
+     "status": 200,
+     "bytes": 470579,
+     "ms": 199,
+     "final_url": "https://www.cronista.com/arc/outboundfeeds/en/google-news-feed/",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 0,
+     "con_news": 0,
+     "subsitemaps": 0
+    }
+   },
+   "robots": {
+    "status": 200,
+    "sitemaps": [
+     "https://www.cronista.com/arc/outboundfeeds/sitemap/",
+     "https://www.cronista.com/arc/outboundfeeds/sitemap-index/?outputType=xml",
+     "https://www.cronista.com/arc/outboundfeeds/sitemap-news-index/?outputType=xml",
+     "https://www.cronista.com/arc/outboundfeeds/sitemap-section-index/?outputType=xml",
+     "https://www.cronista.com/arc/outboundfeeds/google-news-feed/",
+     "https://www.cronista.com/arc/outboundfeeds/en/google-news-feed/",
+     "https://www.cronista.com/arc/outboundfeeds/en/sitemap-index/?outputType=xml",
+     "https://www.cronista.com/arc/outboundfeeds/en/sitemap-news-index/?outputType=xml"
+    ],
+    "disallow_relevante": []
+   },
+   "home": {
+    "status": 200,
+    "bytes": 466785,
+    "ms": 147,
+    "final_url": "https://www.cronista.com/usa/",
+    "ctype": "text/html; charset=utf-8"
+   }
+  },
+  "ole": {
+   "nombre": "Olé",
+   "impreso": true,
+   "feeds": {
+    "ultimo": {
+     "url": "https://www.ole.com.ar/rss/ultimas-noticias/",
+     "status": 200,
+     "bytes": 8848,
+     "ms": 295,
+     "final_url": "https://www.ole.com.ar/rss/ultimas-noticias/",
+     "ctype": "text/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 10,
+     "campos": [
+      "creator",
+      "description",
+      "enclosure",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Otro gol de CR7 en Al Nassr y cada vez más cerca de los 1000",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "El posteo de Sadio Mané y los jugadores de Senegal tras el fallo del TAS que les devolvió la Copa Africana de Naciones",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "futbol_primera": {
+     "url": "https://www.ole.com.ar/rss/futbol-primera/",
+     "status": 200,
+     "bytes": 9042,
+     "ms": 84,
+     "final_url": "https://www.ole.com.ar/rss/futbol-primera/",
+     "ctype": "text/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 10,
+     "campos": [
+      "creator",
+      "description",
+      "enclosure",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "La historia que compartió Ponzio luego de la victoria de River y su fuerte conferencia",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Diego Flores y la advertencia a River: \"No intimida\" y \"va a tener que hacer mucho porque vamos a dejar la vida\"",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    }
+   },
+   "sitemaps": {
+    "https://www.ole.com.ar/sitemap-news.xml": {
+     "status": 404,
+     "error": "Not Found"
+    },
+    "https://www.ole.com.ar/sitemaps/sitemap_google_news.xml": {
+     "status": 200,
+     "bytes": 142059,
+     "ms": 96,
+     "final_url": "https://www.ole.com.ar/sitemaps/sitemap_google_news.xml",
+     "ctype": "application/xml; charset=utf-8",
+     "xml_ok": true,
+     "urls": 266,
+     "con_news": 266,
+     "subsitemaps": 0
+    }
+   },
+   "robots": {
+    "status": 200,
+    "sitemaps": [
+     "https://www.ole.com.ar/sitemaps/sitemap_google_news.xml",
+     "https://www.ole.com.ar/sitemaps/index.xml"
+    ],
+    "disallow_relevante": []
+   },
+   "home": {
+    "status": 200,
+    "bytes": 2417186,
+    "ms": 109,
+    "final_url": "https://www.ole.com.ar",
+    "ctype": "text/html; charset=utf-8"
+   }
+  },
+  "popular": {
+   "nombre": "Diario Popular",
+   "impreso": true,
+   "feeds": {
+    "ultimo": {
+     "url": "https://www.diariopopular.com.ar/rss/home.xml",
+     "status": 200,
+     "bytes": 35851,
+     "ms": 737,
+     "final_url": "https://www.diariopopular.com.ar/rss/home.xml",
+     "ctype": "text/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 45,
+     "campos": [
+      "description",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Steven Spielberg dirigirá su primer western de su carrera, con una historia de fugitivos",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Espacio: 45 países se reúnen en Roma para debatir las reglas de la nueva carrera espacial",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "ultimo_b": {
+     "url": "https://www.diariopopular.com.ar/rss/pages/home.xml",
+     "status": 200,
+     "bytes": 19368,
+     "ms": 117,
+     "final_url": "https://www.diariopopular.com.ar/rss/pages/home.xml",
+     "ctype": "text/xml",
+     "xml_ok": true,
+     "items": 20,
+     "campos": [
+      "category",
+      "description",
+      "enclosure",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [
+      "Deportes",
+      "Fútbol",
+      "Horóscopo",
+      "Internacionales",
+      "Policiales",
+      "Provincia",
+      "Salud",
+      "Turismo"
+     ],
+     "ejemplos": [
+      {
+       "titulo": "El secreto de la longevidad no está en el gimnasio: qué hábito marca la diferencia",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "Detectaron en Argentina una nueva variante de coronavirus que impulsa el aumento de contagios",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    },
+    "politica": {
+     "url": "https://www.diariopopular.com.ar/rss/politica.xml",
+     "status": 200,
+     "bytes": 8773,
+     "ms": 392,
+     "final_url": "https://www.diariopopular.com.ar/rss/politica.xml",
+     "ctype": "text/xml; charset=utf-8",
+     "xml_ok": true,
+     "items": 10,
+     "campos": [
+      "description",
+      "guid",
+      "link",
+      "pubDate",
+      "title"
+     ],
+     "categorias": [],
+     "ejemplos": [
+      {
+       "titulo": "Villarruel apuntó contra la decana de la UBA por el homenaje a Santucho",
+       "bajada_palabras": 0
+      },
+      {
+       "titulo": "El dólar supero los $1600 y el Riesgo País llego a su nivel mas alto en el año",
+       "bajada_palabras": 0
+      }
+     ],
+     "fecha_mas_nueva": null,
+     "fecha_mas_vieja": null
+    }
+   },
+   "sitemaps": {
+    "https://www.diariopopular.com.ar/sitemap-news.xml": {
+     "status": 200,
+     "bytes": 51341,
+     "ms": 75,
+     "final_url": "https://www.diariopopular.com.ar/sitemap-news.xml",
+     "ctype": "application/xml",
+     "xml_ok": true,
+     "urls": 107,
+     "con_news": 107,
+     "subsitemaps": 0
+    },
+    "https://www.diariopopular.com.ar/sitemap/news-full/sitemap-index.xml": {
+     "status": 200,
+     "bytes": 39590,
+     "ms": 88,
+     "final_url": "https://www.diariopopular.com.ar/sitemap/news-full/sitemap-index.xml",
+     "ctype": "text/xml",
+     "xml_ok": true,
+     "urls": 0,
+     "con_news": 0,
+     "subsitemaps": 253
+    }
+   },
+   "robots": {
+    "status": 200,
+    "sitemaps": [
+     "https://www.diariopopular.com.ar/sitemap/images-full/sitemap-index.xml",
+     "https://www.diariopopular.com.ar/sitemap/news-full/sitemap-index.xml",
+     "https://www.diariopopular.com.ar/sitemap.xml",
+     "https://www.diariopopular.com.ar/sitemap-news.xml"
+    ],
+    "disallow_relevante": []
+   },
+   "home": {
+    "status": 200,
+    "bytes": 306438,
+    "ms": 115,
+    "final_url": "https://www.diariopopular.com.ar",
+    "ctype": "text/html; charset=UTF-8"
+   }
+  },
+  "cronica": {
+   "nombre": "Crónica",
+   "impreso": true,
+   "feeds": {
+    "ultimo": {
+     "url": "https://www.cronica.com.ar/arc/outboundfeeds/rss/?outputType=xml",
+     "status": 404,
+     "error": "Not Found",
+     "con_ua_navegador": 404
+    },
+    "ultimo_b": {
+     "url": "https://www.cronica.com.ar/rss/",
+     "status": 404,
+     "error": "Not Found",
+     "con_ua_navegador": 404
+    }
+   },
+   "sitemaps": {
+    "https://www.cronica.com.ar/arc/outboundfeeds/news-sitemap/?outputType=xml": {
+     "status": 404,
+     "error": "Not Found"
+    },
+    "https://www.cronica.com.ar/sitemap-news.xml": {
+     "status": 404,
+     "error": "Not Found"
+    }
+   },
+   "robots": {
+    "status": 200,
+    "sitemaps": [],
+    "disallow_relevante": []
+   },
+   "home": {
+    "status": 200,
+    "bytes": 377093,
+    "ms": 1783,
+    "final_url": "https://www.cronica.com.ar",
+    "ctype": "text/html"
+   }
+  }
+ }
+}
