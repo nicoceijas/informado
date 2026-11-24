@@ -3,7 +3,9 @@
   "user_agent": "InformadoBot/0.1 (+https://github.com/nicoceijas/informado)",
   "diarios": {
     "clarin": {
-      "nombre": "Clarín", "home": "https://www.clarin.com", "impreso": true,
+      "nombre": "Clarín",
+      "home": "https://www.clarin.com",
+      "impreso": true,
       "feeds": {
         "ultimo": "https://www.clarin.com/rss/lo-ultimo/",
         "politica": "https://www.clarin.com/rss/politica/",
@@ -13,10 +15,14 @@
         "ciudades": "https://www.clarin.com/rss/ciudades/",
         "deportes": "https://www.clarin.com/rss/deportes/"
       },
-      "sitemaps": ["https://www.clarin.com/sitemap-news.xml", "https://www.clarin.com/sitemap_news.xml"]
+      "sitemaps": [
+        "https://www.clarin.com/sitemaps/sitemap_google_news.xml"
+      ]
     },
     "lanacion": {
-      "nombre": "La Nación", "home": "https://www.lanacion.com.ar", "impreso": true,
+      "nombre": "La Nación",
+      "home": "https://www.lanacion.com.ar",
+      "impreso": true,
       "feeds": {
         "ultimo": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml",
         "politica": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/politica/?outputType=xml",
@@ -25,22 +31,28 @@
         "sociedad": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/sociedad/?outputType=xml",
         "deportes": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/deportes/?outputType=xml"
       },
-      "sitemaps": ["https://www.lanacion.com.ar/arc/outboundfeeds/news-sitemap/?outputType=xml", "https://www.lanacion.com.ar/sitemap-news.xml"]
+      "sitemaps": [
+        "https://www.lanacion.com.ar/sitemap-news.xml",
+        "https://www.lanacion.com.ar/sitemap-section-index.xml"
+      ]
     },
     "pagina12": {
-      "nombre": "Página/12", "home": "https://www.pagina12.com.ar", "impreso": true,
+      "nombre": "Página/12",
+      "home": "https://www.pagina12.com.ar",
+      "impreso": true,
       "feeds": {
-        "ultimo": "https://www.pagina12.com.ar/rss/portada",
-        "politica": "https://www.pagina12.com.ar/rss/secciones/el-pais/notas",
-        "economia": "https://www.pagina12.com.ar/rss/secciones/economia/notas",
-        "mundo": "https://www.pagina12.com.ar/rss/secciones/el-mundo/notas",
-        "sociedad": "https://www.pagina12.com.ar/rss/secciones/sociedad/notas",
-        "deportes": "https://www.pagina12.com.ar/rss/secciones/deportes/notas"
+        "arc_ultimo": "https://www.pagina12.com.ar/arc/outboundfeeds/rss/?outputType=xml",
+        "arc_ultimo_b": "https://www.pagina12.com.ar/arc/outboundfeeds/rss/",
+        "rss_b": "https://www.pagina12.com.ar/rss"
       },
-      "sitemaps": ["https://www.pagina12.com.ar/sitemap-news.xml", "https://www.pagina12.com.ar/sitemaps/news.xml"]
+      "sitemaps": [
+        "https://www.pagina12.com.ar/arc/outboundfeeds/breakingnews-sitemap.xml"
+      ]
     },
     "infobae": {
-      "nombre": "Infobae", "home": "https://www.infobae.com", "impreso": false,
+      "nombre": "Infobae",
+      "home": "https://www.infobae.com",
+      "impreso": false,
       "feeds": {
         "ultimo": "https://www.infobae.com/arc/outboundfeeds/rss/",
         "politica": "https://www.infobae.com/arc/outboundfeeds/rss/category/politica/",
@@ -49,10 +61,14 @@
         "sociedad": "https://www.infobae.com/arc/outboundfeeds/rss/category/sociedad/",
         "deportes": "https://www.infobae.com/arc/outboundfeeds/rss/category/deportes/"
       },
-      "sitemaps": ["https://www.infobae.com/arc/outboundfeeds/news-sitemap/", "https://www.infobae.com/sitemap-news.xml"]
+      "sitemaps": [
+        "https://www.infobae.com/arc/outboundfeeds/news-sitemap2/"
+      ]
     },
     "ambito": {
-      "nombre": "Ámbito", "home": "https://www.ambito.com", "impreso": true,
+      "nombre": "Ámbito",
+      "home": "https://www.ambito.com",
+      "impreso": true,
       "feeds": {
         "ultimo": "https://www.ambito.com/rss/pages/home.xml",
         "politica": "https://www.ambito.com/rss/pages/politica.xml",
@@ -60,55 +76,82 @@
         "mundo": "https://www.ambito.com/rss/pages/mundo.xml",
         "finanzas": "https://www.ambito.com/rss/pages/finanzas.xml"
       },
-      "sitemaps": ["https://www.ambito.com/sitemap-news.xml", "https://www.ambito.com/sitemaps/news.xml"]
+      "sitemaps": [
+        "https://www.ambito.com/sitemap-news.xml"
+      ]
     },
     "perfil": {
-      "nombre": "Perfil", "home": "https://www.perfil.com", "impreso": true,
+      "nombre": "Perfil",
+      "home": "https://www.perfil.com",
+      "impreso": true,
       "feeds": {
         "ultimo": "https://www.perfil.com/feed",
         "politica": "https://www.perfil.com/feed/politica",
         "economia": "https://www.perfil.com/feed/economia",
         "mundo": "https://www.perfil.com/feed/internacional",
-        "sociedad": "https://www.perfil.com/feed/sociedad",
         "deportes": "https://www.perfil.com/feed/deportes"
       },
-      "sitemaps": ["https://www.perfil.com/sitemap-news.xml"]
+      "sitemaps": [
+        "https://www.perfil.com/sitemap/news.xml"
+      ]
     },
     "cronista": {
-      "nombre": "El Cronista", "home": "https://www.cronista.com", "impreso": true,
+      "nombre": "El Cronista",
+      "home": "https://www.cronista.com",
+      "impreso": true,
       "feeds": {
         "ultimo": "https://www.cronista.com/files/rss/news.xml",
         "economia_politica": "https://www.cronista.com/files/rss/economia-politica.xml",
-        "finanzas": "https://www.cronista.com/files/rss/finanzas-mercados.xml",
-        "mundo": "https://www.cronista.com/files/rss/internacionales.xml",
         "arc_ultimo": "https://www.cronista.com/arc/outboundfeeds/rss/?outputType=xml"
       },
-      "sitemaps": ["https://www.cronista.com/arc/outboundfeeds/news-sitemap/?outputType=xml", "https://www.cronista.com/sitemap-news.xml"]
+      "sitemaps": [
+        "https://www.cronista.com/arc/outboundfeeds/sitemap-news-index/?outputType=xml",
+        "https://www.cronista.com/arc/outboundfeeds/google-news-feed/?outputType=xml",
+        "https://www.cronista.com/arc/outboundfeeds/news-sitemap/?outputType=xml"
+      ]
     },
     "ole": {
-      "nombre": "Olé", "home": "https://www.ole.com.ar", "impreso": true,
+      "nombre": "Olé",
+      "home": "https://www.ole.com.ar",
+      "impreso": true,
       "feeds": {
         "ultimo": "https://www.ole.com.ar/rss/ultimas-noticias/",
         "futbol_primera": "https://www.ole.com.ar/rss/futbol-primera/"
       },
-      "sitemaps": ["https://www.ole.com.ar/sitemap-news.xml"]
+      "sitemaps": [
+        "https://www.ole.com.ar/sitemaps/sitemap_google_news.xml"
+      ]
     },
     "popular": {
-      "nombre": "Diario Popular", "home": "https://www.diariopopular.com.ar", "impreso": true,
+      "nombre": "Diario Popular",
+      "home": "https://www.diariopopular.com.ar",
+      "impreso": true,
       "feeds": {
         "ultimo": "https://www.diariopopular.com.ar/rss/home.xml",
         "ultimo_b": "https://www.diariopopular.com.ar/rss/pages/home.xml",
         "politica": "https://www.diariopopular.com.ar/rss/politica.xml"
       },
-      "sitemaps": ["https://www.diariopopular.com.ar/sitemap-news.xml"]
+      "sitemaps": [
+        "https://www.diariopopular.com.ar/sitemap-news.xml"
+      ]
     },
     "cronica": {
-      "nombre": "Crónica", "home": "https://www.cronica.com.ar", "impreso": true,
+      "nombre": "Crónica",
+      "home": "https://www.cronica.com.ar",
+      "impreso": true,
       "feeds": {
-        "ultimo": "https://www.cronica.com.ar/arc/outboundfeeds/rss/?outputType=xml",
-        "ultimo_b": "https://www.cronica.com.ar/rss/"
+        "arc": "https://www.cronica.com.ar/arc/outboundfeeds/rss/",
+        "feed": "https://www.cronica.com.ar/feed",
+        "rss_xml": "https://www.cronica.com.ar/rss.xml",
+        "rss_home": "https://www.cronica.com.ar/rss/home.xml"
       },
-      "sitemaps": ["https://www.cronica.com.ar/arc/outboundfeeds/news-sitemap/?outputType=xml", "https://www.cronica.com.ar/sitemap-news.xml"]
+      "sitemaps": [
+        "https://www.cronica.com.ar/sitemap.xml",
+        "https://www.cronica.com.ar/sitemap-index.xml",
+        "https://www.cronica.com.ar/sitemap_index.xml",
+        "https://www.cronica.com.ar/sitemap-news.xml",
+        "https://www.cronica.com.ar/arc/outboundfeeds/sitemap/?outputType=xml"
+      ]
     }
   }
 }

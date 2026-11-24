@@ -38,6 +38,24 @@ def local(tag):
     return tag.rsplit("}", 1)[-1]
 
 
+def primero(hijos, *nombres):
+    """Devuelve el primer hijo presente. Ojo: un Element sin hijos es 'falso' en Python."""
+    for n in nombres:
+        el = hijos.get(n)
+        if el is not None:
+            return el
+    return None
+
+
+def seccion_de_url(url):
+    partes = [p for p in urlparse(url).path.split("/") if p]
+    if not partes:
+        return "(raiz)"
+    if len(partes) >= 2 and partes[0] in ("secciones", "seccion", "noticias", "notas"):
+        return partes[1]
+    return partes[0]
+
+
 def analizar_feed(data):
     try:
         root = ET.fromstring(data)
@@ -48,6 +66,8 @@ def analizar_feed(data):
     categorias = set()
     ejemplos = []
     fechas = []
+    bajadas = []
+    secciones = {}
     for it in items:
         hijos = {local(c.tag): c for c in it}
         campos.update(hijos)
@@ -57,16 +77,24 @@ def analizar_feed(data):
                 if txt:
                     categorias.add(txt)
         titulo = (hijos.get("title").text or "").strip() if hijos.get("title") is not None else ""
-        desc_el = hijos.get("description") or hijos.get("summary")
+        desc_el = primero(hijos, "description", "summary")
         desc = re.sub(r"<[^>]+>", " ", (desc_el.text or "")) if desc_el is not None else ""
         desc = re.sub(r"\s+", " ", desc).strip()
-        fecha_el = hijos.get("pubDate") or hijos.get("published") or hijos.get("updated")
+        fecha_el = primero(hijos, "pubDate", "published", "updated")
         if fecha_el is not None and fecha_el.text:
             fechas.append(fecha_el.text.strip())
+        bajadas.append(len(desc.split()))
+        link_el = primero(hijos, "link")
+        link = (link_el.text or link_el.get("href") or "").strip() if link_el is not None else ""
+        if link:
+            secciones[seccion_de_url(link)] = secciones.get(seccion_de_url(link), 0) + 1
         if len(ejemplos) < 2:
-            ejemplos.append({"titulo": titulo[:140], "bajada_palabras": len(desc.split())})
+            ejemplos.append({"titulo": titulo[:140], "bajada": desc[:200], "bajada_palabras": len(desc.split())})
     return {"xml_ok": True, "items": len(items), "campos": sorted(campos),
             "categorias": sorted(categorias)[:40], "ejemplos": ejemplos,
+            "bajada_mediana": sorted(bajadas)[len(bajadas) // 2] if bajadas else 0,
+            "con_bajada": sum(1 for b in bajadas if b >= 5),
+            "secciones_url": dict(sorted(secciones.items(), key=lambda x: -x[1])[:15]),
             "fecha_mas_nueva": fechas[0] if fechas else None,
             "fecha_mas_vieja": fechas[-1] if fechas else None}
 
@@ -79,7 +107,26 @@ def analizar_sitemap(data):
     urls = [el for el in root.iter() if local(el.tag) == "url"]
     news = [el for el in root.iter() if local(el.tag) == "news"]
     sub = [el for el in root.iter() if local(el.tag) == "sitemap"]
-    return {"xml_ok": True, "urls": len(urls), "con_news": len(news), "subsitemaps": len(sub)}
+    secciones, campos_news, ejemplos, fechas = {}, set(), [], []
+    for u in urls:
+        loc = next((c.text for c in u.iter() if local(c.tag) == "loc"), "") or ""
+        sec = seccion_de_url(loc)
+        secciones[sec] = secciones.get(sec, 0) + 1
+        for c in u.iter():
+            if local(c.tag) in ("title", "keywords", "publication_date", "name", "language", "genres"):
+                campos_news.add(local(c.tag))
+            if local(c.tag) == "publication_date" and c.text:
+                fechas.append(c.text.strip())
+        if len(ejemplos) < 2:
+            t = next((c.text for c in u.iter() if local(c.tag) == "title"), "")
+            k = next((c.text for c in u.iter() if local(c.tag) == "keywords"), "")
+            ejemplos.append({"loc": loc[:160], "titulo": (t or "")[:140], "keywords": (k or "")[:140]})
+    sub_locs = [next((c.text for c in sm.iter() if local(c.tag) == "loc"), "") for sm in sub][:10]
+    fechas.sort()
+    return {"xml_ok": True, "urls": len(urls), "con_news": len(news), "subsitemaps": len(sub),
+            "sub_locs": sub_locs, "campos_news": sorted(campos_news), "ejemplos": ejemplos,
+            "secciones_url": dict(sorted(secciones.items(), key=lambda x: -x[1])[:20]),
+            "rango_fechas": [fechas[0], fechas[-1]] if fechas else None}
 
 
 def robots(home):
@@ -110,6 +157,8 @@ def main():
         r["robots"] = robots(d["home"])
         info, data = bajar(d["home"])
         r["home"] = info
+        html = data.decode("utf-8", "ignore")
+        r["rss_en_home"] = sorted(set(re.findall(r'<link[^>]+application/(?:rss|atom)\+xml[^>]+href="([^"]+)"', html)))[:10]
         if info["status"] != 200:
             info2, _ = bajar(d["home"], ua=UA_NAVEGADOR)
             r["home_ua_navegador"] = info2
@@ -137,15 +186,21 @@ def main():
     lineas = [f"# Resultado del sondeo · {res['fecha'][:16]} UTC", ""]
     for clave, r in res["diarios"].items():
         lineas.append(f"## {r['nombre']} · home {r['home'].get('status')}")
+        if r.get("rss_en_home"):
+            lineas.append(f"- RSS declarados en la home: {r['rss_en_home']}")
         for sec, f in r["feeds"].items():
             if f.get("xml_ok"):
-                lineas.append(f"- ✅ `{sec}` {f['items']} notas · campos: {', '.join(f['campos'][:10])}")
+                lineas.append(f"- ✅ `{sec}` {f['items']} notas · con bajada {f['con_bajada']} · mediana {f['bajada_mediana']} palabras · secciones URL: {f['secciones_url']}")
             else:
                 extra = f" (UA navegador: {f.get('con_ua_navegador')})" if "con_ua_navegador" in f else ""
                 lineas.append(f"- ❌ `{sec}` estado {f.get('status')} {f.get('error', '')}{extra}")
         for url, s in r["sitemaps"].items():
             ok = "✅" if s.get("xml_ok") else "❌"
-            lineas.append(f"- {ok} sitemap {urlparse(url).path} · {s.get('status')} · urls {s.get('urls', '-')} · news {s.get('con_news', '-')}")
+            lineas.append(f"- {ok} sitemap {urlparse(url).path} · {s.get('status')} · urls {s.get('urls', '-')} · news {s.get('con_news', '-')} · campos {s.get('campos_news', '-')} · fechas {s.get('rango_fechas')}")
+            if s.get("secciones_url"):
+                lineas.append(f"    - secciones URL: {s['secciones_url']}")
+            if s.get("sub_locs"):
+                lineas.append(f"    - subsitemaps: {s['sub_locs'][:5]}")
         lineas.append("")
     (BASE / "RESULTADO.md").write_text("\n".join(lineas), encoding="utf-8")
 
