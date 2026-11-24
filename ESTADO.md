@@ -4,7 +4,7 @@
 
 ## Dónde estamos
 
-- **Fase actual:** 3 · Prueba de uso (2 semanas) — esperando que se active GitHub Pages
+- **Fase actual:** 3 · Prueba de uso (2 semanas, del 24/11 al 8/12)
 - **Fase 2 terminada (24/11):** agrupador (177 temas con 2+ diarios por semana, 4 s por corrida), señal de jerarquía por posición en la home, app instalable. Todo corre cada 2 h.
 - **Fase 1 terminada (24/11):** el recolector corre cada 2 horas en GitHub Actions. Primera corrida: ~2.500 notas de 9 diarios en menos de un minuto, sin errores.
 - **Fase 0 terminada (24/11):** 9 de 10 diarios con fuentes verificadas. Resumen en `docs/fase0-fuentes.md`.
@@ -29,7 +29,7 @@
 
 ## Pendientes del usuario
 
-- [ ] Activar GitHub Pages: Settings → Pages → Source: **GitHub Actions** (un clic; el proceso automático no tiene permiso para hacerlo).
+- [x] Activar GitHub Pages (24/11). App publicada en https://nicoceijas.github.io/informado/
 - [ ] Instalar la app en el celular y usarla 2 semanas. Domingo: «Armá tu semana» y «Enviar feedback».
 
 ## Pendientes técnicos
