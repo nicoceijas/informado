@@ -85,3 +85,13 @@ def test_ciudad_no_pisa_politica():
     assert tema("Karina Milei y la interna del PRO en CABA", "politica") == "politica"
     assert tema("Piñas en el andén de la línea D del subte", "sociedad") == "ciudad"
     assert tema("La CGT marcha en CABA", "politica") == "sindicales"
+
+
+def test_agrupador_puntaje():
+    from informado.agrupar import peso_jerarquia, puntuar, tokens
+    assert "presupuest" in tokens("El Presupuesto presupuestario")
+    assert peso_jerarquia({"home_mejor_pos": 2}) == 1.0
+    assert peso_jerarquia({"edicion_impresa": True}) == 0.8
+    uno = puntuar([{"diario": "a", "dia": "2026-11-24"}, {"diario": "b", "dia": "2026-11-24"}])[0]
+    muchos = puntuar([{"diario": d, "dia": f"2026-11-2{i}", "home_mejor_pos": 1} for i, d in enumerate("abcdef")])[0]
+    assert 0 < uno < muchos <= 100

@@ -18,7 +18,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import urlparse, urlunparse
+from urllib.parse import urljoin, urlparse, urlunparse
 
 import yaml
 
@@ -88,6 +88,23 @@ def seccion_de_url(url):
     if re.fullmatch(r"\d{4}", s) or (len(partes) == 1) or (len(s) > 30 and re.search(r"\d", s)):
         return ""
     return s
+
+
+def posiciones_home(html, base):
+    """Enlaces a notas en el orden en que aparecen en la home (1 = más arriba).
+
+    El orden del HTML es una buena aproximación al orden visual en los sitios de noticias.
+    """
+    host = urlparse(base).netloc.lower()
+    vistos = {}
+    for href in re.findall(r'<a\b[^>]*?href="([^"#]+)"', html, flags=re.I):
+        u = url_canonica(urljoin(base, href))
+        p = urlparse(u)
+        if p.netloc != host or p.path.count("/") < 2 or len(p.path) < 25:
+            continue  # descarta portadas de sección, etiquetas y enlaces cortos
+        if u not in vistos:
+            vistos[u] = len(vistos) + 1
+    return vistos
 
 
 def leer_rss(data):
@@ -169,10 +186,19 @@ def main():
             dias[dia] = cargar_dia(dia)
         return dias[dia]
 
+    homes = {}  # url canónica -> posición en la home de su diario
     for clave, d in fuentes["diarios"].items():
         if d.get("activo", True) is False:
             continue
         excl = excl_comunes | set(d.get("excluir_secciones", []))
+        try:
+            html = bajar(d["home"], ua).decode("utf-8", "ignore")
+            pos = posiciones_home(html, d["home"])
+            homes.update(pos)
+            registro["fuentes"][f"{clave}/home"] = {"enlaces": len(pos)}
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            registro["fuentes"][f"{clave}/home"] = {"error": f"{type(e).__name__}: {e}"[:200]}
+        time.sleep(pausa)
         tareas = [("rss", k, u) for k, u in (d.get("rss") or {}).items()]
         tareas += [("sitemap", "sitemap", u) for u in (d.get("sitemaps") or [])]
         for tipo, nombre_feed, url in tareas:
@@ -265,6 +291,11 @@ def main():
                 descartadas += 1
                 continue
             n["seccion"] = sec
+            p = homes.get(n["url"])
+            if p:
+                n["home_mejor_pos"] = min(p, n.get("home_mejor_pos") or p)
+                if p <= 10:
+                    n["home_top10_corridas"] = n.get("home_top10_corridas", 0) + 1
             tema, motivo = clasif.clasificar(n, d.get("tema_por_defecto"))
             if (tema, motivo) != (n.get("tema"), n.get("motivo")):
                 n["tema"], n["motivo"] = tema, motivo

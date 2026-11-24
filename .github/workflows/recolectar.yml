@@ -1,4 +1,4 @@
-name: Recolectar notas
+name: Recolectar, agrupar y publicar
 
 on:
   schedule:
@@ -8,11 +8,14 @@ on:
     paths:
       - "informado/**"
       - "config/**"
+      - "app/**"
       - ".github/workflows/recolectar.yml"
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: datos
@@ -21,7 +24,10 @@ concurrency:
 jobs:
   recolectar:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.publicar.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,10 +39,25 @@ jobs:
         run: python -m pytest -q tests
       - name: Recolectar
         run: python -m informado.recolectar
+      - name: Agrupar temas
+        run: python -m informado.agrupar
       - name: Guardar datos
         run: |
           git config user.name "informado-bot"
           git config user.email "informado-bot@users.noreply.github.com"
           git add datos/
-          git commit -q -m "Datos: recolección $(date -u +%Y-%m-%dT%H:%MZ)" || { echo "sin cambios"; exit 0; }
+          git commit -q -m "Datos: recolección $(date -u +%Y-%m-%dT%H:%MZ)" || echo "sin cambios"
           for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+      - name: Armar sitio
+        run: |
+          mkdir -p _sitio/datos
+          cp app/* _sitio/
+          cp datos/temas/actual.json datos/temas/notas_semana.json _sitio/datos/
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _sitio
+      - id: publicar
+        uses: actions/deploy-pages@v4
