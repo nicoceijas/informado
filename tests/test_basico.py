@@ -79,3 +79,9 @@ def test_calibracion_1():
     assert tema("Ciro cantó en una bicicletería de Haedo", "zonales") == "ciudad"
     assert tema("Elecciones en España: quiénes podrán votar", "informacion-general") in ("internacionales", "politica")
     assert C.conoce("politica") and not C.conoce("honduras")
+
+
+def test_ciudad_no_pisa_politica():
+    assert tema("Karina Milei y la interna del PRO en CABA", "politica") == "politica"
+    assert tema("Piñas en el andén de la línea D del subte", "sociedad") == "ciudad"
+    assert tema("La CGT marcha en CABA", "politica") == "sindicales"

@@ -2,7 +2,8 @@
 
 Orden de decisión (documentado también en config/temas.yaml):
   1. Sección en `secciones_otros` → otros.
-  2. Temas con prioridad alta (Sindicales, Ciudad) si hay coincidencia de palabras clave.
+  2. Temas con prioridad alta (Sindicales) si hay coincidencia de palabras clave.
+  2b. Temas con prioridad media (Ciudad), solo en secciones genéricas o desconocidas.
   3. Sección que pertenece a un tema.
   4. Secciones condicionales (deportes → Fútbol solo si habla de fútbol).
   5. Tema por defecto del diario (Olé → Fútbol).
@@ -22,6 +23,7 @@ class Clasificador:
             for s in t.get("secciones", []):
                 self.por_seccion[s] = clave
         self.alta = [k for k, t in self.temas.items() if t.get("prioridad") == "alta"]
+        self.media = [k for k, t in self.temas.items() if t.get("prioridad") == "media"]
         self.sin_prioridad = set(cfg_temas.get("secciones_sin_prioridad", []))
         self.condicionales = {s for t in self.temas.values() for s in t.get("secciones_condicionales", {})}
 
@@ -43,6 +45,12 @@ class Clasificador:
             hallado = coincidencias(texto, self.temas[clave].get("palabras", []))
             if hallado:
                 return clave, f"palabras:{','.join(sorted(set(hallado))[:3])}"
+
+        if sec not in self.sin_prioridad and (sec in self.genericas or not self.conoce(sec)):
+            for clave in self.media:
+                hallado = coincidencias(texto, self.temas[clave].get("palabras", []))
+                if hallado:
+                    return clave, f"palabras:{','.join(sorted(set(hallado))[:3])}"
 
         if sec in self.por_seccion:
             return self.por_seccion[sec], f"seccion:{sec}"

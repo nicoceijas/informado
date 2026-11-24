@@ -42,7 +42,7 @@ temas:
   ciudad:
     nombre: Ciudad
     secciones: [ciudades, ciudad-de-buenos-aires, sururbano, zonales]
-    prioridad: alta   # gana sobre "sociedad" o "información general"
+    prioridad: media  # gana sobre secciones genéricas ("sociedad", "información general"), no sobre Política o Economía
     palabras: [caba, porteno, portenos, ciudad de buenos aires, legislatura portena, jorge macri,
                conurbano, amba, gran buenos aires, subte, emova, premetro, colectivos, linea de colectivo,
                trenes, aysa, edenor, edesur, corte de luz, corte de agua, palermo, recoleta, la matanza,
