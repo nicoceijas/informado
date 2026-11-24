@@ -70,3 +70,12 @@ def test_lectores():
     <news:title>Nota</news:title><news:keywords>Edici\xc3\xb3n Impresa, CGT</news:keywords></news:news></url></urlset>"""
     it = next(leer_sitemap(sm))
     assert it["palabras_clave"] == ["Edición Impresa", "CGT"]
+
+
+def test_calibracion_1():
+    assert tema("Grêmio venció 2-0 a Santos", "deportes") == "otros"
+    assert tema("Cerúndolo, el tenista porteño, sigue en el Top 20", "deportes") == "otros"
+    assert tema("Kicillof exigirá información salarial a las empresas", "politica") == "politica"
+    assert tema("Ciro cantó en una bicicletería de Haedo", "zonales") == "ciudad"
+    assert tema("Elecciones en España: quiénes podrán votar", "informacion-general") in ("internacionales", "politica")
+    assert C.conoce("politica") and not C.conoce("honduras")

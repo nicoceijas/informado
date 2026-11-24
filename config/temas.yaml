@@ -28,24 +28,25 @@ temas:
     nombre: Internacionales
     secciones: [mundo, el-mundo, internacional, internacionales, america]
     palabras: [trump, casa blanca, union europea, onu, otan, ucrania, rusia, china, israel, gaza,
-               brasil, lula, chile, uruguay, venezuela, papa leon]
+               brasil, lula, chile, uruguay, paraguay, bolivia, peru, colombia, mexico, venezuela,
+               estados unidos, espana, francia, alemania, italia, reino unido, europa, papa leon]
 
   sindicales:
     nombre: Sindicales
     secciones: []
     prioridad: alta   # gana sobre la sección: un paro en "Economía" va a Sindicales
-    palabras: [cgt, cta, gremio, gremial, sindicato, sindical, paritaria, paro general, paro de,
+    palabras: [cgt, cta, gremios, gremial, sindicato, sindical, paritaria, paro general, paro de,
                huelga, medida de fuerza, plan de lucha, convenio colectivo, uom, ate, uta, camioneros,
                bancarios, docentes, ctera, utedyc, smata, delegados, reforma laboral]
 
   ciudad:
     nombre: Ciudad
-    secciones: [ciudades, ciudad-de-buenos-aires, sururbano]
+    secciones: [ciudades, ciudad-de-buenos-aires, sururbano, zonales]
     prioridad: alta   # gana sobre "sociedad" o "información general"
     palabras: [caba, porteno, portenos, ciudad de buenos aires, legislatura portena, jorge macri,
                conurbano, amba, gran buenos aires, subte, emova, premetro, colectivos, linea de colectivo,
                trenes, aysa, edenor, edesur, corte de luz, corte de agua, palermo, recoleta, la matanza,
-               quilmes, avellaneda, lomas de zamora, kicillof]
+               quilmes, avellaneda, lomas de zamora]
 
   futbol:
     nombre: Fútbol
@@ -57,6 +58,11 @@ temas:
       deportes: [futbol, gol, river, boca, racing, independiente, san lorenzo, seleccion argentina,
                  scaloni, liga profesional, afa, copa libertadores, sudamericana, torneo, dt, clasico]
     palabras: [liga profesional, afa, copa libertadores, copa sudamericana, scaloni, seleccion argentina]
+
+# En estas secciones no se aplican las palabras de prioridad alta
+# (evita que "porteño" en una nota de tenis o "Grêmio" la manden a Ciudad o Sindicales).
+secciones_sin_prioridad: [deportes, tenis, basquet, poli, automovilismo, futbol, futbol-primera,
+                          futbol-ascenso, futbol-internacional, seleccion, espectaculos, entretenimiento]
 
 # Secciones que no entran a ningún tema y van a "otros" sin evaluar palabras clave.
 secciones_otros: [espectaculos, entretenimiento, teleshow, fama, lifestyle, tecnologia, tecno,

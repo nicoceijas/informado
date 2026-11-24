@@ -25,6 +25,14 @@ excluir_secciones_comunes:
   - fotos
   - podcast
 
+# Notas automáticas o de servicio que no aportan a los temas (se comparan contra el título normalizado).
+excluir_titulos:
+  - clima hoy en
+  - pronostico del tiempo para
+  - quiniela
+  - horoscopo
+  - loteria
+
 diarios:
   clarin:
     nombre: Clarín

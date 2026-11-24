@@ -22,6 +22,13 @@ class Clasificador:
             for s in t.get("secciones", []):
                 self.por_seccion[s] = clave
         self.alta = [k for k, t in self.temas.items() if t.get("prioridad") == "alta"]
+        self.sin_prioridad = set(cfg_temas.get("secciones_sin_prioridad", []))
+        self.condicionales = {s for t in self.temas.values() for s in t.get("secciones_condicionales", {})}
+
+    def conoce(self, seccion: str) -> bool:
+        """True si la sección tiene una regla propia (tema, otros, genérica o condicional)."""
+        return bool(seccion) and (seccion in self.por_seccion or seccion in self.otros
+                                  or seccion in self.genericas or seccion in self.condicionales)
 
     def clasificar(self, nota: dict, tema_por_defecto: str | None = None) -> tuple[str, str]:
         """Devuelve (tema, motivo). El motivo queda guardado para poder auditar."""
@@ -32,7 +39,7 @@ class Clasificador:
         if sec in self.otros:
             return "otros", f"seccion:{sec}"
 
-        for clave in self.alta:
+        for clave in ([] if sec in self.sin_prioridad else self.alta):
             hallado = coincidencias(texto, self.temas[clave].get("palabras", []))
             if hallado:
                 return clave, f"palabras:{','.join(sorted(set(hallado))[:3])}"

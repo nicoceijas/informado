@@ -23,7 +23,7 @@ from urllib.parse import urlparse, urlunparse
 import yaml
 
 from .clasificar import Clasificador
-from .texto import limpiar_html, recortar_palabras
+from .texto import limpiar_html, normalizar, recortar_palabras
 
 RAIZ = Path(__file__).resolve().parent.parent
 DATOS = RAIZ / "datos"
@@ -157,6 +157,7 @@ def main():
     pausa = fuentes.get("pausa_entre_pedidos_seg", 1)
     max_bajada = fuentes.get("recorte_bajada_palabras", 40)
     excl_comunes = set(fuentes.get("excluir_secciones_comunes", []))
+    excl_titulos = [normalizar(t) for t in fuentes.get("excluir_titulos", [])]
     ahora = datetime.now(timezone.utc)
     desde = ahora - timedelta(days=VENTANA_DIAS)
 
@@ -190,9 +191,15 @@ def main():
                 if not it["fecha"] or it["fecha"] < desde or it["fecha"] > ahora + timedelta(hours=2):
                     est["viejas"] += 1
                     continue
+                if any(x in normalizar(it["titulo"]) for x in excl_titulos):
+                    est["excluidas"] += 1
+                    continue
                 sec = seccion_de_url(it["url"])
-                if not sec and tipo == "rss" and nombre_feed != "ultimo":
-                    sec = nombre_feed.replace("_", "-")
+                sec_feed = nombre_feed.replace("_", "-") if tipo == "rss" and nombre_feed != "ultimo" else ""
+                # Si la sección de la URL no tiene regla (p. ej. "honduras" dentro del feed de
+                # América de Infobae), manda la sección del feed.
+                if sec_feed and not clasif.conoce(sec) and sec not in excl:
+                    sec = sec_feed
                 if sec in excl:
                     est["excluidas"] += 1
                     continue
@@ -239,8 +246,34 @@ def main():
             registro["fuentes"][etiqueta] = est
             time.sleep(pausa)
 
+    # Reaplica las reglas vigentes a toda la ventana: un cambio en config/ se refleja ya.
+    hoy = ahora.astimezone(AR).date()
+    for i in range(VENTANA_DIAS + 1):
+        obtener_dia((hoy - timedelta(days=i)).isoformat())
+    excl_por_diario = {k: excl_comunes | set(d.get("excluir_secciones", [])) for k, d in fuentes["diarios"].items()}
+    reclasificadas = descartadas = 0
     for dia, notas in dias.items():
-        if notas:
+        for nid in list(notas):
+            n = notas[nid]
+            d = fuentes["diarios"].get(n["diario"], {})
+            feed_rss = next((e.split("rss:", 1)[1] for e in n["fuentes"] if "/rss:" in e and not e.endswith("rss:ultimo")), "")
+            sec = seccion_de_url(n["url"])
+            if feed_rss and not clasif.conoce(sec) and sec not in excl_por_diario.get(n["diario"], set()):
+                sec = feed_rss.replace("_", "-")
+            if sec in excl_por_diario.get(n["diario"], set()) or any(x in normalizar(n["titulo"]) for x in excl_titulos):
+                del notas[nid]
+                descartadas += 1
+                continue
+            n["seccion"] = sec
+            tema, motivo = clasif.clasificar(n, d.get("tema_por_defecto"))
+            if (tema, motivo) != (n.get("tema"), n.get("motivo")):
+                n["tema"], n["motivo"] = tema, motivo
+                reclasificadas += 1
+    registro["reclasificadas"] = reclasificadas
+    registro["descartadas"] = descartadas
+
+    for dia, notas in dias.items():
+        if notas or (NOTAS / f"{dia}.json").exists():
             guardar_dia(dia, notas)
 
     # Retención
