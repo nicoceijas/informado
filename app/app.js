@@ -26,6 +26,7 @@ const ICONO = {
   guardar: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
   alerta: '<svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2"><path d="M12 3l10 18H2L12 3z"/><path d="M12 10v5M12 18v.01"/></svg>',
   check: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>',
+  libro: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5c3-1.5 6-1.5 9 0v15c-3-1.5-6-1.5-9 0zM12 5c3-1.5 6-1.5 9 0v15c-3-1.5-6-1.5-9 0z"/></svg>',
 };
 
 /* ---------- curaduría y guardadas ---------- */
@@ -141,7 +142,7 @@ function vistaTema(id) {
   <span class="etq" style="color:${COLOR[t.seccion] || 'var(--gris)'}">${esc(t.seccion_nombre)}</span>
   <h1 style="font-size:25px;line-height:1.2;margin:6px 0">${esc(t.titulo)}</h1>
   <p class="meta" style="margin:0 0 10px">${t.diarios.length} diarios · ${t.n_notas} notas · ${t.terminos.map(esc).join(' · ')}</p>
-  <div class="acciones"><button class="btn${g ? ' on' : ''}" data-guardar-tema="${t.id}">${ICONO.guardar}${g ? 'Guardado' : 'Guardar tema'}</button>
+  <div class="acciones"><a class="btn" href="#leer/${t.id}/0">${ICONO.libro}Modo lectura</a><button class="btn${g ? ' on' : ''}" data-guardar-tema="${t.id}">${ICONO.guardar}${g ? 'Guardado' : 'Guardar tema'}</button>
     ${t.en_seguimiento ? '<span class="btn on">En seguimiento</span>' : ''}</div>
   <section class="seccion"><div class="tarjeta" style="gap:10px"><strong style="font-size:13px">Por qué es tema</strong>
     <span class="b">Lo cubrieron ${t.diarios.length} de ${activos} diarios en ${Object.keys(t.dias).length} días. Puntaje ${t.puntaje} de 100: convergencia ${t.convergencia}, jerarquía ${t.jerarquia}.</span>
@@ -192,6 +193,7 @@ function vistaGuardadas(pestana = 'notas') {
   app.innerHTML = `
   <header class="cab"><h1>Guardadas</h1></header>
   <div class="seg2" role="tablist"><button role="tab" aria-selected="${pestana === 'notas'}" data-pestana="notas">Notas · ${notas.length}</button><button role="tab" aria-selected="${pestana === 'temas'}" data-pestana="temas">Temas · ${temas.length}</button></div>
+  ${pestana === 'notas' && notas.length ? `<a class="btn" href="#leer/guardadas/0" style="margin-top:12px">${ICONO.libro}Leer en modo lectura</a>` : ''}
   <section class="seccion">${cuerpo}</section>
   <p class="aviso">Se guarda el enlace, el título y la bajada en este celular. La nota se lee siempre en el sitio del diario.</p>`;
 }
@@ -215,6 +217,70 @@ async function vistaBuscar(texto) {
     <section class="seccion">${hits.length ? hits.map(n => notaHTML({id: n.i, diario: n.d, titulo: n.t, url: n.u, fecha: n.f + ':00-03:00'}, null)).join('') : '<p class="vacio">No hay notas con esas palabras. Probá con menos palabras.</p>'}</section>`;
 }
 
+/* ---------- modo lectura ---------- */
+// Una nota por pantalla: diario, título y bajada en letra grande, sin distracciones.
+// El texto completo se lee siempre en el sitio del diario (no se copia ni se guarda).
+const prefLectura = () => leer('lectura', {tam: 21, oscuro: false});
+function notasParaLeer(fuente) {
+  if (fuente === 'guardadas') return {titulo: 'Guardadas', volver: '#guardadas', notas: Object.values(guardadas().notas).sort((a, b) => b.guardada.localeCompare(a.guardada))};
+  const t = T[fuente];
+  if (!t) return null;
+  const vistos = new Set(), primero = [], resto = [];
+  t.notas.forEach(n => (vistos.has(n.diario) ? resto : (vistos.add(n.diario), primero)).push(n));
+  const conBajada = n => n.bajada ? 0 : 1;  // primero las notas que traen bajada
+  primero.sort((a, b) => conBajada(a) - conBajada(b));
+  return {titulo: t.titulo, volver: '#tema/' + t.id, notas: primero.concat(resto), tema: t};
+}
+function vistaLeer(fuente, i) {
+  const datos = notasParaLeer(fuente);
+  if (!datos || !datos.notas.length) { location.hash = '#hoy'; return; }
+  const total = datos.notas.length;
+  i = Math.max(0, Math.min(total - 1, +i || 0));
+  const n = datos.notas[i], p = prefLectura();
+  const g = guardadas().notas[n.id];
+  document.body.classList.add('leyendo');
+  document.body.classList.toggle('oscura', p.oscuro);
+  app.innerHTML = `
+  <div class="lector" style="--tam:${p.tam}px">
+    <div class="lector-barra">
+      <a class="icono" href="${datos.volver}" aria-label="Salir del modo lectura"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></a>
+      <span class="meta lector-pos">${i + 1} de ${total}</span>
+      <button class="icono" data-tam="-1" aria-label="Achicar letra">A−</button>
+      <button class="icono" data-tam="1" aria-label="Agrandar letra">A+</button>
+      <button class="icono" data-oscuro aria-label="${p.oscuro ? 'Tema claro' : 'Tema oscuro'}">${p.oscuro ? '☀' : '☾'}</button>
+    </div>
+    <div class="lector-prog"><span style="width:${100 * (i + 1) / total}%"></span></div>
+    <article class="lector-nota" id="lector-nota">
+      <p class="lector-tema">${esc(datos.titulo)}</p>
+      <p class="lector-diario"><strong>${esc(nombreDiario(n.diario))}</strong> · ${esc(hora(n.fecha))}${n.edicion_impresa ? ' · edición impresa' : ''}</p>
+      <h1 class="lector-titulo">${esc(n.titulo)}</h1>
+      ${n.bajada ? `<p class="lector-bajada">${esc(n.bajada)}</p>` : '<p class="lector-bajada lector-sin">Este diario no publica bajada para esta nota.</p>'}
+      <div class="lector-acciones">
+        <a class="btn prim" href="${esc(n.url)}" target="_blank" rel="noopener" data-leida="${esc(n.id)}">Leer la nota completa en ${esc(nombreDiario(n.diario))} ↗</a>
+        <button class="btn sec${g ? ' on' : ''}" data-guardar-nota="${esc(n.id)}" data-tema="${datos.tema ? datos.tema.id : ''}">${ICONO.guardar}${g ? 'Guardada' : 'Guardar para después'}</button>
+      </div>
+    </article>
+    <div class="lector-nav">
+      ${i > 0 ? `<a class="btn sec" href="#leer/${fuente}/${i - 1}">‹ Anterior</a>` : '<span></span>'}
+      ${i < total - 1 ? `<a class="btn sec" href="#leer/${fuente}/${i + 1}">Siguiente ›</a>` : `<a class="btn sec" href="${datos.volver}">Terminar ✓</a>`}
+    </div>
+    <p class="aviso" style="text-align:center">Deslizá hacia los costados para pasar de nota.</p>
+  </div>`;
+  // Deslizar con el dedo
+  const art = document.getElementById('lector-nota');
+  let x0 = null, y0 = null;
+  art.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, {passive: true});
+  art.addEventListener('touchend', e => {
+    if (x0 === null) return;
+    const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      const j = dx < 0 ? i + 1 : i - 1;
+      if (j >= 0 && j < total) location.hash = `#leer/${fuente}/${j}`;
+    }
+    x0 = null;
+  }, {passive: true});
+}
+
 /* ---------- eventos ---------- */
 app.addEventListener('click', e => {
   const el = e.target.closest('button, a[data-leida]');
@@ -224,8 +290,12 @@ app.addEventListener('click', e => {
   if (ds.guardarNota) {
     const t = T[ds.tema];
     const n = (t ? t.notas : []).find(x => x.id === ds.guardarNota) || (busqueda || []).map(b => ({id: b.i, diario: b.d, titulo: b.t, url: b.u, fecha: b.f})).find(x => x.id === ds.guardarNota)
-      || Object.values(guardadas().temas).flatMap(x => x.notas).find(x => x.id === ds.guardarNota);
-    if (n) { const on = alternarNota(n, t); el.classList.toggle('on', on); el.setAttribute('aria-label', on ? 'Quitar de guardadas' : 'Guardar nota'); }
+      || Object.values(guardadas().temas).flatMap(x => x.notas).find(x => x.id === ds.guardarNota)
+      || guardadas().notas[ds.guardarNota];
+    if (n) {
+      const on = alternarNota(n, t); el.classList.toggle('on', on); el.setAttribute('aria-label', on ? 'Quitar de guardadas' : 'Guardar nota');
+      if (el.classList.contains('sec')) el.innerHTML = ICONO.guardar + (on ? 'Guardada' : 'Guardar para después');
+    }
   } else if (ds.guardarTema) { alternarTema(T[ds.guardarTema]); render(); }
   else if (ds.quitar) { const i = ds.quitar; c.quitados = c.quitados.includes(i) ? c.quitados.filter(x => x !== i) : c.quitados.concat(i); setCur(c); render(); }
   else if (ds.sumar) { const i = ds.sumar; c.sumados = c.sumados.includes(i) ? c.sumados.filter(x => x !== i) : c.sumados.concat(i); setCur(c); render(); }
@@ -233,6 +303,8 @@ app.addEventListener('click', e => {
   else if ('agregar' in ds) { const v = document.getElementById('propio').value.trim(); if (v) { c.propios.push(v); setCur(c); render(); toast('Tema agregado'); } }
   else if ('confirmar' in ds) { c.confirmada = new Date().toISOString(); setCur(c); toast('Semana confirmada'); location.hash = '#semana'; }
   else if ('feedback' in ds) { enviarFeedback(); }
+  else if (ds.tam) { const p = prefLectura(); p.tam = Math.max(16, Math.min(30, p.tam + 2 * +ds.tam)); guardar('lectura', p); render(); }
+  else if ('oscuro' in ds) { const p = prefLectura(); p.oscuro = !p.oscuro; guardar('lectura', p); render(); }
   else if (ds.pestana) { vistaGuardadas(ds.pestana); }
   else if (ds.quitarGuardada) { const g = guardadas(); delete g.notas[ds.quitarGuardada]; guardar('guardadas', g); vistaGuardadas('notas'); }
   else if (ds.leida) { const g = guardadas(); if (g.notas[ds.leida]) { g.notas[ds.leida].leida = true; guardar('guardadas', g); } }
@@ -258,8 +330,10 @@ function enviarFeedback() {
 /* ---------- navegación ---------- */
 function render() {
   const [vista, arg] = (location.hash.slice(1) || 'hoy').split('/');
-  const nav = {hoy: 'hoy', semana: 'semana', tema: 'semana', buscar: 'semana', curar: 'curar', guardadas: 'guardadas', guardado: 'guardadas'}[vista] || 'hoy';
+  const nav = {hoy: 'hoy', semana: 'semana', tema: 'semana', buscar: 'semana', curar: 'curar', guardadas: 'guardadas', guardado: 'guardadas', leer: 'semana'}[vista] || 'hoy';
+  if (vista !== 'leer') { document.body.classList.remove('leyendo', 'oscura'); }
   document.querySelectorAll('.barra a').forEach(a => { if (a.dataset.vista === nav) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+  if (vista === 'leer') { const partes = location.hash.slice(1).split('/'); vistaLeer(partes[1], partes[2]); return; }
   if (vista === 'semana') vistaSemana();
   else if (vista === 'tema') vistaTema(arg);
   else if (vista === 'curar') vistaCurar();

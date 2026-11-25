@@ -79,3 +79,27 @@ input[type=text]{flex:1;min-width:0;border:1px solid #D5D8D1;border-radius:10px;
 .barra a{flex:1;max-width:160px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;text-decoration:none;color:var(--gris);font-size:11px;font-weight:600}
 .barra a[aria-current=page]{color:var(--azul);font-weight:700}
 .toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom));transform:translateX(-50%);background:var(--texto);color:#fff;font-size:13px;font-weight:600;padding:10px 16px;border-radius:999px;z-index:9}
+
+/* ---------- modo lectura ---------- */
+body.leyendo{padding-bottom:0}
+body.leyendo .barra{display:none}
+body.oscura{--fondo:#16181B;--tarjeta:#1F2226;--borde:#2E3238;--texto:#ECEDEA;--suave:#C4C7CC;--gris:#9AA0A8;--azul:#7EA2F5;--azul-claro:#22304F}
+body.oscura .btn{background:var(--tarjeta);border-color:var(--borde);color:var(--texto)}
+body.oscura .btn.prim{background:#3B66E0;color:#fff}
+body.oscura .btn.on{background:#173B37;color:#7FD3C6}
+.lector{display:flex;flex-direction:column;min-height:100vh;min-height:100dvh;padding-bottom:calc(16px + env(safe-area-inset-bottom))}
+.lector-barra{position:sticky;top:0;display:flex;align-items:center;gap:2px;padding:8px 0;background:var(--fondo);z-index:2}
+.lector-barra .icono{font-family:inherit;font-size:15px;font-weight:700;color:var(--texto);text-decoration:none}
+.lector-pos{flex:1;text-align:center}
+.lector-prog{height:3px;background:var(--borde);border-radius:2px;overflow:hidden}
+.lector-prog span{display:block;height:100%;background:var(--azul)}
+.lector-nota{flex:1;display:flex;flex-direction:column;gap:14px;padding:28px 4px 20px;max-width:34em;margin:0 auto;width:100%}
+.lector-tema{margin:0;font-size:13px;font-weight:600;color:var(--gris);text-transform:uppercase;letter-spacing:.05em;line-height:1.4}
+.lector-diario{margin:0;font-size:15px;color:var(--suave)}
+.lector-titulo{font-family:var(--serif);font-size:calc(var(--tam) * 1.45);line-height:1.2;font-weight:700;margin:4px 0 0}
+.lector-bajada{margin:0;font-family:var(--serif);font-size:var(--tam);line-height:1.6;color:var(--texto);font-weight:400}
+.lector-sin{font-style:italic;color:var(--gris);font-size:16px}
+.lector-acciones{display:flex;flex-direction:column;gap:10px;margin-top:12px}
+.lector-nav{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 4px}
+.lector-nav .btn{width:100%}
+.lector-nav a:only-child{grid-column:2}
