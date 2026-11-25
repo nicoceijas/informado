@@ -190,3 +190,14 @@ def test_conjuncion():
     from informado.historias import conjuncion
     assert conjuncion("informe") == "e" and conjuncion("INDEC") == "e" and conjuncion("Iglesia") == "e"
     assert conjuncion("hijos") == "e" and conjuncion("hielo") == "y" and conjuncion("Senado") == "y"
+
+
+def test_poda_encadenadas():
+    import numpy as np
+    from informado.agrupar import podar
+    # 0 = Tether/Lemon (Cronista), 1 = Lemon (Clarín), 2 = IA (Perfil): 2 solo se parece a 0.
+    sim = np.array([[1, .34, .30], [.34, 1, 0], [.30, 0, 1]])
+    assert podar([0, 1, 2], sim) == ([0, 1], [2])
+    # Si el lazo es fuerte, no se poda.
+    sim2 = np.array([[1, .5, .45], [.5, 1, 0], [.45, 0, 1]])
+    assert podar([0, 1, 2], sim2) == ([0, 1, 2], [])

@@ -44,6 +44,11 @@ PARAMS = {
     "min_diarios_tema": 2,     # un tema necesita al menos este número de diarios distintos
     "propuestos_por_seccion": 2,
     "total_propuestos": 12,
+    # Poda de notas encadenadas (25/11): en grupos chicos, sale la nota que no comparte nada con
+    # algún integrante (similitud < poda_cero) y cuyo único lazo es débil (< umbral + poda_margen).
+    "poda_max_grupo": 6,
+    "poda_cero": 0.01,
+    "poda_margen": 0.05,
 }
 
 # "Afecta tu día": una palabra de afectación + un servicio o un lugar del AMBA.
@@ -111,13 +116,33 @@ def componentes(indices, sim, tiempos, umbral):
     return list(grupos.values())
 
 
+def podar(g, sim):
+    """Saca las notas que entraron a un grupo chico por un solo lazo débil (encadenamiento).
+    Ej.: «La política argentina ante la inteligencia artificial» se unía a «Tether invierte en Lemon…
+    y la apuesta por la inteligencia artificial» y, por esa nota, a las demás de Lemon."""
+    g, fuera = list(g), []
+    while 3 <= len(g) <= PARAMS["poda_max_grupo"]:
+        sub = sim[np.ix_(g, g)]
+        otros = [np.delete(sub[k], k) for k in range(len(g))]
+        cand = [k for k in range(len(g)) if (otros[k] < PARAMS["poda_cero"]).any()]
+        if not cand:
+            break
+        k = min(cand, key=lambda k: otros[k].max())
+        if otros[k].max() >= PARAMS["umbral"] + PARAMS["poda_margen"]:
+            break
+        fuera.append(g.pop(k))
+    return g, fuera
+
+
 def agrupar(indices, sim, tiempos, umbral):
     salida = []
     for g in componentes(indices, sim, tiempos, umbral):
         if len(g) > PARAMS["max_grupo"] and umbral < 0.9:
             salida.extend(agrupar(g, sim, tiempos, umbral + PARAMS["umbral_paso"]))
         else:
-            salida.append(g)
+            queda, fuera = podar(g, sim)
+            salida.append(queda)
+            salida.extend([i] for i in fuera)
     return salida
 
 
