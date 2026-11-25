@@ -13,9 +13,27 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
+},
+"68a2ebd279b4": {
+"id": "68a2ebd279b4",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/milei-valoro-la-llegada-tesla-la-argentina-el-futuro-es-grande-n930254",
+"titulo": "Milei valoró la llegada de Tesla a la Argentina: \"El futuro es grande\"",
+"bajada": "El Presidente brindó un discurso en la presentación en el mercado local de la automotriz dirigida por Elon Musk. El evento se realizó en el barrio porteño de La Boca.",
+"fecha": "2026-11-21T00:17:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "2f5c25450984": {
 "id": "2f5c25450984",
@@ -49,7 +67,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -67,7 +85,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -85,7 +103,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -121,7 +139,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -139,7 +157,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -175,9 +193,45 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
+},
+"562889740b4f": {
+"id": "562889740b4f",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/los-bonos-dolares-se-desploman-wall-street-y-aumenta-la-presion-el-riesgo-pais-n6347533",
+"titulo": "Crece la tensión financiera: el riesgo país saltó 15% y llegó a 1.070 puntos con los bonos en caída libre",
+"bajada": "La caída de Wall Street profundizó el desplome de los bonos y las acciones argentinas, en medio de crecientes dudas sobre el financiamiento de la deuda y las perspectivas económicas de 2027. Analistas de mercado explican las causas de la…",
+"fecha": "2026-11-20T23:01:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"e75da933d9ef": {
+"id": "e75da933d9ef",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/el-dolar-oficial-intensifica-su-rally-alcista-y-el-mercado-mira-cerca-la-brecha-el-ccl-n6347487",
+"titulo": "El dólar oficial tuvo su mayor suba semanal en 19 meses: minorista superó los $1.600 y la brecha con el CCL rozó el 14%",
+"bajada": "Tanto el tipo de cambio oficial como los paralelos treparon fuerte en la semana, en sintonía con una devaluación generalizada de las monedas regionales. El peso colombiano y el real brasileño fueron las que más se depreciaron.",
+"fecha": "2026-11-20T22:59:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
 },
 "f1386eb0c90e": {
 "id": "f1386eb0c90e",
@@ -197,6 +251,60 @@
 "tema": "economia",
 "motivo": "seccion:economia"
 },
+"969d64bf3cba": {
+"id": "969d64bf3cba",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-viernes-20-noviembre-n6347436",
+"titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este viernes 20 de noviembre",
+"bajada": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+"fecha": "2026-11-20T22:55:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"727e19914656": {
+"id": "727e19914656",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/fondos-comunes-inversion-cuales-son-los-cinco-mas-rentables-2026-y-como-lograron-ganancias-el-40-n6347693",
+"titulo": "Fondos comunes de inversión: cuáles son los cinco más rentables de 2026 y cómo lograron ganancias de hasta el 40%",
+"bajada": "Los cinco FCI más rentables de perfil agresivo invierten en pesos y están enfocados en instrumentos de renta fija.",
+"fecha": "2026-11-20T22:48:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"72fb46508dfb": {
+"id": "72fb46508dfb",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/economia/rigi-el-gobierno-anuncio-un-proyecto-una-inversion-us-50750-millones-n930250",
+"titulo": "RIGI: el Gobierno anunció un proyecto con una inversión de US$ 50.750 millones",
+"bajada": "La iniciativa Argentina LNG es para exportar gas licuado y la desarrollará YPF, la italiana Eni y la emiratí XRG. Aseguran generará 20.000 puestos de trabajo.",
+"fecha": "2026-11-20T22:43:00+00:00",
+"seccion": "economia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
 "d9c999fa8dac": {
 "id": "d9c999fa8dac",
 "diario": "infobae",
@@ -211,7 +319,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -249,7 +357,7 @@
 "lanacion/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -267,9 +375,27 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
+},
+"ff2db795eede": {
+"id": "ff2db795eede",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-20-noviembre-n6347715",
+"titulo": "Dólar hoy: a cuánto cerró este viernes 20 de noviembre",
+"bajada": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+"fecha": "2026-11-20T22:20:24+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
 },
 "e399753d4651": {
 "id": "e399753d4651",
@@ -285,9 +411,45 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
+},
+"12a5b188ebc9": {
+"id": "12a5b188ebc9",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/las-bolsas-del-mundo-se-hunden-y-los-futuros-del-nasdaq-anticipan-otra-rueda-rojo-n6347451",
+"titulo": "Derrumbe en Wall Street: Nasdaq se hundió 5,2%, mientras S&P 500 y Dow Jones entraron en zona de corrección",
+"bajada": "La creciente preocupación por las valuaciones de las empresas de inteligencia artificial profundizó las pérdidas en la bolsa estadounidense. El principal índice de Wall Street acumuló una caída superior al 10% desde sus máximos, mientras los temores comienzan a extenderse…",
+"fecha": "2026-11-20T22:01:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"a8390eb52c13": {
+"id": "a8390eb52c13",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/los-mercados-se-impacientan-y-milei-comienza-inquietarse-candelaria-la-sota-n930247",
+"titulo": "Los mercados se impacientan y Milei comienza a inquietarse/ Por Candelaria de la Sota",
+"bajada": "Con el calendario presidencial todavía a once meses de distancia, la Argentina vuelve a quedar bajo presión financiera.",
+"fecha": "2026-11-20T21:56:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "cf11f69c04ec": {
 "id": "cf11f69c04ec",
@@ -303,9 +465,27 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
+},
+"6eb66d2ba840": {
+"id": "6eb66d2ba840",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/maximo-kirchnner-el-rigi-vamos-armar-todo-el-quilombo-que-haya-que-armar-n930245",
+"titulo": "Máximo Kirchnner, sobre el RIGI: \"Vamos a armar todo el quilombo que haya que armar\"",
+"bajada": "El diputado pidió auditar el RIGI y cuestionó que la reacción de “algunos en el peronismo fue decir que eso pone en riesgo a la Argentina”.",
+"fecha": "2026-11-20T21:33:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "57609c064c0a": {
 "id": "57609c064c0a",
@@ -339,7 +519,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -375,7 +555,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -393,7 +573,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -411,9 +591,63 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
+},
+"a4edcdd1eee4": {
+"id": "a4edcdd1eee4",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-cerro-este-viernes-20-noviembre-n6347716",
+"titulo": "Dólar blue hoy: a cuánto cerró este viernes 20 de noviembre",
+"bajada": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+"fecha": "2026-11-20T21:01:13+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"8fc3df41a024": {
+"id": "8fc3df41a024",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/el-dolar-blue-no-detiene-la-escalada-trepo-100-la-semana-el-mayor-avance-mas-dos-anos-n6347748",
+"titulo": "El dólar blue no detiene la escalada: trepó $100 en la semana, el mayor avance en más de dos años",
+"bajada": "El paralelo cerró en $1.675 para la venta y acumuló un avance de $100 en apenas cinco ruedas, el mayor incremento nominal semanal en dos años y medio. Al mismo tiempo, el mayorista también alcanzó nuevos récords, pero avanzó con…",
+"fecha": "2026-11-20T20:55:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"a5f67be0237f": {
+"id": "a5f67be0237f",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/el-bcra-volvio-frenar-las-compras-el-mercado-una-fuerte-presion-el-dolar-n6347761",
+"titulo": "El BCRA volvió a frenar las compras en el mercado ante una fuerte presión sobre el dólar",
+"bajada": "La autoridad monetaria no intervino en el mercado oficial después de nueve ruedas consecutivas con saldo positivo. En tanto, el dólar mayorista saltó $15 y acumuló su mayor suba semanal desde junio, mientras crecen los interrogantes sobre la estrategia cambiaria…",
+"fecha": "2026-11-20T20:54:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
 },
 "c8762b482013": {
 "id": "c8762b482013",
@@ -487,7 +721,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -505,9 +739,45 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
+},
+"4b2952177bab": {
+"id": "4b2952177bab",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/el-dolar-se-fortalece-el-mundo-y-trepa-maximos-19-meses-se-abre-un-nuevo-escenario-global-n6347737",
+"titulo": "El dólar se fortalece en el mundo y trepa a máximos en un año y medio: ¿se abre un nuevo escenario global?",
+"bajada": "La moneda estadounidense se encamina a cerrar su cuarta semana consecutiva de subas, impulsada por el endurecimiento de las expectativas sobre la Reserva Federal y la búsqueda de refugio ante la crisis de confianza en la inteligencia artificial. El euro…",
+"fecha": "2026-11-20T19:46:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"c0515d4c304c": {
+"id": "c0515d4c304c",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/economia/aysa-el-gobierno-definio-los-aumentos-las-tarifas-agua-n930235",
+"titulo": "Aysa: el Gobierno definió los aumentos de las tarifas de agua",
+"bajada": "Comenzará a regir el 1° de febrero de 2027, antes de la privatización del servicio, y contempla ubas para el 60% de los usuarios residenciales, con un tope mensual del 1,5% adicional.",
+"fecha": "2026-11-20T19:46:00+00:00",
+"seccion": "economia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
 },
 "ff79d9b37a22": {
 "id": "ff79d9b37a22",
@@ -524,7 +794,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -546,6 +816,24 @@
 "tema": "economia",
 "motivo": "seccion:economia"
 },
+"d869ab18a928": {
+"id": "d869ab18a928",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/dolar-bonos-o-fondos-donde-encontrar-refugio-los-ahorros-la-escalada-del-riesgo-pais-n6347665",
+"titulo": "¿Dólar, bonos o fondos? Dónde encontrar refugio para los ahorros ante la escalada del riesgo país",
+"bajada": "Los analistas coinciden en priorizar la dolarización, la liquidez y la cautela, especialmente para quienes tienen un perfil conservador.",
+"fecha": "2026-11-20T19:40:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
 "ba64bcc5b873": {
 "id": "ba64bcc5b873",
 "diario": "infobae",
@@ -560,7 +848,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -580,7 +868,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -616,9 +904,27 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
+},
+"52968a1c08be": {
+"id": "52968a1c08be",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/kicillof-apunto-contra-el-gobierno-el-dia-la-soberania-los-argentinos-no-somos-empanadas-n930232",
+"titulo": "Kicillof apuntó contra el Gobierno en el dia de la soberanía: \"Los argentinos no somos empanadas\"",
+"bajada": "Durante un acto en Punta Indio, el gobernador bonaerense defendió la industria, la educación pública y los recursos del país frente a las imposiciones extranjeras.",
+"fecha": "2026-11-20T19:15:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "5c717b88fb04": {
 "id": "5c717b88fb04",
@@ -634,7 +940,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -652,7 +958,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -670,7 +976,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -688,7 +994,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -706,7 +1012,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -724,9 +1030,45 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
+},
+"42ed75b7c2e0": {
+"id": "42ed75b7c2e0",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-viernes-20-noviembre-n6347424",
+"titulo": "Dólar blue hoy: a cuánto opera este viernes 20 de noviembre",
+"bajada": "Conoc&#233; las cotizaciones d&#243;lar blue, el oficial, el MEP y el CCL.",
+"fecha": "2026-11-20T18:38:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"0f6cdf7a1e3c": {
+"id": "0f6cdf7a1e3c",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-viernes-20-noviembre-n6347423",
+"titulo": "Dólar hoy: a cuánto cotiza este viernes 20 de noviembre",
+"bajada": "Conoc&#233; las cotizaciones d&#243;lar blue, el oficial, el MEP y el CCL.",
+"fecha": "2026-11-20T18:38:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
 },
 "22358f310a97": {
 "id": "22358f310a97",
@@ -762,7 +1104,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -780,7 +1122,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -816,9 +1158,46 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
+},
+"8554867a6aec": {
+"id": "8554867a6aec",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/con-un-falso-elon-musk-casi-estafan-500000-personas-prometia-fortunas-criptomonedas-n6347658",
+"titulo": "Con un falso Elon Musk, casi estafan a 500.000 personas: prometía fortunas en criptomonedas",
+"bajada": "Una transmisión en YouTube utilizó inteligencia artificial para suplantar al empresario y prometer ganancias en criptomonedas. El fraude alcanzó a más de 500.000 espectadores.",
+"fecha": "2026-11-20T17:28:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas",
+"home_mejor_pos": 79
+},
+"977c9949ee12": {
+"id": "977c9949ee12",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/alerta-inversores-jp-morgan-proyecta-que-la-fed-aumentara-las-tasas-sus-tres-proximas-reuniones-n6347653",
+"titulo": "Alerta inversores: J.P. Morgan proyecta que la Fed aumentará las tasas en sus tres próximas reuniones",
+"bajada": "La entidad proyecta subas de 25 puntos base en cada uno de los siguientes encuentros del banco central estadounidense, lo que sumaría 75 puntos base. El pronóstico llega después de que las actas de la Fed mostraran que casi todos…",
+"fecha": "2026-11-20T17:25:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
 },
 "fecc216e762f": {
 "id": "fecc216e762f",
@@ -834,9 +1213,27 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
+},
+"ee09d75c6ee0": {
+"id": "ee09d75c6ee0",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/el-riesgo-pais-supera-los-1000-puntos-y-la-city-ya-alerta-las-dudas-el-plan-financiero-y-el-riesgo-politico-n6347605",
+"titulo": "El riesgo país quebró la barrera de los 1.000 puntos y la city alerta sobre dudas por el plan financiero y político",
+"bajada": "El riesgo país supera los 1.000 puntos por primera vez desde octubre de 2025, golpeado por las dudas sobre el programa financiero de 2027 y el ruido electoral.",
+"fecha": "2026-11-20T17:06:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
 },
 "c28a997ed531": {
 "id": "c28a997ed531",
@@ -852,7 +1249,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -870,7 +1267,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -888,7 +1285,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -906,7 +1303,25 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"ec2a79045109": {
+"id": "ec2a79045109",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/el-riesgo-pais-supero-los-1000-puntos-y-el-dolar-los-1600-n930224",
+"titulo": "El riesgo país superó los 1.000 puntos y el dólar los $ 1.600",
+"bajada": "El riesgo país de JP Morgan escala 115 unidades para la Argentina, su nivel más alto desde el 21 de octubre del año pasado.",
+"fecha": "2026-11-20T16:03:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -924,7 +1339,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -942,7 +1357,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "palabras:2"
 },
@@ -960,7 +1375,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -978,7 +1393,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -996,9 +1411,27 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
+},
+"9460346fed91": {
+"id": "9460346fed91",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/golpe-realidad-la-ia-un-debut-historico-la-bolsa-anthropic-cae-wall-street-n6347586",
+"titulo": "Golpe de realidad para la IA: tras un debut histórico en la bolsa, Anthropic cae en Wall Street",
+"bajada": "Se espera que la acción mantenga su volatilidad a corto plazo mientras los inversores evalúan su valoración. Las caídas de otras tecnológicas reflejan preocupaciones sobre la salud del sector de la inteligencia artificial.",
+"fecha": "2026-11-20T15:01:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
 },
 "4b12c0c4191a": {
 "id": "4b12c0c4191a",
@@ -1053,10 +1486,28 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:autos",
 "home_mejor_pos": 132
+},
+"3cd495dddc2c": {
+"id": "3cd495dddc2c",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/la-argentina-milei-el-90-los-jovenes-no-cubre-tres-salarios-minimos-n930218",
+"titulo": "La Argentina de Milei: el 90% de los jóvenes no cubre tres salarios mínimos",
+"bajada": "Un informe reveló que los jóvenes padecen subocupación por falta de horas y más del 90% no alcanza ingresos equivalentes a tres salarios mínimos.",
+"fecha": "2026-11-20T14:34:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "c5c7895dba82": {
 "id": "c5c7895dba82",
@@ -1072,7 +1523,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -1109,7 +1560,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1127,7 +1578,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1145,7 +1596,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1163,7 +1614,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1181,7 +1632,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1199,7 +1650,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
 },
@@ -1217,7 +1668,7 @@
 "clarin/rss:ciudades"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "ciudad",
 "motivo": "seccion:ciudades"
 },
@@ -1235,7 +1686,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1255,9 +1706,45 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
+},
+"ef3774859478": {
+"id": "ef3774859478",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/el-reino-unido-homenajeara-los-caidos-malvinas-los-45-anos-la-guerra-n930213",
+"titulo": "El Reino Unido homenajeará a los caídos en Malvinas por los 45 años de la guerra",
+"bajada": "El embajador británico David Cairns anticipó que en 2027 habrá un acto “con respeto y sinceridad” y reconoció que la relación bilateral atraviesa momentos de tensión.",
+"fecha": "2026-11-20T13:11:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"78cd83a0ea6f": {
+"id": "78cd83a0ea6f",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/bitcoin-divide-los-expertos-oportunidad-compra-o-nuevas-caidas-n6347508",
+"titulo": "Bitcoin divide a los expertos: ¿oportunidad de compra o nuevas caídas?",
+"bajada": "El bitcoin perdió más del 10% en una semana y crecen las dudas sobre su recuperación. Mientras algunos analistas ven oportunidades de compra, otros advierten por nuevos riesgos.",
+"fecha": "2026-11-20T13:07:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
 },
 "c0f38b472929": {
 "id": "c0f38b472929",
@@ -1273,7 +1760,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1299,6 +1786,24 @@
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
+"f98c466f8e6a": {
+"id": "f98c466f8e6a",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/anthropic-ingresa-al-top-10-del-ranking-las-empresas-mas-valiosas-del-mundo-su-debut-wall-street-n6347489",
+"titulo": "Anthropic ingresa al top 10 del ranking de las empresas más valiosas del mundo tras su debut en Wall Street",
+"bajada": "La desarrolladora de Claude terminó su primera rueda 17% arriba del precio de salida, fijado en u$s83. Con ese cierre, se posicionó entre las diez firmas de mayor valor bursátil del planeta.",
+"fecha": "2026-11-20T12:58:28+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
 "a218b20b5631": {
 "id": "a218b20b5631",
 "diario": "infobae",
@@ -1313,7 +1818,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1331,9 +1836,63 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "ciudad",
 "motivo": "palabras:colectivos"
+},
+"d1b01193df2c": {
+"id": "d1b01193df2c",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/la-cgt-prepara-movilizaciones-y-se-involucra-la-interna-del-pj-n930211",
+"titulo": "La CGT prepara movilizaciones y se involucra en la interna del PJ",
+"bajada": "La CGT reclama respuestas al Gobierno por las dificultades en distintos sectores, prepara nuevas medidas y se involucra en la interna del PJ.",
+"fecha": "2026-11-20T12:36:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "sindicales",
+"motivo": "palabras:cgt"
+},
+"f3755703b44d": {
+"id": "f3755703b44d",
+"diario": "ambito",
+"url": "https://www.ambito.com/los-arboles-nunca-llegan-al-cielo-n6347317",
+"titulo": "Los árboles nunca llegan al cielo...",
+"bajada": "En estos días se cumplen 12 años de la partida de Carlos Fontana (en realidad Carlos Pagura) una de las mejores plumas que jamás escribieron en Ámbito, pero por sobre todo, un tipazo. Como nunca, merece ser recordado, especialmente ahora…",
+"fecha": "2026-11-20T12:04:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"0827402af509": {
+"id": "0827402af509",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/el-bitcoin-se-desploma-y-llega-minimos-cinco-meses-medio-una-tormenta-las-cripto-n6347449",
+"titulo": "El Bitcoin se desploma casi 6% y perfora los u$s60.000, en medio de una tormenta para las cripto",
+"bajada": "Pierde 5,8% en las últimas 24 horas, mientras Ethereum cede 7% y llega a los u$s1.600. El retroceso de las tecnológicas y la expectativa de una Fed más dura arrastran a todo el mercado cripto.",
+"fecha": "2026-11-20T12:04:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
 },
 "de137497676d": {
 "id": "de137497676d",
@@ -1349,7 +1908,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1367,7 +1926,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1385,7 +1944,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
 },
@@ -1403,7 +1962,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1421,7 +1980,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "ciudad",
 "motivo": "palabras:amba,conurbano"
 },
@@ -1439,7 +1998,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1475,7 +2034,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1513,7 +2072,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1531,7 +2090,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1549,7 +2108,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -1567,7 +2126,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1585,7 +2144,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1607,7 +2166,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1625,7 +2184,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1643,7 +2202,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1661,7 +2220,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1679,7 +2238,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1697,7 +2256,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1715,7 +2274,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1751,7 +2310,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1769,7 +2328,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1787,7 +2346,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1805,7 +2364,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1827,10 +2386,10 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
-"home_mejor_pos": 121
+"home_mejor_pos": 114
 },
 "9d4dfd299e7b": {
 "id": "9d4dfd299e7b",
@@ -1850,10 +2409,10 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
-"home_mejor_pos": 122
+"home_mejor_pos": 115
 },
 "6b266d26159b": {
 "id": "6b266d26159b",
@@ -1869,7 +2428,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 73

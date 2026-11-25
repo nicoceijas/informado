@@ -17,9 +17,27 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
+},
+"f2a1c30dda7c": {
+"id": "f2a1c30dda7c",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/javier-milei-publico-su-propia-version-del-gta-6-karina-una-motosierra-y-cristina-kirchner-n929870",
+"titulo": "Javier Milei publicó su propia versión del GTA 6 con Karina, una motosierra y Cristina Kirchner",
+"bajada": "El Presidente posteó en sus redes un video inspirado en la estética del famoso videojuego. \"Contenido no apropiado para kirchneristas y socialistas\", advirtió.",
+"fecha": "2026-11-19T01:24:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "dda400e3d33b": {
 "id": "dda400e3d33b",
@@ -38,6 +56,168 @@
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
+},
+"b5d25571e06a": {
+"id": "b5d25571e06a",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/fiebre-la-ia-anthropic-recaudo-mas-us107000-millones-su-salida-bolsa-y-pulverizo-el-record-spacex-n6346934",
+"titulo": "Fiebre por la IA: Anthropic recaudó más de u$s107.000 millones en su salida a Bolsa y pulverizó el récord de SpaceX",
+"bajada": "La compañía de inteligencia artificial creadora de Claude debutará este jueves en el Nasdaq, con una valuación cercana a u$s1,5 billones. La demanda de los inversores superó casi siete veces la cantidad de acciones disponibles.",
+"fecha": "2026-11-19T00:32:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"05bfc0a519f9": {
+"id": "05bfc0a519f9",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/el-dolar-oficial-alcanzo-un-nuevo-record-nominal-pero-2026-sube-apenas-una-cuarta-parte-la-inflacion-n6346484",
+"titulo": "El dólar oficial quebró un nuevo récord nominal, mientras el CCL superó los $1.700 y la brecha tocó el 10%",
+"bajada": "El BCRA redujo fuerte el ritmo de compras de divisas, mientras las reservas cayeron casi u$s200 millones por el desplome del oro. En paralelo, el tipo de cambio mayorista acumuló tres subas consecutivas, aunque en 2026 avanza muy por debajo…",
+"fecha": "2026-11-19T00:21:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"29fd8b9d65a7": {
+"id": "29fd8b9d65a7",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/el-gobierno-logro-el-dictamen-suspender-las-paso-y-la-sesion-ya-tiene-fecha-n929868",
+"titulo": "El Gobierno logró el dictamen para suspender las PASO y la sesión ya tiene fecha",
+"bajada": "El oficialismo sumó 11 firmas de las diez necesarias en la Comisión de Asuntos Constitucionales. El proyecto dejó fuera el sistema de colectoras e incorporó Ficha Limpia. Cuándo será debatido en el recinto del Senado.",
+"fecha": "2026-11-19T00:08:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"8467e2176747": {
+"id": "8467e2176747",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/los-futuros-wall-street-adelantan-un-rebote-luego-que-los-buenos-resultados-nvidia-calmaran-al-mercado-n6346491",
+"titulo": "Wall Street: Nvidia cayó 2,9% pese a buenos resultados, pero el Nasdaq creció en la previa del debut bursátil de Anthropic",
+"bajada": "Mientras el Dow Jones y el S&P 500 cayeron 1,1% y 0,3%, el Nasdaq trepó 0,4%. Sucedió tras el informe trimestral de Nvidia y en medio de la expectativa de una suba de tasas de la Fed en diciembre.",
+"fecha": "2026-11-18T23:40:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"0d8e58667baa": {
+"id": "0d8e58667baa",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/se-desplomo-la-emision-deuda-corporativa-las-colocaciones-cayeron-60-y-las-empresas-enfrentan-tasas-mas-altas-n6346613",
+"titulo": "Deuda corporativa: las emisiones de ON cayeron en octubre tras un septiembre récord, pero acumulan una suba del 9% en 2026",
+"bajada": "Las colocaciones de obligaciones negociables retrocedieron durante octubre, en un contexto de mayor volatilidad y tasas más altas. Según la CNV, el financiamiento mediante estos instrumentos creció 9% real en los primeros diez meses del año y 19% en los…",
+"fecha": "2026-11-18T23:29:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"64650759c8fa": {
+"id": "64650759c8fa",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/creditos-personales-estiman-que-los-impuestos-encarecen-un-39-el-financiamiento-y-argentina-lidera-el-ranking-mundial-n6346899",
+"titulo": "Créditos personales: estiman que los impuestos encarecen un 39% el financiamiento y Argentina lidera el ranking mundial",
+"bajada": "Un informe de BDO para la ONG Lógica reveló que Argentina tiene la mayor carga tributaria sobre los préstamos personales entre 30 países analizados. Es el único que aplica cuatro impuestos sobre una misma operación crediticia. Provincias y municipios concentran…",
+"fecha": "2026-11-18T23:14:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"a722bea1d83a": {
+"id": "a722bea1d83a",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-miercoles-18-noviembre-n6346477",
+"titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este miércoles 18 de noviembre",
+"bajada": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+"fecha": "2026-11-18T22:55:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"2f02a3ac9067": {
+"id": "2f02a3ac9067",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/milei-nego-una-interna-patricia-bullrich-echarla-es-el-deseo-del-circulo-rojo-n929865",
+"titulo": "Milei negó una interna con Patricia Bullrich: \"Echarla es el deseo del círculo rojo\"",
+"bajada": "El mandatario habló sobre su relación con la senadora, criticó al kirchnerismo y explicó los motivos de la suba de la inflación.",
+"fecha": "2026-11-18T22:55:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"e99d91b17094": {
+"id": "e99d91b17094",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/los-bonos-dolares-suben-pero-el-riesgo-pais-se-mantiene-encima-los-850-puntos-n6346590",
+"titulo": "Los bonos en dólares rebotaron y el riesgo país perforó los 850 puntos, pero los ADRs se hundieron hasta 7%",
+"bajada": "El Merval avanzó levemente en pesos, pero cayó más de 1% en dólares y acumula una pérdida del 34% desde julio. La mirada del mercado está puesta en el Congreso, la Fed y el escenario internacional. Qué acciones recomiendan los…",
+"fecha": "2026-11-18T22:23:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
 },
 "64f09104107a": {
 "id": "64f09104107a",
@@ -71,7 +251,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -107,9 +287,99 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
+},
+"18f6f8d38bf8": {
+"id": "18f6f8d38bf8",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/jose-alperovich-la-camara-casacion-le-redujo-la-condena-abuso-sexual-n929861",
+"titulo": "José Alperovich: la Cámara de Casación le redujo la condena por abuso sexual",
+"bajada": "De esta forma, ex gobernador de Tucumán pasará 14 años en prisión en vez de 16 a los que había sido condenado por los abusos sexuales contra su sobrina.",
+"fecha": "2026-11-18T22:08:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"93554857bcfb": {
+"id": "93554857bcfb",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/real-blue-cuanto-opero-este-miercoles-18-noviembre-n6346887",
+"titulo": "Real blue: a cuánto operó este miércoles 18 de noviembre",
+"bajada": "La cotización minuto a minuto para la compra y venta de la divisa brasileña en nuestro país.",
+"fecha": "2026-11-18T22:06:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"8b2e5e3dbe11": {
+"id": "8b2e5e3dbe11",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/euro-hoy-y-euro-blue-hoy-cuanto-cotizo-este-miercoles-18-noviembre-n6346885",
+"titulo": "Euro hoy y Euro blue hoy: a cuánto cotizó este miércoles 18 de noviembre",
+"bajada": "Mirá a cuánto cotizan el euro oficial y el euro blue.",
+"fecha": "2026-11-18T21:58:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"dd1ee9542210": {
+"id": "dd1ee9542210",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/dolar-el-bcra-modero-fuerte-el-ritmo-compras-y-las-reservas-bajaron-casi-us200-millones-n6346854",
+"titulo": "Dólar: el BCRA moderó fuerte el ritmo de compras y las reservas bajaron casi u$s200 millones",
+"bajada": "La autoridad monetaria adquirió apenas u$s11 millones, frente a los u$s74 millones del martes, mientras las reservas retrocedieron u$s190 millones por el impacto de la caída del oro. En paralelo, el dólar mayorista acumuló tres subas consecutivas y alcanzó nuevos…",
+"fecha": "2026-11-18T21:34:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"32dbc10ccdb5": {
+"id": "32dbc10ccdb5",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/cristina-kirchner-ordenaron-la-anses-frenar-los-descuentos-su-pension-viudez-n929824",
+"titulo": "Cristina Kirchner: ordenaron a la ANSES frenar los descuentos sobre su pensión por viudez",
+"bajada": "De esta forma, la Justicia Federal de la Seguridad Social intimó al organismo a restituirle más de $3 millones por mes a la expresidenta.",
+"fecha": "2026-11-18T21:02:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "d735a12ff034": {
 "id": "d735a12ff034",
@@ -129,6 +399,24 @@
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
+"95e6ee0e3938": {
+"id": "95e6ee0e3938",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/el-dolar-blue-pego-otro-salto-y-ya-trepo-mas-60-apenas-cuatro-dias-n6346832",
+"titulo": "El dólar blue pegó otro salto y ya trepó más de $60 en apenas cuatro días",
+"bajada": "El paralelo escaló hasta $1.630 para la venta y profundizó la presión compradora que domina las últimas ruedas. Al mismo tiempo, el mayorista volvió a marcar un récord nominal, pero avanzó menos y dejó la brecha en torno a 4,5%.",
+"fecha": "2026-11-18T20:25:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
 "9076fdf6c733": {
 "id": "9076fdf6c733",
 "diario": "ambito",
@@ -143,7 +431,25 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
+"dc65753c0a7c": {
+"id": "dc65753c0a7c",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/economia/caputo-descarto-una-fuerte-suba-del-dolar-2027-y-pidio-cambiar-las-expectativas-n929818",
+"titulo": "Caputo descartó una fuerte suba del dólar en 2027 y pidió cambiar las expectativas",
+"bajada": "El ministro de Economía defendió el plan de estabilización, aseguró que hay suficientes divisas para atender la demanda y que la mayoría de los argentinos seguirá respaldando el rumbo económico.",
+"fecha": "2026-11-18T19:55:00+00:00",
+"seccion": "economia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -161,7 +467,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -179,7 +485,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -201,6 +507,42 @@
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
+"ca35f1f9e44f": {
+"id": "ca35f1f9e44f",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-cerro-este-miercoles-18-noviembre-n6346802",
+"titulo": "Dólar blue hoy: a cuánto cerró este miércoles 18 de noviembre",
+"bajada": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+"fecha": "2026-11-18T19:05:54+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"7a06ae77fdcd": {
+"id": "7a06ae77fdcd",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-miercoles-18-noviembre-n6346801",
+"titulo": "Dólar hoy: a cuánto cerró este miércoles 18 de noviembre",
+"bajada": "Conoc&#233; las cotizaciones d&#243;lar blue, el oficial, el MEP y el CCL.",
+"fecha": "2026-11-18T19:05:37+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
 "dab615701c68": {
 "id": "dab615701c68",
 "diario": "ambito",
@@ -215,9 +557,45 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
+},
+"7c8ac8ab3b77": {
+"id": "7c8ac8ab3b77",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-miercoles-18-noviembre-n6346462",
+"titulo": "Dólar hoy: a cuánto cotiza este miércoles 18 de noviembre",
+"bajada": "Conoc&#233; las cotizaciones d&#243;lar blue, el oficial, el MEP y el CCL.",
+"fecha": "2026-11-18T18:31:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"45468b26de9b": {
+"id": "45468b26de9b",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/bullrich-confirmo-que-el-gobierno-dara-marcha-atras-las-listas-colectoras-n929816",
+"titulo": "Bullrich confirmó que el Gobierno dará \"marcha atrás\" con las listas colectoras",
+"bajada": "Patricia Bullrich anunció que el oficialismo retirará el sistema de \"adhesiones\" para destrabar los acuerdos en el Senado y avanzar con el dictamen que elimina las PASO se debatirá el 26 de noviembre.",
+"fecha": "2026-11-18T18:11:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "9f5cf13f6bc5": {
 "id": "9f5cf13f6bc5",
@@ -251,9 +629,27 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
+},
+"4fe9b2fd3715": {
+"id": "4fe9b2fd3715",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/deportes/jorge-macri-recorrio-las-obras-del-autodromo-emerson-fittipaldi-n929817",
+"titulo": "Jorge Macri recorrió las obras del Autódromo con Emerson Fittipaldi",
+"bajada": "Jorge Macri recorrió las obras de remodelación del Autódromo Oscar y Juan Gálvez junto al bicampeón mundial de Fórmula 1, el ex-piloto brasileño Emerson Fittipaldi.",
+"fecha": "2026-11-18T17:02:00+00:00",
+"seccion": "deportes",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "otros",
+"motivo": "seccion:deportes"
 },
 "3124d26ee7c5": {
 "id": "3124d26ee7c5",
@@ -291,7 +687,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -309,7 +705,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -330,6 +726,24 @@
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
+},
+"605f874896cc": {
+"id": "605f874896cc",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/economia/cavallo-la-uba-apunto-contra-el-gobierno-el-dolar-y-el-cepo-n929801",
+"titulo": "Cavallo en la UBA: apuntó contra el Gobierno por el dólar y el cepo",
+"bajada": "El exministro de Economía, Domingo Cavallo, cuestionó la política monetaria y cambiaria del Gobierno y alertó sobre los riesgos de mantener un dólar atrasado.",
+"fecha": "2026-11-18T14:30:00+00:00",
+"seccion": "economia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
 },
 "e375c7714be4": {
 "id": "e375c7714be4",
@@ -363,7 +777,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -381,7 +795,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -403,10 +817,10 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:tecnologia",
-"home_mejor_pos": 107
+"home_mejor_pos": 101
 },
 "2d982cbba069": {
 "id": "2d982cbba069",
@@ -440,7 +854,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -476,9 +890,27 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
+},
+"52486750f960": {
+"id": "52486750f960",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/el-gobierno-aumento-un-22-los-aranceles-las-prestaciones-personas-discapacidad-n929793",
+"titulo": "El Gobierno aumentó un 2,2% los aranceles de las prestaciones para personas con discapacidad",
+"bajada": "La actualización rige desde noviembre y fue oficializada mediante una resolución publicada en el Boletín Oficial.",
+"fecha": "2026-11-18T12:24:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "d55d36bdeffd": {
 "id": "d55d36bdeffd",
@@ -534,7 +966,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -556,9 +988,27 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "sindicales",
 "motivo": "palabras:paritaria"
+},
+"1cb1699ee68a": {
+"id": "1cb1699ee68a",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/que-son-las-colectoras-que-impulsa-el-gobierno-junto-la-suspension-las-paso-n929787",
+"titulo": "Qué son las colectoras que impulsa el Gobierno junto a la suspensión de las PASO",
+"bajada": "El Gobierno busca habilitar el mecanismo para las elecciones de 2027 y sumar el respaldo de gobernadores aliados. Sin embargo, constitucionalistas advirtien sobre posibles problemas de transparencia y cuestionan su aplicación en la elección de senadores.",
+"fecha": "2026-11-18T11:25:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "970b12a76655": {
 "id": "970b12a76655",
@@ -577,6 +1027,24 @@
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
+},
+"886606c4642f": {
+"id": "886606c4642f",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/se-cayo-la-sesion-diputados-tratar-la-ley-malvinas-y-la-reforma-del-banco-central-el-gobierno-no-consiguio-quorum-n929790",
+"titulo": "Se cayó la sesión en Diputados para tratar la Ley Malvinas y la reforma del Banco Central: el Gobierno no consiguió quórum",
+"bajada": "Provincias Unidas y otros bloques opositores dejaron al oficialismo sin los legisladores necesarios para abrir el debate que tenía lugar este miércoles. Martín Menem debió levantar la convocatoria y la oposición celebró en el recinto con cánticos.",
+"fecha": "2026-11-18T11:16:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "56d5920bf728": {
 "id": "56d5920bf728",
@@ -612,7 +1080,7 @@
 "lanacion/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -630,7 +1098,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -648,7 +1116,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -666,7 +1134,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },

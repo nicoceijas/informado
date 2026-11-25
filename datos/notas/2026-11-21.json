@@ -1,4 +1,40 @@
 {
+"850d647ebee3": {
+"id": "850d647ebee3",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-sabado-21-noviembre-n6347837",
+"titulo": "Dólar hoy: a cuánto cotiza este sábado 21 de noviembre",
+"bajada": "Conoc&#233; las cotizaciones d&#243;lar blue, el oficial, el MEP y el CCL.",
+"fecha": "2026-11-22T02:44:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
+"2bc9c2393a04": {
+"id": "2bc9c2393a04",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-sabado-21-noviembre-n6347838",
+"titulo": "Dólar blue hoy: a cuánto opera este sábado 21 de noviembre",
+"bajada": "Conoc&#233; las cotizaciones d&#243;lar blue, el oficial, el MEP y el CCL.",
+"fecha": "2026-11-22T02:44:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas"
+},
 "7a6e84f5620d": {
 "id": "7a6e84f5620d",
 "diario": "perfil",
@@ -13,7 +49,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -69,7 +105,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -87,7 +123,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -105,7 +141,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -123,7 +159,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -141,7 +177,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -161,7 +197,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -179,7 +215,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -197,9 +233,27 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
+},
+"1b5dc89e0fe1": {
+"id": "1b5dc89e0fe1",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/maximo-kirchner-presidira-el-congreso-del-pj-bonaerense-n930397",
+"titulo": "Máximo Kirchner presidirá el Congreso del PJ bonaerense",
+"bajada": "Con la asunción de Máximo Kirchner se logró una tregua interna, pero persisten las diferencias por el liderazgo del peronismo y las candidaturas.",
+"fecha": "2026-11-21T22:01:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "e5c6d4748dcf": {
 "id": "e5c6d4748dcf",
@@ -215,7 +269,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -235,7 +289,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -244,16 +298,17 @@
 "diario": "ambito",
 "url": "https://www.ambito.com/finanzas/nvidia-se-del-podio-las-companias-mas-valuadas-del-mundo-n6347950",
 "titulo": "Nvidia se bajó del podio de las compañías más valuadas del mundo",
-"bajada": "",
+"bajada": "Se ubicó detrás de otras compañías tecnológicas, que copan el Top 10 de las empresas más valuadas. El mercado tiene expectativas favorables del rebote de las acciones de Nvidia.",
 "fecha": "2026-11-21T21:18:00+00:00",
 "seccion": "finanzas",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"ambito/sitemap:sitemap"
+"ambito/sitemap:sitemap",
+"ambito/rss:finanzas"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
@@ -271,7 +326,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -295,6 +350,24 @@
 "tema": "politica",
 "motivo": "seccion:politica"
 },
+"495a2defa331": {
+"id": "495a2defa331",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/economia/marcela-pagano-presento-un-pedido-juicio-politico-contra-luis-caputo-n930392",
+"titulo": "Marcela Pagano presentó un pedido de juicio político contra Luis Caputo",
+"bajada": "La diputada lo acusó de mal desempeño de sus funciones y cuestionó los resultados del modelo económico, al que atribuyó consecuencias negativas para el país.",
+"fecha": "2026-11-21T20:14:00+00:00",
+"seccion": "economia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
 "3b4a8b848758": {
 "id": "3b4a8b848758",
 "diario": "lanacion",
@@ -311,7 +384,7 @@
 "lanacion/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -329,9 +402,29 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
+},
+"597740065f76": {
+"id": "597740065f76",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/politica/el-mensaje-oculto-de-la-corte-para-los-jueces-dociles-que-frenaron-las-causas-contra-la-afa-y-las-nid21112026/",
+"titulo": "El mensaje oculto de la Corte para los “jueces dóciles” que frenaron las causas contra la AFA y las señales de Mahiques al poder",
+"bajada": "El máximo tribunal lanzó esta semana una advertencia inédita; el ministro de Justicia se encargó de deslizar que podría haber evitado la resolución que complicó a Chiqui Tapia si hubiera sido Procurador General, el cargo que ambiciona; Llorens se presenta…",
+"fecha": "2026-11-21T19:54:42+00:00",
+"seccion": "politica",
+"palabras_clave": [
+"Política"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "80a074c655ef": {
 "id": "80a074c655ef",
@@ -347,7 +440,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -365,7 +458,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -383,7 +476,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -401,7 +494,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -419,7 +512,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -437,7 +530,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "ciudad",
 "motivo": "palabras:ciudad de buenos aires"
 },
@@ -455,7 +548,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -473,7 +566,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -527,7 +620,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -545,7 +638,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -583,7 +676,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -601,7 +694,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -637,7 +730,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -655,7 +748,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -695,7 +788,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -717,6 +810,25 @@
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
+"64c457b6dbc5": {
+"id": "64c457b6dbc5",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/provincia/leo-nardini-propuso-que-el-territorio-vuelva-gobernar-la-provincia-n930383",
+"titulo": "Leo Nardini propuso que \"el territorio\" vuelva a gobernar en la Provincia",
+"bajada": "El intendente de Malvinas Argentina y precandidato a gobernador bonaerense encabezó un encuentro con cientos de militantes. Dijo que la Provincia necesita ser conducida por dirigentes con experiencia de gestión y conocimiento directo de las necesidades de sus habitantes.",
+"fecha": "2026-11-21T15:28:22+00:00",
+"seccion": "provincia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "palabras:1",
+"home_mejor_pos": 49
+},
 "689f6599fdfa": {
 "id": "689f6599fdfa",
 "diario": "infobae",
@@ -731,7 +843,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -749,7 +861,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -767,7 +879,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -785,7 +897,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -803,7 +915,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -839,7 +951,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -857,7 +969,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -893,7 +1005,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -911,7 +1023,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -947,7 +1059,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -965,7 +1077,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -983,7 +1095,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1005,6 +1117,24 @@
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
+"7a08add6ab62": {
+"id": "7a08add6ab62",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/economia/se-recalienta-el-riesgo-pais-las-razones-las-que-supero-los-1000-puntos-y-su-impacto-la-economia-n930380",
+"titulo": "Se recalienta el riesgo país: las razones por las que superó los 1.000 puntos y su impacto en la economía",
+"bajada": "El índice elaborado por el JP Morgan continuó con su tendencia alcista y finalizó la semana en 1.070 puntos. El análisis de un grupo de economistas en un escenario de incertidumbre política y estancamiento de la actividad.",
+"fecha": "2026-11-21T13:01:00+00:00",
+"seccion": "economia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
 "48e1629afbaf": {
 "id": "48e1629afbaf",
 "diario": "infobae",
@@ -1019,7 +1149,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1037,7 +1167,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1055,7 +1185,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1073,7 +1203,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "ciudad",
 "motivo": "palabras:amba,ciudad de buenos aires"
 },
@@ -1093,9 +1223,28 @@
 "lanacion/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:san lorenzo"
+},
+"93e19fc30b0c": {
+"id": "93e19fc30b0c",
+"diario": "ambito",
+"url": "https://www.ambito.com/finanzas/bitcoin-no-encuentra-piso-las-razones-del-desplome-y-el-dilema-los-inversores-comprar-vender-o-esperar-n6347536",
+"titulo": "Bitcoin no encuentra piso: las razones del desplome y el dilema de los inversores, ¿comprar, vender o esperar?",
+"bajada": "Con Bitcoin por debajo de los u$s59.000 tras profundizar su derrumbe, los inversores se enfrentan a un dilema: aprovechar la caída para comprar o esperar ante el riesgo de nuevas bajas. Referentes del mercado cripto analizan las razones detrás del…",
+"fecha": "2026-11-21T10:00:00+00:00",
+"seccion": "finanzas",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:finanzas"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "economia",
+"motivo": "seccion:finanzas",
+"home_mejor_pos": 77
 },
 "501b101a8802": {
 "id": "501b101a8802",
@@ -1111,7 +1260,7 @@
 "clarin/rss:ciudades"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "ciudad",
 "motivo": "seccion:ciudades"
 },
@@ -1131,7 +1280,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1149,7 +1298,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -1169,7 +1318,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1189,7 +1338,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1209,7 +1358,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1227,7 +1376,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1245,7 +1394,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "palabras:1"
 },
@@ -1263,7 +1412,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1281,7 +1430,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1299,7 +1448,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -1317,7 +1466,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1335,7 +1484,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1353,7 +1502,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1371,7 +1520,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1389,7 +1538,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1407,7 +1556,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1425,7 +1574,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -1443,7 +1592,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -1479,7 +1628,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1497,7 +1646,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1515,7 +1664,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1533,7 +1682,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1551,7 +1700,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1569,7 +1718,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1587,7 +1736,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "sindicales",
 "motivo": "palabras:cgt"
 },
@@ -1605,7 +1754,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1624,7 +1773,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 }

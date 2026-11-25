@@ -13,7 +13,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente,sudamericana"
 },
@@ -51,7 +51,7 @@
 "ambito/rss:finanzas"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
@@ -71,7 +71,7 @@
 "ambito/rss:finanzas"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
@@ -89,7 +89,7 @@
 "popular/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:futbol"
 },
@@ -125,7 +125,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,sudamericana"
 },
@@ -183,7 +183,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -239,7 +239,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "ciudad",
 "motivo": "palabras:amba"
 },
@@ -311,7 +311,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:river,torneo"
 },
@@ -329,7 +329,7 @@
 "popular/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:futbol"
 },
@@ -531,7 +531,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -649,7 +649,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente,river"
 },
@@ -726,7 +726,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -771,16 +771,17 @@
 "diario": "popular",
 "url": "https://www.diariopopular.com.ar/politica/garrahan-ate-anuncio-una-movilizacion-despidos-y-suspensiones-n930564",
 "titulo": "Garrahan: ATE anunció una movilización por despidos y suspensiones",
-"bajada": "",
+"bajada": "La Junta Interna de ATE del Hospital Garrahan convocó a una movilización para el martes 24 de noviembre, desde las 7, en rechazo a diez despidos y 28 suspensiones que comenzaron a notificarse el viernes.",
 "fecha": "2026-11-23T00:47:00+00:00",
 "seccion": "politica",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"popular/sitemap:sitemap"
+"popular/sitemap:sitemap",
+"popular/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "sindicales",
 "motivo": "palabras:ate"
 },
@@ -1088,7 +1089,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -1187,16 +1188,17 @@
 "diario": "popular",
 "url": "https://www.diariopopular.com.ar/politica/santilli-debuta-el-senado-y-debera-responder-mas-1200-preguntas-n930534",
 "titulo": "Santilli debuta en el Senado y deberá responder más de 1.200 preguntas",
-"bajada": "",
+"bajada": "El jefe de Gabinete, Diego Santilli, brindará este miércoles, desde las 15, su primer informe de gestión ante el Senado, donde deberá responder 1.287 consultas.",
 "fecha": "2026-11-23T00:10:00+00:00",
 "seccion": "politica",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"popular/sitemap:sitemap"
+"popular/sitemap:sitemap",
+"popular/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1252,7 +1254,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:river"
 },
@@ -1312,7 +1314,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1591,7 +1593,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1813,7 +1815,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1905,7 +1907,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,sudamericana"
 },
@@ -1979,7 +1981,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -2053,7 +2055,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:scaloni,seleccion argentina"
 },
@@ -2228,16 +2230,17 @@
 "diario": "popular",
 "url": "https://www.diariopopular.com.ar/politica/casi-7-cada-10-pesos-gastados-supermercados-se-pagan-tarjetas-n930529",
 "titulo": "Casi 7 de cada 10 pesos gastados en supermercados se pagan con tarjetas",
-"bajada": "",
+"bajada": "Las tarjetas de crédito y débito representaron el 66,9% de la facturación de los supermercados argentinos durante agosto, según el INDEC. El crédito concentró el 43% de las ventas, mientras que el débito explicó otro 23,9%.",
 "fecha": "2026-11-22T22:42:00+00:00",
 "seccion": "politica",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"popular/sitemap:sitemap"
+"popular/sitemap:sitemap",
+"popular/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2297,7 +2300,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 94
@@ -2317,7 +2320,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -2375,7 +2378,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -2460,16 +2463,17 @@
 "diario": "popular",
 "url": "https://www.diariopopular.com.ar/politica/hernan-lacunza-alerto-una-alianza-milei-si-el-pro-se-une-desaparece-n930528",
 "titulo": "Hernán Lacunza alertó sobre una alianza con Milei: \"Si el PRO se une, desaparece\"",
-"bajada": "",
+"bajada": "El exministro de Hacienda Hernán Lacunza rechazó una eventual alianza electoral entre el PRO y La Libertad Avanza al considerar que provocaría la desaparición del partido fundado por Mauricio Macri.",
 "fecha": "2026-11-22T22:22:00+00:00",
 "seccion": "politica",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"popular/sitemap:sitemap"
+"popular/sitemap:sitemap",
+"popular/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2674,7 +2678,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca"
 },
@@ -2785,7 +2789,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente,sudamericana"
 },
@@ -2794,16 +2798,17 @@
 "diario": "popular",
 "url": "https://www.diariopopular.com.ar/politica/fuerte-condena-del-gobierno-las-amenazas-iran-contra-rafael-grossi-n930525",
 "titulo": "Fuerte condena del Gobierno a las amenazas de Irán contra Rafael Grossi",
-"bajada": "",
+"bajada": "La Cancillería argentina condenó las intimidaciones de la Guardia Revolucionaria de Irán contra Rafael Grossi, director general del Organismo Internacional de Energía Atómica (OIEA), y exigió que cesen de inmediato.",
 "fecha": "2026-11-22T21:42:00+00:00",
 "seccion": "politica",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"popular/sitemap:sitemap"
+"popular/sitemap:sitemap",
+"popular/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2896,7 +2901,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -2991,7 +2996,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -3083,7 +3088,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -3248,7 +3253,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:torneo"
 },
@@ -3275,16 +3280,17 @@
 "diario": "popular",
 "url": "https://www.diariopopular.com.ar/politica/victoria-villarruel-denuncio-gastos-excesivos-y-pablo-quirno-respondio-traigo-mi-almuerzo-casa-n930523",
 "titulo": "Victoria Villarruel denunció gastos excesivos y Pablo Quirno respondió: \"Traigo mi almuerzo de casa\"",
-"bajada": "",
+"bajada": "La vicepresidenta Victoria Villarruel cuestionó al canciller Pablo Quirno por una licitación millonaria destinada al servicio de catering en el Ministerio de Relaciones Exteriores. El funcionario rechazó las acusaciones.",
 "fecha": "2026-11-22T21:02:00+00:00",
 "seccion": "politica",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"popular/sitemap:sitemap"
+"popular/sitemap:sitemap",
+"popular/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -3418,7 +3424,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -3472,7 +3478,7 @@
 "popular/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "palabras:1"
 },
@@ -3613,16 +3619,17 @@
 "diario": "popular",
 "url": "https://www.diariopopular.com.ar/politica/malvinas-la-presion-argentina-golpea-al-proyecto-petrolero-sea-lion-n930521",
 "titulo": "Malvinas: la presión argentina golpea al proyecto petrolero Sea Lion",
-"bajada": "",
+"bajada": "A pocos días de que el Tribunal Internacional del Derecho del Mar se pronuncie sobre las medidas cautelares solicitadas por la Argentina, el proyecto petrolero Sea Lion, ubicado al norte de las Islas Malvinas, enfrenta dificultades operativas y financieras.",
 "fecha": "2026-11-22T20:29:00+00:00",
 "seccion": "politica",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"popular/sitemap:sitemap"
+"popular/sitemap:sitemap",
+"popular/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -3696,7 +3703,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -3809,7 +3816,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -3827,7 +3834,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -3881,7 +3888,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -4239,7 +4246,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -4370,7 +4377,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
@@ -4447,7 +4454,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -4525,7 +4532,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -4580,7 +4587,7 @@
 "cronista/rss:economia_politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:economia-politica"
 },
@@ -4598,7 +4605,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -4616,7 +4623,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -4746,7 +4753,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -4766,7 +4773,7 @@
 "lanacion/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol,seleccion argentina,torneo"
 },
@@ -4784,7 +4791,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -4793,16 +4800,17 @@
 "diario": "ambito",
 "url": "https://www.ambito.com/finanzas/scott-bessent-advirtio-que-la-fed-podria-cometer-un-error-politica-y-exigio-explicaciones-nvidia-sus-ventas-china-n6348093",
 "titulo": "Scott Bessent advirtió que la Fed podría cometer un \"error de política\" y exigió explicaciones a Nvidia por sus ventas a China",
-"bajada": "",
+"bajada": "El secretario del Tesoro estadounidense alertó sobre el endurecimiento de las condiciones financieras y el riesgo de nuevas subas de tasas. Además, reclamó respuestas a Nvidia por posibles irregularidades en la comercialización de chips avanzados a China, tras la salida…",
 "fecha": "2026-11-22T18:02:00+00:00",
 "seccion": "finanzas",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"ambito/sitemap:sitemap"
+"ambito/sitemap:sitemap",
+"ambito/rss:finanzas"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:01:41+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
@@ -4820,7 +4828,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -4838,7 +4846,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -4858,7 +4866,7 @@
 "lanacion/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -4867,16 +4875,17 @@
 "diario": "popular",
 "url": "https://www.diariopopular.com.ar/politica/rodrigo-loredo-luis-juez-y-gabriel-bornoroni-cuando-el-humor-tapa-la-realidad-n930408",
 "titulo": "Rodrigo De Loredo, Luis Juez y Gabriel Bornoroni: cuando el \"humor\" tapa la realidad",
-"bajada": "",
+"bajada": "Mientras el dirigente radical comenzó su campaña a bordo de un auto De Lorean como el usado en la película \"Volver al futuro\", los líderes del PRO y de La Libertad Avanza (LLA) le respondieron a bordo de un Fiat…",
 "fecha": "2026-11-22T17:35:00+00:00",
 "seccion": "politica",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"popular/sitemap:sitemap"
+"popular/sitemap:sitemap",
+"popular/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -4894,7 +4903,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -4990,7 +4999,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5010,7 +5019,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5028,7 +5037,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -5046,7 +5055,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5101,7 +5110,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,sudamericana"
 },
@@ -5156,7 +5165,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "palabras:2"
 },
@@ -5178,10 +5187,10 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:salud",
-"home_mejor_pos": 126
+"home_mejor_pos": 119
 },
 "7ac448520f7f": {
 "id": "7ac448520f7f",
@@ -5199,7 +5208,7 @@
 "lanacion/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -5217,7 +5226,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5235,7 +5244,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -5253,7 +5262,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5262,16 +5271,17 @@
 "diario": "ambito",
 "url": "https://www.ambito.com/finanzas/la-tormenta-global-desnuda-la-fragilidad-argentina-hasta-cuando-seguira-la-sangria-y-que-senales-espera-la-city-n6348063",
 "titulo": "La tormenta global desnuda la fragilidad argentina: ¿hasta cuándo seguirá la sangría y qué señales espera la city?",
-"bajada": "",
+"bajada": "El derrumbe de Wall Street y del real en Brasil aceleraron las ventas de activos argentinos. Las dudas sobre el financiamiento se adelantaron. Qué miran los operadores para volver a comprar y qué margen conserva el Gobierno.",
 "fecha": "2026-11-22T15:10:00+00:00",
 "seccion": "finanzas",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"ambito/sitemap:sitemap"
+"ambito/sitemap:sitemap",
+"ambito/rss:finanzas"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
@@ -5325,7 +5335,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5439,7 +5449,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:tecnologia"
 },
@@ -5457,7 +5467,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -5475,7 +5485,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -5495,9 +5505,27 @@
 "lanacion/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
+},
+"70ced402ba78": {
+"id": "70ced402ba78",
+"diario": "popular",
+"url": "https://www.diariopopular.com.ar/politica/la-suspension-las-paso-va-al-senado-y-el-gobierno-dice-tener-los-votos-asegurados-n930508",
+"titulo": "La suspensión de las PASO va al Senado y el Gobierno dice tener los votos asegurados",
+"bajada": "El debate se llevará a cabo el jueves 26 de noviembre. Desde la Casa Rosada afirman haber alcanzado acuerdos con la UCR, el PRO y bloques provinciales. Qué cantidad de votos necesitan para aprobar la reforma electoral.",
+"fecha": "2026-11-22T13:50:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"popular/rss:politica"
+],
+"visto_primero": "2026-11-25T03:34:31+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "ef9304652119": {
 "id": "ef9304652119",
@@ -5513,7 +5541,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -5567,7 +5595,7 @@
 "clarin/rss:ciudades"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "ciudad",
 "motivo": "seccion:ciudades"
 },
@@ -5589,10 +5617,10 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:salud",
-"home_mejor_pos": 75
+"home_mejor_pos": 67
 },
 "8e65b31ad064": {
 "id": "8e65b31ad064",
@@ -5628,7 +5656,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5646,7 +5674,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5666,7 +5694,7 @@
 "lanacion/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -5684,7 +5712,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5702,7 +5730,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "ciudad",
 "motivo": "palabras:porteno"
 },
@@ -5721,7 +5749,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -5775,7 +5803,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5793,7 +5821,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:columnistas"
 },
@@ -5847,7 +5875,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -5883,7 +5911,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -5903,7 +5931,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -5963,7 +5991,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6053,7 +6081,7 @@
 "clarin/rss:ciudades"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "ciudad",
 "motivo": "seccion:ciudades"
 },
@@ -6073,7 +6101,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6093,7 +6121,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6111,7 +6139,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -6129,7 +6157,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "ciudad",
 "motivo": "palabras:trenes"
 },
@@ -6147,7 +6175,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -6165,7 +6193,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -6183,7 +6211,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
 },
@@ -6201,7 +6229,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -6219,7 +6247,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -6237,7 +6265,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6255,7 +6283,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6273,7 +6301,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6291,7 +6319,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -6309,7 +6337,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -6327,7 +6355,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -6345,7 +6373,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -6399,7 +6427,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -6417,7 +6445,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
 },
@@ -6457,7 +6485,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6478,7 +6506,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "otros",
 "motivo": "seccion:autos",
 "home_mejor_pos": 131
@@ -6500,7 +6528,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 94
@@ -6540,7 +6568,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6558,7 +6586,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T03:34:31+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 }
