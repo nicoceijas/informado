@@ -901,7 +901,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1014,6 +1014,27 @@
 "visto_ultimo": "2026-11-25T12:16:11+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas"
+},
+"350e4e05a7b7": {
+"id": "350e4e05a7b7",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/politica/frenaron-el-peritaje-de-los-videos-de-los-dolares-que-grabo-jesica-cirio-en-el-vestidor-de-la-casa-nid19112026/",
+"titulo": "Frenaron el peritaje de los videos de los dólares que grabó Jésica Cirio en el vestidor de la casa de Insaurralde",
+"bajada": "El juez Rodríguez Ponte aceptó un pedido de la defensa y suspendió el informe hasta que la Cámara Federal de La Plata resuelva si las imágenes son válidas como prueba; el fiscal Mola se prepara para ampliar la acusación",
+"fecha": "2026-11-19T20:51:26+00:00",
+"seccion": "politica",
+"palabras_clave": [
+"Política"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T20:28:29+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "b998281e25b5": {
 "id": "b998281e25b5",
@@ -1323,6 +1344,27 @@
 "tema": "politica",
 "motivo": "seccion:politica"
 },
+"92b92bd06027": {
+"id": "92b92bd06027",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/rugby/los-pumas-vs-francia-por-el-nations-championship-2026-dia-horario-tv-y-como-ver-online-nid19112026/",
+"titulo": "Los Pumas vs. Francia, por el Nations Championship 2026: día, horario, TV y cómo ver online",
+"bajada": "El encuentro se disputará este sábado a las 17.10 (hora argentina) en el Stade de France de París; ambos equipos confirmaron sus alineaciones",
+"fecha": "2026-11-19T19:07:59+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"Rugby"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:deportes"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T20:28:29+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
+"tema": "otros",
+"motivo": "seccion:deportes"
+},
 "e1ec9c95564f": {
 "id": "e1ec9c95564f",
 "diario": "ambito",
@@ -1466,7 +1508,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1488,7 +1530,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1509,7 +1551,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1531,7 +1573,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1769,7 +1811,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1809,6 +1851,27 @@
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
+"48720f47fe77": {
+"id": "48720f47fe77",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/politica/reforma-electoral-hacerle-trampa-a-la-constitucion-nid19112026/",
+"titulo": "Reforma electoral: hacerle trampa a la Constitución",
+"bajada": "",
+"fecha": "2026-11-19T13:42:59+00:00",
+"seccion": "politica",
+"palabras_clave": [
+"Política"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T20:28:29+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
 "6d6c7b3e15ae": {
 "id": "6d6c7b3e15ae",
 "diario": "popular",
@@ -1842,7 +1905,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
@@ -1900,7 +1963,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -2066,7 +2129,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },

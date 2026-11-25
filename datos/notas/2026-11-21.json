@@ -68,7 +68,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -160,7 +160,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -288,7 +288,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -331,6 +331,27 @@
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
+"fa0064816e59": {
+"id": "fa0064816e59",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/politica/vialidad-piden-apartar-al-perito-de-cristina-kirchner-por-su-vinculo-con-lazaro-baez-nid21112026/",
+"titulo": "Vialidad: piden apartar al perito de Cristina Kirchner por su vínculo con Lázaro Báez",
+"bajada": "Los fiscales Luciani y Mola presentaron un escrito ante el Tribunal solicitando que el profesional designado por la expresidenta aclare su relación con el empresario",
+"fecha": "2026-11-21T21:14:20+00:00",
+"seccion": "politica",
+"palabras_clave": [
+"Política"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T20:28:29+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
 "d119965621aa": {
 "id": "d119965621aa",
 "diario": "infobae",
@@ -345,7 +366,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -440,7 +461,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -460,7 +481,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -515,7 +536,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -552,7 +573,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -570,7 +591,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -588,7 +609,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -606,7 +627,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "ciudad",
 "motivo": "palabras:ciudad de buenos aires"
 },
@@ -624,7 +645,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -642,7 +663,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -696,7 +717,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -714,7 +735,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -752,7 +773,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -843,7 +864,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -883,7 +904,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -904,7 +925,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:el-mundo"
 },
@@ -959,7 +980,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1032,7 +1053,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1050,7 +1071,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1086,7 +1107,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1104,7 +1125,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1140,7 +1161,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1158,7 +1179,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1194,7 +1215,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1284,7 +1305,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1303,7 +1324,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "seccion:cultura"
 },
@@ -1358,7 +1379,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1376,7 +1397,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "ciudad",
 "motivo": "palabras:amba,ciudad de buenos aires"
 },
@@ -1471,7 +1492,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -1549,7 +1570,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1567,7 +1588,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "palabras:1"
 },
@@ -1585,7 +1606,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1603,7 +1624,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1621,7 +1642,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -1658,7 +1679,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1820,7 +1841,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1838,7 +1859,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1856,7 +1877,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1874,7 +1895,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1892,7 +1913,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1910,7 +1931,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1928,7 +1949,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "sindicales",
 "motivo": "palabras:cgt"
 },
@@ -1965,7 +1986,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },

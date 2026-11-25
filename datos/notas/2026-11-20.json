@@ -31,7 +31,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -85,7 +85,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -103,7 +103,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -157,7 +157,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -322,7 +322,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -358,7 +358,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -414,7 +414,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -486,7 +486,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -559,7 +559,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -667,7 +667,28 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"e4e55e0e52f3": {
+"id": "e4e55e0e52f3",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/politica/los-politicos-echan-mano-a-la-ia-y-a-la-polemica-para-llamar-la-atencion-los-riesgos-de-sobregirarse-nid20112026/",
+"titulo": "Los políticos echan mano a la IA y a la polémica para llamar la atención: los riesgos de sobregirarse",
+"bajada": "Libertarios, peronistas y dirigentes locales se sumaron a la tendencia; el horizonte de la campaña electoral de 2027",
+"fecha": "2026-11-20T21:11:16+00:00",
+"seccion": "politica",
+"palabras_clave": [
+"Política"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T20:28:29+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -869,7 +890,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -924,7 +945,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1089,7 +1110,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1162,7 +1183,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1293,6 +1314,27 @@
 "visto_ultimo": "2026-11-25T12:16:11+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
+},
+"ad000a3bcac1": {
+"id": "ad000a3bcac1",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/politica/maximo-kirchner-vamos-a-armar-todo-el-quilombo-que-haya-que-armar-nid20112026/",
+"titulo": "Máximo Kirchner: “Vamos a armar todo el quilombo que haya que armar”",
+"bajada": "El diputado propuso “auditar” los beneficios a las inversiones otorgados a través del RIGI; críticas a la política económica",
+"fecha": "2026-11-20T17:51:36+00:00",
+"seccion": "politica",
+"palabras_clave": [
+"Política"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T20:28:29+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "a796f19acdc5": {
 "id": "a796f19acdc5",
@@ -1457,6 +1499,27 @@
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
+"a56e7795f0bb": {
+"id": "a56e7795f0bb",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/politica/ignacio-torres-confirmo-que-adelanta-las-elecciones-en-chubut-y-se-extiende-la-ola-de-nid20112026/",
+"titulo": "Ignacio Torres confirmó que adelanta las elecciones en Chubut y se extiende la ola de desdoblamientos",
+"bajada": "El gobernador Ignacio Torres dispuso que los comicios provinciales se realizarán el 21 de marzo próximo; Neuquén, Tucumán, Santa Fe y Salta también separarán la competencia local de la nacional",
+"fecha": "2026-11-20T16:38:07+00:00",
+"seccion": "politica",
+"palabras_clave": [
+"Política"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T20:28:29+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
 "56cd810d8ed8": {
 "id": "56cd810d8ed8",
 "diario": "infobae",
@@ -1561,7 +1624,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T11:36:22+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -1691,6 +1754,27 @@
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
+"04bfb9dbbbf4": {
+"id": "04bfb9dbbbf4",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/politica/nadia-marquez-busca-ser-la-candidata-a-gobernadora-de-milei-en-neuquen-pero-la-ley-de-ficha-limpia-nid20112026/",
+"titulo": "Nadia Márquez busca ser la candidata a gobernadora de Milei en Neuquén, pero la ley de ficha limpia le impediría competir",
+"bajada": "La senadora, quien reconoció que le gustaría acompañar en la fórmula al Presidente en 2027, podría ser ungida tras un congreso partidario de LLA; el obstáculo legal que podría marginarla de la carrera",
+"fecha": "2026-11-20T14:45:20+00:00",
+"seccion": "politica",
+"palabras_clave": [
+"Política"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T20:28:29+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
 "9d639abf75ac": {
 "id": "9d639abf75ac",
 "diario": "lanacion",
@@ -1801,7 +1885,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1838,7 +1922,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -2020,7 +2104,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -2812,7 +2896,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 113
@@ -2835,7 +2919,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 114
