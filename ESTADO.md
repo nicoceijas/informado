@@ -1,6 +1,6 @@
 # Estado del proyecto Informado
 
-Última actualización: 24/11/2026
+Última actualización: 25/11/2026
 
 ## Reglas de trabajo
 
@@ -51,6 +51,20 @@
 - [ ] Fusionar temas desde la app (versión 1.1).
 - [ ] Modo lectura con texto completo: propuesto el 25/11 (servidor personal en Vercel, con clave, sin guardar texto y respetando los muros de pago). **En conversación, no aprobado.**
 - [ ] Tareas programadas de revisión (diaria y semanal).
+
+## Propuestas pendientes de aprobación
+
+Detectadas en la revisión diaria. No se aplicó ninguna; cada una espera el «sí» o el «no» de Nico.
+
+1. **Las corridas programadas casi no se disparan (25/11).** Entre el 24/11 19:30 y el 25/11 09:45 UTC hubo una sola corrida programada (03:34) de las ~7 esperadas cada 2 h; los datos quedaron 4,5 h sin actualizar. Es una limitación conocida del `schedule` de GitHub Actions (demora o saltea corridas). *Cambio sugerido, a elegir:* (a) agregar un segundo horario en el mismo workflow (por ejemplo minutos 17 y 47) para que, si se saltea uno, entre el otro; o (b) que la revisión diaria dispare una corrida manual cuando la última tenga más de 3 h. Ninguna tiene costo.
+2. **Notas repetidas dentro de un tema.** En «recesión técnica» la misma nota de Perfil (id `aWvO15i42sut`) aparece 3 veces porque cambió el slug y una vez vino sin `www`. En «clima AMBA» una nota de Ámbito (`…n6348454`) figura dos veces con fechas y títulos distintos (el diario la retituló al día siguiente y quedó guardada en dos días). Inflan la cantidad de notas del tema. *Cambio sugerido:* deduplicar por URL normalizada (sin `www`, y por el id final de la nota cuando el diario lo tiene) también entre días distintos, quedándose con la versión más reciente.
+3. **Títulos de tema desactualizados.** El tema principal de la semana se titula «El Indec publica el dato que confirmará si la economía entró en recesión técnica», cuando 24 de sus 30 notas ya informan que entró. El del dólar se titula «a cuánto cerró este jueves 19 de noviembre». *Cambio sugerido:* elegir el título entre las notas de las últimas 24 h del tema (la más representativa de ese tramo), no entre todas.
+4. **Notas de servicio que se cuelan como temas.** «Dólar blue hoy» (35 notas, puesto 7 de la semana y en Hoy) y «Buen tiempo en el AMBA y alertas…» (Ciudad, puesto 9) son cotizaciones y pronósticos diarios, no temas de debate. Las exclusiones actuales («clima hoy en», «pronostico del tiempo para») no los atrapan. *Cambio sugerido:* sumar a `excluir_titulos` patrones como «dolar blue hoy», «dolar hoy», «como estara el clima», «como estara el tiempo», o que esos grupos no puedan ser propuestos.
+5. **Miss Universo clasificado como Internacionales** y propuesto en Hoy (tema `e5836b66f2`, 19 notas de Clarín e Infobae). Entra por la sección `internacional/` de la URL. *Cambio sugerido:* palabras clave de espectáculos/certámenes (miss universo, reality, farándula) que manden la nota a «otros» por encima de la sección.
+
+## Revisiones diarias
+
+- **25/11:** 9 diarios, 0 errores, 3.391 notas en 7 días. La corrida programada de las 03:34 falló al publicar en Pages (error transitorio de GitHub; las siguientes publicaron bien). Como no hubo corridas programadas después de las 05:15, se disparó una corrida manual a las 09:45 (sin cambios de código): recolectó 154 notas nuevas y publicó bien. Propuestas 1 a 5 arriba.
 
 ## Datos
 
