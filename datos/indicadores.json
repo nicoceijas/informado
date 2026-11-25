@@ -1,0 +1,27 @@
+{
+ "generado": "2026-11-25T23:55:15+00:00",
+ "dolar": {
+  "compra": 1580.0,
+  "venta": 1630.0,
+  "fecha": "2026-11-25",
+  "fuente": "Banco Nación",
+  "url": "https://www.bna.com.ar/Personas",
+  "actualizado": true
+ },
+ "riesgo_pais": {
+  "valor": 1094,
+  "fecha": "2026-11-24",
+  "fuente": "JP Morgan (EMBI), vía ArgentinaDatos",
+  "url": "https://argentinadatos.com/",
+  "actualizado": true
+ },
+ "inflacion": {
+  "valor": 1.9,
+  "mes": "2026-09",
+  "fuente": "INDEC, vía datos.gob.ar",
+  "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31",
+  "actualizado": true,
+  "mes_nombre": "septiembre 2026"
+ },
+ "errores": {}
+}
