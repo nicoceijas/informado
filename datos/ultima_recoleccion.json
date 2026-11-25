@@ -1,5 +1,5 @@
 {
- "inicio": "2026-11-25T04:57:48+00:00",
+ "inicio": "2026-11-25T05:06:02+00:00",
  "fuentes": {
   "clarin/home": {
    "enlaces": 119
@@ -42,38 +42,38 @@
   "clarin/rss:deportes": {
    "leidas": 10,
    "nuevas": 0,
-   "actualizadas": 2,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "clarin/rss:ultimo": {
    "leidas": 10,
    "nuevas": 0,
-   "actualizadas": 1,
+   "actualizadas": 0,
    "excluidas": 9,
    "viejas": 0
   },
   "clarin/sitemap:sitemap": {
    "leidas": 971,
-   "nuevas": 3,
+   "nuevas": 1,
    "actualizadas": 0,
-   "excluidas": 523,
+   "excluidas": 522,
    "viejas": 0
   },
   "lanacion/home": {
-   "enlaces": 145
+   "enlaces": 144
   },
   "lanacion/rss:ultimo": {
-   "leidas": 88,
-   "nuevas": 5,
+   "leidas": 87,
+   "nuevas": 0,
    "actualizadas": 0,
-   "excluidas": 34,
+   "excluidas": 33,
    "viejas": 0
   },
   "lanacion/rss:politica": {
    "leidas": 66,
    "nuevas": 0,
-   "actualizadas": 2,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
@@ -87,19 +87,19 @@
   "lanacion/rss:mundo": {
    "leidas": 48,
    "nuevas": 0,
-   "actualizadas": 1,
+   "actualizadas": 0,
    "excluidas": 7,
    "viejas": 0
   },
   "lanacion/rss:sociedad": {
    "leidas": 69,
    "nuevas": 0,
-   "actualizadas": 1,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "lanacion/rss:deportes": {
-   "leidas": 65,
+   "leidas": 64,
    "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 0,
@@ -107,9 +107,9 @@
   },
   "lanacion/sitemap:sitemap": {
    "leidas": 1000,
-   "nuevas": 3,
-   "actualizadas": 5,
-   "excluidas": 646,
+   "nuevas": 2,
+   "actualizadas": 0,
+   "excluidas": 648,
    "viejas": 19
   },
   "pagina12/home": {
@@ -117,52 +117,52 @@
   },
   "pagina12/rss:ultimo": {
    "leidas": 25,
-   "nuevas": 2,
-   "actualizadas": 1,
+   "nuevas": 0,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "pagina12/sitemap:sitemap": {
    "leidas": 100,
    "nuevas": 0,
-   "actualizadas": 2,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "infobae/home": {
-   "enlaces": 92
+   "enlaces": 90
   },
   "infobae/rss:politica": {
    "leidas": 100,
-   "nuevas": 1,
+   "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "infobae/rss:economia": {
    "leidas": 100,
-   "nuevas": 6,
+   "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 4,
    "viejas": 0
   },
   "infobae/rss:mundo": {
    "leidas": 100,
-   "nuevas": 17,
+   "nuevas": 1,
    "actualizadas": 0,
    "excluidas": 3,
    "viejas": 0
   },
   "infobae/rss:sociedad": {
    "leidas": 100,
-   "nuevas": 1,
+   "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 1,
    "viejas": 0
   },
   "infobae/rss:deportes": {
    "leidas": 100,
-   "nuevas": 1,
+   "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 3,
    "viejas": 0
@@ -217,7 +217,7 @@
   },
   "perfil/rss:ultimo": {
    "leidas": 50,
-   "nuevas": 4,
+   "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 27,
    "viejas": 0
@@ -225,13 +225,13 @@
   "perfil/rss:mundo": {
    "leidas": 50,
    "nuevas": 0,
-   "actualizadas": 2,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "perfil/sitemap:sitemap": {
    "leidas": 439,
-   "nuevas": 4,
+   "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 210,
    "viejas": 0
@@ -255,7 +255,7 @@
   },
   "cronista/sitemap:sitemap": {
    "leidas": 26,
-   "nuevas": 2,
+   "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 6,
    "viejas": 0
@@ -313,26 +313,26 @@
   "por_diario_7d": {
    "ambito": 359,
    "popular": 147,
-   "infobae": 633,
-   "lanacion": 580,
+   "infobae": 634,
+   "lanacion": 582,
    "perfil": 361,
    "cronista": 165,
-   "clarin": 490,
+   "clarin": 491,
    "ole": 308,
    "pagina12": 184
   },
   "por_tema_7d": {
-   "internacionales": 537,
+   "internacionales": 538,
    "politica": 478,
    "ciudad": 78,
    "economia": 616,
-   "otros": 940,
+   "otros": 942,
    "sindicales": 43,
-   "futbol": 535
+   "futbol": 536
   },
   "errores": 0
  },
  "reclasificadas": 0,
  "descartadas": 0,
- "fin": "2026-11-25T04:58:47+00:00"
+ "fin": "2026-11-25T05:07:02+00:00"
 }
