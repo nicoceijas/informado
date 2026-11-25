@@ -184,3 +184,9 @@ def test_historias():
     assert set(prop) | set(afuera) == {h["id"] for h in hs}
     df, n = frecuencias_semana(otros)
     assert rotulo(["La economía entró en recesión técnica", "Recesión técnica: qué dijo el Gobierno"], df, n).startswith("Recesión técnica")
+
+
+def test_conjuncion():
+    from informado.historias import conjuncion
+    assert conjuncion("informe") == "e" and conjuncion("INDEC") == "e" and conjuncion("Iglesia") == "e"
+    assert conjuncion("hijos") == "e" and conjuncion("hielo") == "y" and conjuncion("Senado") == "y"

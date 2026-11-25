@@ -110,8 +110,17 @@ def rotulo(titulos, df_semana, n_semana, k=3):
         return max(minus, key=f.get) if minus else max(f, key=f.get)
 
     palabras = [escrita(c) for c in elegidos]
-    texto = palabras[0] if len(palabras) == 1 else ", ".join(palabras[:-1]) + " y " + palabras[-1]
+    texto = palabras[0] if len(palabras) == 1 else ", ".join(palabras[:-1]) + f" {conjuncion(palabras[-1])} " + palabras[-1]
     return texto[0].upper() + texto[1:]
+
+
+def conjuncion(siguiente):
+    """«y», o «e» delante de palabras que empiezan con sonido i («e informe», «e INDEC», «e hijos»),
+    salvo «hie-»/«hia-»/«hio-»/«hiu-», que suenan a consonante («y hielo»)."""
+    n = normalizar(siguiente)
+    if (n.startswith("i") or n.startswith("hi")) and not re.match(r"hi[aeou]", n):
+        return "e"
+    return "y"
 
 
 def _dia(iso):
