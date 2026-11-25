@@ -1,0 +1,60 @@
+name: Reloj (cada 2 horas)
+
+# Cadena que no depende del reloj de GitHub (que demora o saltea corridas programadas):
+#   1. «disparar» lanza la recolección ya mismo.
+#   2. «esperar» usa el entorno «reloj», que tiene una espera (wait timer) de 120 minutos
+#      configurada en Settings → Environments. La espera no ocupa ninguna máquina.
+#   3. Al terminar la espera, lanza este mismo workflow: vuelve al paso 1.
+# El horario programado es solo un respaldo para reiniciar la cadena si alguna vez se corta.
+# Aprobado por Nico el 25/11 (opción A).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/reloj.yml"
+  schedule:
+    - cron: "37 */6 * * *"   # respaldo: reinicia la cadena si se cortó
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+# Una sola cadena a la vez: si llega otra (por ejemplo, el respaldo), queda en espera y la
+# reemplaza la siguiente que lance la cadena viva.
+concurrency:
+  group: reloj
+  cancel-in-progress: false
+
+jobs:
+  disparar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lanzar la recolección
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run recolectar.yml --repo "$GITHUB_REPOSITORY" --ref main
+
+  esperar:
+    needs: disparar
+    runs-on: ubuntu-latest
+    environment: reloj   # espera de 120 minutos, configurada en Settings → Environments
+    steps:
+      - name: Controlar que la espera esté configurada
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Si el entorno no tuviera la espera, la cadena se relanzaría en segundos.
+          # Por seguridad, solo sigue si pasaron al menos 100 minutos desde que empezó esta corrida.
+          inicio=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" --jq .run_started_at)
+          minutos=$(( ( $(date -u +%s) - $(date -u -d "$inicio" +%s) ) / 60 ))
+          echo "Pasaron $minutos minutos desde el inicio."
+          if [ "$minutos" -lt 100 ]; then
+            echo "::error::La espera del entorno «reloj» no está configurada (Settings → Environments → reloj → Wait timer: 120). La cadena se detiene."
+            exit 1
+          fi
+      - name: Lanzar la próxima vuelta
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run reloj.yml --repo "$GITHUB_REPOSITORY" --ref main

@@ -2,8 +2,8 @@ name: Recolectar, agrupar y publicar
 
 on:
   schedule:
-    - cron: "17 */2 * * *"   # cada 2 horas, minuto 17 (UTC)
-    - cron: "47 */2 * * *"   # respaldo: solo corre si la última recolección tiene más de 90 min
+    - cron: "17 */2 * * *"   # respaldo del reloj (reloj.yml): solo corre si la última recolección tiene más de 90 min
+    - cron: "47 */2 * * *"   # ídem
   push:
     branches: [main]
     paths:
@@ -31,13 +31,15 @@ jobs:
       url: ${{ steps.publicar.outputs.page_url || steps.publicar2.outputs.page_url || steps.publicar3.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      # GitHub a veces demora o saltea las corridas programadas. El horario de respaldo (minuto 47)
-      # mira la hora de la última recolección y sigue solo si pasaron más de 90 minutos.
+      # El ritmo de 2 horas lo marca reloj.yml. Los horarios de abajo son respaldo: miran la hora de
+      # la última recolección y siguen solo si pasaron más de 90 minutos.
       - id: ver
         env:
           HORARIO: ${{ github.event.schedule }}
         run: |
-          if [ "$HORARIO" != "47 */2 * * *" ]; then echo "correr=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          # Lanzada por el reloj, a mano o por un cambio: corre siempre. Por horario (respaldo): solo si
+          # la última recolección tiene más de 90 minutos, para no duplicar la del reloj.
+          if [ -z "$HORARIO" ]; then echo "correr=true" >> "$GITHUB_OUTPUT"; exit 0; fi
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
           import json, sys
           from datetime import datetime, timezone

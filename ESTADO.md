@@ -39,6 +39,8 @@
 | 25/11 | Aprobado por Nico: la publicación en Pages se reintenta hasta 3 veces (esperas de 15 s y 45 s) cuando GitHub todavía no lista el paquete recién subido. |
 | 25/11 | Aprobado por Nico: títulos de tema (a) el título de cada nota se actualiza si el diario lo cambia; (b) el tema toma su nombre de la última nota de cada diario, eligiendo la que más se parece a las demás. |
 | 25/11 | Aprobado por Nico: pantalla «Temas» como pestaña nueva (sin sacar Hoy ni Semana), con el bloque «Tu día» (clima, dólar, paros y transporte) y la regla de notas de servicio ampliada. |
+| 25/11 | Aprobado por Nico (opción A): las corridas cada 2 h las marca una cadena en GitHub (`reloj.yml`): lanza la recolección, espera 120 min en el entorno «reloj» (wait timer, sin ocupar máquinas) y se relanza. Los horarios de `recolectar.yml` quedan de respaldo (solo corren si la última recolección tiene más de 90 min). Nada depende de intervenciones a mano. |
+| 25/11 | Indicador de puesto: se mantiene el número y se explica («¿Qué significa el número?», «8 de 9 diarios · En la tapa de 3», «Por qué está Nº 1»). Maqueta v6 en revisión de Nico antes de programarla. |
 | 24/11 | Calibración 1: Sindicales gana sobre cualquier sección; Ciudad solo sobre secciones genéricas; se descartan notas automáticas (clima, quiniela, horóscopo). Cada corrida reaplica las reglas a toda la semana. |
 
 ## Pendientes del usuario

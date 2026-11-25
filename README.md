@@ -7,7 +7,7 @@ Los temas de la semana y de hoy, comparados entre diarios nacionales argentinos.
 
 ## Cómo funciona
 
-Cada 2 horas, GitHub Actions:
+Cada 2 horas (marcado por `.github/workflows/reloj.yml`, una cadena que espera 120 min en el entorno «reloj» y se relanza sola), GitHub Actions:
 
 1. **Recolecta** (`informado/recolectar.py`) los RSS y sitemaps de 9 diarios (`config/fuentes.yaml`). De cada nota guarda solo título, bajada breve, fecha, sección y enlace. También registra la posición de cada nota en la home del diario.
 2. **Clasifica** cada nota en Política, Economía, Internacionales, Sindicales, Ciudad o Fútbol (`config/temas.yaml`).
