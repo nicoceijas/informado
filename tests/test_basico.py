@@ -201,3 +201,16 @@ def test_poda_encadenadas():
     # Si el lazo es fuerte, no se poda.
     sim2 = np.array([[1, .5, .45], [.5, 1, 0], [.45, 0, 1]])
     assert podar([0, 1, 2], sim2) == ([0, 1, 2], [])
+
+
+def test_indicadores_sin_red(monkeypatch, tmp_path):
+    import informado.indicadores as I
+    html = '<table><tr><td class="tit">Dolar U.S.A</td><td>1.440,00</td><td>1.490,00</td></tr></table> 25/11/2026'
+    monkeypatch.setattr(I, "bajar", lambda url, **k: html if "bna" in url else (_ for _ in ()).throw(OSError("sin red")))
+    assert I.dolar_bna() == {"compra": 1440.0, "venta": 1490.0, "fecha": "2026-11-25", "fuente": "Banco Nación",
+                             "url": "https://www.bna.com.ar/Personas"}
+    # Si la fuente falla, queda el último valor conocido, marcado como no actualizado.
+    previo = {"valor": 650, "fecha": "2026-11-24", "fuente": "x", "url": "y"}
+    reg = {}
+    assert I.obtener("riesgo_pais", I.riesgo_pais, previo=previo, registro=reg) == {**previo, "actualizado": False}
+    assert reg["riesgo_pais"]

@@ -67,6 +67,10 @@ jobs:
       - name: Agrupar temas
         if: steps.ver.outputs.correr == 'true'
         run: python -m informado.agrupar
+      - name: Indicadores (dólar, riesgo país, inflación)
+        if: steps.ver.outputs.correr == 'true'
+        continue-on-error: true   # si una fuente falla, queda el último valor y la corrida sigue
+        run: python -m informado.indicadores
       - name: Guardar datos
         if: steps.ver.outputs.correr == 'true'
         run: |
@@ -81,6 +85,7 @@ jobs:
           mkdir -p _sitio/datos
           cp app/* _sitio/
           cp datos/temas/actual.json datos/temas/notas_semana.json _sitio/datos/
+          if [ -f datos/indicadores.json ]; then cp datos/indicadores.json _sitio/datos/; fi
       - uses: actions/configure-pages@v5
         if: steps.ver.outputs.correr == 'true'
         with:
