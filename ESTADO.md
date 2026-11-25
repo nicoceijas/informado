@@ -89,6 +89,8 @@ La revisión diaria trae estos temas el día indicado. No se implementan sin una
 
 - **25/11 (tarde):** la publicación en Pages volvió a andar desde las 12:08 UTC gracias al reintento (el primer intento sigue fallando y el segundo publica). En cambio, las corridas programadas siguen sin dispararse: después de las 12:16 no hubo ni la de las 13:17 ni el respaldo de las 13:47. A las 14:21 se lanzó una corrida a mano. *Propuesta:* si sigue así, que una tarea programada de Claude dispare el workflow cada 2 horas, en lugar de depender del `schedule` de GitHub. No tiene costo, pero es infraestructura nueva y necesita la aprobación de Nico.
 
+- **25/11 (18:27 UTC):** Nico configuró la espera de 120 min en el entorno «reloj» y la cadena arrancó: lanzó la recolección, y su paso «esperar» quedó en espera («waiting»), como corresponde. Entre las 15:24 y las 18:27 el horario de GitHub no disparó ninguna corrida, lo que confirma que hacía falta la cadena. Para verificar en la revisión diaria: que haya una corrida de «Reloj (cada 2 horas)» cada ~2 h y una recolección lanzada por cada una.
+
 ## Datos
 
 - Notas: `datos/notas/AAAA-MM-DD.json` (por fecha de publicación, hora argentina). Se conservan 21 días.
