@@ -95,3 +95,29 @@ def test_agrupador_puntaje():
     uno = puntuar([{"diario": "a", "dia": "2026-11-24"}, {"diario": "b", "dia": "2026-11-24"}])[0]
     muchos = puntuar([{"diario": d, "dia": f"2026-11-2{i}", "home_mejor_pos": 1} for i, d in enumerate("abcdef")])[0]
     assert 0 < uno < muchos <= 100
+
+
+def test_espectaculos_a_otros():
+    assert tema("Jennifer Barreto, de Puerto Rico, ganó Miss Universo 2026", "internacional") == "otros"
+    assert tema("Elecciones en Chile", "el-mundo") == "internacionales"
+
+
+def test_deduplicar():
+    from informado.agrupar import deduplicar
+    cfg = {"diarios": {"perfil": {"id_en_url": "-([A-Za-z0-9]{12})/?$"}, "ambito": {}}}
+    notas = [
+        {"diario": "perfil", "url": "https://www.perfil.com/economia/argentina-entro-en-recesion-aWvO15i42sut",
+         "titulo": "Argentina entró en recesión", "fecha": "2026-11-24T19:09:58+00:00", "visto_ultimo": "2026-11-24T19:20:00+00:00"},
+        {"diario": "perfil", "url": "https://perfil.com/economia/argentina-entro-en-recesion-aWvO15i42sut",
+         "titulo": "Argentina entró en recesión", "fecha": "2026-11-24T19:09:58+00:00", "visto_ultimo": "2026-11-24T21:20:00+00:00"},
+        {"diario": "perfil", "url": "https://www.perfil.com/economia/la-actividad-entro-en-recesion-aWvO15i42sut",
+         "titulo": "La actividad entró en recesión", "fecha": "2026-11-24T19:09:58+00:00", "visto_ultimo": "2026-11-25T05:15:00+00:00"},
+        {"diario": "ambito", "url": "https://www.ambito.com/informacion-general/alerta-n6348454",
+         "titulo": "Alerta amarilla", "fecha": "2026-11-24T01:51:00+00:00", "visto_ultimo": "2026-11-24T03:00:00+00:00"},
+        {"diario": "ambito", "url": "https://www.ambito.com/informacion-general/alerta-n6348454",
+         "titulo": "Buen tiempo en el AMBA", "fecha": "2026-11-25T02:45:00+00:00", "visto_ultimo": "2026-11-25T05:15:00+00:00"},
+        {"diario": "ambito", "url": "https://www.ambito.com/economia/otra-nota-n6348999",
+         "titulo": "Otra nota", "fecha": "2026-11-25T02:45:00+00:00", "visto_ultimo": "2026-11-25T05:15:00+00:00"},
+    ]
+    titulos = sorted(n["titulo"] for n in deduplicar(notas, cfg))
+    assert titulos == ["Buen tiempo en el AMBA", "La actividad entró en recesión", "Otra nota"]

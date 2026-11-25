@@ -32,6 +32,9 @@
 | 25/11 | Regla: ningún cambio sin consulta previa (ver CLAUDE.md). Se revirtió la apertura de notas en Chrome, que se había hecho sin pedirla; Nico no usa Chrome. |
 | 25/11 | Por ahora solo nicoceijas puede enviar feedback: la calibración semanal ignora los issues de otros autores. |
 | 25/11 | El modo lectura muestra título y bajada; el texto completo se lee en el sitio del diario (no se copia ni se guarda el cuerpo de las notas). |
+| 25/11 | Aprobado por Nico: deduplicar notas para temas y búsqueda (URL sin «www» ni barra final, id propio de Perfil, entre días distintos; queda la versión vista por última vez; los archivos de datos no se tocan). |
+| 25/11 | Aprobado por Nico: las notas de servicio («dólar hoy», «dólar blue hoy», «cómo estará el clima/el tiempo») no forman temas; siguen en la búsqueda y en «Afecta tu día». Lista en `servicio_sin_tema` de `config/fuentes.yaml`. |
+| 25/11 | Aprobado por Nico: «miss universo», «reality» y «farándula» mandan la nota a «otros» aunque la sección tenga tema (`palabras_otros` en `config/temas.yaml`). |
 | 24/11 | Calibración 1: Sindicales gana sobre cualquier sección; Ciudad solo sobre secciones genéricas; se descartan notas automáticas (clima, quiniela, horóscopo). Cada corrida reaplica las reglas a toda la semana. |
 
 ## Pendientes del usuario
@@ -44,7 +47,7 @@
 - [x] Relevar feeds RSS y sitemaps de cada diario.
 - [x] Tabla de secciones de cada diario → Política, Economía, Internacionales, Sindicales, Ciudad, Fútbol.
 - [ ] Crónica: leer la home directamente (versión 1.1).
-- [x] Recolector (cada 2 h, minuto 17 UTC) y clasificador de temas, con 11 pruebas.
+- [x] Recolector (cada 2 h, minuto 17 UTC) y clasificador de temas, con 14 pruebas.
 - [x] Agrupador y puntaje (umbral 0,30, ventana 72 h, grupos de más de 35 notas se parten).
 - [x] App web instalable: Hoy, Semana, Tema comparado, Armá tu semana, Guardadas, búsqueda de temas propios, feedback como issue.
 - [x] Modo lectura (25/11): una nota por pantalla con título y bajada en letra grande, tamaño ajustable, tema oscuro, deslizar para pasar de nota. Desde cada tema y desde Guardadas.
@@ -54,17 +57,14 @@
 
 ## Propuestas pendientes de aprobación
 
-Detectadas en la revisión diaria. No se aplicó ninguna; cada una espera el «sí» o el «no» de Nico.
-
-1. **Las corridas programadas casi no se disparan (25/11).** Entre el 24/11 19:30 y el 25/11 09:45 UTC hubo una sola corrida programada (03:34) de las ~7 esperadas cada 2 h; los datos quedaron 4,5 h sin actualizar. Es una limitación conocida del `schedule` de GitHub Actions (demora o saltea corridas). *Cambio sugerido, a elegir:* (a) agregar un segundo horario en el mismo workflow (por ejemplo minutos 17 y 47) para que, si se saltea uno, entre el otro; o (b) que la revisión diaria dispare una corrida manual cuando la última tenga más de 3 h. Ninguna tiene costo.
-2. **Notas repetidas dentro de un tema.** En «recesión técnica» la misma nota de Perfil (id `aWvO15i42sut`) aparece 3 veces porque cambió el slug y una vez vino sin `www`. En «clima AMBA» una nota de Ámbito (`…n6348454`) figura dos veces con fechas y títulos distintos (el diario la retituló al día siguiente y quedó guardada en dos días). Inflan la cantidad de notas del tema. *Cambio sugerido:* deduplicar por URL normalizada (sin `www`, y por el id final de la nota cuando el diario lo tiene) también entre días distintos, quedándose con la versión más reciente.
-3. **Títulos de tema desactualizados.** El tema principal de la semana se titula «El Indec publica el dato que confirmará si la economía entró en recesión técnica», cuando 24 de sus 30 notas ya informan que entró. El del dólar se titula «a cuánto cerró este jueves 19 de noviembre». *Cambio sugerido:* elegir el título entre las notas de las últimas 24 h del tema (la más representativa de ese tramo), no entre todas.
-4. **Notas de servicio que se cuelan como temas.** «Dólar blue hoy» (35 notas, puesto 7 de la semana y en Hoy) y «Buen tiempo en el AMBA y alertas…» (Ciudad, puesto 9) son cotizaciones y pronósticos diarios, no temas de debate. Las exclusiones actuales («clima hoy en», «pronostico del tiempo para») no los atrapan. *Cambio sugerido:* sumar a `excluir_titulos` patrones como «dolar blue hoy», «dolar hoy», «como estara el clima», «como estara el tiempo», o que esos grupos no puedan ser propuestos.
-5. **Miss Universo clasificado como Internacionales** y propuesto en Hoy (tema `e5836b66f2`, 19 notas de Clarín e Infobae). Entra por la sección `internacional/` de la URL. *Cambio sugerido:* palabras clave de espectáculos/certámenes (miss universo, reality, farándula) que manden la nota a «otros» por encima de la sección.
+1. **Corridas que no se disparan** (revisión del 25/11). **Aprobada el 25/11; falta elegir la variante.** (a) Sumar un segundo horario de respaldo (minuto 47) que solo corre si la última recolección tiene más de 90 min, así se mantiene el ritmo de 2 h. (b) Que la revisión diaria dispare una corrida a mano cuando la última tenga más de 3 h.
+2. **Títulos de tema desactualizados.** **En conversación, no aprobada.** Nico señaló que tomar «las últimas 24 h» no resuelve el caso del Indec: dentro de esas 24 h conviven «confirmará si…» y «entró en recesión». Nueva propuesta: tomar la última nota de cada diario y elegir la que más se parece a las demás. El título cambia cuando la mayoría de los diarios cambió su manera de contarlo, no por un reloj. Simulación con los datos reales del tema Indec: a las 15:00 del 24/11 (antes del dato), «El INDEC publica un dato clave… que confirmaría la recesión técnica»; a las 16:30, a las 18:00 y el 25/11, «…Argentina entró en recesión técnica». Con el criterio actual sigue diciendo «confirmará». Probé y descarté «la nota más reciente» y «las últimas 8 notas»: elegían notas laterales (Caputo celebró el EMAE, «Golearon a Palmeiras…»).
+3. **Pantalla «Temas» con todo a la vista.** **Pedido de Nico el 25/11; diseño en consulta.** Una sola pantalla con Hoy/Semana arriba, un campo fijo «Agregar un tema…» (busca entre los demás temas para sumarlos o lo agrega como tema propio) y la lista compacta de temas agrupada por sección, con una fila por tema. Al tocar una fila se despliegan las notas, una por diario, con «Tema completo», «Modo lectura» y «Sacar de mi semana». Maqueta con datos reales enviada en la conversación.
+4. **Pronósticos que siguen pasando** (visto al probar la regla de servicio). «Semana de calor en el AMBA: qué días la temperatura estará por encima de los 30 grados» (5 notas) quedó propuesto en Ciudad. Los patrones aprobados no lo atrapan. *Cambio sugerido:* sumar «temperatura estara», «que dias» + «calor», o excluir los grupos donde todas las notas sean de clima.
 
 ## Revisiones diarias
 
-- **25/11:** 9 diarios, 0 errores, 3.391 notas en 7 días. La corrida programada de las 03:34 falló al publicar en Pages (error transitorio de GitHub; las siguientes publicaron bien). Como no hubo corridas programadas después de las 05:15, se disparó una corrida manual a las 09:45 (sin cambios de código): recolectó 154 notas nuevas y publicó bien. Propuestas 1 a 5 arriba.
+- **25/11:** 9 diarios, 0 errores, 3.391 notas en 7 días. La corrida programada de las 03:34 falló al publicar en Pages (error transitorio de GitHub; las siguientes publicaron bien). Como no hubo corridas programadas después de las 05:15, se disparó una corrida manual a las 09:45 (sin cambios de código): recolectó 154 notas nuevas y publicó bien. Cinco propuestas. El 25/11 Nico aprobó deduplicar, excluir las notas de servicio y mandar Miss Universo a «otros» (aplicadas), y también el respaldo de corridas (falta elegir variante). El título de los temas sigue en conversación.
 
 ## Datos
 

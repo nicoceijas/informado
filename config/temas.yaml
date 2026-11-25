@@ -69,6 +69,10 @@ secciones_otros: [espectaculos, entretenimiento, teleshow, fama, lifestyle, tecn
                   ciencia, ciencia-y-tecnologia, salud, autos, turismo, cultura, policiales, seguridad,
                   opinion, opiniones, columnistas, tenis, basquet, poli, automovilismo]
 
+# Palabras que mandan la nota a "otros" aunque venga de una sección con tema
+# (p. ej. Miss Universo publicado en "internacional"). (Aprobado 25/11.)
+palabras_otros: [miss universo, reality, farandula]
+
 # Secciones genéricas: no definen tema por sí solas, se decide por palabras clave.
 secciones_genericas: [sociedad, informacion-general, informacion-gral, general, ultimo, actualidad,
                       ambito-nacional, ambito-debate, provincia]

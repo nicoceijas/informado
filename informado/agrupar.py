@@ -14,9 +14,11 @@ Uso: python -m informado.agrupar
 import hashlib
 import json
 import math
+import re
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 import numpy as np
 import snowballstemmer
@@ -145,29 +147,59 @@ def resumen_nota(n):
     return {k: n.get(k) for k in ("id", "diario", "titulo", "bajada", "url", "fecha", "edicion_impresa", "home_mejor_pos")}
 
 
+def clave_nota(n, patrones_id):
+    """Identifica la nota más allá de la URL exacta: sin «www», sin barra final y, si el diario
+    pone un id propio en la URL (config: id_en_url), por ese id aunque cambie el resto."""
+    p = urlparse(n["url"])
+    patron = patrones_id.get(n["diario"])
+    if patron:
+        m = re.search(patron, p.path)
+        if m:
+            return n["diario"], "id:" + m.group(1)
+    return n["diario"], p.netloc.lower().removeprefix("www.") + p.path.rstrip("/")
+
+
+def deduplicar(notas, cfg_fuentes):
+    """Una sola versión de cada nota: la que se vio por última vez (título vigente).
+    Los archivos de datos no se tocan; esto rige para los temas y la búsqueda."""
+    patrones = {k: d["id_en_url"] for k, d in cfg_fuentes["diarios"].items() if d.get("id_en_url")}
+    elegidas = {}
+    for n in notas:
+        k = clave_nota(n, patrones)
+        actual = elegidas.get(k)
+        if actual is None or (n.get("visto_ultimo", ""), n["fecha"]) > (actual.get("visto_ultimo", ""), actual["fecha"]):
+            elegidas[k] = n
+    return list(elegidas.values())
+
+
 def main():
     ahora = datetime.now(timezone.utc)
     hoy = ahora.astimezone(AR).date()
     todas = []
     for f in sorted(NOTAS.glob("*.json")):
         todas.extend(json.loads(f.read_text(encoding="utf-8")).values())
+    cfg_fuentes = yaml.safe_load((RAIZ / "config/fuentes.yaml").read_text(encoding="utf-8"))
+    todas = deduplicar(todas, cfg_fuentes)
     for n in todas:
         n["_t"] = datetime.fromisoformat(n["fecha"]).timestamp()
         n["dia"] = datetime.fromisoformat(n["fecha"]).astimezone(AR).date().isoformat()
+    servicio = [normalizar(t) for t in cfg_fuentes.get("servicio_sin_tema", [])]
 
     # IDF sobre todo lo retenido (3 semanas): define qué es "habitual".
     vec = TfidfVectorizer(analyzer=tokens, sublinear_tf=True, min_df=2, max_df=0.25)
     vec.fit([texto_nota(n) for n in todas])
 
     desde = ahora - timedelta(days=7)
-    semana = [n for n in todas if n["tema"] != "otros" and n["_t"] >= desde.timestamp()]
+    semana_todas = [n for n in todas if n["tema"] != "otros" and n["_t"] >= desde.timestamp()]
+    # Las notas de servicio (cotización del día, pronóstico) no forman temas; siguen en la búsqueda
+    # y en «Afecta tu día».
+    semana = [n for n in semana_todas if not any(x in normalizar(n["titulo"]) for x in servicio)]
     X = vec.transform([texto_nota(n) for n in semana])
     sim = (X @ X.T).toarray()
     tiempos = [n["_t"] for n in semana]
     grupos = agrupar(list(range(len(semana))), sim, tiempos, PARAMS["umbral"])
     terminos = np.array(vec.get_feature_names_out())
 
-    cfg_fuentes = yaml.safe_load((RAIZ / "config/fuentes.yaml").read_text(encoding="utf-8"))
     cfg_temas = yaml.safe_load((RAIZ / "config/temas.yaml").read_text(encoding="utf-8"))
     nombres_seccion = {k: t["nombre"] for k, t in cfg_temas["temas"].items()}
 
@@ -274,7 +306,7 @@ def main():
     SALIDA.mkdir(parents=True, exist_ok=True)
     (SALIDA / "actual.json").write_text(json.dumps(resultado, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     busqueda = [{"i": n["id"], "d": n["diario"], "t": n["titulo"], "u": n["url"], "f": n["fecha"][:16], "s": n["tema"]}
-                for n in sorted(semana, key=lambda n: -n["_t"])]
+                for n in sorted(semana_todas, key=lambda n: -n["_t"])]
     (SALIDA / "notas_semana.json").write_text(json.dumps(busqueda, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(json.dumps(resultado["estadisticas"], ensure_ascii=False), "propuestos:", len(propuestos), "hoy:", len(hoy_ids), "afecta:", len(afecta))
 

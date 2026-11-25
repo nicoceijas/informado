@@ -2,6 +2,7 @@
 
 Orden de decisión (documentado también en config/temas.yaml):
   1. Sección en `secciones_otros` → otros.
+  1b. Palabras de `palabras_otros` (espectáculos, certámenes) → otros, aunque la sección tenga tema.
   2. Temas con prioridad alta (Sindicales) si hay coincidencia de palabras clave.
   2b. Temas con prioridad media (Ciudad), solo en secciones genéricas o desconocidas.
   3. Sección que pertenece a un tema.
@@ -17,6 +18,7 @@ class Clasificador:
     def __init__(self, cfg_temas: dict):
         self.temas = cfg_temas["temas"]
         self.otros = set(cfg_temas.get("secciones_otros", []))
+        self.palabras_otros = cfg_temas.get("palabras_otros", [])
         self.genericas = set(cfg_temas.get("secciones_genericas", []))
         self.por_seccion = {}
         for clave, t in self.temas.items():
@@ -40,6 +42,10 @@ class Clasificador:
 
         if sec in self.otros:
             return "otros", f"seccion:{sec}"
+
+        hallado = coincidencias(texto, self.palabras_otros)
+        if hallado:
+            return "otros", f"palabras_otros:{','.join(sorted(set(hallado))[:3])}"
 
         for clave in ([] if sec in self.sin_prioridad else self.alta):
             hallado = coincidencias(texto, self.temas[clave].get("palabras", []))

@@ -33,6 +33,14 @@ excluir_titulos:
   - horoscopo
   - loteria
 
+# Notas de servicio que se guardan (sirven para la búsqueda y «Afecta tu día») pero no forman
+# temas: cotización del día y pronóstico. Se comparan contra el título normalizado. (Aprobado 25/11.)
+servicio_sin_tema:
+  - dolar blue hoy
+  - dolar hoy
+  - como estara el clima
+  - como estara el tiempo
+
 diarios:
   clarin:
     nombre: Clarín
@@ -111,6 +119,8 @@ diarios:
     nombre: Perfil
     home: https://www.perfil.com
     impreso: true
+    # Perfil cierra cada URL con un id propio y a veces cambia el resto (título) o el «www».
+    id_en_url: '-([A-Za-z0-9]{12})/?$'
     rss:
       ultimo: https://www.perfil.com/feed
       mundo: https://www.perfil.com/feed/internacional
