@@ -35,7 +35,7 @@
 | 25/11 | Aprobado por Nico: deduplicar notas para temas y búsqueda (URL sin «www» ni barra final, id propio de Perfil, entre días distintos; queda la versión vista por última vez; los archivos de datos no se tocan). |
 | 25/11 | Aprobado por Nico: las notas de servicio («dólar hoy», «dólar blue hoy», «cómo estará el clima/el tiempo») no forman temas; siguen en la búsqueda y en «Afecta tu día». Lista en `servicio_sin_tema` de `config/fuentes.yaml`. |
 | 25/11 | Aprobado por Nico: «miss universo», «reality» y «farándula» mandan la nota a «otros» aunque la sección tenga tema (`palabras_otros` en `config/temas.yaml`). |
-| 25/11 | Aprobado por Nico (opción A): horario de respaldo en el minuto 47 de cada hora par; corre solo si la última recolección tiene más de 90 min. Así el ritmo sigue siendo de 2 h aunque GitHub saltee una corrida programada. |
+| 25/11 | Aprobado por Nico (opción A, aplicada): horario de respaldo en el minuto 47 de cada hora par; corre solo si la última recolección tiene más de 90 min. Así el ritmo sigue siendo de 2 h aunque GitHub saltee una corrida programada. |
 | 24/11 | Calibración 1: Sindicales gana sobre cualquier sección; Ciudad solo sobre secciones genéricas; se descartan notas automáticas (clima, quiniela, horóscopo). Cada corrida reaplica las reglas a toda la semana. |
 
 ## Pendientes del usuario
@@ -58,9 +58,17 @@
 
 ## Propuestas pendientes de aprobación
 
-1. **Títulos de tema desactualizados.** **En conversación, no aprobada.** Nico señaló que tomar «las últimas 24 h» no resuelve el caso del Indec: dentro de esas 24 h conviven «confirmará si…» y «entró en recesión». Nueva propuesta: tomar la última nota de cada diario y elegir la que más se parece a las demás. El título cambia cuando la mayoría de los diarios cambió su manera de contarlo, no por un reloj. Simulación con los datos reales del tema Indec: a las 15:00 del 24/11 (antes del dato), «El INDEC publica un dato clave… que confirmaría la recesión técnica»; a las 16:30, a las 18:00 y el 25/11, «…Argentina entró en recesión técnica». Con el criterio actual sigue diciendo «confirmará». Probé y descarté «la nota más reciente» y «las últimas 8 notas»: elegían notas laterales (Caputo celebró el EMAE, «Golearon a Palmeiras…»).
-2. **Pantalla «Temas» con todo a la vista.** **Pedido de Nico el 25/11; diseño en consulta.** Una sola pantalla con Hoy/Semana arriba, un campo fijo «Agregar un tema…» (busca entre los demás temas para sumarlos o lo agrega como tema propio) y la lista compacta de temas agrupada por sección, con una fila por tema. Al tocar una fila se despliegan las notas, una por diario, con «Tema completo», «Modo lectura» y «Sacar de mi semana». Maqueta con datos reales enviada en la conversación.
-3. **Pronósticos que siguen pasando** (visto al probar la regla de servicio). «Semana de calor en el AMBA: qué días la temperatura estará por encima de los 30 grados» (5 notas) quedó propuesto en Ciudad. Los patrones aprobados no lo atrapan. *Cambio sugerido:* sumar «temperatura estara», «que dias» + «calor», o excluir los grupos donde todas las notas sean de clima.
+1. **Títulos de tema desactualizados.** **En conversación, no aprobada.** Hay dos cosas distintas:
+   - *(a) Seguir el título que el diario le cambia a una misma nota (idea de Nico).* Hoy el recolector guarda el primer título y no lo actualiza cuando la misma URL vuelve con otro. *Cambio sugerido:* actualizar título y bajada cada vez que la nota vuelve en el feed, y anotar el título anterior. Desde la calibración 2, la versión que se usa es la vista por última vez.
+   - *(b) Elegir cuál de las notas del tema le da el nombre.* En el caso Indec el título viejo no es una nota que cambió: es otra nota, publicada antes del dato (Diario Popular, 23/11 23:19), que nunca dijo otra cosa. Las de «entró en recesión» son notas nuevas, de las 16:00 en adelante. Con (a) solo, el tema seguiría llamándose «confirmará». *Cambio sugerido:* tomar la última nota de cada diario y elegir la que más se parece a las demás. Simulación con datos reales: antes del dato elige «…confirmaría la recesión técnica»; desde las 16:30, «…entró en recesión técnica».
+2. **Pantalla «Temas» con todo a la vista.** **Pedido de Nico el 25/11; en consulta.** Versión 1 de la maqueta: Nico dice que mejoró. Versión 2: suma el bloque «Tu día».
+3. **«Tu día» en lugar de «Afecta tu día».** **Pedido de Nico el 25/11; diseño en consulta.** Problemas que marcó: todo está al mismo nivel, hay varias notas de clima, el mismo paro aparece repetido, cuesta llegar al panel y el naranja con el ícono de alerta asusta cuando no corresponde. Ejemplos de hoy: «alerta naranja» que no es para el AMBA y «se diluyó el paro de la UTA». *Propuesta:* un bloque arriba de Hoy, cerrado por defecto, con tres filas:
+   - **Clima:** las notas del pronóstico de hoy juntas, con un estado («sin alerta para el AMBA» o «alerta en el AMBA»).
+   - **Dólar:** las notas de cotización del día juntas.
+   - **Paros y transporte:** un renglón por asunto, no por nota. Por ejemplo «UTA · colectivos AMBA», con un estado («Hoy», «Anunciado», «Sin paro») y sus notas adentro.
+   
+   Colores neutros. Solo «Hoy» va en rojo suave. Maqueta v2 enviada en la conversación.
+4. **Notas de servicio que todavía pasan** (vistas en la corrida de las 11:20). En Hoy aparecen «ANSES: quiénes cobran hoy», «Ethereum hoy: la cotización» y «Dólar tarjeta hoy: a cuánto cotiza». En Semana sigue «Semana de calor en el AMBA…». *Cambio sugerido:* una regla más general («… hoy: a cuánto cotiza», «quiénes cobran», «temperatura»/«calor» + AMBA) en vez de frases exactas. Encaja con la propuesta 3: el dólar tarjeta va a Dólar, el calor a Clima, y los cobros de ANSES quedan fuera de temas.
 
 ## Revisiones diarias
 
