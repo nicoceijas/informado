@@ -85,6 +85,8 @@ La revisión diaria trae estos temas el día indicado. No se implementan sin una
 
 - **25/11 (mediodía):** desde las 11:35 UTC la publicación en Pages falla en todas las corridas («No artifacts named github-pages were found», justo después de subirlo bien). Ya había pasado a las 03:34 con el workflow original. Para descartar el cambio del respaldo, el control volvió a un solo trabajo, y sigue fallando igual. Todo indica un problema de GitHub. La recolección y los datos se guardan bien; la app muestra los datos de las 11:20 hasta que Pages vuelva a publicar.
 
+- **25/11 (tarde):** la publicación en Pages volvió a andar desde las 12:08 UTC gracias al reintento (el primer intento sigue fallando y el segundo publica). En cambio, las corridas programadas siguen sin dispararse: después de las 12:16 no hubo ni la de las 13:17 ni el respaldo de las 13:47. A las 14:21 se lanzó una corrida a mano. *Propuesta:* si sigue así, que una tarea programada de Claude dispare el workflow cada 2 horas, en lugar de depender del `schedule` de GitHub. No tiene costo, pero es infraestructura nueva y necesita la aprobación de Nico.
+
 ## Datos
 
 - Notas: `datos/notas/AAAA-MM-DD.json` (por fecha de publicación, hora argentina). Se conservan 21 días.
