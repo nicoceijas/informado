@@ -3,6 +3,7 @@ name: Recolectar, agrupar y publicar
 on:
   schedule:
     - cron: "17 */2 * * *"   # cada 2 horas, minuto 17 (UTC)
+    - cron: "47 */2 * * *"   # respaldo: solo corre si la última recolección tiene más de 90 min
   push:
     branches: [main]
     paths:
@@ -22,7 +23,37 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # GitHub a veces demora o saltea las corridas programadas. El horario de respaldo (minuto 47)
+  # mira la hora de la última recolección y sigue solo si pasaron más de 90 minutos.
+  control:
+    runs-on: ubuntu-latest
+    outputs:
+      correr: ${{ steps.ver.outputs.correr }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: datos/ultima_recoleccion.json
+          sparse-checkout-cone-mode: false
+      - id: ver
+        env:
+          HORARIO: ${{ github.event.schedule }}
+        run: |
+          if [ "$HORARIO" != "47 */2 * * *" ]; then echo "correr=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          from datetime import datetime, timezone
+          try:
+              inicio = datetime.fromisoformat(json.load(open("datos/ultima_recoleccion.json"))["inicio"])
+              minutos = (datetime.now(timezone.utc) - inicio).total_seconds() / 60
+          except Exception:
+              minutos = 9999
+          print(f"correr={'true' if minutos > 90 else 'false'}")
+          import sys; print(f"Última recolección hace {minutos:.0f} min", file=sys.stderr)
+          PY
+
   recolectar:
+    needs: control
+    if: needs.control.outputs.correr == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     environment:
