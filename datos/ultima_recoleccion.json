@@ -1,20 +1,20 @@
 {
- "inicio": "2026-11-25T11:19:06+00:00",
+ "inicio": "2026-11-25T11:36:22+00:00",
  "fuentes": {
   "clarin/home": {
-   "enlaces": 118
+   "enlaces": 119
   },
   "clarin/rss:politica": {
    "leidas": 10,
    "nuevas": 0,
-   "actualizadas": 2,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "clarin/rss:economia": {
    "leidas": 10,
    "nuevas": 0,
-   "actualizadas": 0,
+   "actualizadas": 2,
    "excluidas": 0,
    "viejas": 0
   },
@@ -28,7 +28,7 @@
   "clarin/rss:sociedad": {
    "leidas": 10,
    "nuevas": 0,
-   "actualizadas": 3,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
@@ -49,75 +49,75 @@
   "clarin/rss:ultimo": {
    "leidas": 10,
    "nuevas": 0,
-   "actualizadas": 0,
-   "excluidas": 5,
+   "actualizadas": 10,
+   "excluidas": 0,
    "viejas": 0
   },
   "clarin/sitemap:sitemap": {
-   "leidas": 991,
-   "nuevas": 49,
+   "leidas": 989,
+   "nuevas": 2,
    "actualizadas": 0,
-   "excluidas": 526,
+   "excluidas": 523,
    "viejas": 0
   },
   "lanacion/home": {
-   "enlaces": 143
+   "enlaces": 145
   },
   "lanacion/rss:ultimo": {
    "leidas": 92,
-   "nuevas": 42,
-   "actualizadas": 0,
-   "excluidas": 28,
+   "nuevas": 3,
+   "actualizadas": 2,
+   "excluidas": 27,
    "viejas": 0
   },
   "lanacion/rss:politica": {
    "leidas": 67,
-   "nuevas": 1,
-   "actualizadas": 2,
+   "nuevas": 0,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "lanacion/rss:economia": {
    "leidas": 91,
-   "nuevas": 1,
-   "actualizadas": 15,
+   "nuevas": 0,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 1
   },
   "lanacion/rss:mundo": {
    "leidas": 51,
    "nuevas": 0,
-   "actualizadas": 4,
+   "actualizadas": 0,
    "excluidas": 7,
    "viejas": 1
   },
   "lanacion/rss:sociedad": {
-   "leidas": 69,
+   "leidas": 70,
    "nuevas": 0,
-   "actualizadas": 14,
+   "actualizadas": 2,
    "excluidas": 0,
    "viejas": 0
   },
   "lanacion/rss:deportes": {
-   "leidas": 65,
+   "leidas": 66,
    "nuevas": 0,
-   "actualizadas": 3,
+   "actualizadas": 1,
    "excluidas": 0,
    "viejas": 1
   },
   "lanacion/sitemap:sitemap": {
    "leidas": 1000,
-   "nuevas": 1,
-   "actualizadas": 7,
-   "excluidas": 652,
-   "viejas": 19
+   "nuevas": 2,
+   "actualizadas": 5,
+   "excluidas": 654,
+   "viejas": 20
   },
   "pagina12/home": {
    "enlaces": 58
   },
   "pagina12/rss:ultimo": {
    "leidas": 25,
-   "nuevas": 2,
+   "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 1,
    "viejas": 0
@@ -125,44 +125,44 @@
   "pagina12/sitemap:sitemap": {
    "leidas": 100,
    "nuevas": 0,
-   "actualizadas": 2,
+   "actualizadas": 0,
    "excluidas": 1,
    "viejas": 0
   },
   "infobae/home": {
-   "enlaces": 90
+   "enlaces": 91
   },
   "infobae/rss:politica": {
    "leidas": 100,
-   "nuevas": 1,
+   "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "infobae/rss:economia": {
    "leidas": 100,
-   "nuevas": 1,
+   "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 4,
    "viejas": 0
   },
   "infobae/rss:mundo": {
    "leidas": 100,
-   "nuevas": 0,
+   "nuevas": 1,
    "actualizadas": 0,
    "excluidas": 1,
    "viejas": 0
   },
   "infobae/rss:sociedad": {
    "leidas": 100,
-   "nuevas": 2,
+   "nuevas": 1,
    "actualizadas": 0,
    "excluidas": 1,
    "viejas": 0
   },
   "infobae/rss:deportes": {
    "leidas": 100,
-   "nuevas": 2,
+   "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 3,
    "viejas": 0
@@ -172,15 +172,15 @@
   },
   "ambito/rss:ultimo": {
    "leidas": 20,
-   "nuevas": 3,
+   "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "ambito/rss:politica": {
-   "leidas": 57,
-   "nuevas": 24,
-   "actualizadas": 6,
+   "leidas": 56,
+   "nuevas": 0,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
@@ -193,33 +193,33 @@
   },
   "ambito/rss:mundo": {
    "leidas": 20,
-   "nuevas": 1,
-   "actualizadas": 1,
+   "nuevas": 0,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "ambito/rss:finanzas": {
-   "leidas": 20,
-   "nuevas": 1,
-   "actualizadas": 12,
+   "leidas": 100,
+   "nuevas": 2,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "ambito/sitemap:sitemap": {
-   "leidas": 257,
-   "nuevas": 4,
-   "actualizadas": 5,
+   "leidas": 259,
+   "nuevas": 2,
+   "actualizadas": 0,
    "excluidas": 34,
    "viejas": 2
   },
   "perfil/home": {
-   "enlaces": 130
+   "enlaces": 131
   },
   "perfil/rss:ultimo": {
    "leidas": 50,
-   "nuevas": 3,
+   "nuevas": 0,
    "actualizadas": 0,
-   "excluidas": 19,
+   "excluidas": 20,
    "viejas": 0
   },
   "perfil/rss:mundo": {
@@ -230,34 +230,34 @@
    "viejas": 0
   },
   "perfil/sitemap:sitemap": {
-   "leidas": 454,
-   "nuevas": 3,
+   "leidas": 457,
+   "nuevas": 1,
    "actualizadas": 0,
-   "excluidas": 212,
+   "excluidas": 215,
    "viejas": 0
   },
   "cronista/home": {
    "enlaces": 72
   },
   "cronista/rss:ultimo": {
-   "leidas": 86,
-   "nuevas": 4,
+   "leidas": 87,
+   "nuevas": 2,
    "actualizadas": 0,
-   "excluidas": 10,
+   "excluidas": 9,
    "viejas": 1
   },
   "cronista/rss:economia_politica": {
    "leidas": 39,
    "nuevas": 0,
-   "actualizadas": 2,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "cronista/sitemap:sitemap": {
-   "leidas": 56,
+   "leidas": 60,
    "nuevas": 1,
-   "actualizadas": 4,
-   "excluidas": 25,
+   "actualizadas": 2,
+   "excluidas": 26,
    "viejas": 0
   },
   "ole/home": {
@@ -265,22 +265,22 @@
   },
   "ole/rss:ultimo": {
    "leidas": 10,
-   "nuevas": 1,
-   "actualizadas": 1,
+   "nuevas": 0,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "ole/rss:futbol_primera": {
    "leidas": 10,
    "nuevas": 0,
-   "actualizadas": 1,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
   "ole/sitemap:sitemap": {
-   "leidas": 236,
-   "nuevas": 0,
-   "actualizadas": 1,
+   "leidas": 237,
+   "nuevas": 2,
+   "actualizadas": 0,
    "excluidas": 19,
    "viejas": 0
   },
@@ -289,7 +289,7 @@
   },
   "popular/rss:ultimo": {
    "leidas": 42,
-   "nuevas": 4,
+   "nuevas": 1,
    "actualizadas": 0,
    "excluidas": 7,
    "viejas": 0
@@ -297,42 +297,42 @@
   "popular/rss:politica": {
    "leidas": 20,
    "nuevas": 0,
-   "actualizadas": 20,
+   "actualizadas": 1,
    "excluidas": 0,
    "viejas": 0
   },
   "popular/sitemap:sitemap": {
-   "leidas": 122,
+   "leidas": 120,
    "nuevas": 0,
-   "actualizadas": 4,
-   "excluidas": 26,
+   "actualizadas": 1,
+   "excluidas": 24,
    "viejas": 0
   }
  },
  "totales": {
   "por_diario_7d": {
-   "ambito": 392,
-   "popular": 151,
-   "infobae": 670,
-   "lanacion": 659,
-   "perfil": 409,
-   "cronista": 176,
-   "clarin": 587,
-   "ole": 310,
+   "ambito": 395,
+   "popular": 152,
+   "infobae": 672,
+   "lanacion": 664,
+   "perfil": 410,
+   "cronista": 179,
+   "clarin": 589,
+   "ole": 312,
    "pagina12": 188
   },
   "por_tema_7d": {
-   "internacionales": 561,
-   "politica": 547,
-   "ciudad": 89,
-   "economia": 694,
-   "otros": 1055,
+   "internacionales": 564,
+   "politica": 552,
+   "ciudad": 90,
+   "economia": 697,
+   "otros": 1059,
    "sindicales": 47,
-   "futbol": 549
+   "futbol": 552
   },
   "errores": 0
  },
- "reclasificadas": 20,
+ "reclasificadas": 0,
  "descartadas": 0,
- "fin": "2026-11-25T11:20:10+00:00"
+ "fin": "2026-11-25T11:37:23+00:00"
 }
