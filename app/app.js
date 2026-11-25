@@ -17,6 +17,7 @@ let HS = [];             // historias (con las uniones del usuario aplicadas), p
 let H = {};              // historias por id
 let DE_TEMA = {};        // id de tema -> historia que lo contiene
 let busqueda = null;     // notas de la semana para buscar temas propios (carga diferida)
+let IND = null;          // indicadores (dólar, riesgo país, inflación)
 const ui = {filtro: null, como: false, afuera: false, renombrando: false, uniendo: false};
 const app = document.getElementById('app');
 
@@ -42,6 +43,7 @@ const ICONO = {
   tapa: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>',
   info: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8v.01"/></svg>',
   abajo: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>',
+  bandera: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V4M5 4h11l-2 4 2 4H5"/></svg>',
 };
 
 /* ---------- lo que guarda el usuario ---------- */
@@ -133,6 +135,20 @@ function tuDiaHTML() {
   return `<section class="tudia" aria-label="Tu día"><h3>Tu día <span>actualizado ${esc(hace(D.generado))}</span></h3>${filas.join('')}</section>`;
 }
 
+/* ---------- indicadores ---------- */
+const pesos = v => '$ ' + Number(v).toLocaleString('es-AR', {minimumFractionDigits: 0, maximumFractionDigits: 2});
+const fechaCorta = iso => iso ? `${+iso.slice(8, 10)}/${+iso.slice(5, 7)}` : '';
+const fuenteCorta = f => String(f || '').split(/,? vía | \(/)[0];
+function indicadoresHTML() {
+  if (!IND) return '';
+  const tiles = [], viejo = d => d.actualizado === false ? ' · sin actualizar' : '';
+  const { dolar: d, riesgo_pais: r, inflacion: i } = IND;
+  if (d) tiles.push(`<a class="ind-t" href="${esc(d.url)}" target="_blank" rel="noopener"><span class="ind-n">Dólar BNA</span><span class="ind-v">${esc(pesos(d.venta))}</span><span class="ind-s">venta</span><span class="ind-s">compra ${esc(pesos(d.compra))}</span><span class="ind-f${d.actualizado === false ? ' viejo' : ''}" title="${esc(d.fuente)}">${esc(fuenteCorta(d.fuente))} · ${esc(fechaCorta(d.fecha))}${viejo(d)}</span></a>`);
+  if (r) tiles.push(`<a class="ind-t" href="${esc(r.url)}" target="_blank" rel="noopener"><span class="ind-n">Riesgo país</span><span class="ind-v">${esc(Number(r.valor).toLocaleString('es-AR'))}</span><span class="ind-s">puntos básicos</span><span class="ind-f${r.actualizado === false ? ' viejo' : ''}" title="${esc(r.fuente)}">${esc(fuenteCorta(r.fuente))} (EMBI) · ${esc(fechaCorta(r.fecha))}${viejo(r)}</span></a>`);
+  if (i) tiles.push(`<a class="ind-t" href="${esc(i.url)}" target="_blank" rel="noopener"><span class="ind-n">Inflación</span><span class="ind-v">${esc(String(i.valor).replace('.', ','))}%</span><span class="ind-s">${esc(i.mes_nombre || i.mes)}</span><span class="ind-f${i.actualizado === false ? ' viejo' : ''}" title="${esc(i.fuente)}">${esc(fuenteCorta(i.fuente))} · mensual${viejo(i)}</span></a>`);
+  return tiles.length ? `<section class="ind" aria-label="Indicadores">${tiles.join('')}</section>` : '';
+}
+
 /* ---------- Hoy ---------- */
 function vistaHoy() {
   const vistos = new Set();
@@ -140,6 +156,7 @@ function vistaHoy() {
     .sort((a, b) => b.hoy - a.hoy || a.puesto - b.puesto).slice(0, 12);
   app.innerHTML = `
   <header class="cab"><div class="fila"><span class="meta">${esc(fechaLarga(D.hoy.fecha))}</span><span class="meta">Actualizado ${esc(hace(D.generado))}</span></div><h1>Hoy</h1></header>
+  ${indicadoresHTML()}
   ${tuDiaHTML()}
   <section class="seccion"><div class="titulo"><h2>En la agenda de hoy</h2><span class="meta">${agenda.length} temas</span></div>
     ${botonComo()}
@@ -199,7 +216,8 @@ function notaHistoria(n, conDia) {
   const on = !!fijadas()[n.id];
   return `<div class="hn"><div class="cuerpo"><span class="d">${esc(nombreDiario(n.diario))} <i>· ${esc(horaCorta(n.fecha))}${conDia ? ' · ' + esc(diaSemana(n.fecha.slice(0, 10))) : ''}</i></span>
     <span class="t">${esc(n.titulo)}</span>${n.bajada ? `<span class="b">${esc(n.bajada)}</span>` : ''}<a class="leer" href="${esc(n.url)}" target="_blank" rel="noopener">Leer en ${esc(nombreDiario(n.diario))} ↗</a></div>
-    <button class="pin${on ? ' on' : ''}" data-pin="${esc(n.id)}" aria-label="${on ? 'Desfijar' : 'Fijar arriba'}">${ICONO.pin}</button></div>`;
+    <span style="display:flex;flex-direction:column"><button class="pin${on ? ' on' : ''}" data-pin="${esc(n.id)}" aria-label="${on ? 'Desfijar' : 'Fijar arriba'}">${ICONO.pin}</button>
+    <button class="flag" data-reportar-nota="${esc(n.id)}" aria-label="Reportar un error con esta nota">${ICONO.bandera}</button></span></div>`;
 }
 function etiquetaDia(dia) {
   const ayer = new Date(new Date(D.hoy.fecha + 'T12:00:00-03:00') - 864e5).toISOString().slice(0, 10);
@@ -241,7 +259,8 @@ function vistaHistoria(id) {
     ${dia.eventos.map((e, k) => { const ns = e.notas.map(i => NOTA[i]).filter(Boolean); return `<article class="ev${di === 0 && k === 0 ? ' abierta' : ''}"><button class="ev-cab" data-ev><span class="t">${esc(e.titulo)}</span>
       <small>${esc(horaCorta(e.fecha))} · ${ns.length} diario${ns.length > 1 ? 's' : ''} ${ns.map(n => `<span class="dchip">${esc(nombreDiario(n.diario))}</span>`).join('')}</small></button>
       <div class="ev-notas">${ns.map(n => notaHistoria(n, false)).join('')}</div></article>`; }).join('')}`).join('')}
-  <p class="aviso">Arriba lo más nuevo; bajando, cómo fue empezando. Tocá una tarjeta para ver qué publicó cada diario, y el alfiler para fijar una nota arriba.</p>`;
+  <p class="aviso">Arriba lo más nuevo; bajando, cómo fue empezando. Tocá una tarjeta para ver qué publicó cada diario, el alfiler para fijar una nota arriba y la banderita para avisar de un error.</p>
+  <button class="reportar" data-reportar-tema="${h.id}">${ICONO.bandera}Reportar un error en este tema</button>`;
 }
 function opcionesUnion(lista, texto) {
   const ws = norm(texto).split(/\s+/).filter(w => w.length > 2);
@@ -288,6 +307,46 @@ async function vistaBuscar(texto) {
     <p class="meta">${hits.length} notas de ${diarios.size} diarios en la semana · búsqueda en títulos</p>
     ${hits.length ? `<div class="caja" style="padding:0 14px;margin-top:12px">${hits.map(n => `<div class="hn"><div class="cuerpo"><span class="d">${esc(nombreDiario(n.d))} <i>· ${esc(n.f.slice(8, 10) + '/' + n.f.slice(5, 7) + ' ' + n.f.slice(11, 16))}</i></span><span class="t">${esc(n.t)}</span><a class="leer" href="${esc(n.u)}" target="_blank" rel="noopener">Leer en ${esc(nombreDiario(n.d))} ↗</a></div></div>`).join('')}</div>`
       : '<p class="vacio">No hay notas con esas palabras. Probá con menos palabras.</p>'}`;
+}
+
+/* ---------- reportar un error ---------- */
+// Abre GitHub con el error ya escrito (issue con la etiqueta «error»). Una tarea programada los procesa:
+// arregla sola lo chico y le propone a Nico lo estructural (regla del 25/11, ver CLAUDE.md).
+const TIPOS = {
+  nota: ['No pertenece a este tema', 'Está en la sección equivocada', 'Es una nota de servicio (clima, dólar, horarios…)', 'Está repetida', 'Otro'],
+  tema: ['El nombre está mal', 'Mezcla asuntos distintos', 'Debería unirse con otro tema', 'No es un tema (servicio o poca importancia)', 'Está en la sección equivocada', 'Otro'],
+};
+function abrirReporte(sobre, id) {
+  const h = H[location.hash.split('/')[1]];
+  const n = sobre === 'nota' ? NOTA[id] : null;
+  cerrarReporte();
+  const velo = document.createElement('div');
+  velo.className = 'velo'; velo.id = 'velo-reporte';
+  velo.innerHTML = `<div class="hoja" role="dialog" aria-label="Reportar un error">
+    <h3>${sobre === 'nota' ? 'Error con esta nota' : 'Error con este tema'}</h3>
+    <p class="sobre">${esc(n ? nombreDiario(n.diario) + ': ' + n.titulo : nombre(h))}</p>
+    ${TIPOS[sobre].map((t, i) => `<label><input type="radio" name="tipo-error" value="${esc(t)}"${i === 0 ? ' checked' : ''}>${esc(t)}</label>`).join('')}
+    <textarea id="comentario-error" placeholder="Comentario (opcional): qué está mal y cómo debería ser"></textarea>
+    <p class="meta" style="margin:0">Se abre GitHub con el error ya escrito: solo tocás «Submit».</p>
+    <div class="botones"><button class="btn" data-cancelar-reporte>Cancelar</button><button class="btn prim" data-enviar-reporte>Enviar a GitHub</button></div></div>`;
+  velo.addEventListener('click', e => {
+    if (e.target === velo || e.target.closest('[data-cancelar-reporte]')) { cerrarReporte(); return; }
+    if (e.target.closest('[data-enviar-reporte]')) { enviarReporte(sobre, h, n); cerrarReporte(); }
+  });
+  document.body.appendChild(velo);
+}
+function cerrarReporte() { const v = document.getElementById('velo-reporte'); if (v) v.remove(); }
+function enviarReporte(sobre, h, n) {
+  const tipo = (document.querySelector('input[name="tipo-error"]:checked') || {}).value || 'Otro';
+  const comentario = (document.getElementById('comentario-error') || {}).value || '';
+  const datos = {sobre, tipo, comentario, historia_id: h.id, historia_titulo: nombre(h), rotulo_automatico: h.titulo, temas: h.temas,
+    seccion: h.seccion, nota_id: n ? n.id : null, nota_titulo: n ? n.titulo : null, nota_url: n ? n.url : null, diario: n ? n.diario : null,
+    datos_generados: D.generado, semana: D.semana.hasta, enviado: new Date().toISOString()};
+  const cuerpo = [`**${tipo}**`, '', sobre === 'nota' ? `Nota: ${nombreDiario(n.diario)} · ${n.titulo}\n${n.url}` : '', `Tema: ${nombre(h)} (Nº ${h.puesto}, ${h.seccion_nombre})`, '',
+    comentario ? `Comentario: ${comentario}` : '', '', '<!-- datos para la tarea de errores -->', '```json', JSON.stringify(datos, null, 1), '```'].join('\n');
+  const titulo = `Error: ${tipo} · ${(n ? n.titulo : nombre(h)).slice(0, 70)}`;
+  window.open(`https://github.com/${REPO}/issues/new?labels=error&title=${encodeURIComponent(titulo)}&body=${encodeURIComponent(cuerpo)}`, '_blank', 'noopener');
+  toast('Abriendo GitHub…');
 }
 
 /* ---------- acciones ---------- */
@@ -371,6 +430,8 @@ app.addEventListener('click', e => {
     return;
   }
   if ('separar' in ds) { const h = H[location.hash.split('/')[1]]; guardar('uniones', uniones().filter(([a, b]) => !h.temas.includes(a) && !h.temas.includes(b))); toast('Unión deshecha'); prepararHistorias(); location.hash = '#tema/' + DE_TEMA[h.temas[0]].id; render(); return; }
+  if (ds.reportarNota) { abrirReporte('nota', ds.reportarNota); return; }
+  if (ds.reportarTema) { abrirReporte('tema', ds.reportarTema); return; }
   if (ds.quitarGuardada) { const g = guardadas(); delete g.notas[ds.quitarGuardada]; guardar('guardadas', g); render(); return; }
 });
 app.addEventListener('toggle', e => {
@@ -407,6 +468,7 @@ async function iniciar() {
   try {
     const r = await fetch('datos/actual.json', {cache: 'no-cache'});
     D = await r.json();
+    IND = await fetch('datos/indicadores.json', {cache: 'no-cache'}).then(x => x.ok ? x.json() : null).catch(() => null);
     prepararHistorias();
     render();
   } catch (e) {

@@ -41,6 +41,10 @@
 | 25/11 | Aprobado por Nico: pantalla «Temas» como pestaña nueva (sin sacar Hoy ni Semana), con el bloque «Tu día» (clima, dólar, paros y transporte) y la regla de notas de servicio ampliada. |
 | 25/11 | Aprobado por Nico (opción A): las corridas cada 2 h las marca una cadena en GitHub (`reloj.yml`): lanza la recolección, espera 120 min en el entorno «reloj» (wait timer, sin ocupar máquinas) y se relanza. Los horarios de `recolectar.yml` quedan de respaldo (solo corren si la última recolección tiene más de 90 min). Nada depende de intervenciones a mano. |
 | 25/11 | Indicador de puesto: se mantiene el número y se explica («¿Qué significa el número?», «8 de 9 diarios · En la tapa de 3», «Por qué está Nº 1»). Maqueta v6 en revisión de Nico antes de programarla. |
+| 25/11 | Aprobado por Nico: botón «Reportar un error» (banderita en cada nota y al pie de cada tema), que abre un *issue* con la etiqueta `error`. La tarea programada «Informado · errores reportados» arregla sola los errores chicos (listas de configuración) y le propone a Nico lo estructural. Excepción agregada a la regla 1 de CLAUDE.md. |
+| 25/11 | Aprobado por Nico: indicadores arriba de Hoy (dólar BNA compra y venta, riesgo país, inflación mensual), cada uno con fuente y fecha (`informado/indicadores.py` → `datos/indicadores.json`). |
+| 25/11 | Aprobado por Nico: poda de notas encadenadas en el agrupador (en grupos de 3 a 6, sale la nota que no comparte nada con algún integrante y cuyo único lazo es débil). |
+| 25/11 | Rótulos con «e» delante de palabras con sonido i («e informe», «e INDEC»), pedido de Nico. |
 | 24/11 | Calibración 1: Sindicales gana sobre cualquier sección; Ciudad solo sobre secciones genéricas; se descartan notas automáticas (clima, quiniela, horóscopo). Cada corrida reaplica las reglas a toda la semana. |
 
 ## Pendientes del usuario
@@ -95,6 +99,9 @@ La revisión diaria trae estos temas el día indicado. No se implementan sin una
 - **25/11 (tarde):** la publicación en Pages volvió a andar desde las 12:08 UTC gracias al reintento (el primer intento sigue fallando y el segundo publica). En cambio, las corridas programadas siguen sin dispararse: después de las 12:16 no hubo ni la de las 13:17 ni el respaldo de las 13:47. A las 14:21 se lanzó una corrida a mano. *Propuesta:* si sigue así, que una tarea programada de Claude dispare el workflow cada 2 horas, en lugar de depender del `schedule` de GitHub. No tiene costo, pero es infraestructura nueva y necesita la aprobación de Nico.
 
 - **25/11 (18:27 UTC):** Nico configuró la espera de 120 min en el entorno «reloj» y la cadena arrancó: lanzó la recolección, y su paso «esperar» quedó en espera («waiting»), como corresponde. Entre las 15:24 y las 18:27 el horario de GitHub no disparó ninguna corrida, lo que confirma que hacía falta la cadena. Para verificar en la revisión diaria: que haya una corrida de «Reloj (cada 2 horas)» cada ~2 h y una recolección lanzada por cada una.
+
+- **25/11 (noche):** se encontró y reparó una falla previa: si dos corridas quedaban seguidas, la segunda no guardaba sus datos (chocaba con lo que había guardado la anterior) y aun así se marcaba como correcta. Ahora cada corrida parte de lo último de main, ante un choque ganan los datos más nuevos, y si no puede guardar, la corrida falla a la vista. Primer error cargado en la cola: #1 (nota de Lemon de La Nación mezclada con la de Kaszek).
+- **Dato a mirar:** la inflación que publica datos.gob.ar está en septiembre (1,9%), aunque el INDEC ya publicó octubre. Si se confirma la demora, conviene usar el BCRA como fuente principal (lo decide Nico).
 
 ## Datos
 

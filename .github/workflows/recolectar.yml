@@ -30,7 +30,11 @@ jobs:
       name: github-pages
       url: ${{ steps.publicar.outputs.page_url || steps.publicar2.outputs.page_url || steps.publicar3.outputs.page_url }}
     steps:
+      # Siempre desde lo último de main (no desde el commit que disparó la corrida): así cada corrida
+      # parte de los datos que guardó la anterior y no choca con ellos al guardar.
       - uses: actions/checkout@v4
+        with:
+          ref: main
       # El ritmo de 2 horas lo marca reloj.yml. Los horarios de abajo son respaldo: miran la hora de
       # la última recolección y siguen solo si pasaron más de 90 minutos.
       - id: ver
@@ -78,7 +82,15 @@ jobs:
           git config user.email "informado-bot@users.noreply.github.com"
           git add datos/
           git commit -q -m "Datos: recolección $(date -u +%Y-%m-%dT%H:%MZ)" || echo "sin cambios"
-          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+          # Si alguien guardó mientras tanto, se rebasa; ante un choque, ganan los datos de esta corrida
+          # (son los más nuevos). Si después de 3 intentos no se pudo guardar, la corrida falla a la vista.
+          guardado=no
+          for i in 1 2 3; do
+            if git pull -q --rebase -X theirs && git push -q; then guardado=si; break; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
+          if [ "$guardado" != si ]; then echo "::error::No se pudieron guardar los datos en el repositorio"; exit 1; fi
       - name: Armar sitio
         if: steps.ver.outputs.correr == 'true'
         run: |

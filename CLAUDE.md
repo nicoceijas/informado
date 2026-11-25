@@ -18,6 +18,15 @@ Se puede hacer sin consultar, y siempre se informa:
 
 Ante la duda, se consulta.
 
+### Excepción: errores reportados desde la app (regla del 25/11/2026)
+
+Nico reporta errores con la banderita de la app: cada reporte es un *issue* con la etiqueta `error` (o con un título que empieza con «Error:»). La tarea programada «Informado · errores reportados» los procesa y **puede arreglar sola los errores chicos**, siempre que se cumplan todas estas condiciones:
+
+- **Qué cuenta como chico:** agregar o sacar palabras en las listas de configuración. Por ejemplo, las palabras de cada sección y `palabras_otros` o `secciones_otros` en `config/temas.yaml`; `excluir_titulos`, `servicio_sin_tema` o `excluir_secciones` en `config/fuentes.yaml`; las palabras que no sirven para los rótulos (`NO_ROTULO` en `informado/historias.py`).
+- **Cómo se hace:** un cambio mínimo por reporte. Hay que correr las pruebas y simular el agrupador para comprobar que el caso reportado se arregla y que nada más cambia de forma notoria. Después se commitea citando el *issue* (`#N`), se comenta en el *issue* qué se hizo y se lo cierra. Se informa en el resumen y en la notificación.
+- **No es chico, y se propone a Nico:** los parámetros o el código del agrupador y de las historias, la app (diseño, textos, funciones), las fuentes, los workflows, todo lo que tenga costo y todo lo que toque las reglas de contenido. Estos reportes se comentan como «pendiente de Nico», quedan abiertos y se anotan en `ESTADO.md`.
+- Solo cuentan los reportes de `nicoceijas`.
+
 ## 2. Contexto que no hay que volver a preguntar
 
 - Nico usa la app instalada en un Android **sin Chrome**, y no le interesa instalarlo. No propongas soluciones que dependan de Chrome.
