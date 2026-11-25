@@ -1,4 +1,22 @@
 {
+"aac3d1862043": {
+"id": "aac3d1862043",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/tesla-desembarco-argentina-aparicion-elon-musk-javier-milei-aseguro-que-estamos-mirando-frente-al-mundo-n6347819",
+"titulo": "Tesla desembarcó en Argentina: con aparición de Elon Musk, Javier Milei aseguró que \"estamos mirando de frente al mundo\"",
+"bajada": "La marca liderada por Elon Musk se presentó oficialmente al país con un evento de lanzamiento realizado en La Boca que contó con la presencia de funcionarios del Gabinete. Desde este viernes, se podrán adquirir sus autos por un precio…",
+"fecha": "2026-11-21T00:43:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
 "26874c9fd38e": {
 "id": "26874c9fd38e",
 "diario": "infobae",
@@ -13,7 +31,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -67,7 +85,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -85,7 +103,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -103,7 +121,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -139,7 +157,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -157,7 +175,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -193,7 +211,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -319,7 +337,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -357,7 +375,7 @@
 "lanacion/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -375,9 +393,45 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
+},
+"8865cc5235e3": {
+"id": "8865cc5235e3",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/denunciaron-javier-milei-la-oficina-anticorrupcion-promocionar-lego-y-tesla-sus-redes-oficiales-n6347771",
+"titulo": "Denunciaron a Javier Milei ante la Oficina Anticorrupción por promocionar a LEGO y Tesla desde sus redes oficiales",
+"bajada": "La presentación fue realizada por tres abogados con el fin de determinar si el Presidente incumplió deberes de conducta. Es por usar su nombre e imagen para promocionar a una empresa privada.",
+"fecha": "2026-11-20T22:26:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"29e4008a6167": {
+"id": "29e4008a6167",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/victoria-villarruel-le-marco-la-cancha-al-gobierno-el-dia-la-soberania-es-nuestro-deber-siempre-n6347762",
+"titulo": "Victoria Villarruel le marcó la cancha al Gobierno en el Día de la Soberanía: \"Es nuestro deber siempre\"",
+"bajada": "La vicepresidenta recordó los sucesos que tuvieron lugar hace 181 años en la provincia de Buenos Aires, en los que las tropas argentinas frenaron el avance de los buques anglo-franceses. En ese marco, aprovechó para recordar la importancia de defender…",
+"fecha": "2026-11-20T22:21:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "ff2db795eede": {
 "id": "ff2db795eede",
@@ -411,7 +465,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -465,7 +519,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -519,7 +573,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -541,6 +595,24 @@
 "tema": "economia",
 "motivo": "seccion:economia"
 },
+"bda1558bed09": {
+"id": "bda1558bed09",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/en-busca-salir-adelante-casi-400-jovenes-participaron-la-semana-integracion-federal-del-cfi-n6347758",
+"titulo": "En busca de salir adelante: casi 400 jóvenes participaron de la Semana de Integración Federal del CFI",
+"bajada": "Este programa, creado por el Consejo Federal de Inversiones, ayuda a los jóvenes a especializarse en los temas centrales que estructuran el desarrollo federal en todas las provincias.",
+"fecha": "2026-11-20T21:19:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
 "350f778cb38f": {
 "id": "350f778cb38f",
 "diario": "infobae",
@@ -555,7 +627,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -573,7 +645,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -591,7 +663,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -721,9 +793,27 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
+},
+"1a8946345cfd": {
+"id": "1a8946345cfd",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/shaca-la-bashura-la-llamativa-campana-concientizacion-san-isidro-la-recoleccion-residuos-n6347676",
+"titulo": "\"Shacá la bashura\": la llamativa campaña de concientización en San Isidro para la recolección de residuos",
+"bajada": "Su municipalidad instó de esta forma a los vecinos a respetar los horarios de la eliminación de residuos. Confesaron que quisieron hacerlo \"en su propio idioma\", aprovechando el chiste que burla el acento de los habitantes de la localidad.",
+"fecha": "2026-11-20T20:06:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "5028fd5af0a4": {
 "id": "5028fd5af0a4",
@@ -739,7 +829,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -794,7 +884,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -848,7 +938,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -868,7 +958,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -904,7 +994,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -940,7 +1030,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -958,7 +1048,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -976,7 +1066,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -994,7 +1084,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1012,9 +1102,27 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
+},
+"8bed38e07dc3": {
+"id": "8bed38e07dc3",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/murio-noemi-geminiani-legisladora-portena-del-peronismo-y-secretaria-adjunta-suterh-n6347686",
+"titulo": "Murió Noemí Geminiani, legisladora porteña del peronismo y secretaria adjunta de SUTERH",
+"bajada": "La integrante del bloque de Fuerza Buenos Aires falleció a los 63 años. Sus compañeros y los miembros de todos los partidos que integran la Legislatura la despidieron con sentidos mensajes.",
+"fecha": "2026-11-20T18:47:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "2fe4209031d5": {
 "id": "2fe4209031d5",
@@ -1030,7 +1138,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1104,7 +1212,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1122,7 +1230,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1158,7 +1266,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1213,7 +1321,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1249,7 +1357,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1267,7 +1375,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1285,7 +1393,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1303,7 +1411,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1339,7 +1447,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1357,7 +1465,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "internacionales",
 "motivo": "palabras:2"
 },
@@ -1375,7 +1483,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1393,9 +1501,27 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
+},
+"993b77985340": {
+"id": "993b77985340",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/avanza-diputados-un-proyecto-la-formalizacion-gratuita-los-clubes-barrio-n6347610",
+"titulo": "Avanza en Diputados un proyecto para la formalización gratuita de los clubes de barrio",
+"bajada": "La iniciativa modifica la ley del Deporte para crear un régimen simplificado bajo la figura de simple asociación, sin costo fiscal y con el respaldo de distintos bloques políticos.",
+"fecha": "2026-11-20T15:32:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "1a32b217801c": {
 "id": "1a32b217801c",
@@ -1411,7 +1537,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1486,7 +1612,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "seccion:autos",
 "home_mejor_pos": 132
@@ -1523,7 +1649,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -1560,7 +1686,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1578,7 +1704,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1596,7 +1722,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1614,7 +1740,25 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"156b8947ab81": {
+"id": "156b8947ab81",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/operativo-centralidad-el-despliegue-javier-y-karina-milei-recuperar-la-agenda-la-estadia-leon-xiv-n6347510",
+"titulo": "Operativo centralidad: el despliegue de Javier y Karina Milei para recuperar la agenda tras la estadía de León XIV",
+"bajada": "El Presidente, su hermana y el ministro de Economía volvieron a la escena pública con un raid de actividades.",
+"fecha": "2026-11-20T14:03:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1632,7 +1776,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1650,9 +1794,46 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
+},
+"916e8a31e84b": {
+"id": "916e8a31e84b",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/la-corte-suprema-frena-los-aumentos-las-prepagas-cuando-se-implementa-el-cambio-y-que-hacer-si-no-se-respeta-n6347534",
+"titulo": "La Corte Suprema frena los aumentos de las prepagas: cuándo se implementa el cambio y qué hacer si no se respeta",
+"bajada": "El máximo tribunal declaró inconstitucionales los artículos del DNU 70/2023 que suprimían los controles oficiales sobre las cuotas de los afiliados.",
+"fecha": "2026-11-20T13:48:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"c6f5e9c8d538": {
+"id": "c6f5e9c8d538",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/subiendo-al-obelisco-un-model-y-elon-musk-asi-celebro-javier-milei-la-llegada-tesla-la-argentina-n6347543",
+"titulo": "Subiendo al Obelisco en un Model Y con Elon Musk: así celebró Javier Milei la llegada de Tesla a la Argentina",
+"bajada": "La compañía de autos eléctricos ya habilitó su sitio web en el país y comenzó la comercialización de sus dos modelos eléctricos. Esta tarde, el mandatario participará del evento de lanzamiento oficial.",
+"fecha": "2026-11-20T13:46:13+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica",
+"home_mejor_pos": 132
 },
 "97497b4b214d": {
 "id": "97497b4b214d",
@@ -1668,7 +1849,7 @@
 "clarin/rss:ciudades"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "ciudad",
 "motivo": "seccion:ciudades"
 },
@@ -1686,7 +1867,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1706,7 +1887,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1760,9 +1941,27 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
+},
+"9666c842b54d": {
+"id": "9666c842b54d",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/espana-lleva-la-pelea-el-voto-exterior-la-campana-electoral-que-pasa-argentina-n6347497",
+"titulo": "España lleva la pelea por el voto exterior a la campaña electoral: qué pasa en Argentina",
+"bajada": "El senador socialista César Mogo denunció que Vox busca restringir el derecho al voto de los españoles residentes en el exterior. Tras un fallo del Tribunal Supremo que dejó fuera de los comicios a más de 160.000 ciudadanos, la disputa…",
+"fecha": "2026-11-20T13:05:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "4d645d71c969": {
 "id": "4d645d71c969",
@@ -1804,6 +2003,24 @@
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
+"26dfc45d2290": {
+"id": "26dfc45d2290",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/cuatro-gobernadores-dialoguistas-se-reunen-medio-la-ofensiva-legislativa-javier-milei-n6347468",
+"titulo": "Cuatro gobernadores \"dialoguistas\" se reúnen en medio de la ofensiva legislativa de Javier Milei",
+"bajada": "Los cuatro gobernadores encabezan este viernes un panel en la Semana de Integración Federal que organiza el Consejo Federal de Inversiones. Más tarde habrá un intercambio con el titular del organismo, Ignacio Lamothe. El encuentro llega en plena negociación por…",
+"fecha": "2026-11-20T12:49:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
 "a218b20b5631": {
 "id": "a218b20b5631",
 "diario": "infobae",
@@ -1818,7 +2035,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1894,6 +2111,24 @@
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
+"42487022739d": {
+"id": "42487022739d",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/tratado-patentes-que-cambia-los-medicamentos-y-que-pasara-los-precios-la-adhesion-n6347457",
+"titulo": "Tratado de Patentes: qué cambia para los medicamentos y qué pasará con los precios tras la adhesión",
+"bajada": "El Senado convirtió en ley la incorporación de Argentina al Tratado de Cooperación en materia de Patentes (PCT), un acuerdo internacional que simplifica los trámites para proteger invenciones en distintos países.",
+"fecha": "2026-11-20T11:53:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
 "de137497676d": {
 "id": "de137497676d",
 "diario": "infobae",
@@ -1926,7 +2161,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1962,7 +2197,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1998,7 +2233,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -2072,7 +2307,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2090,7 +2325,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -2108,7 +2343,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -2126,7 +2361,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -2184,7 +2419,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2202,7 +2437,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2220,7 +2455,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2256,7 +2491,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2274,7 +2509,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2386,7 +2621,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 113
@@ -2409,7 +2644,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 114
@@ -2428,7 +2663,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 73

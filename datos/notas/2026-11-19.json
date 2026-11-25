@@ -85,7 +85,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -107,6 +107,24 @@
 "tema": "ciudad",
 "motivo": "palabras:porteno"
 },
+"bdc78173f071": {
+"id": "bdc78173f071",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/el-senado-define-el-futuro-la-ley-tierras-y-la-adhesion-al-tratado-global-patentes-n6347359",
+"titulo": "El Senado aprobó la adhesión al Tratado global de Patentes y blindó la ley de Tierras",
+"bajada": "Después de meses de tratamiento, se sancionó la ley de \"Inviolabilidad de la propiedad Privada\". Hay consenso en la \"ley Joaquín\" para la seguridad de espacios recreativos. Polémica por el régimen de cabotaje y una designación en el Comité Nacional…",
+"fecha": "2026-11-20T01:02:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
 "b3a6e771ba2e": {
 "id": "b3a6e771ba2e",
 "diario": "popular",
@@ -122,6 +140,24 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-25T09:45:51+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"49a745085829": {
+"id": "49a745085829",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/argentina-e-italia-avanzan-un-acuerdo-incorporar-fragatas-y-patrulleros-la-armada-n6347391",
+"titulo": "Argentina e Italia avanzan en un acuerdo para incorporar fragatas y patrulleros a la Armada",
+"bajada": "El ministro de Defensa, Carlos Presti, firmó una Carta de Intención con su par italiano, Guido Crosetto, para avanzar con un proyecto que busca recuperar capacidades navales y modernizar la flota del país.",
+"fecha": "2026-11-20T00:41:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -175,7 +211,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -211,7 +247,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -251,6 +287,24 @@
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
+"b29437ce3c89": {
+"id": "b29437ce3c89",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/javier-milei-disertara-una-cena-contra-el-antisemitismo-plena-tension-patricia-bullrich-n6347364",
+"titulo": "En medio de tensiones en el Gobierno, Javier Milei disertó en una cena contra el antisemitismo y aseguró que \"nos afecta a todos\"",
+"bajada": "En medio de rispideces con Patricia Bullrich, quien no asistió a la cena por la sesión en el Congreso, el Presidente será el principal orador del encuentro organizado por Sabrina Ajmechet.",
+"fecha": "2026-11-19T23:55:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
 "868a662296f2": {
 "id": "868a662296f2",
 "diario": "infobae",
@@ -268,6 +322,60 @@
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
+},
+"eb230c294cda": {
+"id": "eb230c294cda",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/el-senado-definio-sus-cuatro-representantes-el-consejo-la-magistratura-n6347374",
+"titulo": "El Senado definió a sus cuatro representantes para el Consejo de la Magistratura",
+"bajada": "Serán Eduardo \"Wado\" de Pedro y Florencia López por el peronismo, Nadia Márquez por La Libertad Avanza, y Maximiliano Abad por la UCR.",
+"fecha": "2026-11-19T23:46:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"5fcaa5c60657": {
+"id": "5fcaa5c60657",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/javier-milei-recibio-una-distincion-la-amia-y-revelo-que-pudo-haber-sido-una-las-victimas-del-atentado-n6347370",
+"titulo": "Javier Milei recibió una distinción en la AMIA y reveló que pudo haber sido una de las víctimas del atentado",
+"bajada": "El mandatario recordó que pasaba frente al edificio al regresar de dar clases en la UBA y ratificó su compromiso con el reclamo de justicia.",
+"fecha": "2026-11-19T23:43:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"127c6d58cd02": {
+"id": "127c6d58cd02",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/ley-discapacidad-que-cambia-las-pensiones-y-las-prestaciones-la-aprobacion-del-senado-n6347172",
+"titulo": "Ley de Discapacidad: qué cambia para las pensiones y las prestaciones tras la aprobación del Senado",
+"bajada": "El Congreso convirtió en ley el nuevo régimen. Se mantienen las pensiones equivalentes al 70% del haber mínimo, se habilita su compatibilidad con el empleo registrado bajo un límite de ingresos y se establecen nuevas condiciones de acceso, auditorías y…",
+"fecha": "2026-11-19T23:40:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "8e4ddf8c426f": {
 "id": "8e4ddf8c426f",
@@ -337,7 +445,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -409,7 +517,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "sindicales",
 "motivo": "palabras:ate"
 },
@@ -427,7 +535,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -463,9 +571,27 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "sindicales",
 "motivo": "palabras:cgt"
+},
+"f56f9c2c8d3b": {
+"id": "f56f9c2c8d3b",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/victoria-villarruel-se-pronuncio-el-cierre-una-planta-fabril-sin-industria-no-hay-trabajo-n6347344",
+"titulo": "Victoria Villarruel se pronunció tras el cierre de una planta fabril: \"Sin industria no hay trabajo\"",
+"bajada": "La vicepresidenta vinculó la soberanía con la defensa de la producción nacional, luego de que Arcor decidiera importar las conservas de pescado.",
+"fecha": "2026-11-19T22:59:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "c45d78055b9c": {
 "id": "c45d78055b9c",
@@ -573,9 +699,27 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
+},
+"e75d54294172": {
+"id": "e75d54294172",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/sin-consenso-un-paro-la-cgt-llamara-un-cese-actividades-antes-fin-ano-y-marchara-las-obras-sociales-n6347302",
+"titulo": "Sin consenso para un paro, la CGT llamará a un cese de actividades antes de fin de año y marchará por las obras sociales",
+"bajada": "El próximo jueves, la central obrera se movilizará hasta la Superintendencia de Servicios de Salud para reclamar una solución a la crisis financiera que atraviesan las entidades de salud de los sindicatos. Creen que la visita de León XIV fortaleció…",
+"fecha": "2026-11-19T22:14:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "sindicales",
+"motivo": "palabras:cgt"
 },
 "180419ff9042": {
 "id": "180419ff9042",
@@ -757,7 +901,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -849,7 +993,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "seccion:tecnologia"
 },
@@ -906,6 +1050,24 @@
 "visto_ultimo": "2026-11-25T09:45:51+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas"
+},
+"6c33d8d7fa03": {
+"id": "6c33d8d7fa03",
+"diario": "ambito",
+"url": "https://www.ambito.com/politica/nadia-marquez-se-candidatea-ser-vice-javier-milei-2027-las-dudas-el-futuro-patricia-bullrich-n6347284",
+"titulo": "Nadia Márquez se candidatea para ser vice de Javier Milei en 2027 ante las dudas sobre el futuro de Patricia Bullrich",
+"bajada": "La senadora neuquina se anotó en la carrera para acompañar al Presidente en la boleta violeta del año próximo. \"Por supuesto que me gustaría\", dijo al manifestar su deseo personal.",
+"fecha": "2026-11-19T20:09:00+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"ambito/rss:politica"
+],
+"visto_primero": "2026-11-25T11:19:06+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "96177e516245": {
 "id": "96177e516245",
@@ -977,7 +1139,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1085,7 +1247,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1175,7 +1337,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1287,7 +1449,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1309,7 +1471,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1327,7 +1489,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1381,7 +1543,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1507,7 +1669,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1547,7 +1709,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1620,7 +1782,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
@@ -1678,7 +1840,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1844,7 +2006,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1880,7 +2042,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1898,7 +2060,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1970,7 +2132,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T09:45:51+00:00",
+"visto_ultimo": "2026-11-25T11:19:06+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 }
