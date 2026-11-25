@@ -28,7 +28,7 @@ jobs:
     timeout-minutes: 25
     environment:
       name: github-pages
-      url: ${{ steps.publicar.outputs.page_url }}
+      url: ${{ steps.publicar.outputs.page_url || steps.publicar2.outputs.page_url || steps.publicar3.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       # GitHub a veces demora o saltea las corridas programadas. El horario de respaldo (minuto 47)
@@ -87,6 +87,20 @@ jobs:
         if: steps.ver.outputs.correr == 'true'
         with:
           path: _sitio
+      # Publicación con reintentos: a veces GitHub todavía no lista el paquete recién subido
+      # («No artifacts named github-pages were found»). Se prueba 3 veces, esperando 15 s y 45 s.
       - id: publicar
         if: steps.ver.outputs.correr == 'true'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - if: steps.ver.outputs.correr == 'true' && steps.publicar.outcome == 'failure'
+        run: sleep 15
+      - id: publicar2
+        if: steps.ver.outputs.correr == 'true' && steps.publicar.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - if: steps.ver.outputs.correr == 'true' && steps.publicar2.outcome == 'failure'
+        run: sleep 45
+      - id: publicar3
+        if: steps.ver.outputs.correr == 'true' && steps.publicar2.outcome == 'failure'
         uses: actions/deploy-pages@v4

@@ -36,6 +36,9 @@
 | 25/11 | Aprobado por Nico: las notas de servicio («dólar hoy», «dólar blue hoy», «cómo estará el clima/el tiempo») no forman temas; siguen en la búsqueda y en «Afecta tu día». Lista en `servicio_sin_tema` de `config/fuentes.yaml`. |
 | 25/11 | Aprobado por Nico: «miss universo», «reality» y «farándula» mandan la nota a «otros» aunque la sección tenga tema (`palabras_otros` en `config/temas.yaml`). |
 | 25/11 | Aprobado por Nico (opción A, aplicada): horario de respaldo en el minuto 47 de cada hora par; corre solo si la última recolección tiene más de 90 min. Así el ritmo sigue siendo de 2 h aunque GitHub saltee una corrida programada. |
+| 25/11 | Aprobado por Nico: la publicación en Pages se reintenta hasta 3 veces (esperas de 15 s y 45 s) cuando GitHub todavía no lista el paquete recién subido. |
+| 25/11 | Aprobado por Nico: títulos de tema (a) el título de cada nota se actualiza si el diario lo cambia; (b) el tema toma su nombre de la última nota de cada diario, eligiendo la que más se parece a las demás. |
+| 25/11 | Aprobado por Nico: pantalla «Temas» como pestaña nueva (sin sacar Hoy ni Semana), con el bloque «Tu día» (clima, dólar, paros y transporte) y la regla de notas de servicio ampliada. |
 | 24/11 | Calibración 1: Sindicales gana sobre cualquier sección; Ciudad solo sobre secciones genéricas; se descartan notas automáticas (clima, quiniela, horóscopo). Cada corrida reaplica las reglas a toda la semana. |
 
 ## Pendientes del usuario
