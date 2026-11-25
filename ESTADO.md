@@ -74,6 +74,8 @@
 
 - **25/11:** 9 diarios, 0 errores, 3.391 notas en 7 días. La corrida programada de las 03:34 falló al publicar en Pages (error transitorio de GitHub; las siguientes publicaron bien). Como no hubo corridas programadas después de las 05:15, se disparó una corrida manual a las 09:45 (sin cambios de código): recolectó 154 notas nuevas y publicó bien. Cinco propuestas. El 25/11 Nico aprobó deduplicar, excluir las notas de servicio y mandar Miss Universo a «otros» (aplicadas), y también el respaldo de corridas (falta elegir variante). El título de los temas sigue en conversación.
 
+- **25/11 (mediodía):** desde las 11:35 UTC la publicación en Pages falla en todas las corridas («No artifacts named github-pages were found», justo después de subirlo bien). Ya había pasado a las 03:34 con el workflow original. Para descartar el cambio del respaldo, el control volvió a un solo trabajo, y sigue fallando igual. Todo indica un problema de GitHub. La recolección y los datos se guardan bien; la app muestra los datos de las 11:20 hasta que Pages vuelva a publicar.
+
 ## Datos
 
 - Notas: `datos/notas/AAAA-MM-DD.json` (por fecha de publicación, hora argentina). Se conservan 21 días.
