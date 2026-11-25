@@ -56,12 +56,16 @@
 - [x] Recolector (cada 2 h, minuto 17 UTC) y clasificador de temas, con 16 pruebas.
 - [x] Agrupador y puntaje (umbral 0,30, ventana 72 h, grupos de más de 35 notas se parten).
 - [x] App web instalable: Hoy, Semana, Tema comparado, Armá tu semana, Guardadas, búsqueda de temas propios, feedback como issue.
-- [x] Modo lectura (25/11): una nota por pantalla con título y bajada en letra grande, tamaño ajustable, tema oscuro, deslizar para pasar de nota. Desde cada tema y desde Guardadas.
 - [ ] Fusionar temas desde la app (versión 1.1).
-- [x] Pantalla «Temas» (25/11): pestaña nueva con Hoy/Semana, «Agregar un tema…» siempre visible (suma un tema de la lista o agrega uno propio), lista compacta por sección y notas desplegables.
 - [x] «Tu día» (25/11): reemplaza «Afecta tu día» en Hoy y está arriba de Temas › Hoy. Clima (con «Alerta en el AMBA» solo si el título lo dice), dólar y paros/transporte por asunto, con estado (Hoy, Mañana, Anunciado, Sin paro).
 - [x] Títulos (25/11): el recolector sigue el título que el diario le cambia a una nota; el tema toma su nombre de la última nota de cada diario.
 - [x] Publicación con reintentos (25/11).
+- [x] **Historias de la semana (25/11, maqueta final aprobada por Nico, sin modo lectura).** La barra queda en Hoy, Temas y Guardadas.
+  - **Hoy:** «Tu día» y «En la agenda de hoy» (12 temas), con número de puesto, cápsula de sección, notas de hoy y «X de 9 diarios · En la tapa de N».
+  - **Temas:** historias de 7 días (`informado/historias.py`): temas de la misma sección unidos por parecido (umbral 0,17; fútbol no se une solo), rótulo automático, «Agregar un tema…», «¿Qué significa el número?», tu semana por sección, «Temas que quedaron afuera» con «Sumar» y «Cerrar la semana / Enviar mi semana». Armá dejó de ser pestaña.
+  - **Dentro de un tema:** renombrar (lápiz), «Por qué está Nº N» (repercusión y jerarquía), notas por día, Guardar, «Unir con otro tema» (y deshacer), «Sacar de mi semana», notas fijadas con alfiler y el feed por día de lo más nuevo a lo más viejo.
+  - **Lo que guarda el celular:** uniones, nombres, fijadas y curaduría. El feedback semanal ahora incluye las uniones y los nombres.
+- [ ] Modo lectura: se sacó el 25/11 porque así no servía. Volver a pensarlo más adelante.
 - [ ] Modo lectura con texto completo: propuesto el 25/11 (servidor personal en Vercel, con clave, sin guardar texto y respetando los muros de pago). **En conversación, no aprobado.**
 - [ ] Tareas programadas de revisión (diaria y semanal).
 
@@ -70,7 +74,8 @@
 1. **Títulos de tema que siguen la reacción y no el hecho** (visto al aplicar el criterio aprobado el 25/11). Al mediodía del 25/11 el tema de la recesión pasó a llamarse «Luis Caputo: "La definición de recesión técnica es arbitraria"», porque las últimas notas de cada diario ya son reacciones. También quedó «A qué hora juega Boca hoy» como nombre de un tema de fútbol. *Cambios sugeridos, a elegir:* (a) tomar las últimas 2 o 3 notas de cada diario en vez de 1, para que pese el hecho y no solo la última reacción; (b) que las notas destacadas en la home pesen más al elegir el nombre; (c) sumar «a que hora juega» a los títulos que no sirven para nombrar un tema.
 2. **Un mismo asunto partido en varios temas.** El homenaje a Santucho en la UBA aparece como 4 temas distintos (suspensión, carta del Gobierno, Villarruel, denuncia de un exjuez). *A estudiar:* bajar un poco el umbral de unión cuando comparten un nombre propio poco común.
 
-3. **Historias de la semana en «Temas».** Nico aprobó la maqueta v3 el 25/11 y pidió cápsulas de color con la sección en los temas de Hoy. Antes de programar falta decidir qué pasa con «Armá»: a Nico no le cierra porque repite los temas de las otras secciones. Propuesta (maqueta v4): Armá deja de ser pestaña y queda dentro de Temas, con «Tu semana» arriba, «Quedaron afuera» abajo con botón «Sumar», «Sacar de mi semana» dentro de cada tema, y «Cerrar la semana / Enviar mi semana» al final. La barra queda en Hoy, Temas y Guardadas.
+1. **Cuota por sección en «Tu semana»** (visto al programar las historias, 25/11). La regla vigente (hasta 2 por sección y después se completa por puntaje) hace que temas con un número alto, como el Nº 4 y el Nº 5 de política, queden en «Temas que quedaron afuera», mientras entran el Nº 27 y el Nº 44 de Ciudad. Ahora que se ve el número, eso puede confundir. *A decidir:* mantener la cuota (asegura variedad de secciones) o tomar los 12 primeros por puntaje.
+2. **Rótulos automáticos imperfectos** («Recesión técnica, trimestres y INDEC publica», «Paraguay, viaja y Javier»). Se pueden renombrar. *Posible mejora:* preferir nombres propios y sustantivos.
 
 ## Para retomar
 

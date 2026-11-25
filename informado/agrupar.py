@@ -25,6 +25,7 @@ import snowballstemmer
 import yaml
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+from .historias import PARAMS_HISTORIAS, armar_historias, propuesta
 from .stopwords import CLAVES_GENERICAS, STOPWORDS
 from .texto import coincidencias, normalizar
 
@@ -399,20 +400,27 @@ def main():
 
     tu_dia = armar_tu_dia(todas, ahora, hoy, id_tema, {t["id"]: t for t in temas})
 
+    # Historias de 7 días (pantalla «Temas»): temas de la misma sección que hablan de lo mismo.
+    historias = armar_historias(temas, hoy, tokens, [n["titulo"] for n in semana_todas])
+    propuestas, afuera = propuesta(historias)
+    hoy_historias = [h["id"] for h in sorted((h for h in historias if h["hoy"]), key=lambda h: (-h["hoy"], h["puesto"]))]
+
     diarios = {k: {"nombre": d["nombre"], "home": d["home"], "impreso": d.get("impreso", False),
                    "activo": d.get("activo", True)} for k, d in cfg_fuentes["diarios"].items()}
     resultado = {
         "generado": ahora.isoformat(timespec="seconds"),
         "semana": {"desde": (hoy - timedelta(days=6)).isoformat(), "hasta": hoy.isoformat(),
-                   "propuestos": propuestos, "criterio": "C · 60% convergencia + 40% jerarquía"},
-        "hoy": {"fecha": hoy.isoformat(), "temas": hoy_ids},
+                   "propuestos": propuestas, "afuera": afuera, "propuestos_temas": propuestos,
+                   "criterio": "C · 60% convergencia + 40% jerarquía"},
+        "hoy": {"fecha": hoy.isoformat(), "temas": hoy_ids, "historias": hoy_historias},
         "afecta": afecta,
         "tu_dia": tu_dia,
+        "historias": historias,
         "temas": temas,
         "secciones": nombres_seccion,
         "diarios": diarios,
-        "parametros": PARAMS,
-        "estadisticas": {"notas_semana": len(semana), "grupos": len(grupos), "temas": len(temas)},
+        "parametros": {**PARAMS, "historias": PARAMS_HISTORIAS},
+        "estadisticas": {"notas_semana": len(semana), "grupos": len(grupos), "temas": len(temas), "historias": len(historias)},
     }
     SALIDA.mkdir(parents=True, exist_ok=True)
     (SALIDA / "actual.json").write_text(json.dumps(resultado, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

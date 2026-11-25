@@ -151,3 +151,36 @@ def test_servicio_y_estado_paro():
     assert estado_paro(normalizar("Sin acuerdo, la UTA confirmó el paro de colectivos para mañana"), mie) == "Mañana"
     assert estado_paro(normalizar("Paro de trenes hoy: cómo funcionan las líneas"), mie) == "Hoy"
     assert estado_paro(normalizar("ATE amenaza con paros en diciembre"), mie) == "Anunciado"
+
+
+def test_historias():
+    from datetime import date
+    from informado.agrupar import tokens
+    from informado.historias import armar_historias, frecuencias_semana, propuesta, rotulo
+    def tema(i, sec, titulos, dia, puntaje=50):
+        return {"id": f"t{i}", "seccion": sec, "seccion_nombre": sec.capitalize(), "titulo": titulos[0], "puntaje": puntaje,
+                "convergencia": puntaje, "jerarquia": puntaje, "n_tapas_home": 1, "terminos": [],
+                "notas": [{"id": f"n{i}{k}", "diario": f"d{k}", "titulo": t, "bajada": "", "url": f"https://x/{i}{k}",
+                           "fecha": f"2026-11-{dia}T15:00:00+00:00", "home_mejor_pos": None} for k, t in enumerate(titulos)]}
+    santucho = ["Suspendieron el homenaje a Mario Santucho en la UBA", "Polémica por el homenaje a Mario Santucho en la UBA"]
+    temas = [tema(1, "politica", santucho, 23, 80),
+             tema(2, "politica", ["Villarruel contra la UBA por el homenaje a Mario Santucho", "El homenaje a Mario Santucho divide a la UBA"], 24, 60),
+             tema(3, "futbol", ["Boca venció a Racing en la Bombonera", "Boca ganó y sueña"], 24, 70),
+             tema(4, "futbol", ["Boca y Racing: la previa del partido en la Bombonera", "Boca recibe a Racing"], 23, 40),
+             tema(5, "economia", ["El dólar cerró en alza", "Subió el dólar"], 25, 30)]
+    palabras = ["Mendoza vendimia", "Salta turismo", "Chubut pesca", "Misiones yerba", "Jujuy litio", "Neuquén petróleo",
+                "Córdoba industria", "Tucumán azúcar", "Corrientes arroz", "Formosa algodón", "Catamarca minería", "Rioja olivos"]
+    temas += [tema(10 + k, "economia", [f"{w} crece", f"{w} en alza"], 22, 20) for k, w in enumerate(palabras)]
+    otros = [f"Nota de relleno número {k} sobre otra cosa distinta" for k in range(40)]
+    hs = armar_historias(temas, date(2026, 11, 25), tokens, [n["titulo"] for t in temas for n in t["notas"]] + otros)
+    por_tema = {t: h for h in hs for t in h["temas"]}
+    assert por_tema["t1"] is por_tema["t2"]                 # Santucho: una sola historia
+    assert por_tema["t3"] is not por_tema["t4"]             # fútbol no se une solo
+    s = por_tema["t1"]
+    assert s["id"] == "t1" and s["puesto"] == 1 and s["n_notas"] == 4 and s["feed"][0]["dia"] == "2026-11-24"
+    assert "Santucho" in s["titulo"]
+    assert [h["puesto"] for h in hs] == list(range(1, len(hs) + 1))
+    prop, afuera = propuesta(hs)
+    assert set(prop) | set(afuera) == {h["id"] for h in hs}
+    df, n = frecuencias_semana(otros)
+    assert rotulo(["La economía entró en recesión técnica", "Recesión técnica: qué dijo el Gobierno"], df, n).startswith("Recesión técnica")
