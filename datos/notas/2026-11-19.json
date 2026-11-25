@@ -13,7 +13,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -49,7 +49,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -67,7 +67,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -283,7 +283,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -463,7 +463,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -901,7 +901,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -955,7 +955,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1175,7 +1175,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1247,7 +1247,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1445,9 +1445,30 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "sindicales",
 "motivo": "palabras:reforma laboral"
+},
+"79b8d5609349": {
+"id": "79b8d5609349",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/politica/el-puerto-de-ushuaia-seguira-intervenido-por-la-nacion-por-tiempo-indeterminado-y-se-tensa-la-nid19112026/",
+"titulo": "El puerto de Ushuaia seguirá intervenido por la Nación por tiempo indeterminado y se tensa la relación con la provincia",
+"bajada": "Está en esa situación desde enero y la medida debía regir por un año; ahora el Gobierno lo prorrogó sin fecha; el gobernador Melella se opone fuertemente",
+"fecha": "2026-11-19T16:45:52+00:00",
+"seccion": "politica",
+"palabras_clave": [
+"Política"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "6b3a83232466": {
 "id": "6b3a83232466",
@@ -1467,9 +1488,30 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
+},
+"00db51d3ee29": {
+"id": "00db51d3ee29",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/politica/la-libertad-avanza-presiona-para-suspender-las-paso-en-la-capital-y-tensiona-el-vinculo-con-jorge-nid19112026/",
+"titulo": "La Libertad Avanza presiona para suspender las PASO en la Capital y tensiona el vínculo con Jorge Macri",
+"bajada": "Lo reclaman en sintonía con el debate en el Congreso, pero el gobierno porteño no evalúa por ahora avanzar en esa dirección; argumentan que no tienen los votos suficientes para sacarlas",
+"fecha": "2026-11-19T16:33:14+00:00",
+"seccion": "politica",
+"palabras_clave": [
+"Política"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
 },
 "d5a914620e8d": {
 "id": "d5a914620e8d",
@@ -1489,7 +1531,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1543,7 +1585,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1727,7 +1769,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1763,7 +1805,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1800,7 +1842,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
@@ -1858,7 +1900,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1912,7 +1954,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2002,7 +2044,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2024,7 +2066,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },

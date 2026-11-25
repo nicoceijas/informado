@@ -31,7 +31,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -67,7 +67,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -85,7 +85,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -103,7 +103,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -157,7 +157,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -305,6 +305,27 @@
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
+"140581c77f7b": {
+"id": "140581c77f7b",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/politica/allanan-el-banco-hipotecario-y-el-bind-e-investigan-si-encubrieron-las-maniobras-de-lavado-de-ariel-nid20112026/",
+"titulo": "Allanaron el Banco Hipotecario y el Bind: investigan si encubrieron las maniobras de lavado de Ariel Vallejo",
+"bajada": "Buscan determinar si ayudaron a blanquear dinero del financista ligado a la AFA; el juez Rodríguez Ponte secuestró mails y actas de directorio; los movimientos de dinero fueron multimillonarios",
+"fecha": "2026-11-20T22:45:26+00:00",
+"seccion": "politica",
+"palabras_clave": [
+"Política"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T18:28:12+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
 "72fb46508dfb": {
 "id": "72fb46508dfb",
 "diario": "popular",
@@ -337,7 +358,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -393,7 +414,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -465,7 +486,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -538,7 +559,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -646,7 +667,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -682,7 +703,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -772,7 +793,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -812,7 +833,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -848,7 +869,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -903,7 +924,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1068,7 +1089,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1104,7 +1125,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1141,7 +1162,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1305,7 +1326,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1344,7 +1365,7 @@
 "visto_ultimo": "2026-11-25T12:16:11+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas",
-"home_mejor_pos": 79
+"home_mejor_pos": 78
 },
 "977c9949ee12": {
 "id": "977c9949ee12",
@@ -1450,7 +1471,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1468,7 +1489,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1540,7 +1561,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T11:36:22+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -1558,7 +1579,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1576,7 +1597,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -1648,7 +1669,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1666,7 +1687,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1742,7 +1763,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 128
@@ -1780,7 +1801,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1817,7 +1838,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1999,7 +2020,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -2019,7 +2040,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2402,7 +2423,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2458,7 +2479,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2791,7 +2812,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 113
@@ -2814,7 +2835,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 114
