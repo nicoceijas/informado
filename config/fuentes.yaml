@@ -33,13 +33,19 @@ excluir_titulos:
   - horoscopo
   - loteria
 
-# Notas de servicio que se guardan (sirven para la búsqueda y «Afecta tu día») pero no forman
-# temas: cotización del día y pronóstico. Se comparan contra el título normalizado. (Aprobado 25/11.)
+# Notas de servicio: se guardan (búsqueda y «Tu día») pero no forman temas. Se comparan como
+# palabras completas contra el título normalizado; gana la primera categoría que coincide.
+# dolar y clima alimentan «Tu día»; las demás solo se sacan de los temas. (Aprobado 25/11.)
 servicio_sin_tema:
-  - dolar blue hoy
-  - dolar hoy
-  - como estara el clima
-  - como estara el tiempo
+  cotizaciones_exterior: [dolar hoy en, euro hoy en]
+  dolar: [dolar blue hoy, dolar hoy, dolar tarjeta hoy, dolar mep hoy, dolar ccl hoy, dolar cripto hoy,
+          dolar oficial hoy, dolar oficial a cuanto]
+  cotizaciones: [a cuanto cotiza, a cuanto cotizan, a cuanto opera, a cuanto cerro, cotizacion al,
+                 euro hoy, real hoy, bitcoin hoy, ethereum hoy]
+  clima: [como estara el clima, como estara el tiempo, pronostico del tiempo, pronostico extendido,
+          ola de calor, semana de calor, temperatura estara, alerta amarilla, alerta naranja, alerta roja,
+          alerta por tormentas, alerta por calor, alerta por vientos]
+  pagos: [quienes cobran hoy, quienes cobran anses hoy, cuando cobro, calendario de pagos, calendario de pago]
 
 diarios:
   clarin:

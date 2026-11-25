@@ -97,7 +97,7 @@ function vistaHoy() {
   <header class="cab"><div class="fila"><span class="meta">${esc(fechaLarga(D.hoy.fecha))}</span><span class="meta">Actualizado ${esc(hace(D.generado))}</span></div>
     <h1>Hoy</h1></header>
   ${filaDiarios()}
-  ${afecta ? `<section class="afecta" aria-label="Afecta tu día"><div class="cab2">${ICONO.alerta}<span>Afecta tu día · ${D.afecta.length}</span></div>${afecta}</section>` : ''}
+  ${D.tu_dia ? tuDiaHTML() : afecta ? `<section class="afecta" aria-label="Afecta tu día"><div class="cab2">${ICONO.alerta}<span>Afecta tu día · ${D.afecta.length}</span></div>${afecta}</section>` : ''}
   <section class="seccion"><div class="titulo"><h2>Temas de hoy</h2><span class="meta">${hoy.length} temas</span></div>
     ${hoy.length ? hoy.map(t => tarjetaTema(t)).join('') : '<p class="vacio">Todavía no hay temas cubiertos por dos o más diarios hoy.</p>'}</section>
   <section class="seccion"><a class="tarjeta oscuro" href="#semana"><span style="font-size:15px;font-weight:700">Tu semana</span><span class="b">${temasDeMiSemana().length} temas del ${esc(fechaCorta(D.semana.desde))} al ${esc(fechaCorta(D.semana.hasta))} ›</span></a></section>`;
@@ -119,6 +119,93 @@ function vistaSemana() {
   <section class="seccion"><div class="titulo"><h2>Más temas de la semana</h2></div>
     <div class="lista">${D.temas.filter(t => !mios.includes(t)).slice(0, 25).map(t => `<div class="it"><a class="txt" href="#tema/${t.id}" style="padding-left:10px"><b>${esc(t.titulo)}</b><small>${esc(t.seccion_nombre)} · ${t.diarios.length} diarios · puntaje ${t.puntaje}</small></a></div>`).join('')}</div></section>
   <p class="aviso">Un tema es un grupo de notas de al menos dos diarios que hablan de lo mismo. Puntaje: 60% convergencia (cuántos diarios, días y notas) + 40% jerarquía (lugar en la home y edición impresa).</p>`;
+}
+
+/* ---------- pantalla Temas y «Tu día» (aprobadas por Nico el 25/11) ---------- */
+let filtroTemas = null;
+const horaCorta = iso => new Date(iso).toLocaleTimeString('es-AR', {hour: '2-digit', minute: '2-digit', hourCycle: 'h23', timeZone: 'America/Argentina/Buenos_Aires'});
+const FLECHA = '<svg class="tf-fl" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>';
+const ICO_TD = {
+  clima: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 0-8 6 6 0 0 0-11.3 2A3 3 0 0 0 7 18z"/></svg>',
+  dolar: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M16 7.5c0-1.9-1.8-3-4-3s-4 1.1-4 3 1.8 2.6 4 3 4 1.2 4 3.2-1.8 3-4 3-4-1.1-4-3"/></svg>',
+  paros: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="13" rx="3"/><path d="M4 11h16M8 21l1.5-4M16 21l-1.5-4"/></svg>',
+};
+function notasCompactas(ns) {
+  return ns.map(n => `<a class="tf-nota" href="${esc(n.url)}" target="_blank" rel="noopener"><span>${esc(nombreDiario(n.diario))} <i>· ${esc(horaCorta(n.fecha))}</i></span>${esc(n.titulo)}</a>`).join('');
+}
+function filaTuDia(ico, titulo, sub, det) {
+  return `<div class="tf"><button class="tf-cab" data-abrir aria-expanded="false"><span class="td-ico">${ico}</span><span class="tf-tx"><b>${titulo}</b><small>${sub}</small></span>${FLECHA}</button><div class="tf-det">${det}</div></div>`;
+}
+function tuDiaHTML() {
+  const t = D.tu_dia;
+  if (!t) return '';
+  const filas = [];
+  if (t.clima.notas.length) filas.push(filaTuDia(ICO_TD.clima, 'Clima',
+    `${t.clima.alerta_amba ? '<span class="estado hoy">Alerta en el AMBA</span>' : '<span class="estado">Pronóstico</span>'}${t.clima.notas.length} nota${t.clima.notas.length > 1 ? 's' : ''}`,
+    notasCompactas(t.clima.notas)));
+  if (t.dolar.notas.length) filas.push(filaTuDia(ICO_TD.dolar, 'Dólar', `Cotización del día · ${t.dolar.notas.length} nota${t.dolar.notas.length > 1 ? 's' : ''}`, notasCompactas(t.dolar.notas)));
+  if (t.paros.length) {
+    const hoyN = t.paros.filter(p => p.estado === 'Hoy').length;
+    const clase = e => e === 'Hoy' ? 'hoy' : (e === 'Sin paro' ? 'ok' : '');
+    filas.push(filaTuDia(ICO_TD.paros, 'Paros y transporte',
+      `${t.paros.length} asunto${t.paros.length > 1 ? 's' : ''}${hoyN ? ` · <span class="estado hoy" style="margin:0 0 0 4px">${hoyN} hoy</span>` : ''}`,
+      t.paros.map(p => `<div class="evento"><b>${esc(p.quien)}</b><small><span class="estado ${clase(p.estado)}">${esc(p.estado)}</span>${esc(p.notas[0] ? p.notas[0].titulo : '')}</small>
+        <details><summary>${p.notas.length} nota${p.notas.length > 1 ? 's' : ''} ›</summary>${notasCompactas(p.notas)}${p.tema_id && T[p.tema_id] ? `<a class="tf-nota" href="#tema/${p.tema_id}" style="color:var(--azul);font-weight:600">Ver el tema completo ›</a>` : ''}</details></div>`).join('')));
+  }
+  if (!filas.length) return '';
+  return `<section class="tudia" aria-label="Tu día"><h3>Tu día <span>actualizado ${esc(hace(D.generado))}</span></h3>${filas.join('')}</section>`;
+}
+function filaTema(t, i, c) {
+  const porDiario = {};
+  t.notas.forEach(n => { if (!porDiario[n.diario]) porDiario[n.diario] = n; });
+  const accion = D.semana.propuestos.includes(t.id) ? `<button class="btn" data-quitar="${t.id}">Sacar de mi semana</button>`
+    : c.sumados.includes(t.id) ? `<button class="btn" data-sumar="${t.id}">Sacar de mi semana</button>`
+    : `<button class="btn" data-sumar="${t.id}">Sumar a mi semana</button>`;
+  return `<div class="tf"><button class="tf-cab" data-abrir aria-expanded="false">
+    <span class="tf-num" style="background:${COLOR[t.seccion] || 'var(--gris)'}">${i}</span>
+    <span class="tf-tx"><b>${esc(t.titulo)}</b><small>${esc(t.seccion_nombre)} · ${t.diarios.length} diarios · ${t.n_notas} notas</small></span>${FLECHA}</button>
+    <div class="tf-det">${notasCompactas(Object.values(porDiario))}
+      <div class="tf-acc"><a class="btn" href="#tema/${t.id}">Tema completo ›</a><a class="btn" href="#leer/${t.id}/0">${ICONO.libro}Modo lectura</a>${accion}</div></div></div>`;
+}
+function vistaTemas(modo) {
+  modo = modo === 'semana' ? 'semana' : 'hoy';
+  const c = cur();
+  const lista = modo === 'semana' ? temasDeMiSemana()
+    : D.hoy.temas.map(i => T[i]).filter(t => t && !c.quitados.includes(t.id)).slice(0, 12);
+  const propios = modo === 'semana' ? c.propios : [];
+  const secs = Object.keys(D.secciones).filter(s => lista.some(t => t.seccion === s));
+  if (filtroTemas && !secs.includes(filtroTemas)) filtroTemas = null;
+  let filas = '';
+  secs.filter(s => !filtroTemas || s === filtroTemas).forEach(s => {
+    filas += `<div class="tgrupo" style="color:${COLOR[s] || 'var(--gris)'}">${esc(D.secciones[s])}</div>` +
+      lista.filter(t => t.seccion === s).map(t => filaTema(t, lista.indexOf(t) + 1, c)).join('');
+  });
+  if (propios.length && !filtroTemas) {
+    filas += '<div class="tgrupo" style="color:var(--gris)">Tus temas</div>' + propios.map(p => `<div class="tf tf-propio"><a class="tf-cab" href="#buscar/${encodeURIComponent(p)}" style="text-decoration:none">
+      <span class="tf-num">+</span><span class="tf-tx"><b>${esc(p)}</b><small>Tema propio · ver notas que coinciden</small></span>${FLECHA}</a></div>`).join('');
+  }
+  const total = lista.length + propios.length;
+  app.innerHTML = `
+  <header class="cab"><div class="fila"><h1>Temas</h1><span class="meta">${modo === 'semana' ? `${esc(fechaCorta(D.semana.desde))} – ${esc(fechaCorta(D.semana.hasta))}` : esc(fechaLarga(D.hoy.fecha))}</span></div></header>
+  <nav class="segt" aria-label="Período"><a href="#temas/hoy" ${modo === 'hoy' ? 'aria-current="page"' : ''}>Hoy</a><a href="#temas/semana" ${modo === 'semana' ? 'aria-current="page"' : ''}>Semana</a></nav>
+  <div class="agregar"><input id="nuevo-tema" type="text" placeholder="Agregar un tema…" autocomplete="off" aria-label="Agregar un tema"><div class="sugs" id="sugs" hidden></div></div>
+  ${modo === 'hoy' ? tuDiaHTML() : ''}
+  ${total ? `<div class="tchips" role="group" aria-label="Filtrar por sección" style="margin-top:12px"><button class="${filtroTemas ? '' : 'on'}" data-filtro="">Todos · ${total}</button>${secs.map(s => `<button class="${filtroTemas === s ? 'on' : ''}" data-filtro="${s}">${esc(D.secciones[s])}</button>`).join('')}</div>
+  <div class="tlista">${filas}</div>` : '<p class="vacio">Todavía no hay temas cubiertos por dos o más diarios.</p>'}
+  <p class="aviso">Tocá un tema para ver una nota por diario. El número es su puesto y el color, su sección.</p>`;
+}
+function sugerirTemas(texto) {
+  const caja = document.getElementById('sugs');
+  if (!caja) return;
+  const v = texto.trim();
+  if (!v) { caja.hidden = true; caja.innerHTML = ''; return; }
+  const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const palabras = norm(v).split(/\s+/).filter(w => w.length > 2);
+  const mios = new Set(temasDeMiSemana().map(t => t.id));
+  const hits = palabras.length ? D.temas.filter(t => !mios.has(t.id) && palabras.every(w => norm(t.titulo + ' ' + t.notas.map(n => n.titulo).join(' ')).includes(w))).slice(0, 4) : [];
+  caja.innerHTML = hits.map(t => `<button data-sumar-sug="${t.id}">${esc(t.titulo)}<small>${esc(t.seccion_nombre)} · ${t.diarios.length} diarios · sumar a mi semana</small></button>`).join('') +
+    `<button class="propio" data-propio-nuevo>+ Agregar «${esc(v)}» como tema propio</button>`;
+  caja.hidden = false;
 }
 
 function vistaTema(id) {
@@ -287,6 +374,10 @@ app.addEventListener('click', e => {
   if (!el) return;
   const ds = el.dataset;
   const c = cur();
+  if ('abrir' in ds) { const f = el.parentElement; const ab = f.classList.toggle('abierta'); el.setAttribute('aria-expanded', ab); return; }
+  if (ds.filtro !== undefined) { filtroTemas = ds.filtro || null; render(); return; }
+  if (ds.sumarSug) { if (!c.sumados.includes(ds.sumarSug)) c.sumados.push(ds.sumarSug); setCur(c); toast('Tema sumado a tu semana'); location.hash = '#temas/semana'; render(); return; }
+  if ('propioNuevo' in ds) { const v = (document.getElementById('nuevo-tema') || {}).value; if (v && v.trim()) { c.propios.push(v.trim()); setCur(c); toast('Tema propio agregado'); location.hash = '#temas/semana'; render(); } return; }
   if (ds.guardarNota) {
     const t = T[ds.tema];
     const n = (t ? t.notas : []).find(x => x.id === ds.guardarNota) || (busqueda || []).map(b => ({id: b.i, diario: b.d, titulo: b.t, url: b.u, fecha: b.f})).find(x => x.id === ds.guardarNota)
@@ -309,7 +400,11 @@ app.addEventListener('click', e => {
   else if (ds.quitarGuardada) { const g = guardadas(); delete g.notas[ds.quitarGuardada]; guardar('guardadas', g); vistaGuardadas('notas'); }
   else if (ds.leida) { const g = guardadas(); if (g.notas[ds.leida]) { g.notas[ds.leida].leida = true; guardar('guardadas', g); } }
 });
-app.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.id === 'propio') app.querySelector('[data-agregar]').click(); });
+app.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && e.target.id === 'propio') app.querySelector('[data-agregar]').click();
+  if (e.key === 'Enter' && e.target.id === 'nuevo-tema') { const b = app.querySelector('[data-propio-nuevo]'); if (b) b.click(); }
+});
+app.addEventListener('input', e => { if (e.target.id === 'nuevo-tema') sugerirTemas(e.target.value); });
 
 function enviarFeedback() {
   const c = cur();
@@ -330,11 +425,12 @@ function enviarFeedback() {
 /* ---------- navegación ---------- */
 function render() {
   const [vista, arg] = (location.hash.slice(1) || 'hoy').split('/');
-  const nav = {hoy: 'hoy', semana: 'semana', tema: 'semana', buscar: 'semana', curar: 'curar', guardadas: 'guardadas', guardado: 'guardadas', leer: 'semana'}[vista] || 'hoy';
+  const nav = {hoy: 'hoy', semana: 'semana', temas: 'temas', tema: 'semana', buscar: 'semana', curar: 'curar', guardadas: 'guardadas', guardado: 'guardadas', leer: 'semana'}[vista] || 'hoy';
   if (vista !== 'leer') { document.body.classList.remove('leyendo', 'oscura'); }
   document.querySelectorAll('.barra a').forEach(a => { if (a.dataset.vista === nav) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
   if (vista === 'leer') { const partes = location.hash.slice(1).split('/'); vistaLeer(partes[1], partes[2]); return; }
   if (vista === 'semana') vistaSemana();
+  else if (vista === 'temas') vistaTemas(arg);
   else if (vista === 'tema') vistaTema(arg);
   else if (vista === 'curar') vistaCurar();
   else if (vista === 'guardadas') vistaGuardadas();

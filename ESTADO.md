@@ -51,27 +51,22 @@
 - [x] Relevar feeds RSS y sitemaps de cada diario.
 - [x] Tabla de secciones de cada diario → Política, Economía, Internacionales, Sindicales, Ciudad, Fútbol.
 - [ ] Crónica: leer la home directamente (versión 1.1).
-- [x] Recolector (cada 2 h, minuto 17 UTC) y clasificador de temas, con 14 pruebas.
+- [x] Recolector (cada 2 h, minuto 17 UTC) y clasificador de temas, con 16 pruebas.
 - [x] Agrupador y puntaje (umbral 0,30, ventana 72 h, grupos de más de 35 notas se parten).
 - [x] App web instalable: Hoy, Semana, Tema comparado, Armá tu semana, Guardadas, búsqueda de temas propios, feedback como issue.
 - [x] Modo lectura (25/11): una nota por pantalla con título y bajada en letra grande, tamaño ajustable, tema oscuro, deslizar para pasar de nota. Desde cada tema y desde Guardadas.
 - [ ] Fusionar temas desde la app (versión 1.1).
+- [x] Pantalla «Temas» (25/11): pestaña nueva con Hoy/Semana, «Agregar un tema…» siempre visible (suma un tema de la lista o agrega uno propio), lista compacta por sección y notas desplegables.
+- [x] «Tu día» (25/11): reemplaza «Afecta tu día» en Hoy y está arriba de Temas › Hoy. Clima (con «Alerta en el AMBA» solo si el título lo dice), dólar y paros/transporte por asunto, con estado (Hoy, Mañana, Anunciado, Sin paro).
+- [x] Títulos (25/11): el recolector sigue el título que el diario le cambia a una nota; el tema toma su nombre de la última nota de cada diario.
+- [x] Publicación con reintentos (25/11).
 - [ ] Modo lectura con texto completo: propuesto el 25/11 (servidor personal en Vercel, con clave, sin guardar texto y respetando los muros de pago). **En conversación, no aprobado.**
 - [ ] Tareas programadas de revisión (diaria y semanal).
 
 ## Propuestas pendientes de aprobación
 
-1. **Títulos de tema desactualizados.** **En conversación, no aprobada.** Hay dos cosas distintas:
-   - *(a) Seguir el título que el diario le cambia a una misma nota (idea de Nico).* Hoy el recolector guarda el primer título y no lo actualiza cuando la misma URL vuelve con otro. *Cambio sugerido:* actualizar título y bajada cada vez que la nota vuelve en el feed, y anotar el título anterior. Desde la calibración 2, la versión que se usa es la vista por última vez.
-   - *(b) Elegir cuál de las notas del tema le da el nombre.* En el caso Indec el título viejo no es una nota que cambió: es otra nota, publicada antes del dato (Diario Popular, 23/11 23:19), que nunca dijo otra cosa. Las de «entró en recesión» son notas nuevas, de las 16:00 en adelante. Con (a) solo, el tema seguiría llamándose «confirmará». *Cambio sugerido:* tomar la última nota de cada diario y elegir la que más se parece a las demás. Simulación con datos reales: antes del dato elige «…confirmaría la recesión técnica»; desde las 16:30, «…entró en recesión técnica».
-2. **Pantalla «Temas» con todo a la vista.** **Pedido de Nico el 25/11; en consulta.** Versión 1 de la maqueta: Nico dice que mejoró. Versión 2: suma el bloque «Tu día».
-3. **«Tu día» en lugar de «Afecta tu día».** **Pedido de Nico el 25/11; diseño en consulta.** Problemas que marcó: todo está al mismo nivel, hay varias notas de clima, el mismo paro aparece repetido, cuesta llegar al panel y el naranja con el ícono de alerta asusta cuando no corresponde. Ejemplos de hoy: «alerta naranja» que no es para el AMBA y «se diluyó el paro de la UTA». *Propuesta:* un bloque arriba de Hoy, cerrado por defecto, con tres filas:
-   - **Clima:** las notas del pronóstico de hoy juntas, con un estado («sin alerta para el AMBA» o «alerta en el AMBA»).
-   - **Dólar:** las notas de cotización del día juntas.
-   - **Paros y transporte:** un renglón por asunto, no por nota. Por ejemplo «UTA · colectivos AMBA», con un estado («Hoy», «Anunciado», «Sin paro») y sus notas adentro.
-   
-   Colores neutros. Solo «Hoy» va en rojo suave. Maqueta v2 enviada en la conversación.
-4. **Notas de servicio que todavía pasan** (vistas en la corrida de las 11:20). En Hoy aparecen «ANSES: quiénes cobran hoy», «Ethereum hoy: la cotización» y «Dólar tarjeta hoy: a cuánto cotiza». En Semana sigue «Semana de calor en el AMBA…». *Cambio sugerido:* una regla más general («… hoy: a cuánto cotiza», «quiénes cobran», «temperatura»/«calor» + AMBA) en vez de frases exactas. Encaja con la propuesta 3: el dólar tarjeta va a Dólar, el calor a Clima, y los cobros de ANSES quedan fuera de temas.
+1. **Títulos de tema que siguen la reacción y no el hecho** (visto al aplicar el criterio aprobado el 25/11). Al mediodía del 25/11 el tema de la recesión pasó a llamarse «Luis Caputo: "La definición de recesión técnica es arbitraria"», porque las últimas notas de cada diario ya son reacciones. También quedó «A qué hora juega Boca hoy» como nombre de un tema de fútbol. *Cambios sugeridos, a elegir:* (a) tomar las últimas 2 o 3 notas de cada diario en vez de 1, para que pese el hecho y no solo la última reacción; (b) que las notas destacadas en la home pesen más al elegir el nombre; (c) sumar «a que hora juega» a los títulos que no sirven para nombrar un tema.
+2. **Un mismo asunto partido en varios temas.** El homenaje a Santucho en la UBA aparece como 4 temas distintos (suspensión, carta del Gobierno, Villarruel, denuncia de un exjuez). *A estudiar:* bajar un poco el umbral de unión cuando comparten un nombre propio poco común.
 
 ## Revisiones diarias
 

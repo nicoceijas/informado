@@ -147,6 +147,103 @@ def resumen_nota(n):
     return {k: n.get(k) for k in ("id", "diario", "titulo", "bajada", "url", "fecha", "edicion_impresa", "home_mejor_pos")}
 
 
+def categoria_servicio(titulo, categorias):
+    """Categoría de servicio de una nota (dolar, clima, cotizaciones, pagos…) o None."""
+    t = normalizar(titulo)
+    for cat, patrones in categorias.items():
+        if coincidencias(t, patrones):
+            return cat
+    return None
+
+
+# «Tu día»: paros y transporte agrupados por asunto, con un estado.
+GREMIOS = {"uta": "UTA", "ate": "ATE", "la fraternidad": "La Fraternidad", "cgt": "CGT", "cta": "CTA",
+           "uom": "UOM", "camioneros": "Camioneros", "bancarios": "Bancarios", "la bancaria": "La Bancaria",
+           "aeronavegantes": "Aeronavegantes", "apla": "APLA", "ctera": "CTERA", "suteba": "SUTEBA", "ute": "UTE",
+           "metrodelegados": "Metrodelegados", "conadu": "CONADU", "fedun": "FEDUN", "utedyc": "UTEDYC",
+           "gremios universitarios": "Gremios universitarios", "docentes universitarios": "Docentes universitarios",
+           "docentes": "Docentes", "medicos": "Médicos", "residentes": "Residentes", "enfermeros": "Enfermeros"}
+SERVICIOS = {"colectivos": "colectivos", "colectivo": "colectivos", "trenes": "trenes", "tren": "trenes",
+             "subte": "subte", "subtes": "subte", "vuelos": "vuelos", "aeroparque": "vuelos", "ezeiza": "vuelos",
+             "clases": "clases", "escuelas": "clases", "universidades": "universidades", "bancos": "bancos",
+             "hospitales": "hospitales", "hospital": "hospitales", "luz": "luz", "agua": "agua",
+             "autopista": "tránsito", "panamericana": "tránsito", "general paz": "tránsito", "accesos": "tránsito"}
+SIN_PARO = ["acuerdo salarial", "cerro un acuerdo", "hubo acuerdo", "acordo", "acordaron", "se levanto",
+            "levantaron", "levanto el paro", "se diluyo", "suspendio el paro", "suspendieron el paro",
+            "suspenden el paro", "desactivo", "desactivaron", "no habra paro", "conciliacion obligatoria",
+            "funciona con normalidad", "funcionan con normalidad"]
+SIGUE_PARO = ["sin acuerdo", "no hubo acuerdo", "fracaso", "fracaso la negociacion", "rechazo", "rechazaron"]
+CLIMA = ["tormenta", "tormentas", "lluvia", "lluvias", "calor", "temperatura", "temperaturas", "alerta amarilla",
+         "alerta naranja", "alerta roja", "vientos", "granizo", "clima", "tiempo"]
+DIAS_SEMANA = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
+
+
+def estado_paro(txt, hoy):
+    if coincidencias(txt, SIN_PARO) and not coincidencias(txt, SIGUE_PARO):
+        return "Sin paro"
+    if coincidencias(txt, ["manana", "este " + DIAS_SEMANA[(hoy.weekday() + 1) % 7]]):
+        return "Mañana"
+    if coincidencias(txt, ["hoy", "este " + DIAS_SEMANA[hoy.weekday()], "en este momento", "ahora"]):
+        return "Hoy"
+    return "Anunciado"
+
+
+def armar_tu_dia(todas, ahora, hoy, id_tema, temas_por_id=None):
+    """Bloque «Tu día»: clima y dólar del día (notas de servicio) y paros/transporte por asunto."""
+    recientes = sorted((n for n in todas if n["_t"] >= (ahora - timedelta(hours=36)).timestamp()), key=lambda n: -n["_t"])
+
+    def una_por_diario(notas, maximo):
+        vistos, out = set(), []
+        for n in notas:
+            if n["diario"] not in vistos:
+                vistos.add(n["diario"])
+                out.append(resumen_nota(n))
+            if len(out) >= maximo:
+                break
+        return out
+
+    corte_dia = (ahora - timedelta(hours=20)).timestamp()
+    clima = una_por_diario([n for n in recientes if n["_servicio"] == "clima" and n["_t"] >= corte_dia], 5)
+    alerta_amba = any(coincidencias(normalizar(n["titulo"]), ["alerta", "alertas"]) and
+                      coincidencias(normalizar(n["titulo"]), ["amba", "caba", "ciudad de buenos aires", "conurbano", "buenos aires"])
+                      and not coincidencias(normalizar(n["titulo"]), ["resto del pais"])
+                      for n in clima)
+    dolar = una_por_diario([n for n in recientes if n["_servicio"] == "dolar" and n["_t"] >= corte_dia], 4)
+
+    grupos = {}
+    for n in recientes:
+        if n["_servicio"]:
+            continue
+        txt = normalizar(n["titulo"] + " " + n.get("bajada", ""))
+        a, b = coincidencias(txt, AFECTA), coincidencias(txt, AMBITO + list(SERVICIOS))
+        if not (a and b) or set(a) <= {"tormenta", "tormentas", "alerta"} or coincidencias(normalizar(n["titulo"]), CLIMA):
+            continue
+        if n["tema"] in ("internacionales", "otros") and not coincidencias(txt, ["amba", "caba", "conurbano", "subte", "colectivos", "trenes"]):
+            continue
+        gremio = next((GREMIOS[g] for g in GREMIOS if coincidencias(txt, [g])), None)
+        servicio = next((SERVICIOS[x] for x in SERVICIOS if coincidencias(txt, [x])), None)
+        clave = id_tema.get(n["id"]) or f"{gremio}|{servicio}"
+        g = grupos.setdefault(clave, {"gremio": gremio, "servicio": servicio, "notas": []})
+        g["gremio"] = g["gremio"] or gremio
+        g["servicio"] = g["servicio"] or servicio
+        g["notas"].append(n)
+    paros = []
+    for g in grupos.values():
+        ult = g["notas"][0]
+        quien = " · ".join(x for x in (g["gremio"], g["servicio"]) if x) or "Servicios"
+        tid = next((id_tema[n["id"]] for n in g["notas"] if n["id"] in id_tema), None)
+        notas = g["notas"]
+        if tid and temas_por_id and tid in temas_por_id:  # si el asunto es un tema, sus notas completas
+            notas = sorted(temas_por_id[tid]["notas"], key=lambda n: n["fecha"], reverse=True)
+        paros.append({"quien": quien, "estado": estado_paro(normalizar(ult["titulo"] + " " + ult.get("bajada", "")), hoy),
+                      "tema_id": tid, "notas": una_por_diario(notas, 6)})
+    orden = {"Hoy": 0, "Mañana": 1, "Anunciado": 2, "Sin paro": 3}
+    paros.sort(key=lambda p: (orden[p["estado"]], -len(p["notas"])))
+    return {"clima": {"alerta_amba": alerta_amba, "notas": clima},
+            "dolar": {"notas": dolar},
+            "paros": paros[:6]}
+
+
 def clave_nota(n, patrones_id):
     """Identifica la nota más allá de la URL exacta: sin «www», sin barra final y, si el diario
     pone un id propio en la URL (config: id_en_url), por ese id aunque cambie el resto."""
@@ -183,7 +280,9 @@ def main():
     for n in todas:
         n["_t"] = datetime.fromisoformat(n["fecha"]).timestamp()
         n["dia"] = datetime.fromisoformat(n["fecha"]).astimezone(AR).date().isoformat()
-    servicio = [normalizar(t) for t in cfg_fuentes.get("servicio_sin_tema", [])]
+    servicio = cfg_fuentes.get("servicio_sin_tema", {}) or {}
+    for n in todas:
+        n["_servicio"] = categoria_servicio(n["titulo"], servicio)
 
     # IDF sobre todo lo retenido (3 semanas): define qué es "habitual".
     vec = TfidfVectorizer(analyzer=tokens, sublinear_tf=True, min_df=2, max_df=0.25)
@@ -193,7 +292,7 @@ def main():
     semana_todas = [n for n in todas if n["tema"] != "otros" and n["_t"] >= desde.timestamp()]
     # Las notas de servicio (cotización del día, pronóstico) no forman temas; siguen en la búsqueda
     # y en «Afecta tu día».
-    semana = [n for n in semana_todas if not any(x in normalizar(n["titulo"]) for x in servicio)]
+    semana = [n for n in semana_todas if not n["_servicio"]]
     X = vec.transform([texto_nota(n) for n in semana])
     sim = (X @ X.T).toarray()
     tiempos = [n["_t"] for n in semana]
@@ -215,8 +314,17 @@ def main():
             if coincidencias(normalizar(n["titulo"]), TITULOS_SERVICIO):
                 a -= 1.0
             return a
-        centralidad = sub.mean(axis=1) + np.array([ajuste(semana[i]) for i in g])
-        rep = notas[int(np.argmax(centralidad))]
+        # Nombre del tema: la última nota de cada diario, y de esas la que más se parece a las demás.
+        # Así el título sigue lo que cuenta ahora la mayoría (p. ej. «entró en recesión» después del
+        # dato, no la nota previa «confirmará si…»). Aprobado por Nico el 25/11.
+        ultima = {}
+        for k in range(len(g)):
+            d = semana[g[k]]["diario"]
+            if d not in ultima or semana[g[k]]["_t"] > semana[g[ultima[d]]]["_t"]:
+                ultima[d] = k
+        cand = list(ultima.values())
+        centralidad = sub[np.ix_(cand, cand)].mean(axis=1) + np.array([ajuste(semana[g[k]]) for k in cand])
+        rep = notas[cand[int(np.argmax(centralidad))]]
         centroide = np.asarray(X[g].mean(axis=0)).ravel()
         top = [nombre_termino(t) for t in terminos[np.argsort(centroide)[::-1][:8]] if centroide[vec.vocabulary_[t]] > 0]
         vistos, claves = set(), []
@@ -289,6 +397,8 @@ def main():
         if len(afecta) >= 8:
             break
 
+    tu_dia = armar_tu_dia(todas, ahora, hoy, id_tema, {t["id"]: t for t in temas})
+
     diarios = {k: {"nombre": d["nombre"], "home": d["home"], "impreso": d.get("impreso", False),
                    "activo": d.get("activo", True)} for k, d in cfg_fuentes["diarios"].items()}
     resultado = {
@@ -297,6 +407,7 @@ def main():
                    "propuestos": propuestos, "criterio": "C · 60% convergencia + 40% jerarquía"},
         "hoy": {"fecha": hoy.isoformat(), "temas": hoy_ids},
         "afecta": afecta,
+        "tu_dia": tu_dia,
         "temas": temas,
         "secciones": nombres_seccion,
         "diarios": diarios,

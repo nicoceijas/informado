@@ -103,3 +103,54 @@ body.oscura .btn.on{background:#173B37;color:#7FD3C6}
 .lector-nav{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 4px}
 .lector-nav .btn{width:100%}
 .lector-nav a:only-child{grid-column:2}
+
+/* ---------- pantalla Temas y «Tu día» (25/11) ---------- */
+.segt{display:flex;background:#E4E6E1;border-radius:12px;padding:3px;gap:3px;margin:4px 0 10px}
+.segt a{flex:1;text-align:center;text-decoration:none;padding:9px 0;border-radius:9px;font-size:15px;font-weight:600;color:var(--suave)}
+.segt a[aria-current=page]{background:var(--tarjeta);color:var(--texto);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.agregar{position:sticky;top:0;z-index:4;background:var(--fondo);padding:6px 0 8px}
+.agregar input[type=text]{width:100%;padding-left:40px;border-radius:12px;background:var(--tarjeta) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235B6068' stroke-width='2.2' stroke-linecap='round'%3E%3Cpath d='M12 5v14M5 12h14'/%3E%3C/svg%3E") no-repeat 12px center/18px}
+.sugs{background:var(--tarjeta);border:1px solid var(--borde);border-radius:12px;margin-top:6px;overflow:hidden}
+.sugs button{display:block;width:100%;text-align:left;border:0;border-top:1px solid var(--borde);background:none;padding:11px 14px;font-size:14px;line-height:1.35;color:var(--texto)}
+.sugs button:first-child{border-top:0}
+.sugs small{display:block;color:var(--gris);font-size:12px;margin-top:2px}
+.sugs .propio{color:var(--azul);font-weight:600}
+.tchips{display:flex;gap:6px;overflow-x:auto;padding:2px 0 10px;scrollbar-width:none}
+.tchips button{flex:none;border:1px solid var(--borde);background:var(--tarjeta);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:600;color:var(--suave);min-height:34px}
+.tchips button.on{background:var(--texto);color:#fff;border-color:var(--texto)}
+.tlista{background:var(--tarjeta);border:1px solid var(--borde);border-radius:14px;overflow:hidden}
+.tgrupo{padding:7px 14px 5px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#F7F8F5;border-top:1px solid var(--borde)}
+.tgrupo:first-child{border-top:0}
+.tf{border-top:1px solid var(--borde)}
+.tgrupo + .tf,.tudia h3 + .tf{border-top:0}
+.tf-cab{display:flex;gap:10px;align-items:flex-start;width:100%;border:0;background:none;text-align:left;padding:11px 14px;color:var(--texto);font-family:inherit}
+.tf-num{flex:none;width:22px;height:22px;border-radius:50%;color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.tf-tx{flex:1;min-width:0}
+.tf-tx b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:15px;line-height:1.3;font-weight:600}
+.tf-tx small{display:block;color:var(--gris);font-size:12px;margin-top:3px}
+.tf-fl{flex:none;width:18px;height:18px;fill:none;stroke:var(--gris);stroke-width:2.2;transition:transform .15s;margin-top:2px}
+.tf.abierta .tf-fl{transform:rotate(90deg)}
+.tf.abierta .tf-tx b{-webkit-line-clamp:unset}
+.tf-det{display:none;padding:0 14px 12px 46px}
+.tf.abierta .tf-det{display:block}
+.tf-nota{display:block;text-decoration:none;color:var(--texto);padding:8px 0;border-top:1px dashed var(--borde);font-size:14px;line-height:1.35}
+.tf-nota:first-child{border-top:0}
+.tf-nota span{display:block;font-size:12px;font-weight:700;color:var(--suave);margin-bottom:2px}
+.tf-nota i{font-style:normal;font-weight:500;color:var(--gris)}
+.tf-acc{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.tf-acc .btn{min-height:34px;padding:6px 11px;border-radius:9px;background:var(--fondo)}
+.tf-propio .tf-num{background:var(--gris)}
+.tudia{background:var(--tarjeta);border:1px solid var(--borde);border-radius:14px;overflow:hidden;margin-top:12px}
+.tudia h3{margin:0;padding:10px 14px 8px;font-size:13px;font-weight:700;color:var(--suave);display:flex;justify-content:space-between;border-bottom:1px solid var(--borde)}
+.tudia h3 span{font-weight:500;color:var(--gris)}
+.tudia .tf-tx b{font-size:14px;-webkit-line-clamp:1}
+.td-ico{flex:none;width:22px;height:22px;display:flex;align-items:center;justify-content:center;color:var(--suave)}
+.td-ico svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.estado{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;background:#ECEDEA;color:var(--suave);margin-right:6px}
+.estado.hoy{background:#FDECEA;color:#9F1D1D}
+.estado.ok{background:var(--verde-claro);color:var(--verde)}
+.evento{padding:8px 0;border-top:1px dashed var(--borde)}
+.evento:first-child{border-top:0}
+.evento>b{font-size:14px;display:block}
+.evento>small{display:block;color:var(--gris);font-size:12px;margin-top:2px}
+.evento details summary{font-size:12px;color:var(--azul);cursor:pointer;margin-top:4px;list-style:none;font-weight:600}

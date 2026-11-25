@@ -121,3 +121,33 @@ def test_deduplicar():
     ]
     titulos = sorted(n["titulo"] for n in deduplicar(notas, cfg))
     assert titulos == ["Buen tiempo en el AMBA", "La actividad entró en recesión", "Otra nota"]
+
+
+def test_actualizar_titulo():
+    from informado.recolectar import actualizar_titulo
+    n = {"titulo": "El Indec publica hoy el dato", "bajada": "", "fuentes": ["popular/rss:ultimo"]}
+    assert actualizar_titulo(n, "La economía entró en recesión", "Dos trimestres de caída", "rss")
+    assert n["titulo"] == "La economía entró en recesión" and n["bajada"] == "Dos trimestres de caída"
+    assert n["titulos_anteriores"] == ["El Indec publica hoy el dato"]
+    # El sitemap no pisa un título que vino del RSS.
+    assert not actualizar_titulo(n, "Recesión técnica", "", "sitemap")
+    assert n["titulo"] == "La economía entró en recesión"
+    # Sin cambios no se toca nada.
+    assert not actualizar_titulo(n, "La economía entró en recesión", "", "rss")
+
+
+def test_servicio_y_estado_paro():
+    from datetime import date
+    from informado.agrupar import categoria_servicio, estado_paro
+    cfg = yaml.safe_load((RAIZ / "config/fuentes.yaml").read_text(encoding="utf-8"))["servicio_sin_tema"]
+    assert categoria_servicio("Dólar tarjeta hoy: a cuánto cotiza el dólar turista", cfg) == "dolar"
+    assert categoria_servicio("Dólar hoy en Colombia: precio y cotización", cfg) == "cotizaciones_exterior"
+    assert categoria_servicio("Semana de calor en el AMBA: qué días la temperatura estará por encima de 30", cfg) == "clima"
+    assert categoria_servicio("ANSES: quiénes cobran hoy, miércoles 25 de noviembre", cfg) == "pagos"
+    assert categoria_servicio("Decreto 1296: qué jubilados quedan fuera del bono y quiénes cobran", cfg) is None
+    assert categoria_servicio("El Indec publica el dato de actividad", cfg) is None
+    mie = date(2026, 11, 25)
+    assert estado_paro(normalizar("Se diluyó el paro de colectivos: la UTA cerró un acuerdo salarial"), mie) == "Sin paro"
+    assert estado_paro(normalizar("Sin acuerdo, la UTA confirmó el paro de colectivos para mañana"), mie) == "Mañana"
+    assert estado_paro(normalizar("Paro de trenes hoy: cómo funcionan las líneas"), mie) == "Hoy"
+    assert estado_paro(normalizar("ATE amenaza con paros en diciembre"), mie) == "Anunciado"

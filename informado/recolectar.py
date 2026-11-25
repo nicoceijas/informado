@@ -153,6 +153,27 @@ def leer_sitemap(data):
             }
 
 
+def actualizar_titulo(n, titulo, bajada, tipo):
+    """El diario cambió el título (o la bajada) de la misma nota: se sigue al diario y se guardan
+    los títulos anteriores (hasta 5). El RSS manda sobre el sitemap, para no alternar si los dos
+    traen títulos distintos. Devuelve True si cambió algo."""
+    titulo_de = n.get("titulo_de", "rss" if any("/rss:" in e for e in n.get("fuentes", [])) else "sitemap")
+    if tipo != "rss" and titulo_de == "rss":
+        return False
+    cambio = False
+    if titulo and titulo != n["titulo"]:
+        anteriores = [t for t in n.get("titulos_anteriores", []) if t != titulo] + [n["titulo"]]
+        n["titulos_anteriores"] = anteriores[-5:]
+        n["titulo"] = titulo
+        cambio = True
+    if bajada and bajada != n.get("bajada"):
+        n["bajada"] = bajada
+        cambio = True
+    if cambio:
+        n["titulo_de"] = tipo
+    return cambio
+
+
 def cargar_dia(dia):
     f = NOTAS / f"{dia}.json"
     if f.exists():
@@ -238,6 +259,8 @@ def main():
                 if nid in notas:
                     n = notas[nid]
                     cambio = False
+                    if actualizar_titulo(n, it["titulo"], bajada, tipo):
+                        cambio = True
                     if bajada and not n.get("bajada"):
                         n["bajada"] = bajada
                         cambio = True
@@ -263,6 +286,7 @@ def main():
                     "palabras_clave": pc,
                     "edicion_impresa": any("edicion impresa" in k.lower().replace("ó", "o") for k in pc),
                     "fuentes": [etiqueta],
+                    "titulo_de": tipo,
                     "visto_primero": ahora_txt,
                     "visto_ultimo": ahora_txt,
                 }
