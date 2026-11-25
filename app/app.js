@@ -29,15 +29,6 @@ const ICONO = {
   libro: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5c3-1.5 6-1.5 9 0v15c-3-1.5-6-1.5-9 0zM12 5c3-1.5 6-1.5 9 0v15c-3-1.5-6-1.5-9 0z"/></svg>',
 };
 
-/* En Android, con la app instalada, los enlaces se abren en una ventana interna sin las
- * herramientas de Chrome. Este enlace abre la nota en Chrome (con su modo lectura).
- * Si Chrome no está, el sistema usa la dirección normal. */
-const ES_ANDROID = /Android/i.test(navigator.userAgent);
-function enlaceNota(url) {
-  if (!ES_ANDROID || !/^https:\/\//.test(url)) return url;
-  return `intent://${url.slice(8)}#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=${encodeURIComponent(url)};end`;
-}
-
 /* ---------- curaduría y guardadas ---------- */
 const claveCur = () => 'cur:' + D.semana.hasta;
 function cur() { return leer(claveCur(), {quitados: [], sumados: [], propios: [], confirmada: null}); }
@@ -89,7 +80,7 @@ function notaHTML(n, tema) {
     <div class="top"><strong style="font-size:13px">${esc(nombreDiario(n.diario))}</strong><span class="meta">· ${esc(hora(n.fecha))}</span>${etiq}</div>
     <span class="t">${esc(n.titulo)}</span>
     ${n.bajada ? `<span class="b">${esc(n.bajada)}</span>` : ''}
-    <div class="pie"><a href="${esc(enlaceNota(n.url))}" target="_blank" rel="noopener">Leer en ${esc(nombreDiario(n.diario))} ↗</a>
+    <div class="pie"><a href="${esc(n.url)}" target="_blank" rel="noopener">Leer en ${esc(nombreDiario(n.diario))} ↗</a>
     <button class="icono${g ? ' on' : ''}" aria-label="${g ? 'Quitar de guardadas' : 'Guardar nota'}" data-guardar-nota="${esc(n.id)}" data-tema="${tema ? esc(tema.id) : ''}">${ICONO.guardar}</button></div>
   </article>`;
 }
@@ -98,7 +89,7 @@ function notaHTML(n, tema) {
 function vistaHoy() {
   const c = cur();
   const hoy = D.hoy.temas.map(i => T[i]).filter(t => t && !c.quitados.includes(t.id)).slice(0, 12);
-  const afecta = D.afecta.map(a => `<a class="tarjeta" href="${a.tema_id ? '#tema/' + a.tema_id : esc(enlaceNota(a.nota.url))}" ${a.tema_id ? '' : 'target="_blank" rel="noopener"'}>
+  const afecta = D.afecta.map(a => `<a class="tarjeta" href="${a.tema_id ? '#tema/' + a.tema_id : esc(a.nota.url)}" ${a.tema_id ? '' : 'target="_blank" rel="noopener"'}>
       <span class="top" style="display:flex;gap:6px;align-items:center"><span class="tag ${a.cuando === 'mañana' ? 'hoy' : 'hoy2'}">${a.cuando.toUpperCase()}</span><span class="meta">${esc(nombreDiario(a.nota.diario))}</span></span>
       <span style="font-size:15px;font-weight:700;line-height:1.35">${esc(a.nota.titulo)}</span>
       <span class="meta">${esc(a.motivo.join(' · '))}</span></a>`).join('');
@@ -194,7 +185,7 @@ function vistaGuardadas(pestana = 'notas') {
   const cuerpo = pestana === 'notas'
     ? (notas.length ? notas.map(n => `<article class="nota"><div class="top"><strong style="font-size:13px">${esc(nombreDiario(n.diario))}</strong>${n.tema ? `<span class="meta">· ${esc(n.tema).slice(0, 40)}</span>` : ''}</div>
         <span class="t" style="${n.leida ? 'color:var(--suave)' : ''}">${esc(n.titulo)}</span>
-        <div class="pie"><span class="meta">${n.leida ? 'Leída' : 'Sin leer'}</span><a href="${esc(enlaceNota(n.url))}" target="_blank" rel="noopener" data-leida="${esc(n.id)}">Leer ↗</a>
+        <div class="pie"><span class="meta">${n.leida ? 'Leída' : 'Sin leer'}</span><a href="${esc(n.url)}" target="_blank" rel="noopener" data-leida="${esc(n.id)}">Leer ↗</a>
         <button class="icono on" aria-label="Quitar de guardadas" data-quitar-guardada="${esc(n.id)}">${ICONO.guardar}</button></div></article>`).join('')
       : '<p class="vacio">Todavía no guardaste notas. Tocá el ícono de marcador en cualquier nota.</p>')
     : (temas.length ? temas.map(t => `<a class="tarjeta" href="${T[t.id] ? '#tema/' + t.id : '#guardado/' + t.id}"><span class="etq" style="color:${COLOR[t.seccion] || 'var(--gris)'};text-transform:none;letter-spacing:0">${esc(t.seccion_nombre)}</span><span class="t">${esc(t.titulo)}</span><span class="meta">${t.notas.length} notas${T[t.id] ? '' : ' · ya no está en la semana actual'}</span></a>`).join('')
@@ -265,7 +256,7 @@ function vistaLeer(fuente, i) {
       <h1 class="lector-titulo">${esc(n.titulo)}</h1>
       ${n.bajada ? `<p class="lector-bajada">${esc(n.bajada)}</p>` : '<p class="lector-bajada lector-sin">Este diario no publica bajada para esta nota.</p>'}
       <div class="lector-acciones">
-        <a class="btn prim" href="${esc(enlaceNota(n.url))}" target="_blank" rel="noopener" data-leida="${esc(n.id)}">Leer la nota completa en ${esc(nombreDiario(n.diario))} ↗</a>
+        <a class="btn prim" href="${esc(n.url)}" target="_blank" rel="noopener" data-leida="${esc(n.id)}">Leer la nota completa en ${esc(nombreDiario(n.diario))} ↗</a>
         <button class="btn sec${g ? ' on' : ''}" data-guardar-nota="${esc(n.id)}" data-tema="${datos.tema ? datos.tema.id : ''}">${ICONO.guardar}${g ? 'Guardada' : 'Guardar para después'}</button>
       </div>
     </article>
