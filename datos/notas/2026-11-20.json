@@ -31,7 +31,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -85,7 +85,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -103,7 +103,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -157,7 +157,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -337,7 +337,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -375,7 +375,7 @@
 "lanacion/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -393,7 +393,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -465,7 +465,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -520,6 +520,25 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T14:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
+"0fddbe0d0b2a": {
+"id": "0fddbe0d0b2a",
+"diario": "perfil",
+"url": "https://www.perfil.com/internacional/trump-amenaza-con-sanciones-a-las-empresas-que-instalen-centros-de-datos-en-el-exterior-y-milei-busca-atraerlas-a-la-argentina-ana8N1f8sMCK",
+"titulo": "Trump amenaza con sanciones a las empresas que instalen centros de datos en el exterior y Milei busca atraerlas a la Argentina",
+"bajada": "El mandatario justificó la medida por la disputa tecnológica con China y aseguró que no permitirá que el gigante asiático \"se adueñe\" de esa infraestructura. Leer más",
+"fecha": "2026-11-20T21:43:10+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -627,7 +646,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -663,7 +682,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -793,7 +812,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -829,7 +848,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -884,7 +903,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -938,7 +957,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -958,7 +977,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -994,7 +1013,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1034,6 +1053,25 @@
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
+"218753a1fea0": {
+"id": "218753a1fea0",
+"diario": "perfil",
+"url": "https://www.perfil.com/internacional/a-diez-anos-del-brexit-el-reino-unido-y-la-union-europea-firman-acuerdos-de-acercamiento-apFjQ4X4D1S9",
+"titulo": "A diez años del Brexit, el Reino Unido y la Unión Europea firman el acuerdo de mayor acercamiento hasta la fecha",
+"bajada": "\"Viejos amigos vuelven a dar un nuevo impulso a su amistad\", dijo la presidenta de la Comisión Europea, Ursula von der Leyen. Según las encuestas, la mayoría de los británicos consideran que el Brexit fue un error. Leer más",
+"fecha": "2026-11-20T19:12:19+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
 "6f19390c3ba5": {
 "id": "6f19390c3ba5",
 "diario": "ambito",
@@ -1066,7 +1104,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1085,6 +1123,25 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T14:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
+"b7ed93b9ce99": {
+"id": "b7ed93b9ce99",
+"diario": "perfil",
+"url": "https://www.perfil.com/internacional/carrera-hacia-la-onu-ni-grossi-ni-grynspan-logran-superar-el-bloqueo-en-el-consejo-de-seguridad-a66SL8m9vKlY",
+"titulo": "Carrera hacia la ONU: ni Grossi ni Grynspan logran superar el bloqueo en el Consejo de Seguridad",
+"bajada": "Un nuevo sondeo informal con boletas de colores confirmó que los ocho candidatos a secretario general tienen rechazos de al menos un país con poder de veto. Leer más",
+"fecha": "2026-11-20T18:55:59+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1138,7 +1195,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1230,7 +1287,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1393,7 +1450,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1411,7 +1468,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1483,7 +1540,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T11:36:22+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -1501,7 +1558,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1519,7 +1576,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -1555,7 +1612,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1667,7 +1724,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -1688,7 +1745,7 @@
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
-"home_mejor_pos": 130
+"home_mejor_pos": 128
 },
 "de46a35f8e40": {
 "id": "de46a35f8e40",
@@ -1708,6 +1765,25 @@
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
+"bfa696ef6361": {
+"id": "bfa696ef6361",
+"diario": "perfil",
+"url": "https://www.perfil.com/internacional/el-ciberespacio-es-un-lugar-muy-peligroso-aMQAD7O1V9gy",
+"titulo": "El ciberespacio es un lugar muy peligroso",
+"bajada": "Leer más",
+"fecha": "2026-11-20T14:19:04+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
 "29ef0b6e7367": {
 "id": "29ef0b6e7367",
 "diario": "perfil",
@@ -1723,6 +1799,25 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T14:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
+"b22c17d1bf21": {
+"id": "b22c17d1bf21",
+"diario": "perfil",
+"url": "https://www.perfil.com/internacional/el-silicon-valley-aposto-todo-a-trump-y-hoy-enfrenta-la-vendetta-aPims9h0JG2h",
+"titulo": "El Silicon Valley apostó todo a Trump y hoy enfrenta la vendetta",
+"bajada": "Elon Musk volcó US$446 millones en los republicanos y perdió. Ahora admite que se siente “tonto” y el nuevo Congreso demócrata le prepara citaciones. Leer más",
+"fecha": "2026-11-20T14:15:44+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1758,7 +1853,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1851,7 +1946,7 @@
 "visto_ultimo": "2026-11-25T12:16:11+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
-"home_mejor_pos": 131
+"home_mejor_pos": 125
 },
 "97497b4b214d": {
 "id": "97497b4b214d",
@@ -1889,6 +1984,25 @@
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
+"0363663030a4": {
+"id": "0363663030a4",
+"diario": "perfil",
+"url": "https://www.perfil.com/internacional/los-cristianos-son-cada-vez-mas-pero-los-musulmanes-los-superaran-por-millones-en-2070-a50-aw4I88r1ifDv",
+"titulo": "Los cristianos son cada vez más, pero los musulmanes los superarán por millones en 2070",
+"bajada": "Un nuevo estudio proyecta un cambio histórico en la demografía religiosa mundial impulsado por las tasas de fecundidad y el crecimiento poblacional en África subsahariana. Leer más",
+"fecha": "2026-11-20T13:38:39+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
 "e0703cdbdd54": {
 "id": "e0703cdbdd54",
 "diario": "lanacion",
@@ -1905,7 +2019,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1960,6 +2074,25 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T14:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
+"7459cbbbc10d": {
+"id": "7459cbbbc10d",
+"diario": "perfil",
+"url": "https://www.perfil.com/internacional/fuerte-sismo-de-magnitud-50-sacude-california-a50-cerca-de-la-falla-de-san-andres-y-reactiva-la-alerta-sismica-asMkA7L8sOHQ",
+"titulo": "Terremoto de magnitud 5.0 sacude California cerca de la falla de San Andrés y reactiva la alerta sísmica",
+"bajada": "Los especialistas señalan que la región atraviesa una etapa de “monitoreo instrumental continuo”. Según los datos del Servicio Geológico de Estados Unidos (USGS), el evento principal fue seguido por una serie de réplicas menores. Leer más",
+"fecha": "2026-11-20T13:06:17+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -2053,7 +2186,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2215,7 +2348,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2325,7 +2458,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2344,6 +2477,25 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T14:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
+"9da325cc034d": {
+"id": "9da325cc034d",
+"diario": "perfil",
+"url": "https://www.perfil.com/internacional/lula-defendio-el-ajuste-fiscal-y-rechazo-recortar-derechos-sociales-por-presion-del-mercado-financiero-aKzdZ4x98AAx",
+"titulo": "Lula defendió el ajuste fiscal y rechazó recortar derechos sociales por presión del mercado financiero",
+"bajada": "El presidente brasileño aseguró que buscará equilibrar las cuentas públicas sin reducir los derechos conquistados por la población y reivindicó la responsabilidad fiscal de su Gobierno. Leer más",
+"fecha": "2026-11-20T08:58:19+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -2437,7 +2589,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2455,7 +2607,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2473,7 +2625,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2509,7 +2661,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2639,7 +2791,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 113
@@ -2662,7 +2814,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 114

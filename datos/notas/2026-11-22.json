@@ -13,7 +13,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente,sudamericana"
 },
@@ -125,7 +125,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,sudamericana"
 },
@@ -311,7 +311,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:river,torneo"
 },
@@ -531,7 +531,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -649,7 +649,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente,river"
 },
@@ -1089,7 +1089,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -1254,7 +1254,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:river"
 },
@@ -1314,7 +1314,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1602,18 +1602,20 @@
 "diario": "perfil",
 "url": "https://www.perfil.com/internacional/el-gobierno-repudio-las-amenazas-de-iran-contra-rafael-grossi-y-exigio-que-cesen-las-intimidaciones-aWGQh5s4P134",
 "titulo": "El Gobierno repudió las amenazas de Irán contra Rafael Grossi y exigió que cesen las intimidaciones",
-"bajada": "",
+"bajada": "Cancillería respaldó al titular del OIEA y candidato a secretario general de la ONU, luego de que un alto asesor de la Guardia Revolucionaria lo acusara de favorecer a Israel. Leer más",
 "fecha": "2026-11-22T23:34:07+00:00",
 "seccion": "internacional",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"perfil/sitemap:sitemap"
+"perfil/sitemap:sitemap",
+"perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "internacionales",
-"motivo": "seccion:internacional"
+"motivo": "seccion:internacional",
+"titulo_de": "rss"
 },
 "a9492c5fa248": {
 "id": "a9492c5fa248",
@@ -1824,18 +1826,20 @@
 "diario": "perfil",
 "url": "https://www.perfil.com/internacional/la-suba-del-combustible-golpea-a-las-aerolineas-suspendieron-vuelos-entre-madrid-y-buenos-aires-y-crecen-las-quiebras-en-europa-a90lj5R4PtaX",
 "titulo": "La suba del combustible golpea a las aerolíneas: suspendieron vuelos entre Madrid y Buenos Aires y crecen las quiebras en Europa",
-"bajada": "",
+"bajada": "El conflicto en Medio Oriente disparó el precio del combustible de avión, que llegó a costar 200 dólares por barril. Hay compañías que suspenden rutas, otras que reducen su flota y algunas que quebraron. Leer más",
 "fecha": "2026-11-22T23:20:56+00:00",
 "seccion": "internacional",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"perfil/sitemap:sitemap"
+"perfil/sitemap:sitemap",
+"perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "internacionales",
-"motivo": "seccion:internacional"
+"motivo": "seccion:internacional",
+"titulo_de": "rss"
 },
 "79024d2183d5": {
 "id": "79024d2183d5",
@@ -1907,7 +1911,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,sudamericana"
 },
@@ -1990,18 +1994,20 @@
 "diario": "perfil",
 "url": "https://www.perfil.com/internacional/quien-es-stephen-miller-el-nuevo-jefe-de-gabinete-de-la-casa-blanca-que-trump-sugirio-como-su-posible-suceso-a50-bgd-a1Gr61X9QfZr",
 "titulo": "Quién es Stephen Miller, el nuevo jefe de gabinete de la Casa Blanca que Trump sugirió como su posible sucesor",
-"bajada": "",
+"bajada": "El presidente estadounidense designó al arquitecto de su línea dura migratoria como jefe de gabinete tras las elecciones legislativas y bromeó con su candidatura presidencial para 2028 ante JD Vance y Marco Rubio. Leer más",
 "fecha": "2026-11-22T23:07:53+00:00",
 "seccion": "internacional",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"perfil/sitemap:sitemap"
+"perfil/sitemap:sitemap",
+"perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "internacionales",
-"motivo": "seccion:internacional"
+"motivo": "seccion:internacional",
+"titulo_de": "rss"
 },
 "f9731159b41b": {
 "id": "f9731159b41b",
@@ -2055,7 +2061,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:scaloni,seleccion argentina"
 },
@@ -2378,7 +2384,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -2678,7 +2684,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca"
 },
@@ -2901,7 +2907,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -2996,7 +3002,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -3088,7 +3094,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -3478,7 +3484,7 @@
 "popular/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "futbol",
 "motivo": "palabras:1"
 },
@@ -3703,7 +3709,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -3816,7 +3822,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -3843,18 +3849,20 @@
 "diario": "perfil",
 "url": "https://www.perfil.com/internacional/otra-falla-informatica-obliga-a-delta-a-operar-en-forma-manual-en-atlanta-y-hay-demoras-en-eeuu.-aS04Y9r4hGCv",
 "titulo": "Otra falla informática obliga a Delta a operar \"en forma manual\" en Atlanta y hay demoras en EE:UU.",
-"bajada": "",
+"bajada": "A poco días del cierre completo de vuelos en todo el país, este domingo el problema afecta a una línea principal como Delta. Más de 400 vuelos con salida desde Atlanta éstaban demorados. Leer más",
 "fecha": "2026-11-22T20:07:28+00:00",
 "seccion": "internacional",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"perfil/sitemap:sitemap"
+"perfil/sitemap:sitemap",
+"perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "internacionales",
-"motivo": "seccion:internacional"
+"motivo": "seccion:internacional",
+"titulo_de": "rss"
 },
 "1bff1ca2121b": {
 "id": "1bff1ca2121b",
@@ -4097,7 +4105,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -4533,7 +4541,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -4588,7 +4596,7 @@
 "cronista/rss:economia_politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:economia-politica"
 },
@@ -4606,7 +4614,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -4633,18 +4641,20 @@
 "diario": "perfil",
 "url": "https://www.perfil.com/economia/financial-times-sigue-con-advertencias-hablo-del-riesgo-pais-y-las-dudas-sobre-financiamiento-y-reeleccion-afmxc9i8rSin",
 "titulo": "Financial Times sigue con las advertencias: habló del Riesgo País y las dudas sobre financiamiento y reelección",
-"bajada": "",
+"bajada": "El diario británico señaló que la caída en la aprobación de Javier Milei aumenta las dudas su reelección, mencionó que estancamiento de la economía complica el acceso al crédito internacional. Y recordó los pesados vencimientos de deuda 2027. Leer más",
 "fecha": "2026-11-22T18:28:53+00:00",
 "seccion": "economia",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"perfil/sitemap:sitemap"
+"perfil/sitemap:sitemap",
+"perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:03:26+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
-"motivo": "seccion:economia"
+"motivo": "seccion:economia",
+"titulo_de": "rss"
 },
 "e1623a4625c3": {
 "id": "e1623a4625c3",
@@ -4774,7 +4784,7 @@
 "lanacion/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol,seleccion argentina,torneo"
 },
@@ -4851,6 +4861,25 @@
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
+"75835e219cd2": {
+"id": "75835e219cd2",
+"diario": "perfil",
+"url": "https://www.perfil.com/internacional/fracaso-la-cumbre-del-clima-cop31-no-hubo-acuerdo-sobre-eliminar-los-combustibles-fosiles-apiHO5L7MUqv",
+"titulo": "Fracasó la Cumbre del Clima COP31: no hubo acuerdo por el tema de los combustibles fósiles",
+"bajada": "La Unión Europea había rechazado temprano el borrador, reclamando que se ponga fecha de eliminación a esos combustibles, pero luego de 49 horas de deliberaciones se cerró la Cumbre sin consenso. Leer más",
+"fecha": "2026-11-22T17:50:18+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
 "d83248a0e5fb": {
 "id": "d83248a0e5fb",
 "diario": "lanacion",
@@ -4867,7 +4896,7 @@
 "lanacion/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:21:27+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -5000,7 +5029,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5020,7 +5049,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5038,7 +5067,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -5077,7 +5106,7 @@
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
-"home_mejor_pos": 128
+"home_mejor_pos": 126
 },
 "ca92ad1497b2": {
 "id": "ca92ad1497b2",
@@ -5170,6 +5199,25 @@
 "tema": "internacionales",
 "motivo": "palabras:2"
 },
+"2fc64334d1ef": {
+"id": "2fc64334d1ef",
+"diario": "perfil",
+"url": "https://www.perfil.com/sociedad/ante-una-multitud-leon-xiv-volvio-al-angelus-y-pidio-a-gobernantes-en-guerra-que-busquen-la-paz-aKVpo7f27le7",
+"titulo": "Ante una multitud, León XIV volvió al Ángelus y pidió a gobernantes en guerra que busquen la paz",
+"bajada": "En la solemnidad de Cristo Rey, el Pontífice afirmó que Jesús \"se pone del lado de los últimos, de los oprimidos\". Fue su primera aparición tras los viajes a Uruguay, Argentina y Perú. Leer más",
+"fecha": "2026-11-22T16:09:38+00:00",
+"seccion": "sociedad",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"tema": "internacionales",
+"motivo": "palabras:2"
+},
 "f5c324156b11": {
 "id": "f5c324156b11",
 "diario": "lanacion",
@@ -5209,7 +5257,7 @@
 "lanacion/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -5263,7 +5311,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5336,7 +5384,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5450,7 +5498,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "seccion:tecnologia"
 },
@@ -5468,7 +5516,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -5486,7 +5534,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -5506,7 +5554,7 @@
 "lanacion/rss:deportes"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -5542,7 +5590,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -5596,7 +5644,7 @@
 "clarin/rss:ciudades"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "ciudad",
 "motivo": "seccion:ciudades"
 },
@@ -5657,7 +5705,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5675,7 +5723,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5713,7 +5761,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5731,7 +5779,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "ciudad",
 "motivo": "palabras:porteno"
 },
@@ -5876,7 +5924,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -5916,6 +5964,25 @@
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
+"cb7746383dfe": {
+"id": "cb7746383dfe",
+"diario": "perfil",
+"url": "https://www.perfil.com/internacional/bill-gates-volvio-a-advertir-sobre-la-necesidad-de-regulaciones-para-las-ia-aVBeN8o6B4TK",
+"titulo": "Bill Gates volvió a advertir sobre la necesidad de regulaciones para las IA: \"Nos llevaremos muchas sorpresas desagradables\"",
+"bajada": "El cofundador de Microsoft reiteró su preocupación ante un posible incremento de los ciberataques con inteligencia artificial (IA) y el peligro de que la tecnología caiga en personas malintencionadas. Leer más",
+"fecha": "2026-11-22T10:49:32+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-25T15:24:54+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
 "26e9f20c444a": {
 "id": "26e9f20c444a",
 "diario": "lanacion",
@@ -5932,7 +5999,7 @@
 "lanacion/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -5992,7 +6059,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6082,7 +6149,7 @@
 "clarin/rss:ciudades"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "ciudad",
 "motivo": "seccion:ciudades"
 },
@@ -6102,7 +6169,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6122,7 +6189,7 @@
 "lanacion/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6140,7 +6207,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -6158,7 +6225,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "ciudad",
 "motivo": "palabras:trenes"
 },
@@ -6176,7 +6243,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -6194,7 +6261,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -6212,7 +6279,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
 },
@@ -6230,7 +6297,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -6248,7 +6315,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -6266,7 +6333,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6284,7 +6351,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6302,7 +6369,7 @@
 "infobae/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6428,7 +6495,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -6446,7 +6513,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
 },
@@ -6486,7 +6553,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 17
@@ -6530,7 +6597,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
+"visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
