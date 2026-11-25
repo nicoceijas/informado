@@ -68,8 +68,16 @@
 1. **Títulos de tema que siguen la reacción y no el hecho** (visto al aplicar el criterio aprobado el 25/11). Al mediodía del 25/11 el tema de la recesión pasó a llamarse «Luis Caputo: "La definición de recesión técnica es arbitraria"», porque las últimas notas de cada diario ya son reacciones. También quedó «A qué hora juega Boca hoy» como nombre de un tema de fútbol. *Cambios sugeridos, a elegir:* (a) tomar las últimas 2 o 3 notas de cada diario en vez de 1, para que pese el hecho y no solo la última reacción; (b) que las notas destacadas en la home pesen más al elegir el nombre; (c) sumar «a que hora juega» a los títulos que no sirven para nombrar un tema.
 2. **Un mismo asunto partido en varios temas.** El homenaje a Santucho en la UBA aparece como 4 temas distintos (suspensión, carta del Gobierno, Villarruel, denuncia de un exjuez). *A estudiar:* bajar un poco el umbral de unión cuando comparten un nombre propio poco común.
 
-3. **Historias de la semana en «Temas» (idea de Nico, 25/11; diseño en consulta).** «Temas» mostraría los asuntos de los últimos 7 días: un título que plantea el tema y se actualiza, y adentro notas de varios días en orden cronológico, con la posibilidad de fijar notas arriba. Prueba con datos reales: unir los temas actuales por parecido funciona bien con asuntos definidos (Santucho: 5 temas con parecido de 0,13 a 0,23). Con asuntos amplios como «economía: recesión, inflación y respuestas del Gobierno» no alcanza: los parecidos son bajos (0,07 a 0,12) y se mezclan con todo lo económico. Propuesta: unión automática con un umbral prudente, más «unir temas» a mano desde la app; título automático con los términos principales, que el usuario puede renombrar.
-4. **Notas de opinión y periodistas preferidos (idea de Nico, 25/11). En conversación: no codear hasta tener una idea clara.**
+3. **Historias de la semana en «Temas» (idea de Nico, 25/11; maqueta completa en consulta).** Orden acordado: de la nota más nueva a la más vieja, como un feed, con las notas de varios diarios agrupadas. «Temas» mostraría los asuntos de los últimos 7 días: un título que plantea el tema y se actualiza, y adentro notas de varios días en orden cronológico, con la posibilidad de fijar notas arriba. Prueba con datos reales: unir los temas actuales por parecido funciona bien con asuntos definidos (Santucho: 5 temas con parecido de 0,13 a 0,23). Con asuntos amplios como «economía: recesión, inflación y respuestas del Gobierno» no alcanza: los parecidos son bajos (0,07 a 0,12) y se mezclan con todo lo económico. Propuesta: unión automática con un umbral prudente, más «unir temas» a mano desde la app; título automático con los términos principales, que el usuario puede renombrar.
+
+## Para retomar
+
+La revisión diaria trae estos temas el día indicado. No se implementan sin una conversación con Nico.
+
+- **Domingo 29/11 · Notas de opinión y periodistas.** Lo que se habló el 25/11:
+  - **Opinión:** a Nico le gusta la idea de «Lecturas del fin de semana», sobre todo los domingos: columnas de opinión que recorren los temas de la semana, de varios diarios, con la opción de apagarla. Falta decidir si se hace, después de probar la app un fin de semana.
+  - **Periodistas:** una ficha por periodista con enlaces adonde seguirlo (página de autor en cada diario, X, streaming, entrevistas). Solo enlaces: no se trae contenido de las redes. Queda para más adelante, si leer opinión desde la app resulta útil.
+  - **Dato técnico:** hay que verificar qué diarios publican la firma de las notas en sus RSS.
 
 ## Revisiones diarias
 
