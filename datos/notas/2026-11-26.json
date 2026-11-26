@@ -1,4 +1,1212 @@
 {
+"278a66605876": {
+"id": "278a66605876",
+"diario": "clarin",
+"url": "https://www.clarin.com/internacional/francisco-pescadero-malaga-explica-muchas-familias-compran-pescado-supermercado-tiendas-barrio-barato-motivo_0_sZL3CabWLn.html",
+"titulo": "Francisco, pescadero de Málaga, explica por qué muchas familias compran pescado en el supermercado y no en las tiendas de barrio: \"No es porque sea más barato, sino por otro motivo\"",
+"bajada": "",
+"fecha": "2026-11-26T06:28:00+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
+"7754e8aaa77f": {
+"id": "7754e8aaa77f",
+"diario": "infobae",
+"url": "https://www.infobae.com/america/mundo/2026/11/26/rusia-lanzo-un-ataque-con-misiles-balisticos-contra-un-centro-comercial-en-kiev-al-menos-cuatro-heridos/",
+"titulo": "Rusia lanzó un ataque con misiles balísticos contra un centro comercial en Kiev: al menos siete heridos",
+"bajada": "El bombardeo ocurrido a última hora del miércoles en la capital ucraniana dejó dos personas hospitalizadas en estado grave, según el alcalde Vitali Klitschko",
+"fecha": "2026-11-26T06:13:45+00:00",
+"seccion": "america",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:america",
+"home_mejor_pos": 24
+},
+"1e8950b94f7a": {
+"id": "1e8950b94f7a",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/politica/sesion-en-la-camara-de-diputados-y-de-senadores-hoy-en-vivo-presupuesto-2027-reforma-electoral-y-ley-nid26112026/",
+"titulo": "Sesión en la Cámara de Diputados y de Senadores, hoy, EN VIVO: Presupuesto 2027, reforma electoral y ley de ludopatía",
+"bajada": "El minuto a minuto de las votaciones en el Congreso de la Nación, los discursos de los legisladores y todas las repercusiones",
+"fecha": "2026-11-26T06:12:13+00:00",
+"seccion": "politica",
+"palabras_clave": [
+"Política"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:ultimo",
+"lanacion/rss:politica",
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "politica",
+"motivo": "seccion:politica",
+"home_mejor_pos": 9,
+"home_top10_corridas": 1
+},
+"72e0a3e792ab": {
+"id": "72e0a3e792ab",
+"diario": "infobae",
+"url": "https://www.infobae.com/economia/2026/11/26/recesion-tecnica-pico-del-riesgo-pais-dolar-en-alza-y-acciones-en-rojo-por-que-se-complico-el-frente-economico-de-la-argentina/",
+"titulo": "Recesión técnica, pico del riesgo país, dólar en alza y acciones en rojo: por qué se complicó el frente económico de la Argentina",
+"bajada": "Los esfuerzos del Gobierno por llegar a 2027 con una economía en calma quedaron puestos en cuestión por un estancamiento de la actividad e indicadores financieros golpeados por el frente externo y carencias propias",
+"fecha": "2026-11-26T06:08:00+00:00",
+"seccion": "economia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:economia"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
+"e878fadcc21c": {
+"id": "e878fadcc21c",
+"diario": "infobae",
+"url": "https://www.infobae.com/america/mundo/2026/11/26/trump-y-rutte-instaron-a-rusia-a-no-tomar-medidas-que-amplien-la-guerra-en-ucrania-y-reclamaron-una-solucion-pacifica/",
+"titulo": "Trump y Rutte instaron a Rusia a no tomar medidas que amplíen la guerra en Ucrania y reclamaron una solución pacífica",
+"bajada": "El encuentro entre el presidente estadounidense y el secretario general de la OTAN tuvo lugar en el complejo Mar-a-Lago y se centró en las guerras de Ucrania e Irán. La Casa Blanca calificó la reunión como “excepcional” y “muy importante”…",
+"fecha": "2026-11-26T06:02:54+00:00",
+"seccion": "america",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:america",
+"home_mejor_pos": 23
+},
+"894da0eb8f26": {
+"id": "894da0eb8f26",
+"diario": "clarin",
+"url": "https://www.clarin.com/internacional/esther-29-anos-vivio-anos-pareja-gatos-casa-prefabricada-28-m-costo-19000-euros-luego-pusimos-tejado-estructura-abajo-5000-euros_0_apzXfZfCId.html",
+"titulo": "Esther, de 29 años, vivió más de cuatro años con su pareja y sus gatos en una casa prefabricada de 28 m²: \"Me costó 19.000 euros, pero luego pusimos el tejado y la estructura de abajo, que fueron 5.000 euros más\"",
+"bajada": "",
+"fecha": "2026-11-26T06:01:59+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
+"91b134333865": {
+"id": "91b134333865",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/revista-hola/la-lista-de-invitados-se-renueva-hijos-de-looks-al-desnudo-y-un-amor-recien-estrenado-en-una-fiesta-nid26112026/",
+"titulo": "La lista de invitados se renueva: “hijos de”, looks al desnudo y un amor recién estrenado en una fiesta imperdible",
+"bajada": "Dress code de gala y recambio generacional en la velada más esperada del año",
+"fecha": "2026-11-26T06:00:00+00:00",
+"seccion": "revista-hola",
+"palabras_clave": [
+"Revista ¡HOLA!"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:ultimo",
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"7991f5e699f7": {
+"id": "7991f5e699f7",
+"diario": "clarin",
+"url": "https://www.clarin.com/internacional/avion-carga-fedex-sufrio-despiste-aeropuerto-miami-suspender-despegues_0_kWOxq3PrkY.html",
+"titulo": "Un avión de carga de FedEx sufrió un despiste y el Aeropuerto de Miami tuvo que suspender los despegues",
+"bajada": "La aeronave se salió de la pista al aterrizar, aunque se desconocen las causas que provocaron el incidente. La mala maniobra del piloto obligó a interrumpir las salidas y hasta pasada la medianoche del miércoles la situación no se había…",
+"fecha": "2026-11-26T05:59:17+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/rss:ultimo",
+"clarin/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional",
+"home_mejor_pos": 40
+},
+"ed4f108b151a": {
+"id": "ed4f108b151a",
+"diario": "infobae",
+"url": "https://www.infobae.com/politica/2026/11/26/el-abuso-sexual-es-el-delito-mas-denunciado-entre-los-casos-de-violencia-de-genero-que-atiende-la-facultad-de-derecho-de-la-uba/",
+"titulo": "El abuso sexual es el delito más denunciado entre los casos de violencia de género que atiende la Facultad de Derecho de la UBA",
+"bajada": "El Consultorio y Patrocinio Jurídico Gratuito de lesa casa de altos estudios recibió a 1.031 personas que consultaron por situaciones de violencia de género entre el 1 de febrero y el 15 de noviembre de 2026. Un 40,6% respecto de…",
+"fecha": "2026-11-26T05:38:11+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "politica",
+"motivo": "seccion:politica",
+"home_mejor_pos": 17
+},
+"d6570016611b": {
+"id": "d6570016611b",
+"diario": "infobae",
+"url": "https://www.infobae.com/generacion-silver/2026/11/26/violencia-de-genero-en-la-vejez-las-formas-de-maltrato-que-afectan-a-las-mujeres-mayores-y-permanecen-invisibilizadas/",
+"titulo": "Violencia de género en la vejez: las formas de maltrato que afectan a las mujeres mayores y permanecen invisibilizadas",
+"bajada": "Sexismo, edadismo y prejuicios sobre el deseo femenino se combinan para ocultar situaciones de vulneración. Una especialista en género explica por qué el cuidado puede convertirse en una justificación para sustituir la voluntad",
+"fecha": "2026-11-26T05:34:45+00:00",
+"seccion": "sociedad",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:sociedad"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"6c8907f6aaff": {
+"id": "6c8907f6aaff",
+"diario": "infobae",
+"url": "https://www.infobae.com/deportes/2026/11/26/peleas-diferencias-y-duras-derrotas-el-camino-de-frustraciones-de-argentina-antes-de-ser-campeon-de-la-copa-davis/",
+"titulo": "Peleas, diferencias y duras derrotas: el camino de frustraciones de Argentina antes de ser campeón de la Copa Davis",
+"bajada": "El equipo argentino estuvo varias veces cerca de la gloria antes del título logrado en 2016, pero diversos factores se lo impidieron. El recuerdo de aquellas jornadas",
+"fecha": "2026-11-26T05:32:40+00:00",
+"seccion": "deportes",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:deportes"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "otros",
+"motivo": "seccion:deportes"
+},
+"abb3b8367286": {
+"id": "abb3b8367286",
+"diario": "infobae",
+"url": "https://www.infobae.com/deportes/2026/11/26/la-seleccion-argentina-de-basquet-afronta-un-duelo-clave-ante-bahamas-con-la-mira-en-el-mundial-2027-que-necesita-para-clasificarse/",
+"titulo": "La selección argentina de básquet afronta un duelo clave ante Bahamas con la mira en el Mundial 2027: qué necesita para clasificarse",
+"bajada": "El equipo que conduce Pablo Prigioni recibirá en Zárate a los centroamericanos por las Eliminatorias. El domingo volverá a ser local ante Canadá",
+"fecha": "2026-11-26T05:32:23+00:00",
+"seccion": "deportes",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:deportes"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:seleccion argentina"
+},
+"910623bdb02c": {
+"id": "910623bdb02c",
+"diario": "infobae",
+"url": "https://www.infobae.com/deportes/2026/11/26/era-una-figura-del-futbol-brasileno-y-pele-le-genero-una-lesion-que-lo-dejo-cinco-anos-sin-jugar-quebro-mi-pierna-de-manera-cobarde/",
+"titulo": "Era una figura del fútbol brasileño y Pelé le generó una lesión que lo dejó cinco años sin jugar: “Quebró mi pierna de manera cobarde”",
+"bajada": "Procópio Cardoso recibió una dura entrada de O Rei durante un partido entre Cruzeiro y el Santos. “Mi rótula fue a parar a mi ingle”, sostuvo",
+"fecha": "2026-11-26T05:32:06+00:00",
+"seccion": "deportes",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:deportes"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:futbol"
+},
+"5b808233cec0": {
+"id": "5b808233cec0",
+"diario": "infobae",
+"url": "https://www.infobae.com/sociedad/2026/11/26/el-cientifico-que-se-convirtio-en-el-primer-doctor-en-quimica-de-argentina-y-marco-el-rumbo-de-la-disciplina-en-el-pais/",
+"titulo": "El científico que se convirtió en el primer doctor en Química de Argentina y marcó el rumbo de la disciplina en el país",
+"bajada": "Enrique Herrero Ducloux dedicó su vida a la investigación, la enseñanza y la construcción de una disciplina que comenzaba a desarrollarse. En su honor, hoy se celebra el Día del Químico",
+"fecha": "2026-11-26T05:28:40+00:00",
+"seccion": "sociedad",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:sociedad"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"16dc88a08ba1": {
+"id": "16dc88a08ba1",
+"diario": "infobae",
+"url": "https://www.infobae.com/sociedad/2026/11/26/necesitaba-cuidados-permanentes-y-quedo-27-minutos-sumergida-en-la-pileta-de-un-centro-terapeutico-una-tragedia-y-un-pedido-de-justicia/",
+"titulo": "Necesitaba cuidados permanentes y quedó 27 minutos sumergida en la pileta de un centro terapéutico: una tragedia y un pedido de justicia",
+"bajada": "Renata, de 13 años, tenía hemiparesia, retraso madurativo severo y epilepsia refractaria. Murió ahogada el 25 de abril en la pileta de AUPA, en Ingeniero Maschwitz. En medio del dolor que padecen por la ausencia, Daiana e Ignacio cuestionan la…",
+"fecha": "2026-11-26T05:28:22+00:00",
+"seccion": "sociedad",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:sociedad"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "politica",
+"motivo": "palabras:1"
+},
+"f2cb018ae0bf": {
+"id": "f2cb018ae0bf",
+"diario": "infobae",
+"url": "https://www.infobae.com/sociedad/2026/11/26/julio-sosa-el-varon-del-tango-que-murio-en-la-cumbre-de-su-carrera-cronica-de-su-ultima-noche-y-la-despedida-en-el-luna-park/",
+"titulo": "Julio Sosa, “El varón del tango” que murió en la cumbre de su carrera: crónica de su última noche y la despedida en el Luna Park",
+"bajada": "El artista falleció el 26 de noviembre de 1964 a los 38 años, luego de protagonizar un accidente con su auto cuando salía de una radio",
+"fecha": "2026-11-26T05:28:01+00:00",
+"seccion": "sociedad",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:sociedad"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"d83490b1383d": {
+"id": "d83490b1383d",
+"diario": "infobae",
+"url": "https://www.infobae.com/sociedad/2026/11/26/el-largo-rastro-de-sangre-del-erp-372-dias-de-un-militar-encerrado-bajo-tierra-una-nina-de-3-anos-asesinada-secuestros-y-homicidios/",
+"titulo": "El largo rastro de sangre del ERP: 372 días de un militar encerrado bajo tierra, una niña de 3 años asesinada, secuestros y homicidios",
+"bajada": "El Ejército Revolucionario del Pueblo había sido fundado en 1970 por Mario Roberto Santucho, y el Partido Revolucionario de los Trabajadores era su brazo político. Su bautismo de fuego fue el 18 de septiembre de 1970 cuando asaltó la comisaría…",
+"fecha": "2026-11-26T05:25:17+00:00",
+"seccion": "sociedad",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:sociedad"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"b3b38b1bb390": {
+"id": "b3b38b1bb390",
+"diario": "infobae",
+"url": "https://www.infobae.com/politica/2026/11/26/sin-fusibles-ni-margen-de-error-el-gobierno-se-pone-a-prueba-en-el-congreso-de-cara-a-los-mercados/",
+"titulo": "Sin fusibles ni margen de error, el Gobierno se pone a prueba en el Congreso de cara a los mercados",
+"bajada": "La economía entró en recesión técnica, pero en la Casa Rosada reniegan de ese concepto. A esta altura, todos entienden que al presidente Javier Milei le importa menos si cae en intención de voto que la defensa de su modelo.…",
+"fecha": "2026-11-26T05:24:49+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "politica",
+"motivo": "seccion:politica",
+"home_mejor_pos": 18
+},
+"6fa973df842c": {
+"id": "6fa973df842c",
+"diario": "clarin",
+"url": "https://www.clarin.com/internacional/richard-gracia-empresario-inversor-habito-comun-hogares-gente-pobre-encanta-guardar-bolsas-plastico-todas-partes_0_WSuxUhoWTM.html",
+"titulo": "Richard Gracia, empresario e inversor, sobre un hábito muy común en los hogares: \"A la gente pobre le encanta guardar las bolsas de plástico por todas partes\"",
+"bajada": "Según el autor de la reflexión, acumular objetos por las dudas revela una forma de pensar marcada por el miedo. Su consejo es desprenderse de lo que no se usa, aunque reutilizar también puede responder a la sostenibilidad o a…",
+"fecha": "2026-11-26T05:21:59+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/rss:ultimo",
+"clarin/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
+"7c1c85c58c4b": {
+"id": "7c1c85c58c4b",
+"diario": "infobae",
+"url": "https://www.infobae.com/america/mundo/2026/11/26/estados-unidos-aprobo-una-venta-de-suministros-para-los-f-16-de-ucrania-por-usd-622-millones/",
+"titulo": "Estados Unidos aprobó una venta de suministros para los F-16 de Ucrania por USD 622 millones",
+"bajada": "La transferencia de materiales de mantenimiento será costeada por Bélgica, Dinamarca, los Países Bajos y Noruega, según comunicó el Departamento de Estado estadounidense, sin aporte presupuestario de Washington",
+"fecha": "2026-11-26T05:19:55+00:00",
+"seccion": "america",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:america",
+"home_mejor_pos": 25
+},
+"8ca21335da26": {
+"id": "8ca21335da26",
+"diario": "infobae",
+"url": "https://www.infobae.com/america/america-latina/2026/11/26/el-congreso-de-chile-aprobo-los-presupuestos-generales-de-kast-para-2027-preven-ajustes-en-educacion-salud-y-cultura/",
+"titulo": "El Congreso de Chile aprobó los presupuestos generales de Kast para 2027: prevén ajustes en educación, salud y cultura",
+"bajada": "La iniciativa contempla un alza del gasto público de 1,7% y fue respaldada por el Senado tras semanas de negociación con sectores opositores, en medio de cuestionamientos y movilizaciones callejeras",
+"fecha": "2026-11-26T05:18:47+00:00",
+"seccion": "america",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:america",
+"home_mejor_pos": 81
+},
+"04568b67d931": {
+"id": "04568b67d931",
+"diario": "infobae",
+"url": "https://www.infobae.com/america/mundo/2026/11/26/huelga-general-en-grecia-miles-de-manifestantes-en-atenas-reclamaron-aumentos-salariales-y-rechazaron-el-costo-de-vida/",
+"titulo": "Huelga general en Grecia: miles de manifestantes en Atenas reclamaron aumentos salariales y rechazaron el costo de vida",
+"bajada": "La protesta de 24 horas reunió a empleados estatales, alumnos y representantes privados, que pidieron medidas frente a la situación de encarecimiento actual y mayores recursos destinados a la sanidad y la enseñanza",
+"fecha": "2026-11-26T05:18:05+00:00",
+"seccion": "america",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "sindicales",
+"motivo": "palabras:huelga",
+"home_mejor_pos": 82
+},
+"994d882b3038": {
+"id": "994d882b3038",
+"diario": "infobae",
+"url": "https://www.infobae.com/economia/2026/11/26/licitacion-clave-el-gobierno-enfrenta-hoy-vencimientos-por-25-billones-en-medio-de-la-tension-con-el-dolar-y-el-riesgo-pais/",
+"titulo": "Licitación clave: el Gobierno enfrenta hoy vencimientos por $25 billones en medio de la tensión con el dólar y el riesgo país",
+"bajada": "El Tesoro ofrecerá ocho instrumentos para medir el apetito inversor por cobertura cambiaria y plazos posteriores a 2027, en una semana condicionada por la volatilidad financiera",
+"fecha": "2026-11-26T05:11:56+00:00",
+"seccion": "economia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:economia"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
+"827ad2e7b502": {
+"id": "827ad2e7b502",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/el-mundo/la-nasa-compartio-imagenes-ineditas-de-dimorphos-el-asteroide-que-golpeo-en-2022-nid26112026/",
+"titulo": "La NASA compartió imágenes inéditas de Dimorphos, el asteroide que golpeó en 2022",
+"bajada": "La agencia espacial de Estados Unidos lo impactó durante una prueba de defensa planetaria y luego volvió en 2024 para analizar los resultados",
+"fecha": "2026-11-26T05:11:27+00:00",
+"seccion": "el-mundo",
+"palabras_clave": [
+"El Mundo"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:ultimo",
+"lanacion/rss:mundo",
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:el-mundo",
+"home_mejor_pos": 38
+},
+"7f5dfc229d0b": {
+"id": "7f5dfc229d0b",
+"diario": "infobae",
+"url": "https://www.infobae.com/economia/2026/11/26/la-industria-mostro-algunos-indicios-positivos-en-octubre-pero-la-mayoria-de-los-sectores-se-mantiene-en-terreno-negativo/",
+"titulo": "La industria mostró algunos indicios positivos en octubre, pero la mayoría de los sectores se mantiene en terreno negativo",
+"bajada": "Las mediciones privadas discrepan sobre la evolución frente a septiembre. El retroceso automotor y de los insumos para la construcción condicionó el resultado, mientras se diluyen las expectativas de un repunte antes de fin de año",
+"fecha": "2026-11-26T05:11:05+00:00",
+"seccion": "economia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:economia"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
+"8c802d7478d4": {
+"id": "8c802d7478d4",
+"diario": "infobae",
+"url": "https://www.infobae.com/economia/2026/11/26/el-banco-mas-grande-del-mundo-analizo-el-salto-del-riesgo-pais-y-la-volatilidad-en-argentina-que-preve-para-las-elecciones-2027/",
+"titulo": "El banco más grande del mundo analizó el salto del riesgo país y la volatilidad en Argentina: que prevé para las elecciones 2027",
+"bajada": "J.P. Morgan atribuyó la caída de bonos y acciones a una probabilidad cercana al 50% de un cambio de rumbo económico tras el mandato de Javier Milei",
+"fecha": "2026-11-26T05:10:40+00:00",
+"seccion": "economia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:economia"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
+"6c5fb825a92b": {
+"id": "6c5fb825a92b",
+"diario": "infobae",
+"url": "https://www.infobae.com/economia/2026/11/26/mas-agua-mas-energia-el-super-nino-disparo-la-generacion-hidroelectrica-y-la-principal-central-del-pais-ampliara-su-capacidad/",
+"titulo": "Más agua, más energía: el Súper Niño disparó la generación hidroeléctrica y la principal central del país ampliará su capacidad",
+"bajada": "La crecida récord de los ríos motivó una mayor producción y redujo el costo mayorista de la energía. Yacyretá activó una obra para generar más",
+"fecha": "2026-11-26T05:10:09+00:00",
+"seccion": "economia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:economia"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
+"170a96d99d5c": {
+"id": "170a96d99d5c",
+"diario": "infobae",
+"url": "https://www.infobae.com/economia/2026/11/26/las-elecciones-de-2027-explican-casi-la-mitad-del-riesgo-pais-y-hay-dudas-por-la-asistencia-externa/",
+"titulo": "Las elecciones de 2027 explican casi la mitad del riesgo país y hay dudas por la asistencia externa",
+"bajada": "El indicador elaborado por JP Morgan sigue arriba de los 1.000 puntos. El mercado espera una rueda cambiaria más distendida, mientras los inversores evalúan los pagos de deuda previstos para enero y julio",
+"fecha": "2026-11-26T05:09:46+00:00",
+"seccion": "economia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:economia"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
+"9b352421d6a4": {
+"id": "9b352421d6a4",
+"diario": "pagina12",
+"url": "https://www.pagina12.com.ar/2026/11/26/diputados-cerro-el-dia-sin-tratar-el-proyecto-de-regulacion-de-apuestas-virtuales/",
+"titulo": "Diputados cerró el día sin tratar el proyecto de regulación de apuestas virtuales",
+"bajada": "Se abrió un cuarto intermedio hasta el mediodía de este jueves. Desde el peronismo denunciaron presiones externas para evitar la aprobación del texto contra la ludopatía. Gritos y agarrones en los pasillos. Final abierto.",
+"fecha": "2026-11-26T05:06:34+00:00",
+"seccion": "",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"pagina12/rss:ultimo",
+"pagina12/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "politica",
+"motivo": "palabras:2",
+"home_mejor_pos": 31
+},
+"c2239f2adf4a": {
+"id": "c2239f2adf4a",
+"diario": "infobae",
+"url": "https://www.infobae.com/politica/2026/11/26/como-esta-ordenado-el-pj-para-enfrentar-las-elecciones-en-las-seis-provincias-que-ya-definieron-fecha/",
+"titulo": "Cómo está ordenado el PJ para enfrentar las elecciones en las seis provincias que ya definieron fecha",
+"bajada": "En varias de ellas necesita trabajar un acuerdo amplio para evitar fracturas. En otras la división es muy marcada. El peronismo intenta reorganizarse y romper el mapa electoral del 2027",
+"fecha": "2026-11-26T05:06:34+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "politica",
+"motivo": "seccion:politica",
+"home_mejor_pos": 19
+},
+"36a8cf32b19e": {
+"id": "36a8cf32b19e",
+"diario": "infobae",
+"url": "https://www.infobae.com/politica/2026/11/26/el-gobierno-busca-avanzar-con-la-media-sancion-del-presupuesto-2027-para-darle-una-senal-a-los-mercados/",
+"titulo": "El Gobierno busca avanzar con la media sanción del Presupuesto 2027 para darle una señal a los mercados",
+"bajada": "Las negociaciones aún siguen abiertas y bloques dialoguistas como Provincias Unidas y Argentina Federal amenazan con no dar quórum en Diputados si el oficialismo no atiende a sus reclamos. También se tratarán la reforma de la Carta Orgánica del Banco…",
+"fecha": "2026-11-26T05:05:04+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"07af0325b135": {
+"id": "07af0325b135",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/futbol/columbus-crew-vs-inter-miami-cf-por-el-mls-2026-dia-hora-y-como-seguir-online-nid26112026/",
+"titulo": "Columbus Crew vs. Inter Miami CF por el MLS 2026: día, hora y cómo seguir online",
+"bajada": "",
+"fecha": "2026-11-26T05:02:06+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"MLS",
+"Organización",
+"Fútbol Internacional"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:futbol"
+},
+"f61440d016d0": {
+"id": "f61440d016d0",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/futbol/al-qadsiah-vs-al-fayha-por-el-saudi-pro-league-2026-dia-hora-y-como-seguir-online-nid26112026/",
+"titulo": "Al Qadsiah vs. Al Fayha por el Saudí Pro League 2026: día, hora y cómo seguir online",
+"bajada": "",
+"fecha": "2026-11-26T05:01:51+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"Organización",
+"Fútbol Internacional",
+"Arabia Saudita"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:futbol"
+},
+"a2f7a46f4d04": {
+"id": "a2f7a46f4d04",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/futbol/werder-bremen-vs-borussia-mgladbach-por-la-bundesliga-2026-dia-hora-y-como-seguir-online-nid26112026/",
+"titulo": "Werder Bremen vs. Borussia M'gladbach, por la Bundesliga 2026: día, hora y cómo seguir online",
+"bajada": "",
+"fecha": "2026-11-26T05:01:50+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"Bundesliga",
+"Werder Bremen",
+"Borussia Monchengladbach"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "otros",
+"motivo": "seccion:deportes"
+},
+"34950ccc55bc": {
+"id": "34950ccc55bc",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/futbol/venezia-vs-bologna-por-la-liga-de-italia-2026-dia-hora-y-como-seguir-online-nid26112026/",
+"titulo": "Venezia vs. Bologna, por la Liga de Italia 2026: día, hora y cómo seguir online",
+"bajada": "",
+"fecha": "2026-11-26T05:01:36+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"Serie A",
+"Bologna Calcio",
+"Fútbol Internacional"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:futbol"
+},
+"a3522e9705c7": {
+"id": "a3522e9705c7",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/futbol/al-kholood-vs-al-khaleej-por-el-saudi-pro-league-2026-dia-hora-y-como-seguir-online-nid26112026/",
+"titulo": "Al Kholood vs. Al Khaleej por el Saudí Pro League 2026: día, hora y cómo seguir online",
+"bajada": "",
+"fecha": "2026-11-26T05:01:35+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"Organización",
+"Fútbol Internacional",
+"Arabia Saudita"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:futbol"
+},
+"be5336087169": {
+"id": "be5336087169",
+"diario": "infobae",
+"url": "https://www.infobae.com/politica/2026/11/26/la-camara-de-diputados-bonaerense-aplaza-el-debate-sobre-apuestas-online-por-falta-de-acuerdo-entre-los-bloques/",
+"titulo": "La Cámara de Diputados bonaerense aplaza el debate sobre apuestas online por falta de acuerdo entre los bloques",
+"bajada": "La sesión se reanudará el jueves a las 12, tras el rechazo opositor al mecanismo para tratar una regulación que busca proteger a menores y perseguir sitios sin licencia ilegales",
+"fecha": "2026-11-26T05:01:25+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"24806177cb83": {
+"id": "24806177cb83",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/futbol/al-ittihad-vs-neom-por-el-saudi-pro-league-2026-dia-hora-y-como-seguir-online-nid26112026/",
+"titulo": "Al Ittihad vs. NEOM por el Saudí Pro League, 2026: día, hora y cómo seguir online",
+"bajada": "",
+"fecha": "2026-11-26T05:01:21+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"Organización",
+"Organización",
+"Fútbol Internacional"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:futbol"
+},
+"5a1512c8d029": {
+"id": "5a1512c8d029",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/futbol/brest-vs-paris-fc-por-la-liga-de-francia-2026-dia-hora-y-como-seguir-online-nid26112026/",
+"titulo": "Brest vs. Paris FC, por la Liga de Francia 2026: día, hora y cómo seguir online",
+"bajada": "",
+"fecha": "2026-11-26T05:01:20+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"Liga de Francia",
+"fútbol exterior",
+"Fútbol Internacional"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:futbol"
+},
+"80be44e0ef53": {
+"id": "80be44e0ef53",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/futbol/fluminense-vs-cruzeiro-por-el-brasileirao-serie-a-2026-dia-hora-y-como-seguir-online-nid26112026/",
+"titulo": "Fluminense vs. Cruzeiro por el Brasileirao Serie A 2026: día, hora y cómo seguir online",
+"bajada": "",
+"fecha": "2026-11-26T05:01:09+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"Brasileirao",
+"Fluminense",
+"Cruzeiro"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "otros",
+"motivo": "seccion:deportes"
+},
+"0a3f828cb343": {
+"id": "0a3f828cb343",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/futbol/nottingham-forest-vs-chelsea-por-la-premier-league-2026-dia-hora-y-como-seguir-online-nid26112026/",
+"titulo": "Nottingham Forest vs. Chelsea, por la Premier League 2026: día, hora y cómo seguir online",
+"bajada": "",
+"fecha": "2026-11-26T05:01:02+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"Premier League",
+"Chelsea",
+"fútbol exterior"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:futbol"
+},
+"77bec4862609": {
+"id": "77bec4862609",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/juegos/crucigrama/palabras-respuestas/las-respuestas-al-crucigrama-del-jueves-26-de-noviembre-nid26112026/",
+"titulo": "Las respuestas al crucigrama del jueves 26 de noviembre",
+"bajada": "",
+"fecha": "2026-11-26T05:00:48+00:00",
+"seccion": "juegos",
+"palabras_clave": [
+"Noticias y temas de la agenda de la Argentina y el mundo",
+"Tag de servicio de noticias",
+"Respuestas de crucigramas"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"5b5adf4dcac4": {
+"id": "5b5adf4dcac4",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/futbol/tristan-suarez-vs-gimnasia-y-tiro-por-la-primera-nacional-2026-dia-hora-y-como-ver-online-nid26112026/",
+"titulo": "Tristán Suárez vs. Gimnasia y Tiro, por la Primera Nacional 2026: día, hora y cómo ver online",
+"bajada": "",
+"fecha": "2026-11-26T05:00:47+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"Primera Nacional",
+"Fútbol argentino",
+"Fútbol de ascenso"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:futbol"
+},
+"f980a48fec85": {
+"id": "f980a48fec85",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/futbol/levante-vs-racing-de-santander-liga-de-espana-2026-dia-hora-y-como-seguir-online-nid26112026/",
+"titulo": "Levante vs. Racing de Santander, Liga de España 2026: día, hora y cómo seguir online",
+"bajada": "",
+"fecha": "2026-11-26T05:00:42+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"Liga de España",
+"Levante UD",
+"Fútbol Internacional"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:futbol,racing"
+},
+"1cc0cd5ed12c": {
+"id": "1cc0cd5ed12c",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/futbol/deportivo-moron-vs-colon-santa-fe-por-la-primera-nacional-2026-dia-hora-y-como-ver-online-nid26112026/",
+"titulo": "Deportivo Morón vs. Colón Santa Fe, por la Primera Nacional 2026: día, hora y cómo ver online",
+"bajada": "",
+"fecha": "2026-11-26T05:00:36+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"Primera Nacional",
+"Fútbol argentino",
+"Deportivo Morón"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:futbol"
+},
+"4ce73938ed23": {
+"id": "4ce73938ed23",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/economia/dolar/dolar-tarjeta-hoy-a-cuanto-cotiza-el-dolar-turista-el-26-de-noviembre-nid26112026/",
+"titulo": "Dólar tarjeta hoy: a cuánto cotiza el dólar turista el 26 de noviembre",
+"bajada": "",
+"fecha": "2026-11-26T05:00:21+00:00",
+"seccion": "economia",
+"palabras_clave": [
+"Servicios Dólar",
+"Banco Nación",
+"Banco Central"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
+"0378275c7506": {
+"id": "0378275c7506",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/economia/dolar/dolar-blue-hoy-a-cuanto-cotiza-el-jueves-26-de-noviembre-nid26112026/",
+"titulo": "Dólar blue hoy: a cuánto cotiza el jueves 26 de noviembre",
+"bajada": "",
+"fecha": "2026-11-26T05:00:21+00:00",
+"seccion": "economia",
+"palabras_clave": [
+"Servicios Dólar",
+"Banco Nación",
+"Banco Central"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
+"bf26b04af0c7": {
+"id": "bf26b04af0c7",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/deportes/futbol/atlanta-vs-ciudad-de-bolivar-por-la-primera-nacional-2026-dia-hora-y-como-ver-online-nid26112026/",
+"titulo": "Atlanta vs. Ciudad de Bolívar, por la Primera Nacional 2026: día, hora y cómo ver online",
+"bajada": "",
+"fecha": "2026-11-26T05:00:18+00:00",
+"seccion": "deportes",
+"palabras_clave": [
+"Primera Nacional",
+"Club Atlético Atlanta",
+"Fútbol argentino"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:futbol"
+},
+"4435b1fed130": {
+"id": "4435b1fed130",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/sociedad/diabetes-por-que-es-importante-conocer-los-valores-de-la-glucemia-y-que-pasa-si-no-la-controlamos-nid26112026/",
+"titulo": "Diabetes: por qué es importante conocer los valores de la glucemia y qué pasa si no la controlamos",
+"bajada": "Jorge Tartaglione explicó en LN+ cómo actúa el azúcar en sangre y las razones por las que la enfermedad puede pasar desapercibida; los chequeos y los hábitos que ayudan a reducir el riesgo",
+"fecha": "2026-11-26T05:00:00+00:00",
+"seccion": "sociedad",
+"palabras_clave": [
+"Sociedad"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:ultimo",
+"lanacion/rss:sociedad",
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"7f48d9bb2c7e": {
+"id": "7f48d9bb2c7e",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/sociedad/cita-del-dia-albert-camus-novelista-frances-la-necesidad-de-tener-razon-es-senal-de-una-mente-vulgar-nid26112026/",
+"titulo": "Cita del día, Albert Camus, novelista francés: “La necesidad de tener razón es señal de una mente vulgar”",
+"bajada": "",
+"fecha": "2026-11-26T05:00:00+00:00",
+"seccion": "sociedad",
+"palabras_clave": [
+"Psicología",
+"LN+",
+"Noticias y temas de la agenda de la Argentina y el mundo"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"d3811257eb0a": {
+"id": "d3811257eb0a",
+"diario": "infobae",
+"url": "https://www.infobae.com/politica/2026/11/26/el-dilema-del-gobierno-en-la-negociacion-con-el-pro-y-las-lecturas-de-los-ultimos-movimientos-de-jorge-macri/",
+"titulo": "El dilema del Gobierno en la negociación con el PRO y las lecturas de los últimos movimientos de Jorge Macri",
+"bajada": "En Casa Rosada creen que los elogios del alcalde a la referente porteña, Pilar Ramírez, configuran un intento por presionar al oficialismo en medio de las conversaciones electorales para el 2027. Cómo impacta la interna de los primos Macri",
+"fecha": "2026-11-26T04:59:56+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"20ea2a5f5ca0": {
+"id": "20ea2a5f5ca0",
+"diario": "infobae",
+"url": "https://www.infobae.com/politica/2026/11/26/milei-enfrenta-otro-dia-clave-en-el-congreso-fuera-de-argentina-y-deja-las-decisiones-en-manos-de-karina/",
+"titulo": "Milei enfrenta otro día clave en el Congreso fuera de Argentina y deja las decisiones en manos de Karina",
+"bajada": "El Presidente se encuentra en Paraguay y tendrá una audiencia con Pedro Alliana. Mientras, Diputados y el Senado discuten iniciativas centrales para el oficialismo y la Casa Rosada termina de ordenar el temario legislativo de diciembre",
+"fecha": "2026-11-26T04:59:31+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "politica",
+"motivo": "seccion:politica"
+},
+"d95ba9f28494": {
+"id": "d95ba9f28494",
+"diario": "infobae",
+"url": "https://www.infobae.com/politica/2026/11/26/eleccion-sindical-clave-los-metrodelegados-elegiran-hoy-su-nuevo-lider-entre-tres-candidatos-y-con-un-resultado-imprevisible/",
+"titulo": "Elección sindical clave: los Metrodelegados elegirán hoy su nuevo líder entre tres candidatos y con un resultado imprevisible",
+"bajada": "En los comicios se enfrentarán dos variantes del sector oficialista, encabezadas por Néstor Segovia y Virginia Bouvet, y una lista de izquierda que postula a Claudio Dellecarbonara. Qué se pone en juego en esta votación",
+"fecha": "2026-11-26T04:59:08+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "sindicales",
+"motivo": "palabras:sindical"
+},
+"3fbfc7508574": {
+"id": "3fbfc7508574",
+"diario": "infobae",
+"url": "https://www.infobae.com/sociedad/2026/11/26/un-joven-peleo-con-su-ex-se-rocio-alcohol-y-se-prendio-fuego-en-santiago-del-estero-tiene-el-70-del-cuerpo-quemado/",
+"titulo": "Un joven peleó con su ex, se roció alcohol y se prendió fuego en Santiago del Estero: tiene el 70% del cuerpo quemado",
+"bajada": "Ocurrió en el barrio Smata, de Santiago del Estero. El joven fue a la casa de su expareja para intentar recomponer el vínculo y allí se provocó las lesiones",
+"fecha": "2026-11-26T04:57:32+00:00",
+"seccion": "sociedad",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:sociedad"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "sindicales",
+"motivo": "palabras:smata"
+},
+"6308937f2b05": {
+"id": "6308937f2b05",
+"diario": "infobae",
+"url": "https://www.infobae.com/america/mundo/2026/11/26/el-gobierno-britanico-presentara-ante-el-parlamento-una-ley-para-implementar-los-acuerdos-con-la-ue-y-reducir-las-barreras-comerciales/",
+"titulo": "El Gobierno británico presentará ante el Parlamento una ley para implementar los acuerdos con la UE y reducir las barreras comerciales",
+"bajada": "La iniciativa, denominada “Reducir los costos”, incorporará a la legislación británica dos acuerdos alcanzados el 20 de noviembre con el bloque: la simplificación de los controles al comercio de alimentos y la conexión de los mercados de emisiones de carbono…",
+"fecha": "2026-11-26T04:56:34+00:00",
+"seccion": "america",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:america"
+},
+"887e4eecb33a": {
+"id": "887e4eecb33a",
+"diario": "perfil",
+"url": "https://www.perfil.com/internacional/turista-argentina-murio-en-una-playa-nudista-de-uruguay-mientras-estaba-de-vacaciones-con-su-pareja-aECi83O567pt",
+"titulo": "Turista argentina murió en una playa nudista de Uruguay mientras estaba de vacaciones con su pareja",
+"bajada": "La joven fallecida tenía 36 años y era oriunda de la ciudad entrerriana de Viale. Leer más",
+"fecha": "2026-11-26T04:51:06+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:ultimo",
+"perfil/rss:mundo",
+"perfil/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional",
+"home_mejor_pos": 8,
+"home_top10_corridas": 1
+},
+"770f8c0a0686": {
+"id": "770f8c0a0686",
+"diario": "clarin",
+"url": "https://www.clarin.com/cultura/zapatistas-foro-porto-alegre-america-latina-discutio-globalizacion_0_2XNA2x7vZ1.html",
+"titulo": "De los zapatistas al Foro de Porto Alegre: cómo América Latina discutió la globalización",
+"bajada": "El Malba reúne a destacados investigadores para revisar el período 1989-2001, cuando el neoliberalismo, las nuevas tecnologías y los movimientos sociales cambiaron el mapa político y cultural de la región. Participan Néstor García Canclini y Renato Ortiz, entre muchos otros,…",
+"fecha": "2026-11-26T04:38:42+00:00",
+"seccion": "cultura",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/rss:ultimo",
+"clarin/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "otros",
+"motivo": "seccion:cultura"
+},
+"9ca694115255": {
+"id": "9ca694115255",
+"diario": "clarin",
+"url": "https://www.clarin.com/sociedad/echaron-titulares-registros-automotor-calculan-perjuicio-estado-superior-337-millones_0_8CQhdu0Yrz.html",
+"titulo": "Echaron a los titulares de dos registros del automotor y calculan un perjuicio al Estado superior a $337 millones",
+"bajada": "Las medidas fueron oficializadas mediante las resoluciones 568/2026 y 570/2026 del Ministerio de Justicia, publicadas en el Boletín Oficial de este jueves. Las investigaciones alcanzaron oficinas de Córdoba y Villa Carlos Paz, donde se detectaron fondos que debían ser transferidos…",
+"fecha": "2026-11-26T04:37:38+00:00",
+"seccion": "sociedad",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/rss:ultimo",
+"clarin/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-26T06:30:01+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
+"tema": "politica",
+"motivo": "palabras:1",
+"home_mejor_pos": 41
+},
 "1c68ef7f5e24": {
 "id": "1c68ef7f5e24",
 "diario": "infobae",
@@ -14,7 +1222,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,torneo"
 },
@@ -33,7 +1241,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america",
 "home_mejor_pos": 23
@@ -53,7 +1261,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -72,7 +1280,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america",
 "home_mejor_pos": 24
@@ -92,7 +1300,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america",
 "home_mejor_pos": 81
@@ -113,11 +1321,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 2,
-"home_top10_corridas": 2
+"home_top10_corridas": 3
 },
 "4730f4f42815": {
 "id": "4730f4f42815",
@@ -138,11 +1346,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 8,
-"home_top10_corridas": 2
+"home_top10_corridas": 3
 },
 "053d7e52ba1e": {
 "id": "053d7e52ba1e",
@@ -159,7 +1367,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -182,7 +1390,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -201,7 +1409,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -224,7 +1432,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -247,7 +1455,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -269,7 +1477,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -289,7 +1497,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 20
@@ -309,7 +1517,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "seccion:cultura"
 },
@@ -328,7 +1536,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 45
@@ -348,7 +1556,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 17
@@ -372,7 +1580,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 31
@@ -392,7 +1600,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 48
@@ -413,11 +1621,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 8,
-"home_top10_corridas": 2
+"home_top10_corridas": 3
 },
 "0a45d0ba61a2": {
 "id": "0a45d0ba61a2",
@@ -434,7 +1642,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "seccion:cultura"
 },
@@ -453,7 +1661,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "sindicales",
 "motivo": "palabras:bancarios",
 "home_mejor_pos": 46
@@ -473,7 +1681,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 47
@@ -495,11 +1703,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 9,
-"home_top10_corridas": 2
+"home_top10_corridas": 3
 },
 "68acaf3d3325": {
 "id": "68acaf3d3325",
@@ -519,7 +1727,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "sindicales",
 "motivo": "palabras:cgt",
 "home_mejor_pos": 25
@@ -539,7 +1747,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -564,7 +1772,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 32
@@ -584,7 +1792,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -609,7 +1817,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "ciudad",
 "motivo": "palabras:colectivos"
 },
@@ -631,7 +1839,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:independiente",
 "home_mejor_pos": 26
@@ -657,7 +1865,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -681,7 +1889,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -700,7 +1908,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca"
 },
@@ -720,7 +1928,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente"
 },
@@ -739,7 +1947,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -758,7 +1966,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "seccion:cultura",
 "home_mejor_pos": 82
@@ -778,7 +1986,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -800,7 +2008,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes",
 "home_mejor_pos": 21
@@ -820,7 +2028,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -840,7 +2048,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente"
 },
@@ -862,7 +2070,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -881,7 +2089,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "seccion:cultura"
 },
@@ -900,7 +2108,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -919,7 +2127,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -938,7 +2146,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:boca-juniors"
 },
@@ -957,7 +2165,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente",
 "home_mejor_pos": 125
@@ -980,7 +2188,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol,seleccion argentina"
 },
@@ -1000,7 +2208,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 40
@@ -1023,7 +2231,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 152
@@ -1046,7 +2254,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "palabras:1"
 },
@@ -1067,7 +2275,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 10,
@@ -1089,11 +2297,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 6,
-"home_top10_corridas": 2
+"home_top10_corridas": 3
 },
 "a978d591fc63": {
 "id": "a978d591fc63",
@@ -1113,7 +2321,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1133,11 +2341,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "palabras:2",
 "home_mejor_pos": 3,
-"home_top10_corridas": 2
+"home_top10_corridas": 3
 },
 "19c01c22d638": {
 "id": "19c01c22d638",
@@ -1158,7 +2366,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "economia",
 "motivo": "palabras:1",
 "home_mejor_pos": 39
@@ -1180,7 +2388,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "palabras:1",
 "home_mejor_pos": 14
@@ -1202,7 +2410,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1225,7 +2433,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1249,7 +2457,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "palabras:4",
 "home_mejor_pos": 37
@@ -1271,7 +2479,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 15
@@ -1297,7 +2505,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "palabras:2",
 "home_mejor_pos": 38
@@ -1319,7 +2527,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1340,7 +2548,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1365,7 +2573,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "ciudad",
 "motivo": "palabras:conurbano",
 "home_mejor_pos": 33
@@ -1387,7 +2595,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "palabras:1",
 "home_mejor_pos": 17
@@ -1409,11 +2617,11 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "economia",
 "motivo": "palabras:1",
 "home_mejor_pos": 4,
-"home_top10_corridas": 2
+"home_top10_corridas": 3
 },
 "11da32e3dcca": {
 "id": "11da32e3dcca",
@@ -1432,7 +2640,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "palabras:1",
 "home_mejor_pos": 12
@@ -1454,11 +2662,11 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 8,
-"home_top10_corridas": 2
+"home_top10_corridas": 3
 },
 "4cc8abad0971": {
 "id": "4cc8abad0971",
@@ -1477,7 +2685,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1498,11 +2706,11 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "palabras:1",
 "home_mejor_pos": 3,
-"home_top10_corridas": 2
+"home_top10_corridas": 3
 },
 "164c6acde6cd": {
 "id": "164c6acde6cd",
@@ -1521,11 +2729,11 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 2,
-"home_top10_corridas": 2
+"home_top10_corridas": 3
 },
 "6886ee3d4479": {
 "id": "6886ee3d4479",
@@ -1542,7 +2750,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca"
 },
@@ -1564,7 +2772,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1585,7 +2793,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "palabras:1",
 "home_mejor_pos": 89
@@ -1615,7 +2823,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "palabras:1",
 "home_mejor_pos": 45
@@ -1636,7 +2844,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1664,7 +2872,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 43
@@ -1686,7 +2894,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 54
@@ -1710,7 +2918,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol,torneo"
 },
@@ -1736,7 +2944,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "palabras:1",
 "home_mejor_pos": 46
@@ -1763,7 +2971,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1784,7 +2992,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1805,7 +3013,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 26
@@ -1831,7 +3039,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1852,7 +3060,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 27
@@ -1875,11 +3083,11 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 9,
-"home_top10_corridas": 2
+"home_top10_corridas": 3
 },
 "38b465853219": {
 "id": "38b465853219",
@@ -1896,7 +3104,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1918,7 +3126,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1937,7 +3145,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1958,7 +3166,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion",
 "home_mejor_pos": 87
@@ -1980,7 +3188,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion",
 "home_mejor_pos": 88
@@ -2003,7 +3211,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -2024,7 +3232,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 90
@@ -2046,7 +3254,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion",
 "home_mejor_pos": 91
@@ -2069,7 +3277,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2088,7 +3296,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2107,7 +3315,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -2126,7 +3334,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:boca-juniors"
 },
@@ -2148,7 +3356,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 151
@@ -2172,7 +3380,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2191,7 +3399,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 53
@@ -2214,7 +3422,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -2233,7 +3441,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2252,7 +3460,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2271,7 +3479,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente"
 },
@@ -2290,7 +3498,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2313,9 +3521,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "internacionales",
-"motivo": "seccion:el-mundo"
+"motivo": "seccion:el-mundo",
+"home_mejor_pos": 19
 },
 "b9c8d4ac7e2b": {
 "id": "b9c8d4ac7e2b",
@@ -2336,7 +3545,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "ciudad",
 "motivo": "palabras:ciudad de buenos aires"
 },
@@ -2359,9 +3568,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
-"motivo": "sin_coincidencias"
+"motivo": "sin_coincidencias",
+"home_mejor_pos": 22
 },
 "74e18290a5ad": {
 "id": "74e18290a5ad",
@@ -2382,7 +3592,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2404,7 +3614,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2427,11 +3637,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 1,
-"home_top10_corridas": 2
+"home_top10_corridas": 3
 },
 "63968088e65f": {
 "id": "63968088e65f",
@@ -2452,7 +3662,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 52
@@ -2475,7 +3685,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 51
@@ -2499,7 +3709,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2522,7 +3732,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 11
@@ -2546,7 +3756,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 53
@@ -2569,7 +3779,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 34
@@ -2592,11 +3802,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "palabras:2",
 "home_mejor_pos": 7,
-"home_top10_corridas": 2
+"home_top10_corridas": 3
 },
 "d6dbce6de680": {
 "id": "d6dbce6de680",
@@ -2616,7 +3826,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "ciudad",
 "motivo": "palabras:amba",
 "home_mejor_pos": 13
@@ -2639,7 +3849,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 36
@@ -2661,7 +3871,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas",
 "home_mejor_pos": 124
@@ -2683,7 +3893,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas",
 "home_mejor_pos": 123
@@ -2703,7 +3913,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:futbol-primera"
 },
@@ -2722,7 +3932,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
 "motivo": "seccion:boca-juniors"
 },
@@ -2744,7 +3954,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 62
@@ -2767,7 +3977,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "seccion:salud"
 },
@@ -2790,7 +4000,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 117
@@ -2814,7 +4024,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 145
@@ -2838,7 +4048,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 13
@@ -2861,7 +4071,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios",
 "home_mejor_pos": 15
@@ -2885,7 +4095,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas",
 "home_mejor_pos": 19
@@ -2909,7 +4119,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 21
@@ -2932,7 +4142,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "economia",
 "motivo": "seccion:energia",
 "home_mejor_pos": 22
@@ -2952,7 +4162,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
+"visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 70
