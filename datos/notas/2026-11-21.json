@@ -270,7 +270,7 @@
 "popular/rss:politica"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-26T20:31:39+00:00",
+"visto_ultimo": "2026-11-26T22:31:56+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -348,7 +348,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T20:31:39+00:00",
+"visto_ultimo": "2026-11-26T22:31:56+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -404,7 +404,7 @@
 "popular/rss:politica"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-26T20:31:39+00:00",
+"visto_ultimo": "2026-11-26T22:31:56+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -925,7 +925,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T20:31:39+00:00",
+"visto_ultimo": "2026-11-26T22:31:56+00:00",
 "tema": "internacionales",
 "motivo": "seccion:el-mundo"
 },
@@ -961,7 +961,7 @@
 "popular/rss:politica"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-26T20:31:39+00:00",
+"visto_ultimo": "2026-11-26T22:31:56+00:00",
 "tema": "politica",
 "motivo": "palabras:1",
 "home_mejor_pos": 49
@@ -1287,7 +1287,7 @@
 "popular/rss:politica"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-26T20:31:39+00:00",
+"visto_ultimo": "2026-11-26T22:31:56+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1324,7 +1324,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T20:31:39+00:00",
+"visto_ultimo": "2026-11-26T22:31:56+00:00",
 "tema": "otros",
 "motivo": "seccion:cultura"
 },
@@ -1440,9 +1440,10 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T20:31:39+00:00",
+"visto_ultimo": "2026-11-26T22:31:56+00:00",
 "tema": "otros",
-"motivo": "seccion:salud"
+"motivo": "seccion:salud",
+"home_mejor_pos": 89
 },
 "93e19fc30b0c": {
 "id": "93e19fc30b0c",
