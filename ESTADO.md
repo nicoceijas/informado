@@ -71,7 +71,7 @@
   - **Lo que guarda el celular:** uniones, nombres, fijadas y curaduría. El feedback semanal ahora incluye las uniones y los nombres.
 - [ ] Modo lectura: se sacó el 25/11 porque así no servía. Volver a pensarlo más adelante.
 - [ ] Modo lectura con texto completo: propuesto el 25/11 (servidor personal en Vercel, con clave, sin guardar texto y respetando los muros de pago). **En conversación, no aprobado.**
-- [ ] Tareas programadas de revisión (diaria y semanal).
+- [x] Tareas programadas: revisión diaria (6:43), calibración semanal (lunes 7:52) y errores reportados (todos los días a las 8:12, creada el 25/11). Las tres corren en la nube, sin pedir aprobación, y avisan al celular.
 
 ## Propuestas pendientes de aprobación
 
