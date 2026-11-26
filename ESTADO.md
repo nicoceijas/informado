@@ -1,6 +1,6 @@
 # Estado del proyecto Informado
 
-Última actualización: 25/11/2026
+Última actualización: 26/11/2026
 
 ## Reglas de trabajo
 
@@ -81,6 +81,15 @@
 1. **Cuota por sección en «Tu semana»** (visto al programar las historias, 25/11). La regla vigente (hasta 2 por sección y después se completa por puntaje) hace que temas con un número alto, como el Nº 4 y el Nº 5 de política, queden en «Temas que quedaron afuera», mientras entran el Nº 27 y el Nº 44 de Ciudad. Ahora que se ve el número, eso puede confundir. *A decidir:* mantener la cuota (asegura variedad de secciones) o tomar los 12 primeros por puntaje.
 2. **Rótulos automáticos imperfectos** («Recesión técnica, trimestres y INDEC publica», «Paraguay, viaja y Javier»). Se pueden renombrar. *Posible mejora:* preferir nombres propios y sustantivos.
 
+*Vistas en la revisión del 26/11.* Ninguna se aplicó.
+
+- **A. Ediciones centroamericanas de Infobae.** El feed «mundo» de Infobae (`category/america`) trae notas de las ediciones de El Salvador, Panamá, Guatemala, Honduras, Cuba, Costa Rica, República Dominicana y Nicaragua: unas 110 por día, el 38% de lo que aporta Infobae. Pasa desde el arranque, no es una rotura. Se meten en temas («Panamá apuesta al Black Friday» quedó en «Cuándo es el Black Friday 2026 en la Argentina») y en «Tu día» («Honduras alerta por nueva estafa…»). *Cambio sugerido:* sumar `el-salvador, panama, guatemala, honduras, cuba, costa-rica, republica-dominicana, nicaragua` a `excluir_secciones` de Infobae, siguiendo la decisión del 24/11 de excluir las ediciones de otros países.
+- **B. Notas automáticas de partidos de La Nación.** «X venció por 1-0 a Y, por la Champions League 2026» y «X vs. Y, por la Liga de Italia 2026: día, hora y cómo seguir online» engordan el tema del Manchester United (de 30 notas, 17 son de este tipo). *Cambio sugerido:* sumar «cómo seguir online» a `servicio_sin_tema`, y «venció por» + «por la (Champions League|Liga|Premier League)» a `excluir_titulos`.
+- **C. Básquet dentro del Mundial Sub-17.** «La Selección de básquet recibe a Bahamas y Canadá en busca del Mundial 2027» (Página/12 e Infobae) entró al tema del Sub-17 de fútbol por «selección» y «Mundial». *Cambio sugerido:* sumar «básquet» a `palabras_otros`.
+- **D. Tema de Paraguay demasiado amplio.** «Milei viajó a Paraguay…» junta 31 notas: la detención del hermano de Santiago Peña, el viaje de Milei, la visita del presidente de Polonia, Lula y el embajador, la mesa política y los «EN VIVO» de Clarín y La Nación, que hacen de puente. Algo parecido pasa en «Luis Caputo descartó su salida…», que se lleva notas de la reforma electoral y del tratado de patentes. *A estudiar (toca el agrupador):* que las notas «EN VIVO» no unan grupos, o que pesen menos.
+- **E. «Tu día › Paros» con falsos positivos.** «Servicios · Anunciado» muestra la sanción a los policías del deck de Caballito, que no es un paro. «Bancarios · Anunciado» muestra las notas del paro universitario, así que el rótulo no corresponde. «colectivos · Anunciado» es un cambio de mano de calles por el Trambus. *A estudiar:* que el rótulo salga de la nota que más se repite y que «marcha atrás» o «sancionó» no cuenten como señal de paro.
+- **Sobre la propuesta 2 de arriba (Santucho partido en 4 temas):** las historias ya juntan los 4 temas en «Mario Santucho, homenaje y UBA». En la pestaña Temas eso queda resuelto, pero en Hoy y en la propuesta semanal todavía no.
+
 ## Para retomar
 
 La revisión diaria trae estos temas el día indicado. No se implementan sin una conversación con Nico.
@@ -101,6 +110,7 @@ La revisión diaria trae estos temas el día indicado. No se implementan sin una
 - **25/11 (18:27 UTC):** Nico configuró la espera de 120 min en el entorno «reloj» y la cadena arrancó: lanzó la recolección, y su paso «esperar» quedó en espera («waiting»), como corresponde. Entre las 15:24 y las 18:27 el horario de GitHub no disparó ninguna corrida, lo que confirma que hacía falta la cadena. Para verificar en la revisión diaria: que haya una corrida de «Reloj (cada 2 horas)» cada ~2 h y una recolección lanzada por cada una.
 
 - **25/11 (noche):** se encontró y reparó una falla previa: si dos corridas quedaban seguidas, la segunda no guardaba sus datos (chocaba con lo que había guardado la anterior) y aun así se marcaba como correcta. Ahora cada corrida parte de lo último de main, ante un choque ganan los datos más nuevos, y si no puede guardar, la corrida falla a la vista. Primer error cargado en la cola: #1 (nota de Lemon de La Nación mezclada con la de Kaszek).
+- **26/11:** todo anduvo bien. 9 diarios, 0 errores, 5.065 notas en 7 días; los 9 aportaron en las últimas 24 h (de 52 en Popular a 339 en La Nación). La cadena «Reloj» disparó a horario (00:28, 02:28, 04:29, 06:29, 08:29 UTC) y todas las recolecciones publicaron bien. Sin reparaciones. Cinco propuestas nuevas (A a E). La inflación sigue en septiembre (1,9%).
 - **Dato a mirar:** la inflación que publica datos.gob.ar está en septiembre (1,9%), aunque el INDEC ya publicó octubre. Si se confirma la demora, conviene usar el BCRA como fuente principal (lo decide Nico).
 
 ## Datos
