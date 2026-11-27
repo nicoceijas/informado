@@ -240,3 +240,30 @@ input[type=text]{flex:1;min-width:0;border:1px solid #D5D8D1;border-radius:10px;
 .hoja .botones{display:flex;gap:8px}
 .hoja .botones .btn{flex:1;justify-content:center;border-radius:12px;padding:12px}
 .hoja .btn.prim{background:var(--azul);color:#fff;border-color:transparent}
+/* reportes de errores (27/11): píldora, envío a Nico y carga de reportes recibidos */
+.fila-acc .flag{margin-right:6px}
+.hoja input[type=text]{width:100%;border:1px solid #D5D8D1;border-radius:10px;padding:10px;font-family:inherit;font-size:15px}
+.pildora{position:fixed;right:14px;bottom:calc(76px + env(safe-area-inset-bottom));z-index:8;border:0;border-radius:999px;background:var(--texto);color:#fff;font:600 13px/1 var(--sans,inherit);padding:11px 15px;display:inline-flex;align-items:center;gap:7px;box-shadow:0 4px 14px rgba(0,0,0,.18);font-family:inherit}
+.pildora.domingo{background:var(--azul)}
+.pildora svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+body.con-pildora #app{padding-bottom:72px}
+.lista-rep{display:flex;flex-direction:column;border:1px solid var(--borde);border-radius:12px}
+.lista-rep .rep{display:flex;align-items:center;gap:8px;padding:8px 6px 8px 12px;border-top:1px solid var(--borde)}
+.lista-rep .rep:first-child{border-top:0}
+.lista-rep .rep span{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px;font-size:14px}
+.lista-rep .rep small{color:var(--gris);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.carga{display:flex;flex-direction:column;gap:8px;background:var(--tarjeta);border:1px solid var(--borde);border-radius:14px;padding:12px}
+.carga label.btn{align-self:flex-start;background:var(--azul);color:#fff;border-color:transparent}
+.carga textarea{width:100%;min-height:64px;border:1px solid #D5D8D1;border-radius:10px;padding:10px;font-family:inherit;font-size:14px}
+.carga .btn{align-self:flex-start}
+.rep-c{background:var(--tarjeta);border:1px solid var(--borde);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:5px;margin-bottom:8px}
+.rep-c .rep-de{font-size:12px;font-weight:700;color:var(--gris);text-transform:uppercase;letter-spacing:.04em}
+.rep-c b{font-size:15px}
+.rep-c .sobre{font-size:14px;line-height:1.4;font-family:var(--serif);color:var(--suave)}
+.rep-c .rep-com{margin:2px 0;font-size:14px;line-height:1.4}
+.rep-c .leer{font-size:13px;font-weight:600;color:var(--azul);text-decoration:none}
+.rep-c .botones{display:flex;gap:8px;margin-top:4px}
+.rep-c .botones .btn{flex:1;justify-content:center;border-radius:12px}
+.rep-c .btn.prim{padding:9px 13px;font-size:13px}
+.cierre .acciones{display:flex;gap:8px;flex-wrap:wrap}
+body.con-pildora .toast{bottom:calc(132px + env(safe-area-inset-bottom))}

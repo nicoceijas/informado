@@ -45,12 +45,14 @@
 | 25/11 | Aprobado por Nico: indicadores arriba de Hoy (dólar BNA compra y venta, riesgo país, inflación mensual), cada uno con fuente y fecha (`informado/indicadores.py` → `datos/indicadores.json`). |
 | 25/11 | Aprobado por Nico: poda de notas encadenadas en el agrupador (en grupos de 3 a 6, sale la nota que no comparte nada con algún integrante y cuyo único lazo es débil). |
 | 25/11 | Rótulos con «e» delante de palabras con sonido i («e informe», «e INDEC»), pedido de Nico. |
+| 27/11 | Aprobado por Nico: reportes de otras personas. En los celulares que no son el de Nico, la banderita guarda el reporte en el celular (con el nombre de quien reporta) y «Enviar reportes» (píldora flotante, Guardadas y «Cerrar la semana»; recordatorio los domingos) lo comparte como archivo .txt por el menú de Android, o como texto para copiar. En el celular de Nico («modo Nico»: enlace `?soy=nico` o 5 toques en el título «Guardadas»), la banderita sigue abriendo GitHub al momento, y «Cargar reportes recibidos» (#reportes) importa el archivo o el texto, muestra cada reporte y lo sube como issue con las etiquetas `error` y `de-otros`. La tarea de errores los trata igual que los de Nico (opción a). Banderitas nuevas en el nombre de cada tema: al lado del título y en las filas de Hoy, Temas y Guardadas (`sobre: "titulo"`). |
 | 27/11 | Aprobado por Nico: la inflación se toma del mes más reciente entre datos.gob.ar, el BCRA y ArgentinaDatos, con la fuente que lo trajo. Motivo: datos.gob.ar seguía en septiembre con octubre ya publicado, y como no daba error, el respaldo nunca se consultaba. |
 | 24/11 | Calibración 1: Sindicales gana sobre cualquier sección; Ciudad solo sobre secciones genéricas; se descartan notas automáticas (clima, quiniela, horóscopo). Cada corrida reaplica las reglas a toda la semana. |
 
 ## Pendientes del usuario
 
 - [x] Activar GitHub Pages (24/11). App publicada en https://nicoceijas.github.io/informado/
+- [ ] Prender el «modo Nico» en tu celular (abrir https://nicoceijas.github.io/informado/?soy=nico o tocar 5 veces el título «Guardadas»). Sin eso, tus banderitas se guardan en el celular en vez de ir a GitHub.
 - [ ] Instalar la app en el celular y usarla 2 semanas. Domingo: «Armá tu semana» y «Enviar feedback».
 
 ## Pendientes técnicos
@@ -62,6 +64,8 @@
 - [x] Agrupador y puntaje (umbral 0,30, ventana 72 h, grupos de más de 35 notas se parten).
 - [x] App web instalable: Hoy, Semana, Tema comparado, Armá tu semana, Guardadas, búsqueda de temas propios, feedback como issue.
 - [ ] Fusionar temas desde la app (versión 1.1).
+- [x] Reportes de errores de otras personas y banderitas en los nombres de los temas (27/11). Probado en un navegador simulado: guardar, compartir archivo, plan B de texto, cargar en el celular de Nico sin duplicar, issue con `de-otros` y modo Nico.
+- [ ] «Enviar mi semana» (curaduría) de otras personas todavía abre GitHub, y la calibración lo ignora. Si hace falta, se puede llevar por el mismo camino que los reportes (sin decidir).
 - [x] «Tu día» (25/11): reemplaza «Afecta tu día» en Hoy y está arriba de Temas › Hoy. Clima (con «Alerta en el AMBA» solo si el título lo dice), dólar y paros/transporte por asunto, con estado (Hoy, Mañana, Anunciado, Sin paro).
 - [x] Títulos (25/11): el recolector sigue el título que el diario le cambia a una nota; el tema toma su nombre de la última nota de cada diario.
 - [x] Publicación con reintentos (25/11).
