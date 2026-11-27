@@ -7,8 +7,9 @@ Fuentes:
 - Dólar: Banco Nación, cotización de billetes (bna.com.ar/Personas). Respaldo: DolarApi («oficial»,
   que publica la cotización del Banco Nación).
 - Riesgo país: EMBI de JP Morgan, vía ArgentinaDatos (no hay fuente oficial gratuita).
-- Inflación: INDEC (IPC nacional, variación mensual), vía la API de Series de Tiempo de datos.gob.ar.
-  Respaldo: API de estadísticas del BCRA, que replica el dato del INDEC.
+- Inflación: INDEC (IPC nacional, variación mensual). Se consultan las tres fuentes que lo replican
+  (la API de Series de Tiempo de datos.gob.ar, la API de estadísticas del BCRA y ArgentinaDatos) y se
+  muestra el mes más reciente, con la fuente que lo trajo (27/11: datos.gob.ar seguía en septiembre).
 
 Uso: python -m informado.indicadores
 """
@@ -74,13 +75,57 @@ def inflacion():
             "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31"}
 
 
+def _filas_bcra(d):
+    """Filas {fecha, valor} de la API del BCRA: la v3.0 las trae en «results»; la v4.0, dentro de «detalle»."""
+    filas = []
+    for r in d.get("results", []):
+        filas.extend(r["detalle"] if isinstance(r, dict) and "detalle" in r else [r])
+    return [f for f in filas if f.get("fecha") and f.get("valor") is not None]
+
+
 def inflacion_respaldo():
     # Variable 27 del BCRA: «Inflación mensual (variación en %)», que publica el dato del INDEC.
     desde = (datetime.now(AR) - timedelta(days=120)).date().isoformat()
-    d = json.loads(bajar(f"https://api.bcra.gob.ar/estadisticas/v3.0/monetarias/27?desde={desde}"))
-    ultimo = max(d["results"], key=lambda r: r["fecha"])
-    return {"valor": round(float(ultimo["valor"]), 1), "mes": ultimo["fecha"][:7], "fuente": "INDEC, vía BCRA",
+    errores = []
+    for version in ("v4.0", "v3.0"):
+        try:
+            d = json.loads(bajar(f"https://api.bcra.gob.ar/estadisticas/{version}/monetarias/27?desde={desde}"))
+            ultimo = max(_filas_bcra(d), key=lambda r: r["fecha"])
+            return {"valor": round(float(ultimo["valor"]), 1), "mes": ultimo["fecha"][:7], "fuente": "INDEC, vía BCRA",
+                    "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31"}
+        except Exception as e:  # noqa: BLE001
+            errores.append(f"{version}: {type(e).__name__}: {e}")
+    raise ValueError("; ".join(errores))
+
+
+def inflacion_argentinadatos():
+    # ArgentinaDatos replica el IPC mensual del INDEC (fecha = último día del mes).
+    d = json.loads(bajar("https://api.argentinadatos.com/v1/finanzas/indices/inflacion"))
+    ultimo = max(d, key=lambda r: r["fecha"])
+    return {"valor": round(float(ultimo["valor"]), 1), "mes": ultimo["fecha"][:7], "fuente": "INDEC, vía ArgentinaDatos",
             "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31"}
+
+
+def obtener_mas_nuevo(nombre, *funciones, previo=None, registro=None):
+    """Consulta todas las fuentes y se queda con el mes más reciente (aprobado por Nico el 27/11).
+
+    Así, si una fuente se atrasa en cargar el dato nuevo, otra lo tapa. Ante el mismo mes, gana
+    la fuente que figura primero. Si fallan todas, queda el último valor conocido.
+    """
+    datos, errores = [], []
+    for f in funciones:
+        try:
+            datos.append(f())
+        except Exception as e:  # noqa: BLE001 — una fuente caída no frena la corrida
+            errores.append(f"{f.__name__}: {type(e).__name__}: {e}"[:200])
+    if datos:
+        mejor = max(datos, key=lambda d: d["mes"])  # max devuelve el primero ante empate
+        return {**mejor, "actualizado": True}
+    if registro is not None:
+        registro[nombre] = errores
+    if previo:
+        return {**previo, "actualizado": False}
+    return None
 
 
 def obtener(nombre, *funciones, previo=None, registro=None):
@@ -106,7 +151,8 @@ def main():
         "generado": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "dolar": obtener("dolar", dolar_bna, dolar_respaldo, previo=previo.get("dolar"), registro=errores),
         "riesgo_pais": obtener("riesgo_pais", riesgo_pais, previo=previo.get("riesgo_pais"), registro=errores),
-        "inflacion": obtener("inflacion", inflacion, inflacion_respaldo, previo=previo.get("inflacion"), registro=errores),
+        "inflacion": obtener_mas_nuevo("inflacion", inflacion, inflacion_respaldo, inflacion_argentinadatos,
+                                       previo=previo.get("inflacion"), registro=errores),
         "errores": errores,
     }
     if datos["inflacion"] and datos["inflacion"].get("mes"):

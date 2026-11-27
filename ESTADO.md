@@ -45,6 +45,7 @@
 | 25/11 | Aprobado por Nico: indicadores arriba de Hoy (dólar BNA compra y venta, riesgo país, inflación mensual), cada uno con fuente y fecha (`informado/indicadores.py` → `datos/indicadores.json`). |
 | 25/11 | Aprobado por Nico: poda de notas encadenadas en el agrupador (en grupos de 3 a 6, sale la nota que no comparte nada con algún integrante y cuyo único lazo es débil). |
 | 25/11 | Rótulos con «e» delante de palabras con sonido i («e informe», «e INDEC»), pedido de Nico. |
+| 27/11 | Aprobado por Nico: la inflación se toma del mes más reciente entre datos.gob.ar, el BCRA y ArgentinaDatos, con la fuente que lo trajo. Motivo: datos.gob.ar seguía en septiembre con octubre ya publicado, y como no daba error, el respaldo nunca se consultaba. |
 | 24/11 | Calibración 1: Sindicales gana sobre cualquier sección; Ciudad solo sobre secciones genéricas; se descartan notas automáticas (clima, quiniela, horóscopo). Cada corrida reaplica las reglas a toda la semana. |
 
 ## Pendientes del usuario
@@ -116,7 +117,7 @@ La revisión diaria trae estos temas el día indicado. No se implementan sin una
 - **25/11 (noche):** se encontró y reparó una falla previa: si dos corridas quedaban seguidas, la segunda no guardaba sus datos (chocaba con lo que había guardado la anterior) y aun así se marcaba como correcta. Ahora cada corrida parte de lo último de main, ante un choque ganan los datos más nuevos, y si no puede guardar, la corrida falla a la vista. Primer error cargado en la cola: #1 (nota de Lemon de La Nación mezclada con la de Kaszek).
 - **26/11:** todo anduvo bien. 9 diarios, 0 errores, 5.065 notas en 7 días; los 9 aportaron en las últimas 24 h (de 52 en Popular a 339 en La Nación). La cadena «Reloj» disparó a horario (00:28, 02:28, 04:29, 06:29, 08:29 UTC) y todas las recolecciones publicaron bien. Sin reparaciones. Cinco propuestas nuevas (A a E). La inflación sigue en septiembre (1,9%).
 - **27/11:** todo anduvo bien. 9 diarios, 0 errores, 6.603 notas en 7 días; los 9 aportaron en las últimas 24 h (de 58 en Popular a 325 en La Nación). La cadena «Reloj» disparó a horario (00:31, 02:31, 04:32, 06:32, 08:32 UTC) y todas las recolecciones publicaron bien; los respaldos programados también terminaron bien. Sin reparaciones. Una propuesta nueva (F, tema del papa León XIV) y la B empeoró. Nada en «Para retomar» para hoy (el próximo es el domingo 29/11).
-- **Dato a mirar:** la inflación que publica datos.gob.ar está en septiembre (1,9%), aunque el INDEC ya publicó octubre. Si se confirma la demora, conviene usar el BCRA como fuente principal (lo decide Nico).
+- **27/11 (mañana, con Nico):** la corrida de las 12:33 UTC salió a horario (la cadena espera 120 min desde la anterior, a las 10:33). La inflación seguía en septiembre porque datos.gob.ar no había cargado octubre; Nico aprobó tomar el mes más reciente entre datos.gob.ar, el BCRA y ArgentinaDatos (`obtener_mas_nuevo` en `informado/indicadores.py`, con prueba). El lector del BCRA entiende la v4.0 y la v3.0 de su API. *Para verificar en la próxima revisión:* que `datos/indicadores.json` diga octubre y qué fuente lo trajo.
 
 ## Datos
 

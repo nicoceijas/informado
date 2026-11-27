@@ -214,3 +214,36 @@ def test_indicadores_sin_red(monkeypatch, tmp_path):
     reg = {}
     assert I.obtener("riesgo_pais", I.riesgo_pais, previo=previo, registro=reg) == {**previo, "actualizado": False}
     assert reg["riesgo_pais"]
+
+
+def test_inflacion_mes_mas_nuevo(monkeypatch):
+    import json
+    import informado.indicadores as I
+    respuestas = {
+        "datos.gob.ar": {"data": [["2026-09-01", 0.019]]},  # atrasada
+        "bcra.gob.ar/estadisticas/v4.0": {"results": [{"idVariable": 27, "detalle": [
+            {"fecha": "2026-10-31", "valor": 2.2}, {"fecha": "2026-09-30", "valor": 1.9}]}]},
+        "argentinadatos": [{"fecha": "2026-09-30", "valor": 1.9}, {"fecha": "2026-10-31", "valor": 2.2}],
+    }
+
+    def bajar(url, **k):
+        for clave, r in respuestas.items():
+            if clave in url:
+                return json.dumps(r)
+        raise OSError("sin red")
+
+    monkeypatch.setattr(I, "bajar", bajar)
+    fuentes = (I.inflacion, I.inflacion_respaldo, I.inflacion_argentinadatos)
+    d = I.obtener_mas_nuevo("inflacion", *fuentes)
+    # Gana octubre; ante el empate entre BCRA y ArgentinaDatos, la fuente que figura primero.
+    assert (d["mes"], d["valor"], d["fuente"], d["actualizado"]) == ("2026-10", 2.2, "INDEC, vía BCRA", True)
+    # La v3.0 del BCRA (filas sueltas en «results») también se entiende.
+    del respuestas["bcra.gob.ar/estadisticas/v4.0"]
+    respuestas["bcra.gob.ar/estadisticas/v3.0"] = {"results": [{"idVariable": 27, "fecha": "2026-10-31", "valor": 2.2}]}
+    assert I.inflacion_respaldo()["mes"] == "2026-10"
+    # Si fallan todas, queda el valor anterior, marcado como no actualizado.
+    respuestas.clear()
+    previo = {"valor": 1.9, "mes": "2026-09", "fuente": "x", "url": "y"}
+    reg = {}
+    assert I.obtener_mas_nuevo("inflacion", *fuentes, previo=previo, registro=reg) == {**previo, "actualizado": False}
+    assert len(reg["inflacion"]) == 3
