@@ -1,14 +1,11 @@
 /* Informado · app del celular. Sin dependencias.
  * Lee datos/actual.json (generado cada 2 h por GitHub Actions).
- * Pantallas: Hoy (Tu día + agenda), Temas (historias de 7 días) y Guardadas.
+ * Pantallas: Hoy (clima, «Antes de salir» y la agenda de las 24 horas), Semana (historias de 7 días) y Guardadas.
  * Lo que hace el usuario (sacar, sumar, unir, renombrar, fijar, guardar, reportes sin enviar) vive en este dispositivo (localStorage).
- * Diseño aprobado por Nico el 25/11 (maqueta final, sin modo lectura).
+ * Diseño G3 aprobado por Nico el 27/11 (paleta propia, líneas negras, caja «Antes de salir», botón de compartir).
  */
 'use strict';
 const REPO = 'nicoceijas/informado';
-const COLOR = {politica:'var(--politica)',economia:'var(--economia)',sindicales:'var(--sindicales)',
-  internacionales:'var(--internacionales)',ciudad:'var(--ciudad)',futbol:'var(--futbol)'};
-const CLARO = {politica:'#E8EEFC',economia:'#E3F4F1',sindicales:'#FEF0E1',internacionales:'#F1EAFE',ciudad:'#FCE7F1',futbol:'#E4F4E9'};
 const DIAS_CORTOS = ['D','L','M','M','J','V','S'];
 const DIAS_LARGOS = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
 let D = null;            // datos del servidor
@@ -19,7 +16,7 @@ let DE_TEMA = {};        // id de tema -> historia que lo contiene
 let TEMA_DE_NOTA = {};   // id de nota -> id de tema
 let busqueda = null;     // notas de la semana para buscar temas propios (carga diferida)
 let IND = null;          // indicadores (dólar, riesgo país, inflación)
-const ui = {filtro: null, como: false, afuera: false, renombrando: false, uniendo: false};
+const ui = {filtro: null, filtroHoy: null, vistaTema: 'historia', afuera: false, renombrando: false, uniendo: false};
 const app = document.getElementById('app');
 
 /* ---------- utilidades ---------- */
@@ -36,11 +33,19 @@ const norm = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase
 function toast(txt) { const t = document.createElement('div'); t.className = 'toast'; t.textContent = txt; document.body.appendChild(t); setTimeout(() => t.remove(), 1800); }
 const ICONO = {
   guardar: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
-  flecha: '<svg class="flecha" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>',
+  flecha: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>',
+  atras: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>',
+  compartir: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M8.2 10.8l7.6-4.4M8.2 13.2l7.6 4.4"/></svg>',
+  mas: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>',
+  menos: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg>',
+  check: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>',
+  lupa: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></svg>',
+  viento: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8h11a3 3 0 1 0-3-3M3 12h15a3 3 0 1 1-3 3M3 16h7"/></svg>',
+  clima: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 0-8 6 6 0 0 0-11.3 2A3 3 0 0 0 7 18z"/></svg>',
   pin: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6l-1 6 4 4H6l4-4z"/><path d="M12 13v8"/></svg>',
   lapiz: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M14 6l4 4"/></svg>',
   unir: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7h8M8 17h8M18 7v10"/><circle cx="6" cy="7" r="2"/><circle cx="6" cy="17" r="2"/></svg>',
-  diario: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>',
+  diario: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>',
   tapa: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>',
   info: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8v.01"/></svg>',
   abajo: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>',
@@ -92,63 +97,70 @@ function fusionar(g) {
 
 /* ---------- piezas ---------- */
 const activos = () => Object.values(D.diarios).filter(d => d.activo !== false).length;
-const cap = h => `<span class="cap" style="color:${COLOR[h.seccion] || 'var(--gris)'};background:${CLARO[h.seccion] || '#ECEDEA'}">${esc(h.seccion_nombre)}</span>`;
-const senales = h => `<span class="senal">${ICONO.diario}${h.n_diarios} de ${activos()} diarios</span>${h.tapas ? `<span class="senal">${ICONO.tapa}En la tapa de ${h.tapas}</span>` : ''}`;
-function barritas(h) { const m = Math.max(...h.dias, 1); return `<span class="barritas" aria-label="Notas por día">${h.dias.map(v => `<i class="${v ? '' : 'cero'}" style="height:${Math.max(3, 14 * v / m)}px"></i>`).join('')}</span>`; }
-const banderaTitulo = h => `<button class="flag" data-reportar-titulo="${h.id}" aria-label="Reportar un error en el nombre de este tema">${ICONO.bandera}</button>`;
-const num = h => `<span class="num" style="background:${COLOR[h.seccion] || 'var(--gris)'}" aria-label="Puesto ${h.puesto} de la semana">${h.puesto}</span>`;
-const botonComo = () => `<button class="como" data-como>${ICONO.info}${ui.como ? 'Ocultar la explicación' : '¿Qué significa el número?'}</button>${ui.como ? `<div class="explica">
-  <p><b>El número es el puesto del tema en la semana.</b> Muestra hacia dónde va la agenda de los diarios, según dos cosas:</p>
-  <p><b>Repercusión (60%):</b> cuántos diarios lo cubren, durante cuántos días y con cuántas notas.</p>
-  <p style="margin:0"><b>Jerarquía (40%):</b> qué tan arriba lo ponen en su portada y si sale en la edición impresa.</p></div>` : ''}`;
-function filaHistoria(h, {conCap = false, boton = ''} = {}) {
-  const a = `<a class="fl-cab" href="#tema/${h.id}">${num(h)}
-    <span class="tx"><b>${esc(nombre(h))}</b><span class="ult">${esc(h.ultimo)}</span>
-    <small>${conCap ? cap(h) : ''}${h.hoy ? `<span class="estado nuevo">+${h.hoy} hoy</span>` : ''}${h.mano ? '<span class="estado mano">Unido a mano</span>' : ''}${senales(h)}</small>
-    <small>${h.n_notas} notas · desde el ${esc(diaSemana(h.desde))} ${barritas(h)}</small></span>${boton ? '' : ICONO.flecha}</a>`;
-  return `<div class="fl"><div class="fila-acc">${a}${boton}${banderaTitulo(h)}</div></div>`;
+const estiloSec = s => `--s:var(--s-${s});--t:var(--t-${s})`;
+const cap = h => `<span class="sec" style="${estiloSec(h.seccion)}">${esc(h.seccion_nombre)}</span>`;
+const senales = (h, conHoy) => `<span class="senales">${conHoy && h.hoy ? `<span class="hoy">+${h.hoy} hoy</span>` : ''}<span>${ICONO.diario}${h.n_diarios} de ${activos()} diarios</span>${h.tapas ? `<span class="tapa">${ICONO.tapa}En la tapa de ${h.tapas}</span>` : ''}</span>`;
+const dias7 = () => { const b = new Date(D.hoy.fecha + 'T12:00:00-03:00'); return [0, 1, 2, 3, 4, 5, 6].map(k => new Date(b - (6 - k) * 864e5).toISOString().slice(0, 10)); };
+const letra = iso => DIAS_CORTOS[new Date(iso + 'T12:00:00-03:00').getUTCDay()];
+const diaAR = iso => new Date(new Date(iso).getTime() - 3 * 3600e3).toISOString().slice(0, 10);
+const flecha = () => `<span class="flecha" aria-hidden="true">${ICONO.flecha}</span>`;
+function barritas(h) {
+  const m = Math.max(...h.dias, 1), d = dias7();
+  return `<span class="barras" role="img" aria-label="Notas por día: ${h.dias.map((v, k) => `${diaSemana(d[k])} ${v}`).join(', ')}">${h.dias.map(v => `<i class="${v ? '' : 'z'}" style="height:${v ? Math.max(4, Math.round(26 * v / m)) : 2}px"></i>`).join('')}${d.map((x, k) => `<b class="${k === 6 ? 'hoyd' : ''}">${letra(x)}</b>`).join('')}</span><span class="barras-cap">notas por día</span>`;
+}
+const banderaTitulo = h => `<button class="ib" data-reportar-titulo="${h.id}" aria-label="Reportar un error en el nombre de este tema">${ICONO.bandera}</button>`;
+const num = h => `<span class="num" aria-label="Puesto ${h.puesto} de la semana">${h.puesto}</span>`;
+const ultimaFecha = h => (h.feed[0] && h.feed[0].eventos[0] && h.feed[0].eventos[0].fecha) || D.generado;
+function filaHistoria(h, {hora = false, conHoy = false, conNum = true, barras = true, bajada = null, boton = ''} = {}) {
+  return `<div class="fila"><a href="#tema/${h.id}"><span class="sup">${conNum ? num(h) : ''}${hora ? `<span>${esc(horaCorta(ultimaFecha(h)))}</span>` : ''}${cap(h)}${h.mano ? '<span class="mano">Unido a mano</span>' : ''}</span>
+    <span class="rot">${esc(nombre(h))}</span><span class="baj">${esc(bajada ?? h.ultimo)}</span>${senales(h, conHoy)}${barras ? barritas(h) : ''}</a>
+    ${boton}<span class="acc-fila">${boton ? '' : flecha()}${banderaTitulo(h)}</span></div>`;
+}
+const cabecera = () => `<header class="cab"><h1>Informado</h1><span class="marco">Agrupador de noticias · ${activos()} diarios</span></header>`;
+function chipsHTML(secs, actual, cual) {
+  return `<div class="chips" role="group" aria-label="Filtrar por sección"><button class="${actual ? '' : 'on'}" data-filtro="" data-cual="${cual}">Todas</button>${secs.map(s =>
+    `<button class="${actual === s ? 'on' : ''}" data-filtro="${s}" data-cual="${cual}" style="${estiloSec(s)}">${esc(D.secciones[s])}</button>`).join('')}</div>`;
 }
 
-/* ---------- Tu día ---------- */
-const ICO_TD = {
-  clima: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 0-8 6 6 0 0 0-11.3 2A3 3 0 0 0 7 18z"/></svg>',
-  dolar: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M16 7.5c0-1.9-1.8-3-4-3s-4 1.1-4 3 1.8 2.6 4 3 4 1.2 4 3.2-1.8 3-4 3-4-1.1-4-3"/></svg>',
-  paros: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="13" rx="3"/><path d="M4 11h16M8 21l1.5-4M16 21l-1.5-4"/></svg>',
-};
-const FLECHA_TD = '<svg class="tf-fl" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>';
-const notasCompactas = ns => ns.map(n => `<a class="tf-nota" href="${esc(n.url)}" target="_blank" rel="noopener"><span>${esc(nombreDiario(n.diario))} <i>· ${esc(horaCorta(n.fecha))}</i></span>${esc(n.titulo)}</a>`).join('');
-const filaTuDia = (ico, titulo, sub, det) => `<div class="tf"><button class="tf-cab" data-abrir aria-expanded="false"><span class="td-ico">${ico}</span><span class="tf-tx"><b>${titulo}</b><small>${sub}</small></span>${FLECHA_TD}</button><div class="tf-det">${det}</div></div>`;
-function tuDiaHTML() {
-  const t = D.tu_dia;
-  if (!t) return '';
-  const filas = [], plural = n => n > 1 ? 's' : '';
-  if (t.clima.notas.length) filas.push(filaTuDia(ICO_TD.clima, 'Clima',
-    `${t.clima.alerta_amba ? '<span class="estado hoy">Alerta en el AMBA</span>' : '<span class="estado">Pronóstico</span>'}${t.clima.notas.length} nota${plural(t.clima.notas.length)}`, notasCompactas(t.clima.notas)));
-  if (t.dolar.notas.length) filas.push(filaTuDia(ICO_TD.dolar, 'Dólar', `Cotización del día · ${t.dolar.notas.length} nota${plural(t.dolar.notas.length)}`, notasCompactas(t.dolar.notas)));
-  if (t.paros.length) {
-    const hoyN = t.paros.filter(p => p.estado === 'Hoy').length;
-    const clase = e => e === 'Hoy' ? 'hoy' : (e === 'Sin paro' ? 'ok' : '');
-    filas.push(filaTuDia(ICO_TD.paros, 'Paros y transporte',
-      `${t.paros.length} asunto${plural(t.paros.length)}${hoyN ? ` · <span class="estado hoy" style="margin:0 0 0 4px">${hoyN} hoy</span>` : ''}`,
-      t.paros.map(p => `<div class="evento"><b>${esc(p.quien)}</b><small><span class="estado ${clase(p.estado)}">${esc(p.estado)}</span>${esc(p.notas[0] ? p.notas[0].titulo : '')}</small>
-        <details><summary>${p.notas.length} nota${plural(p.notas.length)} ›</summary>${notasCompactas(p.notas)}${p.tema_id && DE_TEMA[p.tema_id] ? `<a class="tf-nota" href="#tema/${DE_TEMA[p.tema_id].id}" style="color:var(--azul);font-weight:600">Ver el tema ›</a>` : ''}</details></div>`).join('')));
-  }
-  if (!filas.length) return '';
-  return `<section class="tudia" aria-label="Tu día"><h3>Tu día <span>actualizado ${esc(hace(D.generado))}</span></h3>${filas.join('')}</section>`;
+/* ---------- clima, avisos e indicadores ---------- */
+// Avisos: hoy y mañana van a «Antes de salir» (y al contador); lo anunciado para más adelante, a «Lo que viene» en la Semana.
+const CERCA = {'Hoy': 'hoy', 'Sin paro': 'hoy', 'Mañana': 'manana'};
+const avisos = () => (D.tu_dia && D.tu_dia.paros) || [];
+const avisosCerca = () => avisos().filter(p => CERCA[p.estado]);
+const avisosLejos = () => avisos().filter(p => !CERCA[p.estado]);
+const estCls = e => e === 'Sin paro' ? 'ok' : CERCA[e] ? 'urg' : 'prox';
+const tituloAviso = p => p.notas[0] ? p.notas[0].titulo : p.quien;
+function avisoHTML(p) {
+  const vistos = new Set(), ns = p.notas.filter(n => !vistos.has(n.diario) && vistos.add(n.diario));
+  return `<div class="av"><span class="tipo"><span class="est ${estCls(p.estado)}">${esc(p.estado)}</span><span class="est">${esc(p.quien)}</span></span><p>${esc(tituloAviso(p))}</p>
+    <span class="links">${ns.map(n => `<a class="link" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(nombreDiario(n.diario))} ↗</a>`).join('')}${p.tema_id && DE_TEMA[p.tema_id] ? `<a href="#tema/${DE_TEMA[p.tema_id].id}" style="font-weight:700;text-decoration:none">Ver el tema ›</a>` : ''}</span></div>`;
 }
-
-/* ---------- indicadores ---------- */
+function climaHTML() {
+  const c = D.tu_dia && D.tu_dia.clima; if (!c || !c.notas.length) return '';
+  const n = c.notas[0], leer = `<a href="${esc(n.url)}" target="_blank" rel="noopener"${c.alerta_amba ? '' : ' class="link"'}>Leer en ${esc(nombreDiario(n.diario))} ↗</a>`;
+  return c.alerta_amba ? `<div class="alerta">${ICONO.viento}<div><b>Alerta en el AMBA</b><span>${esc(n.titulo)}. ${leer}</span></div></div>`
+    : `<div class="clima">${ICONO.clima}<div><b>Clima</b><span>${esc(n.titulo)}. ${leer}</span></div></div>`;
+}
 const pesos = v => '$ ' + Number(v).toLocaleString('es-AR', {minimumFractionDigits: 0, maximumFractionDigits: 2});
 const fechaCorta = iso => iso ? `${+iso.slice(8, 10)}/${+iso.slice(5, 7)}` : '';
 const fuenteCorta = f => String(f || '').split(/,? vía | \(/)[0];
-function indicadoresHTML() {
-  if (!IND) return '';
-  const tiles = [], viejo = d => d.actualizado === false ? ' · sin actualizar' : '';
-  const { dolar: d, riesgo_pais: r, inflacion: i } = IND;
-  if (d) tiles.push(`<a class="ind-t" href="${esc(d.url)}" target="_blank" rel="noopener"><span class="ind-n">Dólar BNA</span><span class="ind-v">${esc(pesos(d.venta))}</span><span class="ind-s">venta</span><span class="ind-s">compra ${esc(pesos(d.compra))}</span><span class="ind-f${d.actualizado === false ? ' viejo' : ''}" title="${esc(d.fuente)}">${esc(fuenteCorta(d.fuente))} · ${esc(fechaCorta(d.fecha))}${viejo(d)}</span></a>`);
-  if (r) tiles.push(`<a class="ind-t" href="${esc(r.url)}" target="_blank" rel="noopener"><span class="ind-n">Riesgo país</span><span class="ind-v">${esc(Number(r.valor).toLocaleString('es-AR'))}</span><span class="ind-s">puntos básicos</span><span class="ind-f${r.actualizado === false ? ' viejo' : ''}" title="${esc(r.fuente)}">${esc(fuenteCorta(r.fuente))} (EMBI) · ${esc(fechaCorta(r.fecha))}${viejo(r)}</span></a>`);
-  if (i) tiles.push(`<a class="ind-t" href="${esc(i.url)}" target="_blank" rel="noopener"><span class="ind-n">Inflación</span><span class="ind-v">${esc(String(i.valor).replace('.', ','))}%</span><span class="ind-s">${esc(i.mes_nombre || i.mes)}</span><span class="ind-f${i.actualizado === false ? ' viejo' : ''}" title="${esc(i.fuente)}">${esc(fuenteCorta(i.fuente))} · mensual${viejo(i)}</span></a>`);
-  return tiles.length ? `<section class="ind" aria-label="Indicadores">${tiles.join('')}</section>` : '';
+function indicadores() {
+  if (!IND) return [];
+  const {dolar: d, riesgo_pais: r, inflacion: i} = IND, out = [];
+  if (d) out.push({n: 'Dólar BNA', v: pesos(d.venta), s: `venta · compra ${pesos(d.compra)}`, f: fuenteCorta(d.fuente), fecha: fechaCorta(d.fecha), u: d.url, viejo: d.actualizado === false});
+  if (r) out.push({n: 'Riesgo país', v: Number(r.valor).toLocaleString('es-AR'), s: 'puntos básicos', f: fuenteCorta(r.fuente), fecha: fechaCorta(r.fecha), u: r.url, viejo: r.actualizado === false});
+  if (i) out.push({n: 'Inflación', v: String(i.valor).replace('.', ',') + '%', s: `mensual · ${i.mes_nombre || i.mes}`, f: fuenteCorta(i.fuente), fecha: i.mes_nombre || i.mes, u: i.url, viejo: i.actualizado === false});
+  return out;
+}
+const numsHTML = () => { const l = indicadores(); return l.length ? `<div class="nums">${l.map(x => `<a href="${esc(x.u)}" target="_blank" rel="noopener"><span>${esc(x.n)}</span><b>${esc(x.v)}</b><small class="${x.viejo ? 'viejo' : ''}">${esc(x.f)} ↗</small></a>`).join('')}</div>` : ''; };
+function cajaAntes() {
+  const c = avisosCerca(), urg = c.filter(p => p.estado !== 'Sin paro'), p0 = urg[0] || c[0];
+  return `<section class="cajaav"><a href="#antes"><span class="tx"><b>Antes de salir</b><span>${p0 ? `<span class="tag${p0.estado === 'Sin paro' ? ' ok' : ''}">${esc(p0.estado)}</span>${esc(tituloAviso(p0))}` : 'No hay paros ni cortes anunciados para hoy y mañana.'}</span></span>
+    <span class="contador"><b>${c.length}</b>${c.length === 1 ? 'aviso' : 'avisos'}</span>${flecha()}</a>${numsHTML()}</section>`;
+}
+function regla24() {
+  const ahora = horaCorta(new Date().toISOString()), pct = (+ahora.slice(0, 2) * 60 + +ahora.slice(3, 5)) / 1440 * 100;
+  return `<div class="regla" role="img" aria-label="Son las ${ahora}"><span class="pasado" style="width:${pct}%"></span><span class="ahora" style="left:${pct}%"><span>Ahora ${ahora}</span></span></div><div class="horas"><span>0 h</span><span>6</span><span>12</span><span>18</span><span>24 h</span></div>`;
 }
 
 /* ---------- Hoy ---------- */
@@ -156,48 +168,60 @@ function vistaHoy() {
   const vistos = new Set();
   const agenda = (D.hoy.historias || []).map(id => DE_TEMA[id]).filter(h => h && !vistos.has(h.id) && vistos.add(h.id))
     .sort((a, b) => b.hoy - a.hoy || a.puesto - b.puesto).slice(0, 12);
-  app.innerHTML = `
-  <header class="cab"><div class="fila"><span class="meta">${esc(fechaLarga(D.hoy.fecha))}</span><span class="meta">Actualizado ${esc(hace(D.generado))}</span></div><h1>Hoy</h1></header>
-  ${indicadoresHTML()}
-  ${tuDiaHTML()}
-  <section class="seccion"><div class="titulo"><h2>En la agenda de hoy</h2><span class="meta">${agenda.length} temas</span></div>
-    ${botonComo()}
-    ${agenda.length ? `<div class="caja">${agenda.map(h => `<div class="fl"><div class="fila-acc"><a class="fl-cab" href="#tema/${h.id}">${num(h)}
-      <span class="tx"><b>${esc(nombre(h))}</b><span class="ult">${esc(ultimoDeHoy(h))}</span>
-      <small>${cap(h)}<span class="estado nuevo">${h.hoy} nota${h.hoy > 1 ? 's' : ''} hoy</span>${senales(h)}</small></span>${ICONO.flecha}</a>${banderaTitulo(h)}</div></div>`).join('')}</div>`
-      : '<p class="vacio">Todavía no hay temas cubiertos por dos o más diarios hoy.</p>'}
-    <a class="btn" href="#temas" style="align-self:flex-start">Todos los temas de la semana ›</a></section>`;
+  const secs = Object.keys(D.secciones).filter(s => agenda.some(h => h.seccion === s));
+  if (ui.filtroHoy && !secs.includes(ui.filtroHoy)) ui.filtroHoy = null;
+  const l = agenda.filter(h => !ui.filtroHoy || h.seccion === ui.filtroHoy);
+  app.innerHTML = `${cabecera()}${climaHTML()}${cajaAntes()}
+  <section class="d24"><div class="top"><b>Hoy</b><span>${esc(fechaLarga(D.hoy.fecha))} · lo que está en la agenda de los diarios en estas 24 horas</span></div>${regla24()}
+    <div class="pie24">Se actualiza cada 2 horas · última actualización: ${esc(horaCorta(D.generado))} (${esc(hace(D.generado))})</div></section>
+  ${chipsHTML(secs, ui.filtroHoy, 'filtroHoy')}
+  ${l.length ? `<div class="caja">${l.map(h => filaHistoria(h, {hora: true, conNum: false, barras: false, bajada: ultimoDeHoy(h)})).join('')}</div>`
+    : '<p class="vacio">Todavía no hay temas cubiertos por dos o más diarios hoy.</p>'}
+  <div class="acciones"><a class="btn" href="#semana">Todos los temas de la semana ›</a></div>`;
 }
 function ultimoDeHoy(h) { const d = h.feed.find(x => x.dia === D.hoy.fecha); return d ? d.eventos[0].titulo : h.ultimo; }
+function vistaAntes() {
+  const c = avisosCerca(), hoyL = c.filter(p => CERCA[p.estado] === 'hoy'), man = c.filter(p => CERCA[p.estado] === 'manana'), l = indicadores();
+  app.innerHTML = `<a class="volver" href="#hoy">${ICONO.atras}Volver</a><div class="tt"><h1>Antes de salir</h1></div>
+  <p class="expl">Paros, cortes y cambios en los servicios para hoy y mañana, según lo que publicaron los diarios.</p>
+  <h3>Hoy</h3><div class="caja">${hoyL.map(avisoHTML).join('') || '<p class="vacio">Nada anunciado para hoy.</p>'}</div>
+  <h3>Mañana</h3><div class="caja">${man.map(avisoHTML).join('') || '<p class="vacio">Nada anunciado para mañana.</p>'}</div>
+  ${l.length ? `<h3>Los números</h3><div class="caja ind">${l.map(x => `<a href="${esc(x.u)}" target="_blank" rel="noopener"><span>${esc(x.n)}<small class="link">${esc(x.f)} · ${esc(x.fecha)}${x.viejo ? ' · sin actualizar' : ''} ↗</small></span><b>${esc(x.v)}</b></a>`).join('')}</div>` : ''}
+  <p class="expl" style="margin-top:14px">Lo anunciado para más adelante está en <a href="#proximos" style="font-weight:700">Semana › Lo que viene</a>.</p>`;
+}
+function vistaProximos() {
+  const l = avisosLejos();
+  app.innerHTML = `<a class="volver" href="#semana">${ICONO.atras}Volver</a><div class="tt"><h1>Lo que viene</h1></div>
+  <p class="expl">Paros y cambios anunciados para los próximos días o sin fecha confirmada.</p>
+  <div class="caja">${l.map(avisoHTML).join('') || '<p class="vacio">No hay nada anunciado.</p>'}</div>`;
+}
 
-/* ---------- Temas ---------- */
+/* ---------- Semana ---------- */
 function vistaTemas() {
   const c = cur();
-  const lista = HS.filter(h => enSemana(h, c));
+  const propuestas = HS.filter(h => propuesta(h) && !contiene(h, c.quitados));
+  const sumados = HS.filter(h => !propuesta(h) && contiene(h, c.sumados));
   const afuera = HS.filter(h => !enSemana(h, c) && (contiene(h, D.semana.afuera || []) || contiene(h, c.quitados))).slice(0, 15);
-  const secs = Object.keys(D.secciones).filter(s => lista.some(h => h.seccion === s));
+  const secs = Object.keys(D.secciones).filter(s => [...propuestas, ...sumados, ...afuera].some(h => h.seccion === s));
   if (ui.filtro && !secs.includes(ui.filtro)) ui.filtro = null;
-  let filas = '';
-  secs.filter(s => !ui.filtro || s === ui.filtro).forEach(s => {
-    filas += `<div class="grupo" style="color:${COLOR[s] || 'var(--gris)'}">${esc(D.secciones[s])}</div>` + lista.filter(h => h.seccion === s).map(h => filaHistoria(h)).join('');
-  });
-  if (c.propios.length && !ui.filtro) {
-    filas += '<div class="grupo" style="color:var(--gris)">Tus temas</div>' + c.propios.map((p, i) => `<div class="fl"><div class="fila-acc"><a class="fl-cab" href="#buscar/${encodeURIComponent(p)}">
-      <span class="num" style="background:var(--gris)">+</span><span class="tx"><b>${esc(p)}</b><small>Tema propio · ver notas que coinciden</small></span></a>
-      <button class="btn" data-quitar-propio="${i}" aria-label="Quitar el tema propio ${esc(p)}">Quitar</button></div></div>`).join('');
-  }
-  const total = lista.length + c.propios.length;
-  app.innerHTML = `
-  <header class="cab"><div class="fila"><h1>Temas</h1><span class="meta">últimos 7 días</span></div></header>
-  <div class="agregar"><input id="nuevo-tema" type="text" placeholder="Agregar un tema…" autocomplete="off" aria-label="Agregar un tema"><div class="sugs" id="sugs" hidden></div></div>
-  ${botonComo()}
-  <div class="tchips" role="group" aria-label="Filtrar por sección"><button class="${ui.filtro ? '' : 'on'}" data-filtro="">Tu semana · ${total}</button>${secs.map(s => `<button class="${ui.filtro === s ? 'on' : ''}" data-filtro="${s}">${esc(D.secciones[s])}</button>`).join('')}</div>
-  ${filas ? `<div class="caja">${filas}</div>` : '<p class="vacio">Tu semana está vacía. Sumá temas desde «Temas que quedaron afuera».</p>'}
-  ${afuera.length ? `<details class="afuera"${ui.afuera ? ' open' : ''}><summary><span class="tx"><b>Temas que quedaron afuera · ${afuera.length}</b><small>Tuvieron menos cobertura. Podés sumarlos a tu semana.</small></span>
-    <span class="ver"><span class="ver-txt">${ui.afuera ? 'Ocultar' : 'Ver'}</span>${ICONO.abajo}</span></summary>
-    <div class="caja">${afuera.map(h => filaHistoria(h, {conCap: true, boton: `<button class="btn" data-sumar="${h.id}">Sumar</button>`})).join('')}</div></details>` : ''}
-  <section class="cierre"><b>Cerrar la semana</b><p>Los domingos, revisá la lista y tocá «Enviar mi semana». Lo que sacaste y lo que sumaste le enseña al sistema qué es tema para vos.${c.quitados.length || c.sumados.length ? ` Esta semana: ${c.quitados.length} sacado${c.quitados.length === 1 ? '' : 's'}, ${c.sumados.length} sumado${c.sumados.length === 1 ? '' : 's'}.` : ''}${c.confirmada ? ' Ya la enviaste; podés volver a enviarla.' : ''}${!esNico() && pendientes().length ? ` Además tenés ${plural(pendientes().length, 'reporte', 'reportes')} de errores sin enviar.` : ''}</p>
-    <div class="acciones"><button class="btn" data-enviar>Enviar mi semana</button>${!esNico() && pendientes().length ? '<button class="btn" data-abrir-envio style="background:#fff;color:var(--azul)">Enviar reportes</button>' : ''}</div></section>`;
+  const f = h => !ui.filtro || h.seccion === ui.filtro, lej = avisosLejos(), p0 = lej[0];
+  const propios = c.propios.map((p, i) => `<div class="fila"><a href="#buscar/${encodeURIComponent(p)}"><span class="sup"><span class="sec">Tema propio</span></span><span class="rot">${esc(p)}</span><span class="baj">Ver las notas de la semana que coinciden</span></a>
+    <button class="sumar" data-quitar-propio="${i}" aria-label="Quitar el tema propio ${esc(p)}">Quitar</button></div>`).join('');
+  const tuyos = sumados.filter(f).map(h => filaHistoria(h, {conHoy: true})).join('') + (ui.filtro ? '' : propios);
+  app.innerHTML = `${cabecera()}
+  <section class="cajaav"><a href="#proximos"><span class="tx"><b>Lo que viene</b><span>${p0 ? `<span class="tag prox">${esc(p0.estado)}</span>${esc(tituloAviso(p0))}` : 'Nada anunciado para los próximos días.'}</span></span>
+    <span class="contador"><b>${lej.length}</b>${lej.length === 1 ? 'aviso' : 'avisos'}</span>${flecha()}</a></section>
+  <h3>Semana · ${esc(diaSemana(D.semana.desde))} al ${esc(diaSemana(D.semana.hasta))}</h3>
+  <div class="agregar"><label>${ICONO.lupa}<input id="nuevo-tema" type="search" placeholder="Buscar o agregar un tema…" autocomplete="off" aria-label="Buscar o agregar un tema"></label><div class="sugs" id="sugs" hidden></div></div>
+  ${chipsHTML(secs, ui.filtro, 'filtro')}
+  <p class="expl">Los temas que más diarios cubrieron y que más veces fueron tapa.</p>
+  ${propuestas.filter(f).length ? `<div class="caja">${propuestas.filter(f).map(h => filaHistoria(h, {conHoy: true})).join('')}</div>` : '<p class="vacio">Esta sección no tiene temas entre los de la semana.</p>'}
+  <h3>Tu semana</h3>${tuyos ? `<div class="caja">${tuyos}</div>` : '<p class="expl">Sumá temas con «Sumar a mi semana» adentro de cada tema o desde «Lo que quedó afuera», o agregá uno propio con la búsqueda.</p>'}
+  <h3>Lo que quedó afuera</h3><p class="expl">Tuvieron cobertura pero no entraron (su sección ya tenía dos temas), o los sacaste vos. Podés sumarlos a tu semana.</p>
+  ${afuera.filter(f).length ? `<div class="caja">${afuera.filter(f).map(h => filaHistoria(h, {boton: `<button class="sumar" data-sumar="${h.id}">Sumar</button>`})).join('')}</div>` : '<p class="vacio">Nada de esta sección quedó afuera.</p>'}
+  <h3>Cerrar la semana</h3>
+  <section class="cierre"><p style="margin:0">Los domingos, revisá la lista y tocá «Enviar mi semana». Lo que sacaste y lo que sumaste le enseña al sistema qué es tema para vos.${c.quitados.length || c.sumados.length ? ` Esta semana: ${c.quitados.length} sacado${c.quitados.length === 1 ? '' : 's'}, ${c.sumados.length} sumado${c.sumados.length === 1 ? '' : 's'}.` : ''}${c.confirmada ? ' Ya la enviaste; podés volver a enviarla.' : ''}${!esNico() && pendientes().length ? ` Además tenés ${plural(pendientes().length, 'reporte', 'reportes')} de errores sin enviar.` : ''}</p>
+    <div class="acciones"><button class="btn" data-enviar>${ICONO.check}Enviar mi semana</button>${!esNico() && pendientes().length ? `<button class="btn" data-abrir-envio>${ICONO.bandera}Enviar reportes</button>` : ''}</div></section>`;
 }
 function sugerirTemas(texto) {
   const caja = document.getElementById('sugs');
@@ -217,9 +241,10 @@ function sugerirTemas(texto) {
 /* ---------- Un tema ---------- */
 function notaHistoria(n, conDia) {
   const on = !!fijadas()[n.id];
-  return `<div class="hn"><div class="cuerpo"><span class="d">${esc(nombreDiario(n.diario))} <i>· ${esc(horaCorta(n.fecha))}${conDia ? ' · ' + esc(diaSemana(n.fecha.slice(0, 10))) : ''}</i></span>
+  return `<div class="hn"><div class="cuerpo"><span class="d"><b>${esc(nombreDiario(n.diario))}</b> · ${esc(horaCorta(n.fecha))}${conDia ? ' · ' + esc(diaSemana(diaAR(n.fecha))) : ''}</span>
     <span class="t">${esc(n.titulo)}</span>${n.bajada ? `<span class="b">${esc(n.bajada)}</span>` : ''}<a class="leer" href="${esc(n.url)}" target="_blank" rel="noopener">Leer en ${esc(nombreDiario(n.diario))} ↗</a></div>
-    <span style="display:flex;flex-direction:column"><button class="pin${on ? ' on' : ''}" data-pin="${esc(n.id)}" aria-label="${on ? 'Desfijar' : 'Fijar arriba'}">${ICONO.pin}</button>
+    <span class="acc-fila"><button class="pin${on ? ' on' : ''}" data-pin="${esc(n.id)}" aria-label="${on ? 'Desfijar' : 'Fijar arriba'}">${ICONO.pin}</button>
+    <button class="compartir" data-compartir-nota="${esc(n.id)}" aria-label="Compartir esta nota">${ICONO.compartir}</button>
     <button class="flag" data-reportar-nota="${esc(n.id)}" aria-label="Reportar un error con esta nota">${ICONO.bandera}</button></span></div>`;
 }
 function etiquetaDia(dia) {
@@ -227,42 +252,47 @@ function etiquetaDia(dia) {
   const base = diaSemana(dia); const cap1 = base.charAt(0).toUpperCase() + base.slice(1);
   return dia === D.hoy.fecha ? 'Hoy · ' + cap1 : dia === ayer ? 'Ayer · ' + cap1 : cap1;
 }
+const notasDe = h => [...new Set(h.feed.flatMap(d => d.eventos.flatMap(e => e.notas)))].map(i => NOTA[i]).filter(Boolean).sort((a, b) => b.fecha.localeCompare(a.fecha));
+function grillaHTML(h) {
+  const d = dias7(), m = {};
+  notasDe(h).forEach(n => { const k = d.indexOf(diaAR(n.fecha)); if (k < 0) return; (m[n.diario] = m[n.diario] || Array(7).fill(0))[k]++; });
+  const filas = Object.keys(D.diarios).filter(k => D.diarios[k].activo !== false);
+  return `<div class="grilla-w"><table class="grilla" aria-label="Notas por diario y por día"><thead><tr><th></th>${d.map(x => `<th>${letra(x)}</th>`).join('')}</tr></thead><tbody>${filas.map(k => { const v = m[k] || Array(7).fill(0);
+    return `<tr><th>${esc(nombreDiario(k))}</th>${v.map((x, i) => `<td><i class="n${Math.min(x, 3)}" title="${esc(nombreDiario(k))}, ${esc(diaSemana(d[i]))}: ${x} notas"></i></td>`).join('')}</tr>`; }).join('')}</tbody></table></div>`;
+}
 function vistaHistoria(id) {
   const h = H[id] || DE_TEMA[id];
   if (!h) { vistaGuardado(id); return; }
   if (h.id !== id) { location.replace('#tema/' + h.id); return; }
-  const c = cur(), g = guardadas().temas[h.id], fij = fijadas();
-  const ids = new Set(h.feed.flatMap(d => d.eventos.flatMap(e => e.notas)));
-  const pins = Object.keys(fij).filter(i => ids.has(i) && NOTA[i]).sort((a, b) => fij[b].localeCompare(fij[a])).map(i => NOTA[i]);
-  const m = Math.max(...h.dias, 1);
-  const hoy = new Date(D.hoy.fecha + 'T12:00:00-03:00');
-  const letras = h.dias.map((_, k) => DIAS_CORTOS[new Date(hoy - (6 - k) * 864e5).getUTCDay()]);
+  const c = cur(), g = guardadas().temas[h.id], fij = fijadas(), notas = notasDe(h);
+  const pins = Object.keys(fij).filter(i => notas.some(n => n.id === i)).sort((a, b) => fij[b].localeCompare(fij[a])).map(i => NOTA[i]);
+  const m = Math.max(...h.dias, 1), d = dias7();
   const titulo = ui.renombrando
     ? `<div class="renombrar"><input id="nuevo-nombre" type="text" value="${esc(nombre(h))}" aria-label="Nombre del tema"><button class="btn" data-guardar-nombre>Listo</button></div>
        <p class="meta" style="margin:0 0 6px">El nombre queda en este celular. Automático: «${esc(h.titulo)}»${nombre(h) !== h.titulo ? ' · <button class="como" data-nombre-auto style="padding:0">volver al automático</button>' : ''}</p>`
-    : `<div class="titulo-tema"><h1>${esc(nombre(h))}</h1><button class="lapiz" data-renombrar aria-label="Renombrar el tema">${ICONO.lapiz}</button><button class="lapiz" data-reportar-titulo="${h.id}" aria-label="Reportar un error en el nombre de este tema">${ICONO.bandera}</button></div>`;
+    : `<div class="tt"><h1>${esc(nombre(h))}</h1><button class="lapiz" data-renombrar aria-label="Cambiar el nombre del tema">${ICONO.lapiz}</button><button class="compartir" data-compartir-tema="${h.id}" aria-label="Compartir este tema">${ICONO.compartir}</button><button class="flag" data-reportar-titulo="${h.id}" aria-label="Reportar un error en el nombre de este tema">${ICONO.bandera}</button></div>`;
   const opciones = ui.uniendo ? HS.filter(x => x.id !== h.id).slice(0, 40) : [];
-  app.innerHTML = `<a class="volver" href="javascript:history.back()">‹ Volver</a>
-  <div><span class="etq" style="color:${COLOR[h.seccion] || 'var(--gris)'}">${esc(h.seccion_nombre)}</span>${h.mano ? ` <span class="estado mano" style="margin-left:6px">Unido a mano · ${h.temas.length} temas</span> <button class="como" data-separar style="padding:0 4px">deshacer</button>` : ''}</div>
+  const porDiario = {}; notas.forEach(n => { (porDiario[n.diario] = porDiario[n.diario] || []).push(n); });
+  const faltan = Object.keys(D.diarios).filter(k => D.diarios[k].activo !== false && !porDiario[k]);
+  const cuerpo = ui.vistaTema === 'diarios'
+    ? Object.keys(D.diarios).filter(k => porDiario[k]).map(k => `<div class="dia">${esc(nombreDiario(k))}<span>${plural(porDiario[k].length, 'nota', 'notas')}</span></div><div class="caja">${porDiario[k].slice(0, 3).map(n => notaHistoria(n, true)).join('')}</div>`).join('')
+      + (faltan.length ? `<p class="meta" style="margin-top:10px">No lo cubrieron: ${faltan.map(nombreDiario).join(', ')}.</p>` : '')
+    : h.feed.map(dia => { const ns = [...new Set(dia.eventos.flatMap(e => e.notas))].map(i => NOTA[i]).filter(Boolean).sort((a, b) => b.fecha.localeCompare(a.fecha));
+        return `<div class="dia">${esc(etiquetaDia(dia.dia))}<span>${plural(ns.length, 'nota', 'notas')}</span></div><div class="caja">${ns.map(n => notaHistoria(n, false)).join('')}</div>`; }).join('');
+  app.innerHTML = `<a class="volver" href="javascript:history.back()">${ICONO.atras}Volver</a>
+  <div>${cap(h)}${h.mano ? ` <span class="mano">Unido a mano · ${h.temas.length} temas</span> <button class="como" data-separar style="padding:0 4px">deshacer</button>` : ''}</div>
   ${titulo}
-  <p class="ultimo">Lo último: ${esc(h.ultimo)}</p>
-  <section class="porque"><span class="tit">Por qué está Nº ${h.puesto} de la semana</span>
-    <div class="medida"><div class="fila-m"><span>Repercusión</span><span>${h.convergencia} de 100</span></div><div class="bar"><i style="width:${h.convergencia}%"></i></div><small>Lo cubren ${h.n_diarios} de ${activos()} diarios, durante ${h.n_dias} día${h.n_dias > 1 ? 's' : ''}, con ${h.n_notas} notas.</small></div>
-    <div class="medida"><div class="fila-m"><span>Jerarquía</span><span>${h.jerarquia} de 100</span></div><div class="bar"><i style="width:${h.jerarquia}%"></i></div><small>${h.tapas ? `Estuvo en lo más alto de la portada de ${h.tapas} diario${h.tapas > 1 ? 's' : ''}.` : 'No llegó a lo más alto de ninguna portada.'}</small></div>
-  </section>
-  <p class="meta" style="margin:10px 0 0">Desde el ${esc(diaSemana(h.desde))} · notas por día:</p>
-  <div class="dias7">${h.dias.map((v, k) => `<div><i class="${v ? '' : 'cero'}" style="height:${v ? Math.max(6, 38 * v / m) : 3}px" title="${v} notas"></i><span>${letras[k]}</span></div>`).join('')}</div>
-  <div class="acciones" style="margin-top:12px"><button class="btn${g ? ' on' : ''}" data-guardar-tema="${h.id}">${ICONO.guardar}${g ? 'Guardado' : 'Guardar'}</button>
+  <p class="bj"><small>Lo último</small>${esc(h.ultimo)}</p>${senales(h, true)}
+  <div class="acciones"><button class="btn${g ? ' on' : ''}" data-guardar-tema="${h.id}">${ICONO.guardar}${g ? 'Guardado' : 'Guardar'}</button>
     <button class="btn${ui.uniendo ? ' on' : ''}" data-unir>${ICONO.unir}Unir con otro tema</button>
-    <button class="btn" data-semana="${h.id}">${enSemana(h, c) ? '− Sacar de mi semana' : '+ Sumar a mi semana'}</button></div>
+    <button class="btn" data-semana="${h.id}">${enSemana(h, c) ? `${ICONO.menos}Sacar de mi semana` : `${ICONO.mas}Sumar a mi semana`}</button></div>
   ${ui.uniendo ? `<section class="unir"><b style="font-size:14px">¿Con qué tema lo unís?</b><input id="buscar-union" type="text" placeholder="Buscar un tema…" autocomplete="off">
     <div id="opciones-union">${opcionesUnion(opciones, '')}</div></section>` : ''}
-  ${pins.length ? `<section class="fijadas"><div class="tit">${ICONO.pin} Fijadas por vos</div>${pins.map(n => notaHistoria(n, true)).join('')}</section>` : ''}
-  ${h.feed.map((dia, di) => `<div class="dia-cab"><span>${esc(etiquetaDia(dia.dia))}</span><span style="font-weight:500">${dia.eventos.reduce((a, e) => a + e.notas.length, 0)} notas</span></div>
-    ${dia.eventos.map((e, k) => { const ns = e.notas.map(i => NOTA[i]).filter(Boolean); return `<article class="ev${di === 0 && k === 0 ? ' abierta' : ''}"><button class="ev-cab" data-ev><span class="t">${esc(e.titulo)}</span>
-      <small>${esc(horaCorta(e.fecha))} · ${ns.length} diario${ns.length > 1 ? 's' : ''} ${ns.map(n => `<span class="dchip">${esc(nombreDiario(n.diario))}</span>`).join('')}</small></button>
-      <div class="ev-notas">${ns.map(n => notaHistoria(n, false)).join('')}</div></article>`; }).join('')}`).join('')}
-  <p class="aviso">Arriba lo más nuevo; bajando, cómo fue empezando. Tocá una tarjeta para ver qué publicó cada diario, el alfiler para fijar una nota arriba y la banderita para avisar de un error.</p>
+  <div class="panel"><h3>Notas por día</h3><div class="grande">${h.dias.map(v => `<div><small>${v || ''}</small><i class="${v ? '' : 'z'}" style="height:${v ? Math.max(4, Math.round(90 * v / m)) : 2}px"></i></div>`).join('')}</div>
+    <div class="dias7">${d.map((x, k) => k === 6 ? '<b>Hoy</b>' : `<span>${letra(x)}</span>`).join('')}</div></div>
+  <div class="panel"><h3>Quién lo cubrió</h3>${grillaHTML(h)}</div>
+  ${pins.length ? `<div class="dia">Fijadas por vos<span></span></div><div class="caja">${pins.map(n => notaHistoria(n, true)).join('')}</div>` : ''}
+  <div class="tabs" role="tablist"><button role="tab" data-v="historia" aria-selected="${ui.vistaTema !== 'diarios'}">La historia</button><button role="tab" data-v="diarios" aria-selected="${ui.vistaTema === 'diarios'}">Qué dijo cada diario</button></div>${cuerpo}
   <button class="reportar" data-reportar-tema="${h.id}">${ICONO.bandera}Reportar un error en este tema</button>`;
 }
 function opcionesUnion(lista, texto) {
@@ -273,10 +303,10 @@ function opcionesUnion(lista, texto) {
 }
 function vistaGuardado(id) {
   const t = guardadas().temas[id];
-  if (!t) { app.innerHTML = '<p class="vacio">Este tema ya no está en la semana actual.</p><a class="volver" href="#temas">‹ Volver a Temas</a>'; return; }
-  app.innerHTML = `<a class="volver" href="#guardadas">‹ Guardadas</a><span class="etq" style="color:${COLOR[t.seccion] || 'var(--gris)'}">${esc(t.seccion_nombre || '')}</span>
-    <h1 style="font-size:25px;line-height:1.2;margin:6px 0">${esc(t.titulo)}</h1><p class="meta">Ya no está en la semana actual. Estas son las notas que tenía cuando lo guardaste.</p>
-    <section class="seccion"><div class="caja" style="padding:0 14px">${(t.notas || []).map(n => notaHistoria(n, true)).join('')}</div></section>`;
+  if (!t) { app.innerHTML = `<a class="volver" href="#semana">${ICONO.atras}Volver a la Semana</a><p class="vacio">Este tema ya no está en la semana actual.</p>`; return; }
+  app.innerHTML = `<a class="volver" href="#guardadas">${ICONO.atras}Guardadas</a><div><span class="sec" style="${estiloSec(t.seccion)}">${esc(t.seccion_nombre || '')}</span></div>
+    <div class="tt"><h1>${esc(t.titulo)}</h1></div><p class="expl">Ya no está en la semana actual. Estas son las notas que tenía cuando lo guardaste.</p>
+    <div class="caja">${(t.notas || []).map(n => notaHistoria(n, true)).join('')}</div>`;
 }
 
 /* ---------- Guardadas ---------- */
@@ -285,32 +315,42 @@ function vistaGuardadas() {
   const temas = Object.values(g.temas).sort((a, b) => b.guardado.localeCompare(a.guardado));
   const conPins = HS.filter(h => h.feed.some(d => d.eventos.some(e => e.notas.some(i => fij[i]))));
   const viejas = Object.values(g.notas).sort((a, b) => (b.guardada || '').localeCompare(a.guardada || ''));
-  const fila = t => H[t.id] || DE_TEMA[t.id] ? filaHistoria(H[t.id] || DE_TEMA[t.id], {conCap: true})
-    : `<div class="fl"><a class="fl-cab" href="#tema/${t.id}"><span class="tx"><b>${esc(t.titulo)}</b><small>${esc(t.seccion_nombre || '')} · ya no está en la semana actual</small></span>${ICONO.flecha}</a></div>`;
-  app.innerHTML = `
-  <header class="cab"><h1 data-modo-nico>Guardadas</h1></header>
-  <section class="seccion"><div class="titulo"><span class="etq" style="color:var(--gris)">Temas guardados · ${temas.length}</span></div>
-    ${temas.length ? `<div class="caja">${temas.map(fila).join('')}</div>` : '<p class="vacio">Todavía no guardaste temas. Usá «Guardar» dentro de un tema.</p>'}</section>
-  <section class="seccion"><div class="titulo"><span class="etq" style="color:var(--gris)">Temas con notas fijadas · ${conPins.length}</span></div>
-    ${conPins.length ? `<div class="caja">${conPins.map(h => filaHistoria(h, {conCap: true})).join('')}</div>` : '<p class="vacio">Fijá una nota con el alfiler dentro de un tema.</p>'}</section>
-  ${viejas.length ? `<section class="seccion"><div class="titulo"><span class="etq" style="color:var(--gris)">Notas guardadas · ${viejas.length}</span></div>
-    <div class="caja" style="padding:0 14px">${viejas.map(n => `<div class="hn"><div class="cuerpo"><span class="d">${esc(nombreDiario(n.diario))}${n.tema ? ` <i>· ${esc(n.tema).slice(0, 40)}</i>` : ''}</span><span class="t">${esc(n.titulo)}</span>
-      <a class="leer" href="${esc(n.url)}" target="_blank" rel="noopener">Leer en ${esc(nombreDiario(n.diario))} ↗</a></div><button class="pin on" data-quitar-guardada="${esc(n.id)}" aria-label="Quitar de guardadas">${ICONO.guardar}</button></div>`).join('')}</div></section>` : ''}
+  const fila = t => H[t.id] || DE_TEMA[t.id] ? filaHistoria(H[t.id] || DE_TEMA[t.id], {conHoy: true})
+    : `<div class="fila"><a href="#tema/${t.id}"><span class="sup"><span class="sec" style="${estiloSec(t.seccion)}">${esc(t.seccion_nombre || '')}</span></span><span class="rot">${esc(t.titulo)}</span><span class="baj">Ya no está en la semana actual</span></a><span class="acc-fila">${flecha()}</span></div>`;
+  app.innerHTML = `${cabecera()}
+  <h3 data-modo-nico>Guardadas · ${plural(temas.length, 'tema', 'temas')}</h3>
+  ${temas.length ? `<div class="caja">${temas.map(fila).join('')}</div>` : '<p class="expl">Todavía no guardaste temas. Usá «Guardar» adentro de un tema.</p>'}
+  <h3>Temas con notas fijadas · ${conPins.length}</h3>
+  ${conPins.length ? `<div class="caja">${conPins.map(h => filaHistoria(h)).join('')}</div>` : '<p class="expl">Fijá una nota con la chincheta adentro de un tema.</p>'}
+  ${viejas.length ? `<h3>Notas guardadas · ${viejas.length}</h3><div class="caja">${viejas.map(n => `<div class="hn"><div class="cuerpo"><span class="d"><b>${esc(nombreDiario(n.diario))}</b>${n.tema ? ` · ${esc(n.tema).slice(0, 40)}` : ''}</span><span class="t">${esc(n.titulo)}</span>
+      <a class="leer" href="${esc(n.url)}" target="_blank" rel="noopener">Leer en ${esc(nombreDiario(n.diario))} ↗</a></div><span class="acc-fila"><button class="pin on" data-quitar-guardada="${esc(n.id)}" aria-label="Quitar de guardadas">${ICONO.guardar}</button></span></div>`).join('')}</div>` : ''}
   ${reportesGuardadasHTML()}
   <p class="aviso">Todo se guarda en este celular. Las notas se leen siempre en el sitio del diario.</p>`;
 }
 
 /* ---------- buscar un tema propio ---------- */
 async function vistaBuscar(texto) {
-  app.innerHTML = `<a class="volver" href="#temas">‹ Temas</a><h1 style="font-size:25px;margin:6px 0">${esc(texto)}</h1><p class="cargando">Buscando…</p>`;
+  app.innerHTML = `<a class="volver" href="#semana">${ICONO.atras}Semana</a><div class="tt"><h1>${esc(texto)}</h1></div><p class="cargando">Buscando…</p>`;
   if (!busqueda) busqueda = await (await fetch('datos/notas_semana.json', {cache: 'no-cache'})).json();
   const palabras = norm(texto).split(/\s+/).filter(w => w.length > 2);
   const hits = busqueda.filter(n => { const t = norm(n.t); return palabras.every(w => t.includes(w)); }).slice(0, 60);
   const diarios = new Set(hits.map(n => n.d));
-  app.innerHTML = `<a class="volver" href="#temas">‹ Temas</a><h1 style="font-size:25px;margin:6px 0">${esc(texto)}</h1>
-    <p class="meta">${hits.length} notas de ${diarios.size} diarios en la semana · búsqueda en títulos</p>
-    ${hits.length ? `<div class="caja" style="padding:0 14px;margin-top:12px">${hits.map(n => `<div class="hn"><div class="cuerpo"><span class="d">${esc(nombreDiario(n.d))} <i>· ${esc(n.f.slice(8, 10) + '/' + n.f.slice(5, 7) + ' ' + n.f.slice(11, 16))}</i></span><span class="t">${esc(n.t)}</span><a class="leer" href="${esc(n.u)}" target="_blank" rel="noopener">Leer en ${esc(nombreDiario(n.d))} ↗</a></div></div>`).join('')}</div>`
+  app.innerHTML = `<a class="volver" href="#semana">${ICONO.atras}Semana</a><div class="tt"><h1>${esc(texto)}</h1></div>
+    <p class="expl">${hits.length} notas de ${diarios.size} diarios en la semana · búsqueda en títulos</p>
+    ${hits.length ? `<div class="caja">${hits.map(n => `<div class="hn"><div class="cuerpo"><span class="d"><b>${esc(nombreDiario(n.d))}</b> · ${esc(n.f.slice(8, 10) + '/' + n.f.slice(5, 7) + ' ' + n.f.slice(11, 16))}</span><span class="t">${esc(n.t)}</span><a class="leer" href="${esc(n.u)}" target="_blank" rel="noopener">Leer en ${esc(nombreDiario(n.d))} ↗</a></div>
+      <span class="acc-fila"><button class="compartir" data-compartir-busqueda="${esc(n.u)}" data-titulo="${esc(n.t)}" data-diario="${esc(n.d)}" aria-label="Compartir esta nota">${ICONO.compartir}</button></span></div>`).join('')}</div>`
       : '<p class="vacio">No hay notas con esas palabras. Probá con menos palabras.</p>'}`;
+}
+
+/* ---------- compartir un tema o una nota ---------- */
+const DIR_APP = () => location.origin + location.pathname.replace(/index\.html$/, '');
+const textoTema = h => `Comparto este tema que sigo en Informado: «${nombre(h)}».\nLo último: ${h.ultimo}\nLo cubren ${h.n_diarios} de ${activos()} diarios.\n\nMirá qué dice cada diario en Informado, el agrupador de noticias: ${DIR_APP()}#tema/${h.id}`;
+const textoNota = n => `Comparto esta nota que leí en Informado: «${n.titulo}» (${nombreDiario(n.diario)}).\n${n.url}\n\nInformado junta y compara las noticias de ${activos()} diarios nacionales: ${DIR_APP()}`;
+async function compartirContenido(titulo, texto) {
+  try { if (navigator.share) { await navigator.share({title: titulo, text: texto}); return; } }
+  catch (err) { if (err && err.name === 'AbortError') return; }
+  abrirHoja(`<h3>Compartir</h3><textarea id="texto-compartir" readonly style="min-height:150px">${esc(texto)}</textarea>
+    <div class="botones"><a class="btn" href="https://wa.me/?text=${encodeURIComponent(texto)}" target="_blank" rel="noopener">WhatsApp ↗</a><button class="btn" data-copiar-compartir>Copiar</button><button class="btn prim" data-cerrar-hoja>Listo</button></div>`, 'Compartir');
 }
 
 /* ---------- reportar un error ---------- */
@@ -573,6 +613,7 @@ document.body.addEventListener('click', e => {
   if ('copiarEnvio' in ds) { envio = armarEnvio(); mostrarTexto(); return; }
   if ('copiarTexto' in ds) { copiarTexto(); return; }
   if ('yaEnviado' in ds) { terminarEnvio(); return; }
+  if ('copiarCompartir' in ds) { const t = document.getElementById('texto-compartir'); if (t) { navigator.clipboard && navigator.clipboard.writeText ? navigator.clipboard.writeText(t.value).catch(() => {}) : (t.select(), document.execCommand('copy')); toast('Texto copiado'); } return; }
 });
 
 /* ---------- acciones ---------- */
@@ -632,8 +673,11 @@ app.addEventListener('click', e => {
   const ds = el.dataset;
   if ('abrir' in ds) { const f = el.parentElement; const ab = f.classList.toggle('abierta'); el.setAttribute('aria-expanded', ab); return; }
   if ('ev' in ds) { el.parentElement.classList.toggle('abierta'); return; }
-  if ('como' in ds) { ui.como = !ui.como; recargar(); return; }
-  if (ds.filtro !== undefined) { ui.filtro = ds.filtro || null; render(); return; }
+  if (ds.filtro !== undefined) { ui[ds.cual === 'filtroHoy' ? 'filtroHoy' : 'filtro'] = ds.filtro || null; recargar(); return; }
+  if (ds.v) { ui.vistaTema = ds.v; recargar(); return; }
+  if (ds.compartirTema) { const h = H[ds.compartirTema] || DE_TEMA[ds.compartirTema]; if (h) compartirContenido('Informado · ' + nombre(h), textoTema(h)); return; }
+  if (ds.compartirNota) { const t = guardadas().temas[location.hash.split('/')[1]]; const n = NOTA[ds.compartirNota] || ((t && t.notas) || []).find(x => x.id === ds.compartirNota); if (n) compartirContenido('Informado · ' + n.titulo, textoNota(n)); return; }
+  if (ds.compartirBusqueda) { compartirContenido('Informado · ' + ds.titulo, textoNota({titulo: ds.titulo, url: ds.compartirBusqueda, diario: ds.diario})); return; }
   if (ds.ir) { location.hash = '#tema/' + ds.ir; return; }
   if (ds.sumar) { e.preventDefault(); alternarSemana(ds.sumar); if ('limpiar' in ds) { const i = document.getElementById('nuevo-tema'); if (i) i.value = ''; } recargar(); return; }
   if ('propioNuevo' in ds) { const v = (document.getElementById('nuevo-tema') || {}).value; if (v && v.trim()) { const c = cur(); c.propios.push(v.trim()); setCur(c); toast('Tema propio agregado'); recargar(); } return; }
@@ -693,11 +737,13 @@ app.addEventListener('keydown', e => {
 function render() {
   const [vista, arg] = (location.hash.slice(1) || 'hoy').split('/');
   if (vista !== 'tema') { ui.renombrando = false; ui.uniendo = false; }
-  const nav = {hoy: 'hoy', temas: 'temas', tema: 'temas', buscar: 'temas', guardadas: 'guardadas', reportes: 'guardadas'}[vista] || 'hoy';
+  const nav = {hoy: 'hoy', antes: 'hoy', semana: 'semana', proximos: 'semana', tema: 'semana', buscar: 'semana', guardadas: 'guardadas', reportes: 'guardadas'}[vista] || 'hoy';
   document.querySelectorAll('.barra a').forEach(a => { if (a.dataset.vista === nav) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
-  // Direcciones viejas (Semana, Armá, modo lectura) llevan a Temas.
-  if (['semana', 'curar', 'leer'].includes(vista)) { location.replace('#temas'); return; }
-  if (vista === 'temas') vistaTemas();
+  // Direcciones viejas (Temas, Armá, modo lectura) llevan a la Semana.
+  if (['temas', 'curar', 'leer'].includes(vista)) { location.replace('#semana'); return; }
+  if (vista === 'semana') vistaTemas();
+  else if (vista === 'antes') vistaAntes();
+  else if (vista === 'proximos') vistaProximos();
   else if (vista === 'tema') vistaHistoria(arg);
   else if (vista === 'guardadas') vistaGuardadas();
   else if (vista === 'reportes') vistaReportes();
@@ -705,7 +751,7 @@ function render() {
   else vistaHoy();
   actualizarPildora();
 }
-window.addEventListener('hashchange', () => { ui.renombrando = false; ui.uniendo = false; render(); window.scrollTo(0, 0); });
+window.addEventListener('hashchange', () => { ui.renombrando = false; ui.uniendo = false; cerrarHoja(); render(); window.scrollTo(0, 0); });
 
 async function iniciar() {
   // Modo Nico por enlace: …/informado/?soy=nico lo prende y ?soy=otro lo apaga (también: 5 toques en «Guardadas»).
