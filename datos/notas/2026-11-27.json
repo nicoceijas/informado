@@ -1,11 +1,11 @@
 {
-"04e108d19a71": {
-"id": "04e108d19a71",
+"acd8e5790aa4": {
+"id": "acd8e5790aa4",
 "diario": "clarin",
-"url": "https://www.clarin.com/internacional/nerea-pastora-400-ovejas-explica-cuesta-encontrar-trabajadores-campo-puede-hacer-trabajo-altamente-cualificado_0_xy5NXTywTf.html",
-"titulo": "Nerea, pastora de más de 400 ovejas, explica por qué cuesta encontrar trabajadores en el campo: \"Cualquiera no puede hacer este trabajo, es altamente cualificado\"",
+"url": "https://www.clarin.com/internacional/peregrinos-enamoran-camino-santiago-terminan-casandose-catedral-historia-amor-nacio-haciendo-ruta_0_7ULakYyF9J.html",
+"titulo": "Dos peregrinos se enamoran durante el Camino de Santiago y terminan casándose en la Catedral: una historia de amor que nació haciendo la ruta",
 "bajada": "",
-"fecha": "2026-11-27T06:30:18+00:00",
+"fecha": "2026-11-27T08:32:19+00:00",
 "seccion": "internacional",
 "palabras_clave": [],
 "edicion_impresa": false,
@@ -13,27 +13,588 @@
 "clarin/sitemap:sitemap"
 ],
 "titulo_de": "sitemap",
-"visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
-"e271813702eb": {
-"id": "e271813702eb",
-"diario": "clarin",
-"url": "https://www.clarin.com/politica/javier-milei-consiguio-media-sancion-presupuesto-2027-diputados_0_Bc7eOsDA84.html",
-"titulo": "Javier Milei consiguió la media sanción del Presupuesto 2027 en Diputados",
-"bajada": "",
-"fecha": "2026-11-27T06:23:19+00:00",
+"cd198a2e64be": {
+"id": "cd198a2e64be",
+"diario": "perfil",
+"url": "https://www.perfil.com/internacional/solo-hay-un-tema-del-que-hablar-con-rusia-aXMIh1T4HSJf",
+"titulo": "Solo hay un tema del que hablar con Rusia",
+"bajada": "“Ya existe un orden de seguridad europeo acordado, del que Rusia es signataria y no difiere, en esencia, de lo que estableció la Carta de las Naciones Unidas en 1945”, dice el autor. Agrega que Putin lo está violando de…",
+"fecha": "2026-11-27T08:30:00+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:mundo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
+"9c34558a9db2": {
+"id": "9c34558a9db2",
+"diario": "infobae",
+"url": "https://www.infobae.com/politica/2026/11/27/el-gobierno-logro-aprobar-el-presupuesto-en-diputados-pero-tuvo-que-aumentar-los-fondos-para-las-universidades/",
+"titulo": "El Gobierno aprobó el Presupuesto en Diputados pero la oposición le impuso un fuerte aumento para las universidades",
+"bajada": "Incrementaron los fondos de $7.3 billones a $11 billones. Son las partidas que reclamaban los rectores del Consejo Interuniversitario Nacional. También reforzaron las asignaciones para el INTI, INTA, SENASA y CONICET. El oficialismo ahora buscará revertir los cambios en el…",
+"fecha": "2026-11-27T08:27:28+00:00",
 "seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "politica",
+"motivo": "seccion:politica",
+"home_mejor_pos": 18
+},
+"b038485a7d94": {
+"id": "b038485a7d94",
+"diario": "clarin",
+"url": "https://www.clarin.com/buena-vida/leche-lacteos-superalimento-enemigos-dice-ciencia_0_UypVdhHsrb.html",
+"titulo": "La leche y los lácteos, ¿superalimento o enemigos?: esto dice la ciencia",
+"bajada": "",
+"fecha": "2026-11-27T08:00:20+00:00",
+"seccion": "buena-vida",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
 "clarin/sitemap:sitemap"
 ],
 "titulo_de": "sitemap",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"23838882266d": {
+"id": "23838882266d",
+"diario": "clarin",
+"url": "https://www.clarin.com/deportes/argentina-davis-esperpento-gloria-nuevamente-dudas_0_iuYajVEqSI.html",
+"titulo": "Argentina y la Davis: el esperpento, la gloria y nuevamente las dudas",
+"bajada": "",
+"fecha": "2026-11-27T08:00:19+00:00",
+"seccion": "deportes",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "otros",
+"motivo": "seccion:deportes"
+},
+"dae30a7a1429": {
+"id": "dae30a7a1429",
+"diario": "clarin",
+"url": "https://www.clarin.com/internacional/david-rocio-dejaron-ciudad-vivir-pueblo-60-habitantes-cantabria-felicidad-levantas-acuestas_0_BBKgDMsiBD.html",
+"titulo": "David y Rocío dejaron la ciudad para vivir en un pueblo de menos de 60 habitantes de Cantabria: \"Estar aquí es felicidad desde que te levantas hasta que te acuestas\"",
+"bajada": "",
+"fecha": "2026-11-27T08:00:19+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
+"4908e1e8a10a": {
+"id": "4908e1e8a10a",
+"diario": "clarin",
+"url": "https://www.clarin.com/relaciones/tickling-incorporar-juego-cosquillas-eroticas-cama-explorar-placer_0_rqTc6nIAJU.html",
+"titulo": "Tickling: cómo incorporar el juego de las cosquillas eróticas en la cama y explorar el placer",
+"bajada": "",
+"fecha": "2026-11-27T08:00:19+00:00",
+"seccion": "relaciones",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"2f6a55a234a6": {
+"id": "2f6a55a234a6",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/sociedad/menores-de-5-anos-este-es-el-riesgo-que-puede-poner-en-peligro-su-vida-en-segundos-nid27112026/",
+"titulo": "Menores de 5 años: este es el riesgo que puede poner en peligro su vida en segundos",
+"bajada": "En LN+, Jorge Tartaglione, médico cardiólogo, brindó las claves fundamentales para identificar un atragantamiento y detalló las maniobras de primeros auxilios",
+"fecha": "2026-11-27T08:00:00+00:00",
+"seccion": "sociedad",
+"palabras_clave": [
+"Sociedad"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:ultimo",
+"lanacion/rss:sociedad",
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"95bdffa9a823": {
+"id": "95bdffa9a823",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/sociedad/la-psicologia-explica-por-que-cambiamos-a-lo-largo-de-la-vida-y-que-factores-influyen-nid27112026/",
+"titulo": "La psicología explica por qué cambiamos a lo largo de la vida y qué factores influyen",
+"bajada": "En una entrevista con LA NACION, Pilar Sordo analizó la transformación de la conducta humana frente a las experiencias de vida y la importancia del discurso interno",
+"fecha": "2026-11-27T08:00:00+00:00",
+"seccion": "sociedad",
+"palabras_clave": [
+"Sociedad"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:ultimo",
+"lanacion/rss:sociedad",
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"a0e26be44a8c": {
+"id": "a0e26be44a8c",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/sociedad/yogur-griego-versus-tradicional-que-cambia-en-su-composicion-y-como-impacta-en-la-salud-intestinal-nid27112026/",
+"titulo": "Yogur griego versus tradicional: qué cambia en su composición y cómo impacta en la salud intestinal",
+"bajada": "",
+"fecha": "2026-11-27T08:00:00+00:00",
+"seccion": "sociedad",
+"palabras_clave": [
+"Salud",
+"Alimentación saludable",
+"Alimentación"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"854c47111638": {
+"id": "854c47111638",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/sociedad/yogur-griego-versus-comun-por-que-esta-de-moda-y-que-impacto-tiene-en-la-microbiota-nid27112026/",
+"titulo": "Yogur griego versus común: por qué está de moda y que impacto tiene en la microbiota",
+"bajada": "",
+"fecha": "2026-11-27T08:00:00+00:00",
+"seccion": "sociedad",
+"palabras_clave": [
+"Salud",
+"Alimentación saludable",
+"Alimentación"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"0176db379c31": {
+"id": "0176db379c31",
+"diario": "clarin",
+"url": "https://www.clarin.com/internacional/granja-cria-cerdos-libertad-explica-cambia-carne-grasa-convierte-monoinsaturada-aceite-oliva_0_MjLC1bBhcz.html",
+"titulo": "Una granja cría cerdos en libertad y explica cómo cambia su carne: \"La grasa se convierte en monoinsaturada, como el aceite de oliva\"",
+"bajada": "",
+"fecha": "2026-11-27T07:32:18+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
+"7bd7a3181ded": {
+"id": "7bd7a3181ded",
+"diario": "perfil",
+"url": "https://www.perfil.com/politica/el-oficialismo-consiguio-aprobar-el-presupuesto-2027-en-diputados-pero-perdio-un-articulo-clave-vinculado-a-las-universidades-aMsXP9X6HTdR",
+"titulo": "El oficialismo consiguió aprobar el Presupuesto 2027 en Diputados, pero perdió un artículo clave vinculado a las universidades",
+"bajada": "La oposición logró imponer al Gobierno en un punto fundamental. Leer más",
+"fecha": "2026-11-27T07:29:49+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:ultimo",
+"perfil/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "politica",
+"motivo": "seccion:politica",
+"home_mejor_pos": 1,
+"home_top10_corridas": 1
+},
+"55d4a49c641d": {
+"id": "55d4a49c641d",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/economia/dolar/euro-hoy-en-argentina-a-cuanto-cotiza-la-moneda-hoy-viernes-27-de-noviembre-nid27112026/",
+"titulo": "Euro hoy en Argentina: a cuánto cotiza la moneda hoy viernes 27 de noviembre",
+"bajada": "",
+"fecha": "2026-11-27T07:20:13+00:00",
+"seccion": "economia",
+"palabras_clave": [
+"Servicios Dólar",
+"Banco Nación",
+"Banco Central"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
+"1ef306c60f0e": {
+"id": "1ef306c60f0e",
+"diario": "infobae",
+"url": "https://www.infobae.com/politica/2026/11/27/efecto-reforma-electoral-la-suspension-de-las-paso-divide-la-estrategia-de-los-outsiders/",
+"titulo": "Efecto reforma electoral: la suspensión de las PASO divide la estrategia de los “outsiders”",
+"bajada": "En la Casa Rosada confían en que la próxima elección se resolverá entre libertarios y kirchneristas, pero no todos en el oficialismo están convencidos de las bondades de esa estrategia. Mientras tanto, los que sueñan con una tercera vía recalculan…",
+"fecha": "2026-11-27T07:16:10+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "politica",
+"motivo": "seccion:politica",
+"home_mejor_pos": 17
+},
+"41fe67a78ce8": {
+"id": "41fe67a78ce8",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/politica/la-oposicion-festejo-el-aumento-en-los-fondos-universitarios-en-el-presupuesto-2027-otra-vez-nid27112026/",
+"titulo": "La oposición festejó el aumento en los fondos universitarios en el Presupuesto 2027: “Otra vez chocaron”",
+"bajada": "Diputados de Unión por la Patria, Coalición Cívica y la Izquierda celebraron el aumento en las partidas de $7,3 billones a $11 billones y exigieron que se cumpla la ley de financiamiento",
+"fecha": "2026-11-27T07:12:59+00:00",
+"seccion": "politica",
+"palabras_clave": [
+"Política"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:ultimo",
+"lanacion/rss:politica",
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "politica",
+"motivo": "seccion:politica",
+"home_mejor_pos": 22
+},
+"5855b357c5d2": {
+"id": "5855b357c5d2",
+"diario": "perfil",
+"url": "https://www.perfil.com/politica/el-senado-aprobo-las-leyes-de-ludopatia-i-y-ii-el-registro-de-alimentantes-morosos-y-otros-proyectos-aFbAj2s9Ioha",
+"titulo": "El Senado aprobó las leyes de Ludopatía I y II, el Registro de Alimentantes Morosos y otros proyectos",
+"bajada": "Durante una extensa sesión, la Cámara Alta dio media sanción a cambios electorales y deudores alimentarios y convirtió en ley normas sobre juego y tributos. Leer más",
+"fecha": "2026-11-27T07:04:16+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:ultimo",
+"perfil/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "politica",
+"motivo": "seccion:politica",
+"home_mejor_pos": 8,
+"home_top10_corridas": 1
+},
+"ec926cb7d577": {
+"id": "ec926cb7d577",
+"diario": "pagina12",
+"url": "https://www.pagina12.com.ar/2026/11/27/efemerides-de-hoy-que-paso-un-27-de-noviembre/",
+"titulo": "Efemérides de hoy: qué pasó un 27 de noviembre",
+"bajada": "En las efemérides del 27 de noviembre sobresalen estos hechos que ocurrieron un día como hoy en la Argentina y el mundo.",
+"fecha": "2026-11-27T07:04:00+00:00",
+"seccion": "",
+"palabras_clave": [
+"efemérides",
+"Video"
+],
+"edicion_impresa": false,
+"fuentes": [
+"pagina12/rss:ultimo",
+"pagina12/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias",
+"home_mejor_pos": 36
+},
+"408d7c40e14f": {
+"id": "408d7c40e14f",
+"diario": "clarin",
+"url": "https://www.clarin.com/internacional/ernestina-champourcin-poeta-generacion-27-morir-rosa-da-balde-perfume-cuajado-amor-siempre_0_86pZA1OcI7.html",
+"titulo": "Ernestina de Champourcín, poeta de la Generación del 27: \"Morir es una rosa que se nos da de balde, un perfume cuajado en amor para siempre\"",
+"bajada": "",
+"fecha": "2026-11-27T07:00:18+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
+"d706dbf6e183": {
+"id": "d706dbf6e183",
+"diario": "clarin",
+"url": "https://www.clarin.com/economia/dolar-blue-hoy-cotiza-viernes-27-noviembre_0_SlwnxtQoXT.html",
+"titulo": "Dólar blue hoy: a cuánto cotiza este viernes 27 de noviembre",
+"bajada": "",
+"fecha": "2026-11-27T07:00:08+00:00",
+"seccion": "economia",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "economia",
+"motivo": "seccion:economia"
+},
+"9975fd3348f8": {
+"id": "9975fd3348f8",
+"diario": "lanacion",
+"url": "https://www.lanacion.com.ar/sociedad/que-se-sabe-sobre-la-fibromialgia-la-enfermedad-que-afecta-mas-a-las-mujeres-nid27112026/",
+"titulo": "Qué se sabe sobre la fibromialgia, la enfermedad que afecta más a las mujeres",
+"bajada": "Jorge Tartaglione detalló en LN+ el impacto del diagnóstico en la vida diaria de las pacientes; señaló que el abordaje de esta patología debe ser multidisciplinario para mejorar la calidad de vida",
+"fecha": "2026-11-27T07:00:00+00:00",
+"seccion": "sociedad",
+"palabras_clave": [
+"Sociedad"
+],
+"edicion_impresa": false,
+"fuentes": [
+"lanacion/rss:ultimo",
+"lanacion/rss:sociedad",
+"lanacion/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias"
+},
+"a75086c8790e": {
+"id": "a75086c8790e",
+"diario": "infobae",
+"url": "https://www.infobae.com/politica/2026/11/27/patricia-bullrich-se-anoto-dos-victorias-y-quiere-definir-un-nuevo-equilibrio-al-interior-de-la-mesa-politica/",
+"titulo": "Patricia Bullrich se anotó dos victorias y quiere definir un nuevo equilibrio al interior de la mesa política",
+"bajada": "La media sanción de la reforma electoral consolidó a la jefa del bloque oficialista en el Senado como una figura en las negociaciones, justo cuando su vínculo con sectores del entorno presidencial parecía no tener retorno. Qué esperan hacia adelante…",
+"fecha": "2026-11-27T06:55:39+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:politica"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "politica",
+"motivo": "seccion:politica",
+"home_mejor_pos": 19
+},
+"bfdfa0ce54d6": {
+"id": "bfdfa0ce54d6",
+"diario": "perfil",
+"url": "https://www.perfil.com/sociedad/desmantelaron-una-peligrosa-banda-formada-por-2-hombres-y-3-mujeres-que-enganaba-a-sus-victimas-con-promesas-de-amor-y-luego-les-robaban-todo-aEBuG4E9bx4P",
+"titulo": "Desmantelaron una peligrosa banda formada por 2 hombres y 3 mujeres que engañaba a sus víctimas con promesas de amor y luego les robaban todo",
+"bajada": "La policía le incautó a los delincuentes 24 celulares, 3 tablets, 1 iPad, 1 netbook, 2 notebooks, 2 corta candados, medicamentos, recetarios médicos, anotaciones y prendas de vestir. Leer más",
+"fecha": "2026-11-27T06:54:22+00:00",
+"seccion": "sociedad",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"perfil/rss:ultimo",
+"perfil/sitemap:sitemap"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias",
+"home_mejor_pos": 38
+},
+"d9fba0958a86": {
+"id": "d9fba0958a86",
+"diario": "clarin",
+"url": "https://www.clarin.com/sociedad/confirman-condena-productor-produjo-masacre-pinguinos-destruyo-nidos-topadora-punta-tombo_0_Q6Jh62KQyd.html",
+"titulo": "Confirman la condena para el productor que produjo una masacre de pingüinos y destruyó nidos con su topadora en Punta Tombo",
+"bajada": "",
+"fecha": "2026-11-27T06:50:55+00:00",
+"seccion": "sociedad",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/sitemap:sitemap"
+],
+"titulo_de": "sitemap",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "otros",
+"motivo": "sin_coincidencias",
+"home_mejor_pos": 35
+},
+"04e108d19a71": {
+"id": "04e108d19a71",
+"diario": "clarin",
+"url": "https://www.clarin.com/internacional/nerea-pastora-400-ovejas-explica-cuesta-encontrar-trabajadores-campo-puede-hacer-trabajo-altamente-cualificado_0_xy5NXTywTf.html",
+"titulo": "Nerea, pastora de más de 400 ovejas, explica por qué cuesta encontrar trabajadores en el campo: \"Cualquiera no puede hacer este trabajo, es altamente cualificado\"",
+"bajada": "Una ganadera española contó que en su zona sobra el empleo y no aparece gente para cubrirlo. También detalló cómo es su jornada entre el ordeño y el pastoreo.",
+"fecha": "2026-11-27T06:30:18+00:00",
+"seccion": "internacional",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/sitemap:sitemap",
+"clarin/rss:ultimo"
+],
+"titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "internacionales",
+"motivo": "seccion:internacional"
+},
+"1e9f8054a9f6": {
+"id": "1e9f8054a9f6",
+"diario": "infobae",
+"url": "https://www.infobae.com/deportes/2026/11/27/vivio-en-hostels-y-vendio-empanadas-en-irlanda-hasta-llegar-a-bielsa-la-historia-del-traductor-flores-tecnico-de-instituto/",
+"titulo": "Vivió en hostels y vendió empanadas en Irlanda hasta llegar a Bielsa: la historia del “Traductor” Flores, técnico de Instituto",
+"bajada": "El DT del equipo sensación en el Clausura hace un tiempo contó detalles inéditos de su vida en una entrevista exclusiva con Infobae",
+"fecha": "2026-11-27T06:29:29+00:00",
+"seccion": "deportes",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:deportes"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:dt"
+},
+"597f12ba5b7c": {
+"id": "597f12ba5b7c",
+"diario": "infobae",
+"url": "https://www.infobae.com/deportes/2026/11/27/integro-la-banda-de-cumbia-la-champions-liga-penso-en-el-retiro-y-jugara-la-final-de-la-copa-libertadores-con-estudiantes/",
+"titulo": "Integró la banda de cumbia La Champions Liga, pensó en el retiro y jugará la final de la Copa Libertadores con Estudiantes",
+"bajada": "Ezequiel Piovi es uno de los caudillos del Pincha, se perdió solo un partido del presente torneo y buscará alcanzar la gloria eterna ante Palmeiras",
+"fecha": "2026-11-27T06:29:06+00:00",
+"seccion": "deportes",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:deportes"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "futbol",
+"motivo": "seccion:deportes+palabras:copa libertadores,torneo"
+},
+"16edbee7cb79": {
+"id": "16edbee7cb79",
+"diario": "infobae",
+"url": "https://www.infobae.com/deportes/2026/11/27/mano-a-mano-con-el-padre-de-kimi-antonelli-la-verdadera-historia-de-su-nombre-el-dia-que-le-vio-pasta-de-campeon-y-el-idilio-por-senna/",
+"titulo": "Mano a mano con el padre de Kimi Antonelli: la verdadera historia de su nombre, el día que le vio “pasta de campeón” y el idilio por Senna",
+"bajada": "Marco Antonelli también fue piloto y tiene un equipo de competición. Por qué su hijo se crió con “olor a nafta”, pero no quiso que corriera en autos. Y confiesa: “Él aún no asimiló en un cien por ciento lo…",
+"fecha": "2026-11-27T06:28:44+00:00",
+"seccion": "deportes",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"infobae/rss:deportes"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T08:33:12+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
+"tema": "otros",
+"motivo": "seccion:deportes"
+},
+"e271813702eb": {
+"id": "e271813702eb",
+"diario": "clarin",
+"url": "https://www.clarin.com/politica/javier-milei-consiguio-media-sancion-presupuesto-2027-diputados_0_Bc7eOsDA84.html",
+"titulo": "Javier Milei consiguió la media sanción del Presupuesto 2027 en Diputados",
+"bajada": "Fue con 136 votos positivos, 112 negativos y 3 abstenciones. Por el contrario, el Gobierno obtuvo un revés con la ley de financiamiento universitario.",
+"fecha": "2026-11-27T06:23:19+00:00",
+"seccion": "politica",
+"palabras_clave": [],
+"edicion_impresa": false,
+"fuentes": [
+"clarin/sitemap:sitemap",
+"clarin/rss:ultimo"
+],
+"titulo_de": "rss",
+"visto_primero": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 24
@@ -57,18 +618,18 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 8,
-"home_top10_corridas": 1
+"home_top10_corridas": 2
 },
 "7ab220054c15": {
 "id": "7ab220054c15",
 "diario": "lanacion",
 "url": "https://www.lanacion.com.ar/politica/diputados-en-medio-de-intensas-negociaciones-el-gobierno-confia-en-obtener-la-media-sancion-del-nid26112026/",
-"titulo": "Diputados: el Gobierno logró la media sanción del presupuesto 2027, en medio de intensas negociaciones",
-"bajada": "La iniciativa obtuvo 137 votos afirmativos, 111 negativos y 3 abstenciones; Santilli negocia un incremento de las partidas universitarias y persisten los reclamos provinciales",
+"titulo": "El Gobierno logró la media sanción del presupuesto 2027, pero la oposición le desarmó parte del proyecto y amplió los fondos universitarios",
+"bajada": "La iniciativa obtuvo en general 137 votos afirmativos, 111 negativos y tres abstenciones; Santilli no logró impedir que la oposición elevara de $7,3 a $11 billones las partidas universitarias ni que impusiera un refuerzo de fondos para el INTA, el…",
 "fecha": "2026-11-27T06:17:12+00:00",
 "seccion": "politica",
 "palabras_clave": [
@@ -81,17 +642,20 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
-"home_mejor_pos": 13
+"home_mejor_pos": 12,
+"titulos_anteriores": [
+"Diputados: el Gobierno logró la media sanción del presupuesto 2027, en medio de intensas negociaciones"
+]
 },
 "50d11d4ea913": {
 "id": "50d11d4ea913",
 "diario": "ambito",
 "url": "https://www.ambito.com/politica/el-gobierno-busca-revancha-diputados-e-intentara-aprobar-el-presupuesto-2027-nuevos-cambios-n6349417",
-"titulo": "Por la madrugada, el Gobierno le dio media sanción al Presupuesto 2027 en Diputados",
-"bajada": "La Libertad Avanza blindó el apoyo de las provincias. Casa Rosada estuvo en la Cámara para destrabar el reclamo de fondos para universidades. Ya se reformó la Carta Orgánica del BCRA y se sancionó por unanimidad el Certificado MiPyME.",
+"titulo": "El Gobierno le dio media sanción al Presupuesto 2027 en Diputados, pero la oposición consiguió fondos para universidades",
+"bajada": "La Libertad Avanza blindó el apoyo de las provincias, pero se le cayeron dos capítulos. Casa Rosada estuvo en la Cámara para destrabar el reclamo de fondos para universidades. Ya se reformó la Carta Orgánica del BCRA y se sancionó…",
 "fecha": "2026-11-27T06:12:00+00:00",
 "seccion": "politica",
 "palabras_clave": [
@@ -105,11 +669,14 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 5,
-"home_top10_corridas": 1
+"home_top10_corridas": 2,
+"titulos_anteriores": [
+"Por la madrugada, el Gobierno le dio media sanción al Presupuesto 2027 en Diputados"
+]
 },
 "fc9b024a6581": {
 "id": "fc9b024a6581",
@@ -126,7 +693,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america",
 "home_mejor_pos": 22
@@ -146,7 +713,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america",
 "home_mejor_pos": 23
@@ -170,10 +737,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
-"home_mejor_pos": 27
+"home_mejor_pos": 18
 },
 "db0c999f30f8": {
 "id": "db0c999f30f8",
@@ -190,7 +757,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 16
@@ -200,17 +767,18 @@
 "diario": "clarin",
 "url": "https://www.clarin.com/internacional/marie-mangin-pareja-jubilaron-compraron-autocaravana-viajar-vendieron-despues-solo-viajes-parecia-perfecta-usamos_0_CGFlmd7ShS.html",
 "titulo": "Marie Mangin y su pareja se jubilaron y compraron una autocaravana para viajar, pero la vendieron después de solo dos viajes: \"Parecía perfecta hasta que la usamos\"",
-"bajada": "",
+"bajada": "La mujer, de 57 años, y su esposo soñaban con que, luego de dejar de trabajar, recorrerían las rutas en un motorhome . Sin embargo, tras adquirir el vehículo, tuvieron una gran decepción.",
 "fecha": "2026-11-27T06:00:18+00:00",
 "seccion": "internacional",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"clarin/sitemap:sitemap"
+"clarin/sitemap:sitemap",
+"clarin/rss:ultimo"
 ],
-"titulo_de": "sitemap",
+"titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -232,7 +800,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -255,7 +823,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -274,7 +842,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -293,7 +861,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -312,7 +880,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -331,7 +899,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -350,7 +918,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -369,7 +937,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -388,7 +956,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america",
 "home_mejor_pos": 24
@@ -408,7 +976,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america",
 "home_mejor_pos": 81
@@ -428,7 +996,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america",
 "home_mejor_pos": 82
@@ -450,7 +1018,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 87
@@ -471,10 +1039,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "palabras:1",
-"home_mejor_pos": 14
+"home_mejor_pos": 12
 },
 "8aa35035a600": {
 "id": "8aa35035a600",
@@ -491,7 +1059,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america"
 },
@@ -510,7 +1078,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america",
 "home_mejor_pos": 49
@@ -530,7 +1098,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 17
@@ -550,7 +1118,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "sindicales",
 "motivo": "palabras:sindicato",
 "home_mejor_pos": 18
@@ -570,7 +1138,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america"
 },
@@ -589,7 +1157,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -598,17 +1166,18 @@
 "diario": "clarin",
 "url": "https://www.clarin.com/internacional/julio-sacerdote-explica-sostiene-economicamente-cura-tipos-cura-trabajas-parroquia-parte-va-sustento-personal_0_4RJRFz4sa8.html",
 "titulo": "Julio, sacerdote, explica cómo se sostiene económicamente un cura: \"Hay dos tipos de cura y, si trabajas en una parroquia, una parte va para tu sustento personal\"",
-"bajada": "",
+"bajada": "Un párroco con más de diez años en la Iglesia habló en un canal de YouTube sobre el dinero con el que viven los curas y las diferencias que hay entre ellos. También contó cómo se reparte el día entre…",
 "fecha": "2026-11-27T05:30:18+00:00",
 "seccion": "internacional",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
-"clarin/sitemap:sitemap"
+"clarin/sitemap:sitemap",
+"clarin/rss:ultimo"
 ],
-"titulo_de": "sitemap",
+"titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -628,11 +1197,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 7,
-"home_top10_corridas": 1
+"home_top10_corridas": 2
 },
 "2690374eef55": {
 "id": "2690374eef55",
@@ -649,7 +1218,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america"
 },
@@ -672,7 +1241,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 19
@@ -696,7 +1265,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol,river,torneo"
 },
@@ -719,7 +1288,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol,independiente,torneo"
 },
@@ -742,7 +1311,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -765,7 +1334,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:copa libertadores,futbol"
 },
@@ -788,7 +1357,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -811,7 +1380,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -834,7 +1403,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -857,7 +1426,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -880,7 +1449,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -903,7 +1472,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -926,7 +1495,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -949,7 +1518,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -972,7 +1541,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -995,7 +1564,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -1018,7 +1587,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -1041,7 +1610,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -1064,7 +1633,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -1087,7 +1656,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -1110,7 +1679,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -1133,7 +1702,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -1156,7 +1725,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -1179,7 +1748,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -1202,7 +1771,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -1225,7 +1794,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -1248,7 +1817,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -1271,7 +1840,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -1294,7 +1863,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -1317,7 +1886,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -1340,7 +1909,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -1363,7 +1932,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -1386,7 +1955,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -1409,7 +1978,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -1432,7 +2001,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1455,7 +2024,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -1478,7 +2047,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -1501,7 +2070,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -1524,7 +2093,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1547,7 +2116,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1570,7 +2139,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -1593,7 +2162,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1616,7 +2185,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1639,7 +2208,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1658,7 +2227,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1677,7 +2246,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america"
 },
@@ -1696,7 +2265,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:economia-politica"
 },
@@ -1715,7 +2284,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1735,10 +2304,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "palabras:1",
-"home_mejor_pos": 13
+"home_mejor_pos": 9,
+"home_top10_corridas": 1
 },
 "ffab1472a622": {
 "id": "ffab1472a622",
@@ -1760,7 +2330,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "palabras:3",
 "home_mejor_pos": 36
@@ -1785,7 +2355,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 37
@@ -1810,7 +2380,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 38
@@ -1827,11 +2397,12 @@
 "edicion_impresa": false,
 "fuentes": [
 "clarin/rss:ultimo",
-"clarin/sitemap:sitemap"
+"clarin/sitemap:sitemap",
+"clarin/rss:mundo"
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 35
@@ -1854,7 +2425,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T06:32:58+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1874,7 +2445,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:32:46+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -1893,7 +2464,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:32:46+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:seleccion argentina"
 },
@@ -1915,7 +2486,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 8,
@@ -1943,7 +2514,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:32:46+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -1962,7 +2533,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1985,7 +2556,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:32:46+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -2008,7 +2579,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -2030,7 +2601,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 143
@@ -2051,7 +2622,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 24
@@ -2071,7 +2642,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:cultura",
 "home_mejor_pos": 82
@@ -2092,7 +2663,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 6,
@@ -2116,7 +2687,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 12
@@ -2139,7 +2710,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:el-mundo",
 "home_mejor_pos": 19
@@ -2159,7 +2730,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 45
@@ -2179,7 +2750,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 46
@@ -2203,10 +2774,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
-"home_mejor_pos": 25
+"home_mejor_pos": 24
 },
 "d0cce3a50acb": {
 "id": "d0cce3a50acb",
@@ -2223,7 +2794,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2242,7 +2813,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:cultura"
 },
@@ -2250,8 +2821,8 @@
 "id": "856af132e6c9",
 "diario": "infobae",
 "url": "https://www.infobae.com/politica/2026/11/26/diputados-en-vivo-las-ultimas-noticias-sobre-el-debate-del-presupuesto-2027/",
-"titulo": "El Gobierno logró aprobar el Presupuesto en Diputados pero tuvo que aumentar los fondos para las universidades",
-"bajada": "Pese a que el oficialismo logró el apoyo necesario para aprobar en general la ley, las tensiones giran en torno a la cuestión de discapacidad",
+"titulo": "Tras aprobar el Presupuesto 2027, Diputados sancionó la transferencia de las competencias judiciales a la Ciudad",
+"bajada": "Pese a que el oficialismo logró el apoyo necesario para aprobar en general la ley, no pudo conseguir el consenso necesario para mantener el Capítulo II, por lo que las partidas para las universidades serán de 11 billones. Sin embargo,…",
 "fecha": "2026-11-27T03:38:42+00:00",
 "seccion": "politica",
 "palabras_clave": [],
@@ -2261,11 +2832,12 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "titulos_anteriores": [
-"Diputados, en vivo: con fuertes cuestionamientos de la oposición, se debate el Presupuesto 2027"
+"Diputados, en vivo: con fuertes cuestionamientos de la oposición, se debate el Presupuesto 2027",
+"El Gobierno logró aprobar el Presupuesto en Diputados pero tuvo que aumentar los fondos para las universidades"
 ]
 },
 "30d63df8783b": {
@@ -2283,7 +2855,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 47
@@ -2305,7 +2877,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 23
@@ -2329,10 +2901,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes",
-"home_mejor_pos": 22
+"home_mejor_pos": 20
 },
 "0c65ef4b66d4": {
 "id": "0c65ef4b66d4",
@@ -2350,11 +2922,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "palabras:1",
 "home_mejor_pos": 6,
-"home_top10_corridas": 1
+"home_top10_corridas": 2
 },
 "20cab0a123aa": {
 "id": "20cab0a123aa",
@@ -2374,7 +2946,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol"
 },
@@ -2393,7 +2965,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 48
@@ -2414,10 +2986,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
-"home_mejor_pos": 45
+"home_mejor_pos": 43
 },
 "7d092c39278f": {
 "id": "7d092c39278f",
@@ -2434,7 +3006,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2453,7 +3025,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2472,7 +3044,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2494,10 +3066,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:seleccion argentina",
-"home_mejor_pos": 46
+"home_mejor_pos": 42
 },
 "69a9f48f6de9": {
 "id": "69a9f48f6de9",
@@ -2514,7 +3086,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2533,7 +3105,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2552,7 +3124,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente,torneo"
 },
@@ -2572,7 +3144,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -2594,7 +3166,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "ciudad",
 "motivo": "palabras:porteno"
 },
@@ -2616,7 +3188,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 36
@@ -2636,7 +3208,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 54
@@ -2660,7 +3232,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "palabras:2",
 "home_mejor_pos": 37
@@ -2680,7 +3252,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2700,7 +3272,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional"
 },
@@ -2720,7 +3292,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "palabras:1"
 },
@@ -2742,7 +3314,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2761,7 +3333,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "palabras:1",
 "home_mejor_pos": 55
@@ -2783,10 +3355,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
-"home_mejor_pos": 81
+"home_mejor_pos": 80
 },
 "42e64bb1cd0e": {
 "id": "42e64bb1cd0e",
@@ -2806,7 +3378,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2828,7 +3400,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2848,7 +3420,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2867,7 +3439,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2886,7 +3458,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "titulos_anteriores": [
@@ -2911,7 +3483,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -2930,7 +3502,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 16
@@ -2954,7 +3526,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2976,7 +3548,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "ciudad",
 "motivo": "palabras:recoleta",
 "home_mejor_pos": 142
@@ -2999,7 +3571,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -3020,10 +3592,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion",
-"home_mejor_pos": 78
+"home_mejor_pos": 77
 },
 "4ad8d16aa790": {
 "id": "4ad8d16aa790",
@@ -3042,10 +3614,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion",
-"home_mejor_pos": 79
+"home_mejor_pos": 78
 },
 "9b9e1d1bd5b9": {
 "id": "9b9e1d1bd5b9",
@@ -3065,7 +3637,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:opinion"
 },
@@ -3086,10 +3658,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
-"home_mejor_pos": 82
+"home_mejor_pos": 81
 },
 "4d3525acf0bd": {
 "id": "4d3525acf0bd",
@@ -3110,7 +3682,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -3133,7 +3705,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:seleccion argentina"
 },
@@ -3155,7 +3727,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
 },
@@ -3178,7 +3750,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -3200,10 +3772,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
-"home_mejor_pos": 59
+"home_mejor_pos": 58
 },
 "c1bd6563feb2": {
 "id": "c1bd6563feb2",
@@ -3222,7 +3794,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 64
@@ -3244,7 +3816,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 35
@@ -3270,7 +3842,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 32
@@ -3292,7 +3864,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 14
@@ -3315,7 +3887,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -3339,7 +3911,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "palabras:2",
 "home_mejor_pos": 54
@@ -3367,7 +3939,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 46
@@ -3389,7 +3961,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 52
@@ -3411,7 +3983,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "palabras:1"
 },
@@ -3432,7 +4004,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -3451,7 +4023,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 12
@@ -3478,7 +4050,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -3499,7 +4071,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 53
@@ -3521,7 +4093,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 34
@@ -3543,7 +4115,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 41
@@ -3566,7 +4138,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 30
@@ -3588,11 +4160,11 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 4,
-"home_top10_corridas": 3
+"home_top10_corridas": 4
 },
 "37799d7c6a42": {
 "id": "37799d7c6a42",
@@ -3611,7 +4183,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 22
@@ -3633,7 +4205,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 11
@@ -3655,7 +4227,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "sindicales",
 "motivo": "palabras:cgt",
 "home_mejor_pos": 40
@@ -3677,7 +4249,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -3698,7 +4270,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -3719,7 +4291,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -3744,7 +4316,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "palabras:2",
 "home_mejor_pos": 17
@@ -3766,7 +4338,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 15
@@ -3788,7 +4360,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "palabras:1",
 "home_mejor_pos": 20
@@ -3808,7 +4380,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas-mercados",
 "home_mejor_pos": 56
@@ -3832,9 +4404,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "ciudad",
-"motivo": "palabras:ciudad de buenos aires"
+"motivo": "palabras:ciudad de buenos aires",
+"home_mejor_pos": 107
 },
 "e3e2e2f50de9": {
 "id": "e3e2e2f50de9",
@@ -3854,10 +4427,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "palabras:1",
-"home_mejor_pos": 61
+"home_mejor_pos": 60
 },
 "ec2db69e4851": {
 "id": "ec2db69e4851",
@@ -3877,7 +4450,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 62
@@ -3900,7 +4473,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -3923,7 +4496,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 57
@@ -3947,7 +4520,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "palabras:1",
 "home_mejor_pos": 61
@@ -3971,11 +4544,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 1,
-"home_top10_corridas": 3
+"home_top10_corridas": 4
 },
 "a31be1e89806": {
 "id": "a31be1e89806",
@@ -3995,11 +4568,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "palabras:2",
 "home_mejor_pos": 2,
-"home_top10_corridas": 3
+"home_top10_corridas": 4
 },
 "37f4f4ebe999": {
 "id": "37f4f4ebe999",
@@ -4025,7 +4598,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "futbol",
 "motivo": "palabras:1",
 "home_mejor_pos": 45
@@ -4051,7 +4624,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 43
@@ -4076,7 +4649,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "palabras:2",
 "home_mejor_pos": 56
@@ -4099,11 +4672,11 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "palabras:1",
 "home_mejor_pos": 3,
-"home_top10_corridas": 3
+"home_top10_corridas": 4
 },
 "fa1882ef5f89": {
 "id": "fa1882ef5f89",
@@ -4123,7 +4696,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 39
@@ -4153,7 +4726,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "internacionales",
 "motivo": "palabras:11",
 "home_mejor_pos": 42
@@ -4177,7 +4750,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 16
@@ -4199,7 +4772,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas",
 "home_mejor_pos": 119
@@ -4221,7 +4794,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas",
 "home_mejor_pos": 118
@@ -4241,7 +4814,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas-mercados",
 "home_mejor_pos": 59
@@ -4261,7 +4834,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas-mercados",
 "home_mejor_pos": 58
@@ -4281,7 +4854,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas-mercados",
 "home_mejor_pos": 57
@@ -4302,7 +4875,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes",
 "home_mejor_pos": 37
@@ -4322,7 +4895,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -4342,10 +4915,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
-"home_mejor_pos": 20
+"home_mejor_pos": 19
 },
 "a259e1ed15dd": {
 "id": "a259e1ed15dd",
@@ -4365,10 +4938,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:autos",
-"home_mejor_pos": 76
+"home_mejor_pos": 75
 },
 "847c590caa63": {
 "id": "847c590caa63",
@@ -4388,10 +4961,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:autos",
-"home_mejor_pos": 74
+"home_mejor_pos": 73
 },
 "442d43762923": {
 "id": "442d43762923",
@@ -4412,7 +4985,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 134
@@ -4436,10 +5009,10 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "seccion:tecnologia",
-"home_mejor_pos": 101
+"home_mejor_pos": 100
 },
 "470cd3287607": {
 "id": "470cd3287607",
@@ -4460,7 +5033,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -4479,7 +5052,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-27T04:18:12+00:00",
-"visto_ultimo": "2026-11-27T06:32:58+00:00",
+"visto_ultimo": "2026-11-27T08:33:12+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 120
