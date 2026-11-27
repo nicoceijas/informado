@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T12:35:00+00:00",
+ "generado": "2026-11-27T12:37:00+00:00",
  "dolar": {
   "compra": 1575.0,
   "venta": 1625.0,
@@ -16,12 +16,12 @@
   "actualizado": true
  },
  "inflacion": {
-  "valor": 1.9,
-  "mes": "2026-09",
-  "fuente": "INDEC, vía datos.gob.ar",
+  "valor": 2.2,
+  "mes": "2026-10",
+  "fuente": "INDEC, vía BCRA",
   "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31",
   "actualizado": true,
-  "mes_nombre": "septiembre 2026"
+  "mes_nombre": "octubre 2026"
  },
  "errores": {}
 }
