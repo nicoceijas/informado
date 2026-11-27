@@ -1,5 +1,5 @@
 // Service worker: la app abre sin conexión con los últimos datos descargados.
-const CACHE = 'informado-v8';
+const CACHE = 'informado-v9';
 const BASE = ['./', 'index.html', 'app.css', 'app.js', 'manifest.webmanifest', 'icono-192.png', 'icono-512.png'];
 
 self.addEventListener('install', e => {

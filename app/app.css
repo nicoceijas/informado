@@ -1,14 +1,11 @@
 /* Informado · estilo G3 (aprobado por Nico el 27/11/2026).
    Paleta propia: colorado = urgente · amarillo = destacado · violeta = interacción (solo relleno) · morado = estructura.
-   Azul solo para enlaces que salen de la app. Líneas negras (2 px bordes, 1 px filas) y esquinas rectas. Claro y oscuro según el teléfono. */
+   Azul solo para enlaces que salen de la app. Líneas negras (2 px bordes, 1 px filas) y esquinas rectas. Solo tema claro (pedido de Nico, 27/11). */
 :root{--bg:#FAF8F5;--sup:#FFFFFF;--fg:#141014;--tinta:#141014;--mute:#5E5862;--link:#1D4ED8;
  --morado:#3A1846;--violeta:#6D3AE0;--colorado:#D62839;--amar:#FFC53D;--suave:#F0EDF2;
  --s-politica:#F9D0D4;--t-politica:#9E1B2A;--s-economia:#FFE7A3;--t-economia:#6E4E00;--s-internacionales:#D3D6FA;--t-internacionales:#2F3A9E;
  --s-sindicales:#F6C9E6;--t-sindicales:#8A1C68;--s-ciudad:#FFD5B8;--t-ciudad:#94370A;--s-futbol:#DCC6E3;--t-futbol:#3A1846;--s-otros:#ECE9EE;--t-otros:#3F3A44;
  color-scheme:light}
-@media (prefers-color-scheme:dark){:root{--bg:#120E13;--sup:#1B161D;--fg:#F2EEF4;--tinta:#F2EEF4;--mute:#B4ABBA;--link:#8AB4F8;--morado:#4A2259;--violeta:#9B7BFF;--colorado:#FF5A66;--suave:#262029;
- --s-politica:#4A1C24;--t-politica:#FFB3BB;--s-economia:#43360E;--t-economia:#FFD978;--s-internacionales:#252B55;--t-internacionales:#B9C0FF;
- --s-sindicales:#47193C;--t-sindicales:#F5A8DB;--s-ciudad:#47270F;--t-ciudad:#FFBE96;--s-futbol:#3A2443;--t-futbol:#E2C9EE;--s-otros:#2C2730;--t-otros:#D9D2DE;color-scheme:dark}}
 *{box-sizing:border-box}
 html{overflow-x:clip;-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--fg);font:400 16px/1.5 Montserrat,system-ui,sans-serif;padding:env(safe-area-inset-top,0px) max(16px,env(safe-area-inset-right,0px)) calc(84px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
