@@ -107,6 +107,18 @@ La revisión diaria trae estos temas el día indicado. No se implementan sin una
   - **Opinión:** a Nico le gusta la idea de «Lecturas del fin de semana», sobre todo los domingos: columnas de opinión que recorren los temas de la semana, de varios diarios, con la opción de apagarla. Falta decidir si se hace, después de probar la app un fin de semana.
   - **Periodistas:** una ficha por periodista con enlaces adonde seguirlo (página de autor en cada diario, X, streaming, entrevistas). Solo enlaces: no se trae contenido de las redes. Queda para más adelante, si leer opinión desde la app resulta útil.
   - **Dato técnico:** hay que verificar qué diarios publican la firma de las notas en sus RSS.
+- **Sin fecha · Cómo se organiza la Semana con el correr de los días.** Lo planteó Nico el 27/11, mientras se revisaban las maquetas. Se resuelve en una conversación aparte sobre organización de la información, no de diseño.
+  - **Problema:** la Semana suma 7 días y Hoy mira 24 horas. A medida que la semana avanza y hay más notas, las dos páginas se separan: la Semana muestra temas que tuvieron su pico hace 2 o 3 días y Hoy, los del día. Los temas que siguen vivos aparecen en las dos, el usuario tiene que ir descartando entre una y otra, y lo de «Tu semana» se pierde.
+  - **Idea de Nico:** que la Semana tenga dos maneras de ordenarse: por repercusión (ranking de incidencia en los medios) o por cronología. Y poder filtrar los temas que son solo de hoy.
+  - **Propuesta de Claude (sin aprobar):**
+    - Selector arriba con dos vistas.
+    - **Por repercusión:** el ranking actual, con el momento de cada tema en la fila («Sigue hoy (+12 hoy)» o «Último movimiento: lunes») y un filtro «Solo los que siguen hoy».
+    - **Día por día:** la semana leída como un diario (Miércoles 25, Martes 24…), con 3 a 5 temas por día. Cada tema aparece una sola vez, en el día de su pico, con una línea tipo «siguió hasta hoy».
+    - **«Tu semana» como filtro fijo** al principio de la barra de secciones (como el chip «Tu semana · 12» de la app actual), visible en las dos vistas.
+    - En la Semana, los temas que también están en Hoy no se sacan: llevan la marca «Sigue hoy».
+    - Se arma con los datos que ya existen (cada tema trae sus notas por día). No toca el recolector.
+  - **Preguntas abiertas:** (1) qué vista abre por defecto; (2) en «día por día», si el tema va en el día de su pico o en el día en que apareció; (3) si «Tu semana» es un filtro fijo o una vista propia.
+  - **Relacionado:** en la maqueta G3 los avisos anunciados para más adelante (paros, cambios de servicio) van a una caja «Lo que viene» en la Semana. Nico sugirió que quizás haga falta una caja así para ordenar lo que viene.
 
 ## Revisiones diarias
 
