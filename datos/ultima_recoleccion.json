@@ -1,5 +1,5 @@
 {
- "inicio": "2026-11-28T02:25:11+00:00",
+ "inicio": "2026-11-28T02:27:56+00:00",
  "fuentes": {
   "clarin/home": {
    "enlaces": 119
@@ -7,7 +7,7 @@
   "clarin/rss:politica": {
    "leidas": 10,
    "nuevas": 0,
-   "actualizadas": 3,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
@@ -49,7 +49,7 @@
   "clarin/rss:ultimo": {
    "leidas": 10,
    "nuevas": 0,
-   "actualizadas": 4,
+   "actualizadas": 0,
    "excluidas": 6,
    "viejas": 0
   },
@@ -219,7 +219,7 @@
    "leidas": 50,
    "nuevas": 0,
    "actualizadas": 0,
-   "excluidas": 27,
+   "excluidas": 28,
    "viejas": 0
   },
   "perfil/rss:mundo": {
@@ -261,12 +261,12 @@
    "viejas": 0
   },
   "ole/home": {
-   "enlaces": 150
+   "enlaces": 151
   },
   "ole/rss:ultimo": {
    "leidas": 10,
    "nuevas": 0,
-   "actualizadas": 0,
+   "actualizadas": 1,
    "excluidas": 0,
    "viejas": 0
   },
@@ -278,8 +278,8 @@
    "viejas": 0
   },
   "ole/sitemap:sitemap": {
-   "leidas": 298,
-   "nuevas": 0,
+   "leidas": 299,
+   "nuevas": 1,
    "actualizadas": 0,
    "excluidas": 31,
    "viejas": 0
@@ -318,13 +318,13 @@
    "popular": 289,
    "cronista": 605,
    "clarin": 1195,
-   "ole": 742,
+   "ole": 743,
    "pagina12": 646
   },
   "por_tema_7d": {
    "economia": 1353,
    "internacionales": 862,
-   "futbol": 1034,
+   "futbol": 1035,
    "otros": 2614,
    "politica": 1171,
    "ciudad": 206,
@@ -334,5 +334,5 @@
  },
  "reclasificadas": 0,
  "descartadas": 0,
- "fin": "2026-11-28T02:26:12+00:00"
+ "fin": "2026-11-28T02:28:53+00:00"
 }
