@@ -59,6 +59,37 @@ temas:
                  scaloni, liga profesional, afa, copa libertadores, sudamericana, torneo, dt, clasico]
     palabras: [liga profesional, afa, copa libertadores, copa sudamericana, scaloni, seleccion argentina]
 
+# Fútbol del exterior (decisión de Nico del 27/11): de las ligas y copas de otros países solo entran
+# los campeones o lo que excede lo futbolístico (por ejemplo, un jugador que muere en la cancha).
+# La Selección Argentina, en todas sus edades, y los clubes argentinos entran como fútbol local.
+# Se evalúa solo sobre notas que ya quedaron en Fútbol; si no se salvan, van a «otros».
+futbol_exterior:
+  secciones: [futbol-internacional]
+  palabras: [champions league, europa league, conference league, premier league, liga de inglaterra,
+             fa cup, laliga, la liga de espana, liga de espana, copa del rey, serie a de italia, liga de italia,
+             calcio, bundesliga, liga de alemania, ligue 1, liga de francia, eredivisie, liga de portugal,
+             mls, saudi pro league, liga saudi, brasileirao, liga mx,
+             real madrid, barcelona, atletico de madrid, villarreal, sevilla, manchester united, manchester city,
+             liverpool, chelsea, arsenal, tottenham, newcastle, aston villa, psg, paris saint germain,
+             bayern munich, bayern, borussia dortmund, juventus, inter de milan, internazionale, milan, napoli,
+             roma, lazio, atalanta, benfica, porto, inter miami, al nassr, al hilal, al ittihad]
+  # Cualquiera de estas palabras salva la nota.
+  salvo_local: [seleccion argentina, albiceleste, scaloni, sub 17, sub 20, sub 23, sub 15,
+                seleccion sub, seleccion femenina, afa, liga profesional, torneo clausura, torneo apertura,
+                primera nacional, copa argentina, copa libertadores, copa sudamericana, river, boca, racing,
+                independiente, san lorenzo, estudiantes, gimnasia, rosario central, newells, lanus, velez,
+                huracan, talleres, belgrano, instituto, argentinos juniors, banfield, tigre, platense,
+                godoy cruz, defensa y justicia, barracas central, sarmiento, atletico tucuman,
+                central cordoba, independiente rivadavia, riestra, aldosivi]
+  salvo_campeon: [campeon, campeones, campeona, campeonas, se consagro, se consagraron, consagracion]
+  salvo_extra: [murio, murieron, muerte, fallecio, fallecieron, fallecimiento, tragedia, rayo, accidente,
+                detenido, detenida, detuvieron, denuncia, denunciado, racismo, racista, violencia,
+                asesinato, asesinado, atentado, guerra, internado, terapia intensiva, cancer]
+
+# Otros deportes que se cuelan en Fútbol (decisión de Nico del 27/11): van a «otros», salvo que la nota
+# esté en una sección no deportiva (Política, Economía, etc.), donde se clasifica como cualquier nota.
+futbol_otros_deportes: [basquet, baloncesto, nba]
+
 # En estas secciones no se aplican las palabras de prioridad alta
 # (evita que "porteño" en una nota de tenis o "Grêmio" la manden a Ciudad o Sindicales).
 secciones_sin_prioridad: [deportes, tenis, basquet, poli, automovilismo, futbol, futbol-primera,

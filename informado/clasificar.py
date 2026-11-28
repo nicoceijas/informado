@@ -10,6 +10,10 @@ Orden de decisión (documentado también en config/temas.yaml):
   5. Tema por defecto del diario (Olé → Fútbol).
   6. Sección genérica, desconocida o ausente → el tema con más palabras clave.
   7. Nada → otros.
+  Después, sobre las notas que quedaron en Fútbol (decisión del 27/11):
+  8. Otros deportes (`futbol_otros_deportes`, p. ej. básquet) → otros.
+  9. Fútbol del exterior (`futbol_exterior`) → otros, salvo Selección o clubes argentinos,
+     campeones o algo que excede lo futbolístico.
 """
 from .texto import coincidencias, normalizar
 
@@ -28,6 +32,8 @@ class Clasificador:
         self.media = [k for k, t in self.temas.items() if t.get("prioridad") == "media"]
         self.sin_prioridad = set(cfg_temas.get("secciones_sin_prioridad", []))
         self.condicionales = {s for t in self.temas.values() for s in t.get("secciones_condicionales", {})}
+        self.exterior = cfg_temas.get("futbol_exterior") or {}
+        self.otros_deportes = cfg_temas.get("futbol_otros_deportes") or []
 
     def conoce(self, seccion: str) -> bool:
         """True si la sección tiene una regla propia (tema, otros, genérica o condicional)."""
@@ -39,6 +45,28 @@ class Clasificador:
         sec = nota.get("seccion") or ""
         texto = normalizar(" ".join([nota.get("titulo", ""), nota.get("bajada", ""),
                                      " ".join(nota.get("palabras_clave", []))]))
+        tema, motivo = self._clasificar(sec, texto, tema_por_defecto)
+        if tema == "futbol":
+            return self._filtrar_futbol(sec, texto, motivo)
+        return tema, motivo
+
+    def _filtrar_futbol(self, sec: str, texto: str, motivo: str) -> tuple[str, str]:
+        hallado = coincidencias(texto, self.otros_deportes)
+        if hallado:
+            return "otros", f"otro_deporte:{hallado[0]}"
+        ext = self.exterior
+        if not ext:
+            return "futbol", motivo
+        exterior = sec in set(ext.get("secciones", [])) or coincidencias(texto, ext.get("palabras", []))
+        if not exterior:
+            return "futbol", motivo
+        for clave in ("salvo_local", "salvo_campeon", "salvo_extra"):
+            hallado = coincidencias(texto, ext.get(clave, []))
+            if hallado:
+                return "futbol", f"{motivo}+{clave}:{hallado[0]}"
+        return "otros", "futbol_exterior"
+
+    def _clasificar(self, sec: str, texto: str, tema_por_defecto: str | None) -> tuple[str, str]:
 
         if sec in self.otros:
             return "otros", f"seccion:{sec}"

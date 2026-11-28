@@ -16,6 +16,7 @@ let DE_TEMA = {};        // id de tema -> historia que lo contiene
 let TEMA_DE_NOTA = {};   // id de nota -> id de tema
 let busqueda = null;     // notas de la semana para buscar temas propios (carga diferida)
 let IND = null;          // indicadores (dólar, riesgo país, inflación)
+let SMN = null;          // alertas oficiales del SMN para el AMBA
 const ui = {filtro: null, filtroHoy: null, vistaTema: 'historia', afuera: false, renombrando: false, uniendo: false};
 const app = document.getElementById('app');
 
@@ -62,7 +63,11 @@ const fijadas = () => leer('fijadas', {});            // idNota -> fecha
 const guardadas = () => leer('guardadas', {notas: {}, temas: {}});
 const contiene = (h, ids) => h.temas.some(t => ids.includes(t));
 const nombre = h => { const n = nombres(); const t = h.temas.find(x => n[x]); return t ? n[t] : h.titulo; };
-const propuesta = h => contiene(h, D.semana.propuestos);
+// Orden de la semana (27/11): por impacto (los 12 de mayor puntaje, por defecto) o con variedad de secciones (hasta 2 por sección).
+const ordenSemana = () => leer('orden_semana', 'impacto') === 'variedad' && D.semana.propuestos_cuota ? 'variedad' : 'impacto';
+const listaPropuestos = () => ordenSemana() === 'variedad' ? D.semana.propuestos_cuota : D.semana.propuestos;
+const listaAfuera = () => (ordenSemana() === 'variedad' ? D.semana.afuera_cuota : D.semana.afuera) || [];
+const propuesta = h => contiene(h, listaPropuestos());
 function enSemana(h, c = cur()) { return contiene(h, c.sumados) || (propuesta(h) && !contiene(h, c.quitados)); }
 
 /* ---------- historias con las uniones del usuario ---------- */
@@ -135,10 +140,21 @@ function avisoHTML(p) {
   return `<div class="av"><span class="tipo"><span class="est ${estCls(p.estado)}">${esc(p.estado)}</span><span class="est">${esc(p.quien)}</span></span><p>${esc(tituloAviso(p))}</p>
     <span class="links">${ns.map(n => `<a class="link" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(nombreDiario(n.diario))} ↗</a>`).join('')}${p.tema_id && DE_TEMA[p.tema_id] ? `<a href="#tema/${DE_TEMA[p.tema_id].id}" style="font-weight:700;text-decoration:none">Ver el tema ›</a>` : ''}</span></div>`;
 }
+// Alerta oficial del SMN para el AMBA (27/11). Si el SMN no respondió, se usa la señal de los diarios.
+function alertaSMN() {
+  if (!SMN || !SMN.ok || !SMN.amba || !SMN.amba.length) return '';
+  const a = SMN.amba[0], cuando = a.hasta ? ` · hasta las ${horaCorta(a.hasta)} del ${fechaCorta(a.hasta.slice(0, 10))}` : '';
+  const titulo = a.nivel ? `Alerta ${a.nivel} por ${a.evento.toLowerCase()} en el AMBA` : (a.titular || `Alerta por ${a.evento.toLowerCase()} en el AMBA`);
+  const zonas = a.zonas.slice(0, 4).join(', ') + (a.zonas.length > 4 ? ` y ${a.zonas.length - 4} zonas más` : '');
+  return `<div class="alerta">${ICONO.viento}<div><b>${esc(titulo)}</b><span>${esc(zonas)}${esc(cuando)}. <a href="${esc(SMN.url)}" target="_blank" rel="noopener">Ver en el SMN ↗</a></span></div></div>`;
+}
 function climaHTML() {
-  const c = D.tu_dia && D.tu_dia.clima; if (!c || !c.notas.length) return '';
-  const n = c.notas[0], leer = `<a href="${esc(n.url)}" target="_blank" rel="noopener"${c.alerta_amba ? '' : ' class="link"'}>Leer en ${esc(nombreDiario(n.diario))} ↗</a>`;
-  return c.alerta_amba ? `<div class="alerta">${ICONO.viento}<div><b>Alerta en el AMBA</b><span>${esc(n.titulo)}. ${leer}</span></div></div>`
+  const smn = alertaSMN(), c = D.tu_dia && D.tu_dia.clima;
+  if (!c || !c.notas.length) return smn;
+  const alertaDiarios = c.alerta_amba && !(SMN && SMN.ok);
+  const n = c.notas[0], leer = `<a href="${esc(n.url)}" target="_blank" rel="noopener"${alertaDiarios ? '' : ' class="link"'}>Leer en ${esc(nombreDiario(n.diario))} ↗</a>`;
+  if (smn) return smn + `<div class="clima">${ICONO.clima}<div><b>Clima</b><span>${esc(n.titulo)}. ${leer}</span></div></div>`;
+  return alertaDiarios ? `<div class="alerta">${ICONO.viento}<div><b>Alerta en el AMBA</b><span>${esc(n.titulo)}. ${leer}</span></div></div>`
     : `<div class="clima">${ICONO.clima}<div><b>Clima</b><span>${esc(n.titulo)}. ${leer}</span></div></div>`;
 }
 const pesos = v => '$ ' + Number(v).toLocaleString('es-AR', {minimumFractionDigits: 0, maximumFractionDigits: 2});
@@ -155,7 +171,7 @@ function indicadores() {
 const numsHTML = () => { const l = indicadores(); return l.length ? `<div class="nums">${l.map(x => `<a href="${esc(x.u)}" target="_blank" rel="noopener"><span>${esc(x.n)}</span><b>${esc(x.v)}</b><small class="${x.viejo ? 'viejo' : ''}">${esc(x.f)} ↗</small></a>`).join('')}</div>` : ''; };
 function cajaAntes() {
   const c = avisosCerca(), urg = c.filter(p => p.estado !== 'Sin paro'), p0 = urg[0] || c[0];
-  return `<section class="cajaav"><a href="#antes"><span class="tx"><b>Antes de salir</b><span>${p0 ? `<span class="tag${p0.estado === 'Sin paro' ? ' ok' : ''}">${esc(p0.estado)}</span>${esc(tituloAviso(p0))}` : 'No hay paros ni cortes anunciados para hoy y mañana.'}</span></span>
+  return `<section class="cajaav"><a href="#antes"><span class="tx"><b>Antes de salir</b><span>${p0 ? `<span class="tag${p0.estado === 'Sin paro' ? ' ok' : ''}">${esc(p0.estado)}</span>${esc(tituloAviso(p0))}` : 'No hay cortes ni problemas en el transporte anunciados para hoy y mañana.'}</span></span>
     <span class="contador"><b>${c.length}</b>${c.length === 1 ? 'aviso' : 'avisos'}</span>${flecha()}</a>${numsHTML()}</section>`;
 }
 function regla24() {
@@ -183,7 +199,7 @@ function ultimoDeHoy(h) { const d = h.feed.find(x => x.dia === D.hoy.fecha); ret
 function vistaAntes() {
   const c = avisosCerca(), hoyL = c.filter(p => CERCA[p.estado] === 'hoy'), man = c.filter(p => CERCA[p.estado] === 'manana'), l = indicadores();
   app.innerHTML = `<a class="volver" href="#hoy">${ICONO.atras}Volver</a><div class="tt"><h1>Antes de salir</h1></div>
-  <p class="expl">Paros, cortes y cambios en los servicios para hoy y mañana, según lo que publicaron los diarios.</p>
+  <p class="expl">Lo que afecta el tránsito y el transporte para hoy y mañana (cortes, paros de transporte, desvíos), según lo que publicaron los diarios.</p>
   <h3>Hoy</h3><div class="caja">${hoyL.map(avisoHTML).join('') || '<p class="vacio">Nada anunciado para hoy.</p>'}</div>
   <h3>Mañana</h3><div class="caja">${man.map(avisoHTML).join('') || '<p class="vacio">Nada anunciado para mañana.</p>'}</div>
   ${l.length ? `<h3>Los números</h3><div class="caja ind">${l.map(x => `<a href="${esc(x.u)}" target="_blank" rel="noopener"><span>${esc(x.n)}<small class="link">${esc(x.f)} · ${esc(x.fecha)}${x.viejo ? ' · sin actualizar' : ''} ↗</small></span><b>${esc(x.v)}</b></a>`).join('')}</div>` : ''}
@@ -192,7 +208,7 @@ function vistaAntes() {
 function vistaProximos() {
   const l = avisosLejos();
   app.innerHTML = `<a class="volver" href="#semana">${ICONO.atras}Volver</a><div class="tt"><h1>Lo que viene</h1></div>
-  <p class="expl">Paros y cambios anunciados para los próximos días o sin fecha confirmada.</p>
+  <p class="expl">Cortes y cambios en el tránsito y el transporte anunciados para los próximos días o sin fecha confirmada.</p>
   <div class="caja">${l.map(avisoHTML).join('') || '<p class="vacio">No hay nada anunciado.</p>'}</div>`;
 }
 
@@ -201,7 +217,7 @@ function vistaTemas() {
   const c = cur();
   const propuestas = HS.filter(h => propuesta(h) && !contiene(h, c.quitados));
   const sumados = HS.filter(h => !propuesta(h) && contiene(h, c.sumados));
-  const afuera = HS.filter(h => !enSemana(h, c) && (contiene(h, D.semana.afuera || []) || contiene(h, c.quitados))).slice(0, 15);
+  const afuera = HS.filter(h => !enSemana(h, c) && (contiene(h, listaAfuera()) || contiene(h, c.quitados))).slice(0, 15);
   const secs = Object.keys(D.secciones).filter(s => [...propuestas, ...sumados, ...afuera].some(h => h.seccion === s));
   if (ui.filtro && !secs.includes(ui.filtro)) ui.filtro = null;
   const f = h => !ui.filtro || h.seccion === ui.filtro, lej = avisosLejos(), p0 = lej[0];
@@ -214,10 +230,11 @@ function vistaTemas() {
   <h3>Semana · ${esc(diaSemana(D.semana.desde))} al ${esc(diaSemana(D.semana.hasta))}</h3>
   <div class="agregar"><label>${ICONO.lupa}<input id="nuevo-tema" type="search" placeholder="Buscar o agregar un tema…" autocomplete="off" aria-label="Buscar o agregar un tema"></label><div class="sugs" id="sugs" hidden></div></div>
   ${chipsHTML(secs, ui.filtro, 'filtro')}
-  <p class="expl">Los temas que más diarios cubrieron y que más veces fueron tapa.</p>
+  <div class="chips" role="group" aria-label="Ordenar la semana"><button class="${ordenSemana() === 'impacto' ? 'on' : ''}" data-orden="impacto">Por impacto</button><button class="${ordenSemana() === 'variedad' ? 'on' : ''}" data-orden="variedad">Variedad de secciones</button></div>
+  <p class="expl">${ordenSemana() === 'variedad' ? 'Hasta dos temas por sección, ordenados por cuántos diarios los cubrieron y cuántas veces fueron tapa.' : 'Los 12 temas que más diarios cubrieron y que más veces fueron tapa.'}</p>
   ${propuestas.filter(f).length ? `<div class="caja">${propuestas.filter(f).map(h => filaHistoria(h, {conHoy: true})).join('')}</div>` : '<p class="vacio">Esta sección no tiene temas entre los de la semana.</p>'}
   <h3>Tu semana</h3>${tuyos ? `<div class="caja">${tuyos}</div>` : '<p class="expl">Sumá temas con «Sumar a mi semana» adentro de cada tema o desde «Lo que quedó afuera», o agregá uno propio con la búsqueda.</p>'}
-  <h3>Lo que quedó afuera</h3><p class="expl">Tuvieron cobertura pero no entraron (su sección ya tenía dos temas), o los sacaste vos. Podés sumarlos a tu semana.</p>
+  <h3>Lo que quedó afuera</h3><p class="expl">${ordenSemana() === 'variedad' ? 'Tuvieron cobertura pero no entraron (su sección ya tenía dos temas), o los sacaste vos.' : 'Tuvieron cobertura pero quedaron después de los 12 primeros, o los sacaste vos.'} Podés sumarlos a tu semana.</p>
   ${afuera.filter(f).length ? `<div class="caja">${afuera.filter(f).map(h => filaHistoria(h, {boton: `<button class="sumar" data-sumar="${h.id}">Sumar</button>`})).join('')}</div>` : '<p class="vacio">Nada de esta sección quedó afuera.</p>'}
   <h3>Cerrar la semana</h3>
   <section class="cierre"><p style="margin:0">Los domingos, revisá la lista y tocá «Enviar mi semana». Lo que sacaste y lo que sumaste le enseña al sistema qué es tema para vos.${c.quitados.length || c.sumados.length ? ` Esta semana: ${c.quitados.length} sacado${c.quitados.length === 1 ? '' : 's'}, ${c.sumados.length} sumado${c.sumados.length === 1 ? '' : 's'}.` : ''}${c.confirmada ? ' Ya la enviaste; podés volver a enviarla.' : ''}${!esNico() && pendientes().length ? ` Además tenés ${plural(pendientes().length, 'reporte', 'reportes')} de errores sin enviar.` : ''}</p>
@@ -645,7 +662,7 @@ function alternarGuardado(id) {
 function enviarSemana() {
   const c = cur();
   const linea = id => { const h = H[id] || DE_TEMA[id]; return h ? `- ${nombre(h)} (Nº ${h.puesto}, ${h.seccion}, id ${h.id})` : `- id ${id}`; };
-  const propuestos = D.semana.propuestos;
+  const propuestos = listaPropuestos();
   const confirmados = propuestos.filter(i => { const h = DE_TEMA[i]; return h && enSemana(h, c); });
   const misUniones = uniones(), misNombres = nombres();
   const cuerpo = [
@@ -657,7 +674,7 @@ function enviarSemana() {
     `### Uniones hechas a mano (${misUniones.length})`, ...misUniones.map(([a, b]) => `- ${linea(a).slice(2)} + ${linea(b).slice(2)}`), '',
     '### Comentarios', '(opcional: escribí acá lo que quieras)', '',
     '<!-- datos para el calibrador -->', '```json',
-    JSON.stringify({semana: D.semana.hasta, propuestos, quitados: c.quitados, sumados: c.sumados, propios: c.propios, uniones: misUniones, nombres: misNombres, confirmada: new Date().toISOString()}), '```',
+    JSON.stringify({semana: D.semana.hasta, orden: ordenSemana(), propuestos, quitados: c.quitados, sumados: c.sumados, propios: c.propios, uniones: misUniones, nombres: misNombres, confirmada: new Date().toISOString()}), '```',
   ].join('\n');
   c.confirmada = new Date().toISOString(); setCur(c);
   const url = `https://github.com/${REPO}/issues/new?labels=curaduria&title=${encodeURIComponent('Curaduría semana ' + D.semana.hasta)}&body=${encodeURIComponent(cuerpo)}`;
@@ -673,6 +690,7 @@ app.addEventListener('click', e => {
   const ds = el.dataset;
   if ('abrir' in ds) { const f = el.parentElement; const ab = f.classList.toggle('abierta'); el.setAttribute('aria-expanded', ab); return; }
   if ('ev' in ds) { el.parentElement.classList.toggle('abierta'); return; }
+  if (ds.orden) { guardar('orden_semana', ds.orden); recargar(); return; }
   if (ds.filtro !== undefined) { ui[ds.cual === 'filtroHoy' ? 'filtroHoy' : 'filtro'] = ds.filtro || null; recargar(); return; }
   if (ds.v) { ui.vistaTema = ds.v; recargar(); return; }
   if (ds.compartirTema) { const h = H[ds.compartirTema] || DE_TEMA[ds.compartirTema]; if (h) compartirContenido('Informado · ' + nombre(h), textoTema(h)); return; }
@@ -761,6 +779,7 @@ async function iniciar() {
     const r = await fetch('datos/actual.json', {cache: 'no-cache'});
     D = await r.json();
     IND = await fetch('datos/indicadores.json', {cache: 'no-cache'}).then(x => x.ok ? x.json() : null).catch(() => null);
+    SMN = await fetch('datos/alertas_smn.json', {cache: 'no-cache'}).then(x => x.ok ? x.json() : null).catch(() => null);
     prepararHistorias();
     render();
   } catch (e) {

@@ -32,6 +32,14 @@ excluir_titulos:
   - quiniela
   - horoscopo
   - loteria
+  # Notas automáticas de partidos de La Nación (decisión de Nico del 27/11): no suman información.
+  - como seguir online
+
+# Igual que excluir_titulos, pero con expresiones regulares sobre el título normalizado
+# (sin tildes, minúsculas, sin signos). Resultados automáticos de La Nación (27/11):
+# «Monza venció por 3-0 a Fiorentina, por la Liga de Italia 2026».
+excluir_titulos_patrones:
+  - '(vencio por|empato) \d+ \d+ (a|con) .+ por (el|la|los) .+ 20\d\d$'
 
 # Notas de servicio: se guardan (búsqueda y «Tu día») pero no forman temas. Se comparan como
 # palabras completas contra el título normalizado; gana la primera categoría que coincide.
@@ -104,7 +112,8 @@ diarios:
       sociedad: https://www.infobae.com/arc/outboundfeeds/rss/category/sociedad/
       deportes: https://www.infobae.com/arc/outboundfeeds/rss/category/deportes/
     sitemaps: []
-    excluir_secciones: [espana, colombia, peru, mexico, estados-unidos, teleshow, tendencias, entretenimiento, malditos-nerds]
+    excluir_secciones: [espana, colombia, peru, mexico, estados-unidos, teleshow, tendencias, entretenimiento, malditos-nerds,
+                        el-salvador, panama, guatemala, honduras, cuba, costa-rica, republica-dominicana, nicaragua]
     nota: "Se usan solo los RSS por sección. El feed general y el sitemap mezclan las ediciones de otros países."
 
   ambito:

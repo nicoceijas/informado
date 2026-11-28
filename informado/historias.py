@@ -31,6 +31,8 @@ PARAMS_HISTORIAS = {
     "por_seccion": 2,
 }
 
+PARAMS_ROTULO = {"bono_propio": 1.5, "castigo_minuscula": 0.75}
+
 # Palabras que no sirven para el rótulo (además de las palabras vacías).
 NO_ROTULO = {normalizar(w) for w in [
     "hoy", "vivo", "dijo", "tras", "como", "que", "cual", "quien", "sobre", "segun", "ahora", "nuevo", "nueva",
@@ -53,14 +55,28 @@ def _no_sirve(w):
     return w[0].islower() and bool(VERBO.search(w.lower()))
 
 
-def _candidatos(titulo):
+def _candidatos(titulo, propios=None):
+    """Palabras y pares útiles del título. Si se pasa `propios`, anota las que aparecen como nombre
+    propio (con mayúscula y no al principio del título)."""
     ws = PALABRA.findall(titulo)
     out = set()
     for i, w in enumerate(ws):
-        if not _no_sirve(w):
-            out.add(w)
-            if i + 1 < len(ws) and not _no_sirve(ws[i + 1]):
-                out.add(w + " " + ws[i + 1])
+        if _no_sirve(w):
+            continue
+        sig = ws[i + 1] if i + 1 < len(ws) else ""
+        # Media persona: «Javier» cuando el apellido («Milei») no sirve para el rótulo. Se saltea.
+        if w[0].isupper() and sig[:1].isupper() and _no_sirve(sig):
+            continue
+        # Media ciudad o medio nombre: «Estero» en «Santiago del Estero», «Plata» en «Mar del Plata».
+        if w[0].isupper() and i >= 2 and ws[i - 1].lower() in ("de", "del", "la", "las", "los") and ws[i - 2][:1].isupper():
+            continue
+        out.add(w)
+        if propios is not None and i > 0 and w[0].isupper():
+            propios.add(normalizar(w))
+        if sig and not _no_sirve(sig):
+            out.add(w + " " + sig)
+            if propios is not None and w[0].isupper() and sig[0].isupper():
+                propios.add(normalizar(w + " " + sig))
     return out
 
 
@@ -74,10 +90,10 @@ def frecuencias_semana(titulos):
 
 def rotulo(titulos, df_semana, n_semana, k=3):
     """«Mario Santucho, UBA y homenaje»: las palabras más distintivas de la historia."""
-    formas, df = {}, Counter()
+    formas, df, propios = {}, Counter(), set()
     for t in titulos:
         vistos = set()
-        for c in _candidatos(t):
+        for c in _candidatos(t, propios):
             clave = normalizar(c)
             if clave in vistos:
                 continue
@@ -86,7 +102,13 @@ def rotulo(titulos, df_semana, n_semana, k=3):
             formas.setdefault(clave, Counter())[c] += 1
     total = max(1, len(titulos))
     minimo = max(2, total * 0.12) if total > 2 else 1
-    puntaje = {c: (v / total) * math.log(n_semana / (1 + df_semana.get(c, 0))) * (1.25 if " " in c else 1)
+    # Preferir nombres propios y sustantivos (prueba aprobada por Nico el 27/11): los nombres propios
+    # pesan más y las palabras sueltas en minúscula (muchas veces verbos, «viaja») pesan menos.
+    def forma(c):
+        if c in propios:
+            return PARAMS_ROTULO["bono_propio"]
+        return 1.25 if " " in c else PARAMS_ROTULO["castigo_minuscula"]
+    puntaje = {c: (v / total) * math.log(n_semana / (1 + df_semana.get(c, 0))) * forma(c)
                for c, v in df.items() if v >= minimo}
     elegidos, usadas = [], set()
     for c in sorted(puntaje, key=lambda x: -puntaje[x]):
@@ -210,13 +232,18 @@ def armar_historias(temas, hoy, analizador, titulos_semana, params=PARAMS_HISTOR
     return historias
 
 
-def propuesta(historias, params=PARAMS_HISTORIAS):
-    """Tu semana (hasta 2 por sección, completando hasta 12 por puntaje) y las que quedaron afuera."""
+def propuesta(historias, params=PARAMS_HISTORIAS, cuota=False):
+    """Tu semana y las que quedaron afuera.
+
+    Por defecto, los 12 de mayor puntaje (orden por impacto, decisión de Nico del 27/11). Con
+    `cuota=True`, hasta 2 por sección y se completa hasta 12 por puntaje (la regla anterior, que el
+    usuario puede elegir en la app como «Variedad de secciones»)."""
     propuestas, por_sec = [], Counter()
-    for h in historias:
-        if por_sec[h["seccion"]] < params["por_seccion"]:
-            propuestas.append(h["id"])
-            por_sec[h["seccion"]] += 1
+    if cuota:
+        for h in historias:
+            if por_sec[h["seccion"]] < params["por_seccion"]:
+                propuestas.append(h["id"])
+                por_sec[h["seccion"]] += 1
     for h in historias:
         if len(propuestas) >= params["propuestas"]:
             break

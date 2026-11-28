@@ -62,7 +62,11 @@ AMBITO = ["colectivos", "colectivo", "subte", "subtes", "trenes", "tren", "autop
 # Títulos que no sirven para nombrar un tema (servicio, transmisiones en vivo).
 TITULOS_SERVICIO = ["en vivo", "minuto a minuto", "a cuanto cotiza", "a cuanto opera", "como ver", "donde ver",
                     "en que canal", "por donde pasan", "dia hora", "dia, hora", "horario y tv", "tv y streaming",
-                    "que se sabe", "cuanto cobra", "cuanto gana"]
+                    "que se sabe", "cuanto cobra", "cuanto gana",
+                    # Clickbait (decisión de Nico del 27/11): el título esconde el dato para que entres.
+                    "a que hora juega", "a que hora juegan", "a que hora es", "enterate", "lo que tenes que saber",
+                    "lo que hay que saber", "todo lo que tenes que saber", "que zonas", "que municipios",
+                    "uno por uno", "mira el video", "el video de", "las fotos de", "como ver"]
 
 _stem = snowballstemmer.stemmer("spanish")
 _superficie = defaultdict(Counter)  # raíz -> formas originales, para nombrar los términos
@@ -189,11 +193,30 @@ GREMIOS = {"uta": "UTA", "ate": "ATE", "la fraternidad": "La Fraternidad", "cgt"
            "metrodelegados": "Metrodelegados", "conadu": "CONADU", "fedun": "FEDUN", "utedyc": "UTEDYC",
            "gremios universitarios": "Gremios universitarios", "docentes universitarios": "Docentes universitarios",
            "docentes": "Docentes", "medicos": "Médicos", "residentes": "Residentes", "enfermeros": "Enfermeros"}
+# «Antes de salir» (decisión de Nico del 27/11): solo lo que afecta el tránsito o el transporte de
+# pasajeros. Un paro entra si toca el transporte (p. ej. ATE en los aeropuertos); los demás no.
 SERVICIOS = {"colectivos": "colectivos", "colectivo": "colectivos", "trenes": "trenes", "tren": "trenes",
-             "subte": "subte", "subtes": "subte", "vuelos": "vuelos", "aeroparque": "vuelos", "ezeiza": "vuelos",
-             "clases": "clases", "escuelas": "clases", "universidades": "universidades", "bancos": "bancos",
-             "hospitales": "hospitales", "hospital": "hospitales", "luz": "luz", "agua": "agua",
-             "autopista": "tránsito", "panamericana": "tránsito", "general paz": "tránsito", "accesos": "tránsito"}
+             "subte": "subte", "subtes": "subte", "premetro": "subte", "vuelos": "vuelos", "aeroparque": "vuelos",
+             "ezeiza": "vuelos", "aeropuerto": "vuelos", "aeropuertos": "vuelos", "aerolineas": "vuelos",
+             "controladores aereos": "vuelos", "autopista": "tránsito", "autopistas": "tránsito", "panamericana": "tránsito",
+             "general paz": "tránsito", "riccheri": "tránsito", "accesos": "tránsito", "acceso oeste": "tránsito",
+             "puente": "tránsito", "peajes": "tránsito", "transito": "tránsito", "calles": "tránsito",
+             "avenida": "tránsito", "9 de julio": "tránsito", "taxis": "taxis", "transporte": "transporte"}
+AFECTA_TRANSITO = ["paro", "paros", "huelga", "medida de fuerza", "asamblea", "cortes", "corte", "corte total",
+                   "corte parcial", "cortaran", "cerraran", "cierre", "cierres", "desvio", "desvios",
+                   "interrupcion", "sin servicio", "servicio reducido", "piquete", "demoras",
+                   "cancelaciones", "cancelados", "funcionan con normalidad", "funciona con normalidad"]
+# Los cortes de calles y rutas cuentan solo en el AMBA; los paros de colectivos, trenes, subte o vuelos, siempre.
+TRANSITO_LOCAL = {"autopista", "autopistas", "puente", "peajes", "transito", "calles", "avenida", "accesos"}
+MARCAS_AMBA = ["caba", "amba", "conurbano", "ciudad de buenos aires", "porteno", "portenos", "gran buenos aires",
+               "lugones", "dellepiane", "25 de mayo", "perito moreno", "illia", "riccheri", "general paz",
+               "panamericana", "acceso oeste", "acceso norte", "acceso sur", "buen ayre", "9 de julio",
+               "puente pueyrredon", "la plata", "constitucion", "retiro", "once"]
+# Una marcha corta el tránsito si dice adónde va.
+MARCHA = ["marcha", "movilizacion", "manifestacion", "protesta"]
+LUGARES_MARCHA = ["congreso", "plaza de mayo", "obelisco", "puente pueyrredon", "9 de julio", "casa rosada"]
+NO_AFECTA = ["marcha atras", "puesta en marcha", "en marcha", "pone en marcha", "poner en marcha",
+             "convenio colectivo", "convenios colectivos", "capacidad de movilizacion"]
 SIN_PARO = ["acuerdo salarial", "cerro un acuerdo", "hubo acuerdo", "acordo", "acordaron", "se levanto",
             "levantaron", "levanto el paro", "se diluyo", "suspendio el paro", "suspendieron el paro",
             "suspenden el paro", "desactivo", "desactivaron", "no habra paro", "conciliacion obligatoria",
@@ -241,13 +264,27 @@ def armar_tu_dia(todas, ahora, hoy, id_tema, temas_por_id=None):
         if n["_servicio"]:
             continue
         txt = normalizar(n["titulo"] + " " + n.get("bajada", ""))
-        a, b = coincidencias(txt, AFECTA), coincidencias(txt, AMBITO + list(SERVICIOS))
-        if not (a and b) or set(a) <= {"tormenta", "tormentas", "alerta"} or coincidencias(normalizar(n["titulo"]), CLIMA):
+        if coincidencias(normalizar(n["titulo"]), CLIMA):
+            continue
+        txt_sin = txt
+        for x in NO_AFECTA:
+            txt_sin = txt_sin.replace(x, " ")
+        servs = set(coincidencias(txt_sin, list(SERVICIOS)))
+        if servs and servs <= TRANSITO_LOCAL and n["tema"] != "ciudad" and not coincidencias(txt_sin, MARCAS_AMBA):
+            servs = set()
+        # Al menos una de las dos señales tiene que estar en el título (la bajada sola da falsos positivos).
+        tit = normalizar(n["titulo"])
+        for x in NO_AFECTA:
+            tit = tit.replace(x, " ")
+        transporte = servs and coincidencias(txt_sin, AFECTA_TRANSITO) and (
+            coincidencias(tit, list(servs)) or coincidencias(tit, AFECTA_TRANSITO))
+        marcha = coincidencias(tit, MARCHA) and coincidencias(tit, LUGARES_MARCHA)
+        if not (transporte or marcha):
             continue
         if n["tema"] in ("internacionales", "otros") and not coincidencias(txt, ["amba", "caba", "conurbano", "subte", "colectivos", "trenes"]):
             continue
         gremio = next((GREMIOS[g] for g in GREMIOS if coincidencias(txt, [g])), None)
-        servicio = next((SERVICIOS[x] for x in SERVICIOS if coincidencias(txt, [x])), None)
+        servicio = next((SERVICIOS[x] for x in SERVICIOS if coincidencias(txt, [x])), None) or ("tránsito" if marcha else None)
         clave = id_tema.get(n["id"]) or f"{gremio}|{servicio}"
         g = grupos.setdefault(clave, {"gremio": gremio, "servicio": servicio, "notas": []})
         g["gremio"] = g["gremio"] or gremio
@@ -336,7 +373,9 @@ def main():
             continue
         sub = sim[np.ix_(g, g)]
         def ajuste(n):
-            a = 0.05 if n.get("bajada") else 0
+            # Pesa la nota de tapa (decisión de Nico del 27/11); la repercusión entre diarios ya la mide
+            # la centralidad (cuánto se parece a la última nota de los demás diarios).
+            a = (0.05 if n.get("bajada") else 0) + 0.15 * peso_jerarquia(n)
             if coincidencias(normalizar(n["titulo"]), TITULOS_SERVICIO):
                 a -= 1.0
             return a
@@ -427,7 +466,8 @@ def main():
 
     # Historias de 7 días (pantalla «Temas»): temas de la misma sección que hablan de lo mismo.
     historias = armar_historias(temas, hoy, tokens, [n["titulo"] for n in semana_todas])
-    propuestas, afuera = propuesta(historias)
+    propuestas, afuera = propuesta(historias)                      # por impacto (por defecto)
+    propuestas_cuota, afuera_cuota = propuesta(historias, cuota=True)  # variedad: hasta 2 por sección
     hoy_historias = [h["id"] for h in sorted((h for h in historias if h["hoy"]), key=lambda h: (-h["hoy"], h["puesto"]))]
 
     diarios = {k: {"nombre": d["nombre"], "home": d["home"], "impreso": d.get("impreso", False),
@@ -436,6 +476,7 @@ def main():
         "generado": ahora.isoformat(timespec="seconds"),
         "semana": {"desde": (hoy - timedelta(days=6)).isoformat(), "hasta": hoy.isoformat(),
                    "propuestos": propuestas, "afuera": afuera, "propuestos_temas": propuestos,
+                   "propuestos_cuota": propuestas_cuota, "afuera_cuota": afuera_cuota,
                    "criterio": "C · 60% convergencia + 40% jerarquía"},
         "hoy": {"fecha": hoy.isoformat(), "temas": hoy_ids, "historias": hoy_historias},
         "afecta": afecta,

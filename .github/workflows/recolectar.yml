@@ -75,6 +75,10 @@ jobs:
         if: steps.ver.outputs.correr == 'true'
         continue-on-error: true   # si una fuente falla, queda el último valor y la corrida sigue
         run: python -m informado.indicadores
+      - name: Alertas del SMN para el AMBA
+        if: steps.ver.outputs.correr == 'true'
+        continue-on-error: true   # si el SMN falla, la app usa la señal de los diarios
+        run: python -m informado.alertas
       - name: Guardar datos
         if: steps.ver.outputs.correr == 'true'
         run: |
@@ -98,6 +102,7 @@ jobs:
           cp app/* _sitio/
           cp datos/temas/actual.json datos/temas/notas_semana.json _sitio/datos/
           if [ -f datos/indicadores.json ]; then cp datos/indicadores.json _sitio/datos/; fi
+          if [ -f datos/alertas_smn.json ]; then cp datos/alertas_smn.json _sitio/datos/; fi
       - uses: actions/configure-pages@v5
         if: steps.ver.outputs.correr == 'true'
         with:

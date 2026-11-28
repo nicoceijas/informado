@@ -196,6 +196,11 @@ def main():
     max_bajada = fuentes.get("recorte_bajada_palabras", 40)
     excl_comunes = set(fuentes.get("excluir_secciones_comunes", []))
     excl_titulos = [normalizar(t) for t in fuentes.get("excluir_titulos", [])]
+    excl_patrones = [re.compile(p) for p in fuentes.get("excluir_titulos_patrones", [])]
+
+    def titulo_excluido(titulo):
+        t = normalizar(titulo)
+        return any(x in t for x in excl_titulos) or any(p.search(t) for p in excl_patrones)
     ahora = datetime.now(timezone.utc)
     desde = ahora - timedelta(days=VENTANA_DIAS)
 
@@ -238,7 +243,7 @@ def main():
                 if not it["fecha"] or it["fecha"] < desde or it["fecha"] > ahora + timedelta(hours=2):
                     est["viejas"] += 1
                     continue
-                if any(x in normalizar(it["titulo"]) for x in excl_titulos):
+                if titulo_excluido(it["titulo"]):
                     est["excluidas"] += 1
                     continue
                 sec = seccion_de_url(it["url"])
@@ -310,7 +315,7 @@ def main():
             sec = seccion_de_url(n["url"])
             if feed_rss and not clasif.conoce(sec) and sec not in excl_por_diario.get(n["diario"], set()):
                 sec = feed_rss.replace("_", "-")
-            if sec in excl_por_diario.get(n["diario"], set()) or any(x in normalizar(n["titulo"]) for x in excl_titulos):
+            if sec in excl_por_diario.get(n["diario"], set()) or titulo_excluido(n["titulo"]):
                 del notas[nid]
                 descartadas += 1
                 continue

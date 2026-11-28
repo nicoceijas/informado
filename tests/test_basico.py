@@ -247,3 +247,32 @@ def test_inflacion_mes_mas_nuevo(monkeypatch):
     reg = {}
     assert I.obtener_mas_nuevo("inflacion", *fuentes, previo=previo, registro=reg) == {**previo, "actualizado": False}
     assert len(reg["inflacion"]) == 3
+
+
+def test_decisiones_27_11():
+    """Fútbol del exterior, básquet, notas automáticas de La Nación, rótulos y orden por impacto (27/11)."""
+    import re
+    import yaml
+    from informado.clasificar import Clasificador
+    from informado.historias import propuesta, rotulo, frecuencias_semana
+    from informado.texto import normalizar
+    c = Clasificador(yaml.safe_load((RAIZ / "config/temas.yaml").read_text(encoding="utf-8")))
+    nota = lambda t, sec="futbol-internacional": {"titulo": t, "bajada": "", "seccion": sec}
+    assert c.clasificar(nota("Resumen de Atalanta 4 - 4 Inter"))[0] == "otros"
+    assert c.clasificar(nota("Liverpool se consagró campeón de la Premier League"))[0] == "futbol"
+    assert c.clasificar(nota("Murió un jugador alcanzado por un rayo en un partido en Perú"))[0] == "futbol"
+    assert c.clasificar(nota("La Selección Sub 20 viaja al Mundial de Chile", "seleccion"))[0] == "futbol"
+    assert c.clasificar(nota("Boca le ganó a River en el Monumental", "boca-juniors"))[0] == "futbol"
+    assert c.clasificar(nota("La Selección de básquet recibe a Bahamas", "deportes"))[0] == "otros"
+    f = yaml.safe_load((RAIZ / "config/fuentes.yaml").read_text(encoding="utf-8"))
+    pat = [re.compile(p) for p in f["excluir_titulos_patrones"]]
+    assert any(p.search(normalizar("Monza venció por 3-0 a Fiorentina, por la Liga de Italia 2026")) for p in pat)
+    assert not any(p.search(normalizar("Boca venció a River y es puntero")) for p in pat)
+    assert "como seguir online" in f["excluir_titulos"]
+    df, n = frecuencias_semana([f"Nota de relleno {k}" for k in range(30)])
+    r = rotulo(["Milei viaja a Paraguay para reunirse con Santiago Peña",
+                "Javier Milei viaja a Paraguay y se reúne con Santiago Peña"], df, n)
+    assert "Javier" not in r and "Peña" in r
+    hs = [{"id": f"h{k}", "seccion": "politica" if k < 4 else "ciudad"} for k in range(6)]
+    assert propuesta(hs, {"propuestas": 3, "afuera": 9, "por_seccion": 2})[0] == ["h0", "h1", "h2"]
+    assert propuesta(hs, {"propuestas": 3, "afuera": 9, "por_seccion": 2}, cuota=True)[0] == ["h0", "h1", "h4"]
