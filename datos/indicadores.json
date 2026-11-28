@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-28T02:53:37+00:00",
+ "generado": "2026-11-28T04:36:59+00:00",
  "dolar": {
   "compra": 1575.0,
   "venta": 1625.0,
@@ -9,8 +9,8 @@
   "actualizado": true
  },
  "riesgo_pais": {
-  "valor": 1067,
-  "fecha": "2026-11-26",
+  "valor": 960,
+  "fecha": "2026-11-27",
   "fuente": "JP Morgan (EMBI), vía ArgentinaDatos",
   "url": "https://argentinadatos.com/",
   "actualizado": true
