@@ -1,5 +1,5 @@
 {
- "inicio": "2026-11-28T02:35:41+00:00",
+ "inicio": "2026-11-28T02:44:07+00:00",
  "fuentes": {
   "clarin/home": {
    "enlaces": 119
@@ -65,9 +65,9 @@
   },
   "lanacion/rss:ultimo": {
    "leidas": 82,
-   "nuevas": 0,
-   "actualizadas": 0,
-   "excluidas": 23,
+   "nuevas": 1,
+   "actualizadas": 1,
+   "excluidas": 24,
    "viejas": 0
   },
   "lanacion/rss:politica": {
@@ -85,7 +85,7 @@
    "viejas": 0
   },
   "lanacion/rss:mundo": {
-   "leidas": 36,
+   "leidas": 35,
    "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 5,
@@ -101,14 +101,14 @@
   "lanacion/rss:deportes": {
    "leidas": 81,
    "nuevas": 0,
-   "actualizadas": 0,
+   "actualizadas": 1,
    "excluidas": 0,
    "viejas": 0
   },
   "lanacion/sitemap:sitemap": {
    "leidas": 1000,
    "nuevas": 0,
-   "actualizadas": 0,
+   "actualizadas": 1,
    "excluidas": 619,
    "viejas": 1
   },
@@ -117,7 +117,7 @@
   },
   "pagina12/rss:ultimo": {
    "leidas": 25,
-   "nuevas": 0,
+   "nuevas": 1,
    "actualizadas": 0,
    "excluidas": 0,
    "viejas": 1
@@ -150,7 +150,7 @@
    "leidas": 100,
    "nuevas": 0,
    "actualizadas": 0,
-   "excluidas": 73,
+   "excluidas": 76,
    "viejas": 0
   },
   "infobae/rss:sociedad": {
@@ -219,7 +219,7 @@
    "leidas": 50,
    "nuevas": 0,
    "actualizadas": 0,
-   "excluidas": 28,
+   "excluidas": 29,
    "viejas": 0
   },
   "perfil/rss:mundo": {
@@ -230,10 +230,10 @@
    "viejas": 0
   },
   "perfil/sitemap:sitemap": {
-   "leidas": 553,
-   "nuevas": 0,
+   "leidas": 557,
+   "nuevas": 1,
    "actualizadas": 0,
-   "excluidas": 248,
+   "excluidas": 251,
    "viejas": 0
   },
   "cronista/home": {
@@ -266,7 +266,7 @@
   "ole/rss:ultimo": {
    "leidas": 10,
    "nuevas": 0,
-   "actualizadas": 0,
+   "actualizadas": 1,
    "excluidas": 0,
    "viejas": 0
   },
@@ -278,7 +278,7 @@
    "viejas": 0
   },
   "ole/sitemap:sitemap": {
-   "leidas": 299,
+   "leidas": 296,
    "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 31,
@@ -312,20 +312,20 @@
  "totales": {
   "por_diario_7d": {
    "ambito": 672,
-   "perfil": 888,
+   "perfil": 889,
    "infobae": 932,
-   "lanacion": 1371,
+   "lanacion": 1372,
    "popular": 289,
    "cronista": 605,
    "clarin": 1195,
    "ole": 744,
-   "pagina12": 646
+   "pagina12": 647
   },
   "por_tema_7d": {
    "economia": 1353,
    "internacionales": 862,
-   "futbol": 1036,
-   "otros": 2614,
+   "futbol": 1037,
+   "otros": 2616,
    "politica": 1171,
    "ciudad": 206,
    "sindicales": 100
@@ -334,5 +334,5 @@
  },
  "reclasificadas": 0,
  "descartadas": 0,
- "fin": "2026-11-28T02:36:47+00:00"
+ "fin": "2026-11-28T02:45:10+00:00"
 }
