@@ -19,6 +19,14 @@ quien quienes cuanto cuanta cuantos cuantas
 argentina argentino argentinos argentinas pais
 """.split())
 
+# «Levantar» y «recaudar» no cuentan para comparar notas (decisión de Nico del 27/11, error #1): pegaban
+# notas de rondas de inversión distintas («Lemon levantó US$ 14,5 millones» con Kaszek). Solo las formas
+# del verbo: «levantamiento», «recaudación» o el club Levante siguen contando.
+STOPWORDS |= set("""
+levantar levanto levanta levantan levantaron levantara levantaria levantado levantada levantados levantadas
+recaudar recaudo recauda recaudan recaudaron recaudara recaudaria recaudado recaudada recaudados recaudadas
+""".split())
+
 # Palabras clave de los sitemaps que no hablan del tema.
 CLAVES_GENERICAS = {"edicion impresa", "video", "videos", "diario", "ultimas noticias", "politica", "economia",
                     "sociedad", "deportes", "el mundo", "internacionales", "opinion"}
