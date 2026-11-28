@@ -1,51 +1,9 @@
 {
- "actualizado": "2026-11-28T12:38:04+00:00",
+ "actualizado": "2026-11-28T14:38:33+00:00",
  "fuente": "SMN",
  "url": "https://www.smn.gob.ar/alertas",
- "ok": true,
- "amba": [
-  {
-   "evento": "TEMPERATURAS EXTREMAS CALOR - ALERTA AMARILLA",
-   "titular": "ALERTA AMARILLA POR TEMPERATURAS EXTREMAS CALOR",
-   "nivel": "amarilla",
-   "desde": "2026-11-27T20:44:00-03:00",
-   "hasta": "2026-11-28T20:44:00-03:00",
-   "zonas": [
-    "Caba y alrededores",
-    "Ciudad de Buenos Aires",
-    "Conurbano Norte y alrededores",
-    "Conurbano Oeste y alrededores",
-    "zona norte (Tigre)",
-    "zona norte (San Isidro)",
-    "zona oeste (Morón)",
-    "zona oeste (Pilar)"
-   ]
-  }
- ],
- "zonas_vistas": [
-  "Caba y alrededores",
-  "Bernasconi y alrededores",
-  "Lihuel Calel y alrededores",
-  "Santa Rosa y alrededores",
-  "Victorica y alrededores",
-  "Azul y alrededores",
-  "Olavarria y alrededores",
-  "Tandil y alrededores",
-  "Junin y alrededores",
-  "San Rafael y alrededores",
-  "San Martin y alrededores",
-  "Pehuajo y alrededores",
-  "Trenque Lauquen y alrededores",
-  "Nueve De Julio y alrededores",
-  "Las Flores y alrededores",
-  "Conurbano Norte y alrededores",
-  "Conurbano Oeste y alrededores",
-  "Lujan y alrededores",
-  "Zarate y alrededores"
- ],
- "avisos_leidos": 40,
- "control": {
-  "vigentes": 40,
-  "amba_cualquier_vigencia": 2
- }
+ "ok": false,
+ "amba": [],
+ "zonas_vistas": [],
+ "error": "ParseError: mismatched tag: line 73, column 2"
 }
