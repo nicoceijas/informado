@@ -1,5 +1,5 @@
 {
- "inicio": "2026-11-28T02:27:56+00:00",
+ "inicio": "2026-11-28T02:30:42+00:00",
  "fuentes": {
   "clarin/home": {
    "enlaces": 119
@@ -85,7 +85,7 @@
    "viejas": 0
   },
   "lanacion/rss:mundo": {
-   "leidas": 37,
+   "leidas": 36,
    "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 5,
@@ -261,12 +261,12 @@
    "viejas": 0
   },
   "ole/home": {
-   "enlaces": 151
+   "enlaces": 150
   },
   "ole/rss:ultimo": {
    "leidas": 10,
    "nuevas": 0,
-   "actualizadas": 1,
+   "actualizadas": 0,
    "excluidas": 0,
    "viejas": 0
   },
@@ -278,7 +278,7 @@
    "viejas": 0
   },
   "ole/sitemap:sitemap": {
-   "leidas": 299,
+   "leidas": 300,
    "nuevas": 1,
    "actualizadas": 0,
    "excluidas": 31,
@@ -318,13 +318,13 @@
    "popular": 289,
    "cronista": 605,
    "clarin": 1195,
-   "ole": 743,
+   "ole": 744,
    "pagina12": 646
   },
   "por_tema_7d": {
    "economia": 1353,
    "internacionales": 862,
-   "futbol": 1035,
+   "futbol": 1036,
    "otros": 2614,
    "politica": 1171,
    "ciudad": 206,
@@ -334,5 +334,5 @@
  },
  "reclasificadas": 0,
  "descartadas": 0,
- "fin": "2026-11-28T02:28:53+00:00"
+ "fin": "2026-11-28T02:31:40+00:00"
 }
