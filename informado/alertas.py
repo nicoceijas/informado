@@ -173,14 +173,17 @@ def main():
                     if local(sub.tag) == "alert":
                         muestra.setdefault("alerta", sub_crudo[:6000].decode("utf-8", "ignore"))
                         avisos += leer_cap(sub)
-        vistas = []
+        vistas, control = [], {"vigentes": 0, "amba_cualquier_vigencia": 0}
         for av in avisos:
             for z in av["zonas"]:
                 if z not in vistas:
                     vistas.append(z)
             hasta, desde = fecha(av["hasta"]), fecha(av["desde"])
+            if av.get("amba_poligono") or any(es_amba(z) for z in av["zonas"]):
+                control["amba_cualquier_vigencia"] += 1
             if hasta and hasta < ahora:
                 continue
+            control["vigentes"] += 1
             if desde and desde > ahora + timedelta(hours=36):
                 continue
             amba = [z for z in av["zonas"] if es_amba(z)] + av.pop("amba_poligono", [])
@@ -200,6 +203,7 @@ def main():
         datos["amba"].sort(key=lambda a: (orden.get(a["nivel"], 3), a["desde"] or ""))
         datos["zonas_vistas"] = vistas[:80]
         datos["avisos_leidos"] = len(avisos)
+        datos["control"] = control  # para la revisión diaria
         if not vistas and not avisos:  # el feed no trajo alertas legibles: muestra para revisar el formato
             datos["muestra"] = muestra
         datos["ok"] = True
