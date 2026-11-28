@@ -27,6 +27,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 from .historias import PARAMS_HISTORIAS, armar_historias, propuesta
 from .stopwords import CLAVES_GENERICAS, STOPWORDS
+from .fechas import estado_por_fecha, fechas_en
 from .texto import coincidencias, normalizar
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -227,19 +228,27 @@ CLIMA = ["tormenta", "tormentas", "lluvia", "lluvias", "calor", "temperatura", "
 DIAS_SEMANA = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
 
 
-def estado_paro(txt, hoy):
-    if coincidencias(txt, SIN_PARO) and not coincidencias(txt, SIGUE_PARO):
-        return "Sin paro"
-    if coincidencias(txt, ["manana", "este " + DIAS_SEMANA[(hoy.weekday() + 1) % 7]]):
-        return "Mañana"
-    if coincidencias(txt, ["hoy", "este " + DIAS_SEMANA[hoy.weekday()], "en este momento", "ahora"]):
-        return "Hoy"
-    return "Anunciado"
+def estado_aviso(notas, ahora, hoy):
+    """(estado, fecha) de un aviso de «Antes de salir», o (None, None) si no sirve (decisión de Nico del
+    27/11): solo vale si el hecho es hoy o próximamente. `notas` va de la más nueva a la más vieja."""
+    reciente = notas[0]["_t"] >= (ahora - timedelta(hours=36)).timestamp()
+    ult = normalizar(notas[0]["titulo"] + " " + notas[0].get("bajada", ""))
+    if coincidencias(ult, SIN_PARO) and not coincidencias(ult, SIGUE_PARO):
+        return ("Sin paro", hoy) if reciente else (None, None)
+    rangos = []
+    for n in notas:
+        publicada = datetime.fromisoformat(n["fecha"]).astimezone(AR).date()
+        rangos += fechas_en(normalizar(n["titulo"] + " " + n.get("bajada", "")), publicada)
+    if rangos:
+        return estado_por_fecha(rangos, hoy)
+    return ("Sin fecha", None) if reciente else (None, None)
 
 
 def armar_tu_dia(todas, ahora, hoy, id_tema, temas_por_id=None):
     """Bloque «Tu día»: clima y dólar del día (notas de servicio) y paros/transporte por asunto."""
     recientes = sorted((n for n in todas if n["_t"] >= (ahora - timedelta(hours=36)).timestamp()), key=lambda n: -n["_t"])
+    # Los avisos miran 7 días: una nota del martes puede anunciar un corte para el sábado. La fecha decide.
+    semana_avisos = sorted((n for n in todas if n["_t"] >= (ahora - timedelta(days=7)).timestamp()), key=lambda n: -n["_t"])
 
     def una_por_diario(notas, maximo):
         vistos, out = set(), []
@@ -260,7 +269,7 @@ def armar_tu_dia(todas, ahora, hoy, id_tema, temas_por_id=None):
     dolar = una_por_diario([n for n in recientes if n["_servicio"] == "dolar" and n["_t"] >= corte_dia], 4)
 
     grupos = {}
-    for n in recientes:
+    for n in semana_avisos:
         if n["_servicio"]:
             continue
         txt = normalizar(n["titulo"] + " " + n.get("bajada", ""))
@@ -298,10 +307,13 @@ def armar_tu_dia(todas, ahora, hoy, id_tema, temas_por_id=None):
         notas = g["notas"]
         if tid and temas_por_id and tid in temas_por_id:  # si el asunto es un tema, sus notas completas
             notas = sorted(temas_por_id[tid]["notas"], key=lambda n: n["fecha"], reverse=True)
-        paros.append({"quien": quien, "estado": estado_paro(normalizar(ult["titulo"] + " " + ult.get("bajada", "")), hoy),
+        estado, cuando = estado_aviso(g["notas"], ahora, hoy)
+        if not estado:
+            continue
+        paros.append({"quien": quien, "estado": estado, "fecha": cuando.isoformat() if cuando else None,
                       "tema_id": tid, "notas": una_por_diario(notas, 6)})
-    orden = {"Hoy": 0, "Mañana": 1, "Anunciado": 2, "Sin paro": 3}
-    paros.sort(key=lambda p: (orden[p["estado"]], -len(p["notas"])))
+    orden = {"Hoy": 0, "Mañana": 1, "Sin paro": 2, "Sin fecha": 4}
+    paros.sort(key=lambda p: (orden.get(p["estado"], 3), p["fecha"] or "", -len(p["notas"])))
     return {"clima": {"alerta_amba": alerta_amba, "notas": clima},
             "dolar": {"notas": dolar},
             "paros": paros[:6]}

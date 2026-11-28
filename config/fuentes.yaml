@@ -34,6 +34,7 @@ excluir_titulos:
   - loteria
   # Notas automáticas de partidos de La Nación (decisión de Nico del 27/11): no suman información.
   - como seguir online
+  - tv y streaming para ver
 
 # Igual que excluir_titulos, pero con expresiones regulares sobre el título normalizado
 # (sin tildes, minúsculas, sin signos). Resultados automáticos de La Nación (27/11):

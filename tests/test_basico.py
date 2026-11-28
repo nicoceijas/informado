@@ -136,9 +136,9 @@ def test_actualizar_titulo():
     assert not actualizar_titulo(n, "La economía entró en recesión", "", "rss")
 
 
-def test_servicio_y_estado_paro():
-    from datetime import date
-    from informado.agrupar import categoria_servicio, estado_paro
+def test_servicio_y_estado_aviso():
+    from datetime import date, datetime, timezone
+    from informado.agrupar import categoria_servicio, estado_aviso
     cfg = yaml.safe_load((RAIZ / "config/fuentes.yaml").read_text(encoding="utf-8"))["servicio_sin_tema"]
     assert categoria_servicio("Dólar tarjeta hoy: a cuánto cotiza el dólar turista", cfg) == "dolar"
     assert categoria_servicio("Dólar hoy en Colombia: precio y cotización", cfg) == "cotizaciones_exterior"
@@ -146,11 +146,38 @@ def test_servicio_y_estado_paro():
     assert categoria_servicio("ANSES: quiénes cobran hoy, miércoles 25 de noviembre", cfg) == "pagos"
     assert categoria_servicio("Decreto 1296: qué jubilados quedan fuera del bono y quiénes cobran", cfg) is None
     assert categoria_servicio("El Indec publica el dato de actividad", cfg) is None
+    ahora = datetime(2026, 11, 25, 15, 0, tzinfo=timezone.utc)   # miércoles 25, 12 h en Buenos Aires
     mie = date(2026, 11, 25)
-    assert estado_paro(normalizar("Se diluyó el paro de colectivos: la UTA cerró un acuerdo salarial"), mie) == "Sin paro"
-    assert estado_paro(normalizar("Sin acuerdo, la UTA confirmó el paro de colectivos para mañana"), mie) == "Mañana"
-    assert estado_paro(normalizar("Paro de trenes hoy: cómo funcionan las líneas"), mie) == "Hoy"
-    assert estado_paro(normalizar("ATE amenaza con paros en diciembre"), mie) == "Anunciado"
+    nota = lambda t, f="2026-11-25T10:00:00-03:00": [{"titulo": t, "bajada": "", "fecha": f,
+                                                      "_t": datetime.fromisoformat(f).timestamp()}]
+    assert estado_aviso(nota("Se diluyó el paro de colectivos: la UTA cerró un acuerdo salarial"), ahora, mie)[0] == "Sin paro"
+    assert estado_aviso(nota("Sin acuerdo, la UTA confirmó el paro de colectivos para mañana"), ahora, mie)[0] == "Mañana"
+    assert estado_aviso(nota("Paro de trenes hoy: cómo funcionan las líneas"), ahora, mie)[0] == "Hoy"
+    assert estado_aviso(nota("ATE amenaza con paros en los aeropuertos"), ahora, mie)[0] == "Sin fecha"
+    # «mañana» se cuenta desde el día de la nota: publicada el lunes, ya pasó.
+    assert estado_aviso(nota("Paro de colectivos mañana", "2026-11-23T10:00:00-03:00"), ahora, mie)[0] is None
+    # Sin fecha y vieja: no sirve.
+    assert estado_aviso(nota("Marcha al Congreso por los fondos", "2026-11-22T10:00:00-03:00"), ahora, mie)[0] is None
+    # Publicada el lunes, anuncia un corte para el sábado.
+    assert estado_aviso(nota("Cerrarán la autopista Lugones el fin de semana", "2026-11-23T10:00:00-03:00"), ahora, mie)[0] == "Sáb 28/11"
+
+
+def test_fechas():
+    from datetime import date
+    from informado.fechas import estado_por_fecha, fechas_en
+    vie = date(2026, 11, 27)
+    f = lambda t, pub=vie: fechas_en(normalizar(t), pub)
+    assert f("Paro de subte esta mañana en la línea B") == [(vie, vie)]
+    assert f("Alerta naranja por tormentas para este viernes 27") == [(vie, vie)]
+    assert f("El lunes 30 habrá paro de trenes")[0][0] == date(2026, 11, 30)
+    assert f("Cortes en la Panamericana el 2 de diciembre") == [(date(2026, 12, 2),) * 2]
+    assert f("Habrá cierres durante el fin de semana") == [(date(2026, 11, 28), date(2026, 11, 29))]
+    assert f("Los gremios preparan medidas de fuerza para 2027") == [(date(2027, 1, 1), date(2027, 12, 31))]
+    assert f("El jueves pasado hubo demoras en los vuelos") == [(date(2026, 11, 26),) * 2]
+    assert estado_por_fecha(f("Habrá cierres durante el fin de semana"), vie) == ("Mañana", date(2026, 11, 28))
+    assert estado_por_fecha(f("Habrá cierres durante el fin de semana"), date(2026, 11, 28))[0] == "Hoy"
+    assert estado_por_fecha(f("Los gremios preparan medidas de fuerza para 2027"), vie) == (None, None)
+    assert estado_por_fecha(f("El lunes 30 habrá paro de trenes"), vie)[0] == "Lun 30/11"
 
 
 def test_historias():
