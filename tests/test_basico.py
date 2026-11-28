@@ -276,3 +276,15 @@ def test_decisiones_27_11():
     hs = [{"id": f"h{k}", "seccion": "politica" if k < 4 else "ciudad"} for k in range(6)]
     assert propuesta(hs, {"propuestas": 3, "afuera": 9, "por_seccion": 2})[0] == ["h0", "h1", "h2"]
     assert propuesta(hs, {"propuestas": 3, "afuera": 9, "por_seccion": 2}, cuota=True)[0] == ["h0", "h1", "h4"]
+
+
+def test_alertas_smn_poligono():
+    import xml.etree.ElementTree as ET
+    from informado.alertas import leer_cap, zonas_por_poligono
+    amba = "-34.2,-58.2 -34.2,-59.2 -35.2,-59.2 -35.2,-57.8"
+    assert "Ciudad de Buenos Aires" in zonas_por_poligono(amba)
+    assert zonas_por_poligono("-26.86,-58.38 -26.88,-58.38 -27.5,-59 -26.6,-58.7") == []   # Formosa/Chaco
+    cap = ('<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"><info><language>es-AR</language><event>Tormentas</event>'
+           f'<severity>Severe</severity><area><areaDesc></areaDesc><polygon>{amba}</polygon></area></info></alert>')
+    av = leer_cap(ET.fromstring(cap))[0]
+    assert av["nivel"] == "naranja" and "Ciudad de Buenos Aires" in av["amba_poligono"]

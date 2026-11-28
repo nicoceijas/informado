@@ -6,7 +6,8 @@ https://ssl.smn.gob.ar/CAP/AR.php
 
 El formato CAP 1.2 es un estándar: el feed es un índice (RSS o Atom) que enlaza a un archivo por
 alerta, o trae las alertas adentro. De cada alerta se toma el fenómeno, el nivel (amarilla, naranja,
-roja), la vigencia y las zonas. Entra si alguna zona es del AMBA y si está vigente ahora o empieza
+roja, según la severidad CAP), la vigencia y las zonas. El SMN manda las zonas como polígonos sin
+nombre: se prueba si contienen puntos de referencia del AMBA. Entra si alguna zona es del AMBA y si está vigente ahora o empieza
 en las próximas 36 horas.
 
 Si el SMN falla, se guarda el error y la app vuelve a la señal de los diarios. Para revisar qué
@@ -42,6 +43,35 @@ ZONAS_AMBA = ["ciudad autonoma de buenos aires", "ciudad de buenos aires", "capi
 ZONAS_AMBA_AMBIGUAS = ["almirante brown", "avellaneda", "general san martin", "ituzaingo", "malvinas argentinas",
                        "merlo", "moreno", "san fernando", "san isidro", "san miguel", "tigre", "escobar",
                        "pilar", "presidente peron", "san vicente", "marcos paz", "general rodriguez"]
+
+
+# El SMN no nombra las zonas (areaDesc viene vacío): manda polígonos. Se prueba si alguno contiene
+# estos puntos del AMBA (latitud, longitud).
+PUNTOS_AMBA = {"Ciudad de Buenos Aires": (-34.6037, -58.3816), "zona norte (Tigre)": (-34.4260, -58.5797),
+               "zona norte (San Isidro)": (-34.4708, -58.5286), "zona oeste (Morón)": (-34.6534, -58.6198),
+               "zona oeste (La Matanza)": (-34.7700, -58.6250), "zona oeste (Pilar)": (-34.4587, -58.9142),
+               "zona sur (Quilmes)": (-34.7203, -58.2546), "zona sur (Lomas de Zamora)": (-34.7609, -58.4064),
+               "La Plata": (-34.9214, -57.9545)}
+
+
+def dentro(punto, poligono):
+    """Punto en polígono (rayos). `poligono` es una lista de (latitud, longitud)."""
+    y, x = punto
+    adentro = False
+    for (y1, x1), (y2, x2) in zip(poligono, poligono[1:] + poligono[:1]):
+        if (y1 > y) != (y2 > y) and x < (x2 - x1) * (y - y1) / (y2 - y1) + x1:
+            adentro = not adentro
+    return adentro
+
+
+def zonas_por_poligono(texto_poligono):
+    try:
+        pol = [tuple(float(v) for v in par.split(",")) for par in texto_poligono.split()]
+    except ValueError:
+        return []
+    if len(pol) < 3:
+        return []
+    return [nombre for nombre, punto in PUNTOS_AMBA.items() if dentro(punto, pol)]
 
 
 def es_amba(zona):
@@ -107,10 +137,15 @@ def leer_cap(raiz):
         evento, titular = texto(info, "event"), texto(info, "headline")
         bolsa = normalizar(" ".join([evento, titular, params, texto(info, "severity")]))
         nivel = next((n for n, pal in NIVELES if coincidencias(bolsa, pal)), None)
-        zonas = [texto(a, "areaDesc") for a in hijos(info, "area") if texto(a, "areaDesc")]
+        zonas, amba = [], []
+        for a in hijos(info, "area"):
+            if texto(a, "areaDesc"):
+                zonas.append(texto(a, "areaDesc"))
+            for pol in hijos(a, "polygon"):
+                amba += [z for z in zonas_por_poligono(pol.text or "") if z not in amba]
         out.append({"evento": evento, "titular": titular, "nivel": nivel,
                     "desde": texto(info, "onset") or texto(info, "effective") or texto(raiz, "sent"),
-                    "hasta": texto(info, "expires"), "zonas": zonas})
+                    "hasta": texto(info, "expires"), "zonas": zonas, "amba_poligono": amba})
     return out
 
 
@@ -148,14 +183,24 @@ def main():
                 continue
             if desde and desde > ahora + timedelta(hours=36):
                 continue
-            amba = [z for z in av["zonas"] if es_amba(z)]
+            amba = [z for z in av["zonas"] if es_amba(z)] + av.pop("amba_poligono", [])
             if amba:
                 datos["amba"].append({**av, "zonas": amba})
+        # El SMN parte una misma alerta en varios archivos (un polígono cada uno): se juntan.
+        juntas = {}
+        for a in datos["amba"]:
+            k = (a["evento"], a["nivel"])
+            if k in juntas:
+                juntas[k]["zonas"] += [z for z in a["zonas"] if z not in juntas[k]["zonas"]]
+                juntas[k]["hasta"] = max(juntas[k]["hasta"] or "", a["hasta"] or "")
+            else:
+                juntas[k] = a
+        datos["amba"] = list(juntas.values())
         orden = {"roja": 0, "naranja": 1, "amarilla": 2, None: 3}
         datos["amba"].sort(key=lambda a: (orden.get(a["nivel"], 3), a["desde"] or ""))
         datos["zonas_vistas"] = vistas[:80]
         datos["avisos_leidos"] = len(avisos)
-        if not vistas:  # sin zonas reconocidas: se guarda una muestra para revisar el formato
+        if not vistas and not avisos:  # el feed no trajo alertas legibles: muestra para revisar el formato
             datos["muestra"] = muestra
         datos["ok"] = True
     except (OSError, ET.ParseError, ValueError) as e:
