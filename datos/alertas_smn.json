@@ -1,9 +1,13 @@
 {
- "actualizado": "2026-11-28T14:38:33+00:00",
+ "actualizado": "2026-11-28T16:38:37+00:00",
  "fuente": "SMN",
  "url": "https://www.smn.gob.ar/alertas",
- "ok": false,
+ "ok": true,
  "amba": [],
  "zonas_vistas": [],
- "error": "ParseError: mismatched tag: line 73, column 2"
+ "avisos_leidos": 60,
+ "control": {
+  "vigentes": 60,
+  "amba_cualquier_vigencia": 0
+ }
 }
