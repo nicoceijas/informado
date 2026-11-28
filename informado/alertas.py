@@ -129,14 +129,14 @@ def main():
             for a in alertas_dentro:
                 avisos += leer_cap(a)
             if not alertas_dentro:
-                for url in enlaces_del_indice(raiz)[:MAX_ALERTAS]:
+                for url in [u for u in enlaces_del_indice(raiz) if u != FEED][:MAX_ALERTAS]:
                     try:
                         sub_crudo = bajar(url)
                         sub = ET.fromstring(sub_crudo)
                     except (OSError, ET.ParseError):
                         continue
-                    muestra.setdefault("alerta", sub_crudo[:4000].decode("utf-8", "ignore"))
                     if local(sub.tag) == "alert":
+                        muestra.setdefault("alerta", sub_crudo[:6000].decode("utf-8", "ignore"))
                         avisos += leer_cap(sub)
         vistas = []
         for av in avisos:
