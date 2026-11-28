@@ -197,10 +197,12 @@ def main():
     excl_comunes = set(fuentes.get("excluir_secciones_comunes", []))
     excl_titulos = [normalizar(t) for t in fuentes.get("excluir_titulos", [])]
     excl_patrones = [re.compile(p) for p in fuentes.get("excluir_titulos_patrones", [])]
+    excl_vivo = [re.compile(p, re.I) for p in fuentes.get("excluir_titulos_vivo", [])]
 
     def titulo_excluido(titulo):
         t = normalizar(titulo)
-        return any(x in t for x in excl_titulos) or any(p.search(t) for p in excl_patrones)
+        return (any(x in t for x in excl_titulos) or any(p.search(t) for p in excl_patrones)
+                or any(p.search(titulo) for p in excl_vivo))
     ahora = datetime.now(timezone.utc)
     desde = ahora - timedelta(days=VENTANA_DIAS)
 

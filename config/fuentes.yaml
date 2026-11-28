@@ -41,6 +41,16 @@ excluir_titulos:
 excluir_titulos_patrones:
   - '(vencio por|empato) \d+ \d+ (a|con) .+ por (el|la|los) .+ 20\d\d$'
 
+# Coberturas «EN VIVO» (decisión de Nico del 27/11, propuesta D, opción 1): mezclan muchos asuntos en una
+# sola nota, unen temas distintos y ensucian «Lo último». Expresiones regulares sobre el título original
+# (sin normalizar, sin distinguir mayúsculas), porque lo que las distingue son los dos puntos:
+# «Milei, EN VIVO: …» sí; «dejó de emitir programas en vivo» o «cómo ver en vivo» no.
+excluir_titulos_vivo:
+  - '\ben vivo\s*:'
+  - '\bminuto a minuto\b'
+  - '^\s*en (vivo|directo)\b'
+  - '\ben directo\s*:'
+
 # Notas de servicio: se guardan (búsqueda y «Tu día») pero no forman temas. Se comparan como
 # palabras completas contra el título normalizado; gana la primera categoría que coincide.
 # dolar y clima alimentan «Tu día»; las demás solo se sacan de los temas. (Aprobado 25/11.)

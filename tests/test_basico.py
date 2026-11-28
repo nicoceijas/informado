@@ -288,3 +288,16 @@ def test_alertas_smn_poligono():
            f'<severity>Severe</severity><area><areaDesc></areaDesc><polygon>{amba}</polygon></area></info></alert>')
     av = leer_cap(ET.fromstring(cap))[0]
     assert av["nivel"] == "naranja" and "Ciudad de Buenos Aires" in av["amba_poligono"]
+
+
+def test_excluir_en_vivo():
+    import re
+    import yaml
+    f = yaml.safe_load((RAIZ / "config/fuentes.yaml").read_text(encoding="utf-8"))
+    pat = [re.compile(p, re.I) for p in f["excluir_titulos_vivo"]]
+    fuera = lambda t: any(p.search(t) for p in pat)
+    assert fuera("Milei, EN VIVO: tras el escándalo del Ueno Bank, el Presidente está reunido en Paraguay")
+    assert fuera("Diputados, en vivo: con fuertes cuestionamientos de la oposición, se debate el Presupuesto 2027")
+    assert fuera("Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este jueves")
+    assert not fuera("El Canal de la Ciudad dejó de emitir programas en vivo y definen qué hacen con los empleados")
+    assert not fuera("Boca cierra los octavos del Clausura frente a Independiente Rivadavia: seguí el partido en vivo")
