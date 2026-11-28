@@ -1,6 +1,6 @@
 # Estado del proyecto Informado
 
-Última actualización: 27/11/2026
+Última actualización: 28/11/2026
 
 ## Reglas de trabajo
 
@@ -91,6 +91,14 @@
 - **Umbral más bajo con nombre propio poco común (propuesta 2, Santucho):** Nico la aprobó el 27/11, pero **no se aplicó** porque la simulación del 28/11 mostró que empeora: «poco común» no se puede medir todavía (con 11 días de datos, «Santucho» aparece en 74 títulos y «Caputo» en 83), Santucho no se une más (el grupo grande ya tiene 34 notas y se vuelve a partir al pasar de 35) y la nota de Lemon termina junto a Kaszek y a dos notas sobre China y las Fuerzas Armadas. Se le explicó a Nico; queda para cuando haya 3 semanas de datos.
 - **F. Tema del papa León XIV** (*esperando a Nico*): le gustó la idea; los números del 28/11 muestran que «León XIV» aparece en menos títulos (30) que «Santucho» (74), así que «que pese menos un nombre muy repetido» no lo resuelve. La simulación del 28/11 mostró que las notas «EN VIVO» tampoco lo explican (el tema queda en 11 notas con cualquier opción).
 - **«La agenda de la TV y streaming del viernes»** (La Nación, 2 notas en la semana): parecida a las «TV y streaming para ver el partido» que Nico mandó sacar el 27/11. Sin decidir.
+- **G. Temas grandes que juntan asuntos distintos** (revisión del 28/11, *esperando a Nico*). Son temas únicos del agrupador, no uniones de historias, y tienen más de 6 notas, así que la poda de encadenadas (grupos de 3 a 6) no los toca:
+  - «AGN, oro y Banco Central» (24 notas): además del oro en Londres trae la causa reabierta contra los hermanos Caputo por Revolución Federal, el atentado contra Cristina y cuatro editoriales de Víctor Hugo Morales en Página/12 (una es el homenaje a Maradona). El puente probable es el nombre «Víctor Hugo», que se repite en esas notas.
+  - «Santilli, Senado e informe» (33 notas): suma «Encuesta: la aceptación del plan económico de Milei es del 26%», «AMIA: en las redes denuncian una flagrante mentira de Milei», Lewandowski y Redrado sobre el «rumbo económico».
+  - «Universitario, presupuesto y Congreso» (Sindicales, 10 notas): tres son el paro de La Bancaria en el Santander.
+  - *Cambio sugerido (a elegir):* (1) que los nombres de columnistas y conductores que aparecen en el título de sus propios editoriales («Víctor Hugo») no cuenten para comparar notas; (2) extender la poda de encadenadas a grupos más grandes; (3) esperar a la calibración del lunes con más ejemplos. Antes de aplicar se simula.
+- **H. Nombre del tema Nº 1 de Hoy** (28/11, *esperando a Nico*): el tema de la final de la Libertadores se llama «Estudiantes contra Palmeiras, Argentina contra Brasil» (título de una nota resumen de Página/12, que nombra otro partido), y adentro está «Los partidos de hoy» (Página/12), una agenda genérica. *Cambio sugerido:* sumar «los partidos de hoy» a `servicio_sin_tema` (sigue en la búsqueda) y que el nombre no salga de notas con dos partidos en el título.
+- **I. Rótulo con pedazo de cita** (28/11): «Peter Lamelas, Trump y verlos juntos» toma «verlos juntos» de la frase «Me gustaría volver a verlos juntos». *Cambio sugerido:* sumar «verlos» y «juntos» a `NO_ROTULO` (o evaluarlo junto con la prueba de nombres propios en los rótulos).
+- **J. Un mismo asunto partido en dos historias** (28/11): el operativo del deck en Caballito está en «Caballito, operativo y deck» (10 notas) y en «Policía, Caballito y bar desalojado» (2); el TramBus, en «Caballito, TramBus y tránsito» (6) y «Acoyte, Honorio Pueyrredón y Caballito» (4). Todo es Ciudad y no se unió con el umbral de historias (0,17). *Sugerencia:* esperar la calibración del lunes para ver si se repite antes de tocar el umbral.
 
 ## Para retomar
 
@@ -127,6 +135,7 @@ La revisión diaria trae estos temas el día indicado. No se implementan sin una
 - **26/11:** todo anduvo bien. 9 diarios, 0 errores, 5.065 notas en 7 días; los 9 aportaron en las últimas 24 h (de 52 en Popular a 339 en La Nación). La cadena «Reloj» disparó a horario (00:28, 02:28, 04:29, 06:29, 08:29 UTC) y todas las recolecciones publicaron bien. Sin reparaciones. Cinco propuestas nuevas (A a E). La inflación sigue en septiembre (1,9%).
 - **27/11:** todo anduvo bien. 9 diarios, 0 errores, 6.603 notas en 7 días; los 9 aportaron en las últimas 24 h (de 58 en Popular a 325 en La Nación). La cadena «Reloj» disparó a horario (00:31, 02:31, 04:32, 06:32, 08:32 UTC) y todas las recolecciones publicaron bien; los respaldos programados también terminaron bien. Sin reparaciones. Una propuesta nueva (F, tema del papa León XIV) y la B empeoró. Nada en «Para retomar» para hoy (el próximo es el domingo 29/11).
 - **27/11 (mañana, con Nico):** la corrida de las 12:33 UTC salió a horario (la cadena espera 120 min desde la anterior, a las 10:33). La inflación seguía en septiembre porque datos.gob.ar no había cargado octubre; Nico aprobó tomar el mes más reciente entre datos.gob.ar, el BCRA y ArgentinaDatos (`obtener_mas_nuevo` en `informado/indicadores.py`, con prueba). El lector del BCRA entiende la v4.0 y la v3.0 de su API. *Para verificar en la próxima revisión:* que `datos/indicadores.json` diga octubre y qué fuente lo trajo.
+- **28/11:** todo anduvo bien. 9 diarios, 0 errores, 7.416 notas en 7 días; los 9 aportaron en las últimas 24 h (de 50 en Popular a 236 en La Nación). La cadena «Reloj» disparó a horario (22:34, 00:34, 02:35, 04:35, 06:35, 08:35 UTC) y todas las recolecciones publicaron bien; los dos respaldos por horario de «Reloj» quedaron cancelados porque la cadena ya estaba en curso (esperado). Inflación: octubre 2026 (2,2%), traída por el BCRA. Alertas del SMN: 32 vigentes, ninguna en el AMBA. Sin reparaciones. Cuatro propuestas nuevas (G a J). Nada en «Para retomar» para hoy (el próximo es el domingo 29/11).
 
 ## Datos
 
