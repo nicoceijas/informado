@@ -1314,7 +1314,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1499,7 +1499,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1915,26 +1915,6 @@
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,sudamericana"
 },
-"47e515967c80": {
-"id": "47e515967c80",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/instituto-vs-huracan-tv-y-streaming-para-ver-el-partido-del-torneo-clausura-2026-nid22112026/",
-"titulo": "Instituto vs. Huracán: TV y streaming para ver el partido del Torneo Clausura 2026",
-"bajada": "El encuentro de octavos de final entre la Gloria y el Globo se disputa este domingo a las 22 en el estadio Mario Alberto Kempes de Córdoba",
-"fecha": "2026-11-22T23:09:54+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Fútbol"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/rss:deportes"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol,torneo"
-},
 "ec6abf07922e": {
 "id": "ec6abf07922e",
 "diario": "ole",
@@ -2326,7 +2306,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -4671,7 +4651,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -4726,7 +4706,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -5085,7 +5065,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5103,7 +5083,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 126
@@ -5122,7 +5102,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -5275,7 +5255,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5476,7 +5456,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -5608,7 +5588,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -5666,7 +5646,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "otros",
 "motivo": "seccion:salud",
 "home_mejor_pos": 66
@@ -5798,7 +5778,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -5852,7 +5832,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5924,7 +5904,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -6719,7 +6699,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6737,7 +6717,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T02:47:41+00:00",
+"visto_ultimo": "2026-11-28T02:52:22+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 }
