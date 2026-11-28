@@ -1,22 +1,4 @@
 {
-"9e0ae283e197": {
-"id": "9e0ae283e197",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/la-conmebol-y-la-concacaf-llevaran-la-copa-america-de-2028-a-estados-unidos/",
-"titulo": "La CONMEBOL y la Concacaf llevarán la Copa América de 2028 a Estados Unidos",
-"bajada": "El certamen continental se disputará del 9 de junio al 9 de julio, reunirá a 16 equipos y busca prolongar el interés futbolístico previsto tras el Mundial de 2026 en Norteamérica",
-"fecha": "2026-11-25T02:55:00+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "fe3205b6de32": {
 "id": "fe3205b6de32",
 "diario": "lanacion",
@@ -36,27 +18,9 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-27T02:32:30+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 15
-},
-"4773afa0c988": {
-"id": "4773afa0c988",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/hay-que-estar-el-legado-de-un-proyecto-comunitario-en-el-salvador-convertido-en-libro/",
-"titulo": "Hay que estar: El legado de un proyecto comunitario en El Salvador, convertido en libro",
-"bajada": "La presentación de la obra de Alejandro Gutman ante más de 1.400 personas reunió testimonios de dos décadas de trabajo en zonas empobrecidas, con sus ingresos orientados a financiar educación superior para jóvenes salvadoreños",
-"fecha": "2026-11-25T02:51:24+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "9bd772685158": {
 "id": "9bd772685158",
@@ -94,24 +58,6 @@
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
-"9404399a77ef": {
-"id": "9404399a77ef",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/camara-de-diputados-de-chile-aprueba-resolucion-para-juzgar-crimenes-de-lesa-humanidad-en-cuba/",
-"titulo": "Cámara de Diputados de Chile aprueba resolución para juzgar crímenes de lesa humanidad en Cuba",
-"bajada": "El Congreso aprobó una resolución que solicita a la presidencia respaldar una corte penal orientada a evaluar presuntos crímenes de lesa humanidad en la isla, abriendo gestiones diplomáticas con otras naciones durante las próximas cuatro semanas",
-"fecha": "2026-11-25T02:49:37+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "37caae36fcaa": {
 "id": "37caae36fcaa",
 "diario": "cronista",
@@ -138,24 +84,6 @@
 "bajada": "La profesional de 30 años obtuvo el título de medicina general y la especialización en Pediatría con distinción cum laude, mientras cursa cuidados intensivos pediátricos en esa casa de estudios",
 "fecha": "2026-11-25T02:46:20+00:00",
 "seccion": "america",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "otros",
-"motivo": "palabras_otros:miss universo"
-},
-"dca6e70fe928": {
-"id": "dca6e70fe928",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/25/la-dominicana-melissa-nunez-avanza-al-top-12-de-miss-universo-2026-y-sigue-en-competencia/",
-"titulo": "La dominicana Melissa Núñez avanza al Top 12 de Miss Universo 2026 y sigue en competencia",
-"bajada": "La representante de Concepción de La Vega superó una nueva ronda en la 75.ª edición del concurso internacional, con más de 100 aspirantes, y buscará un lugar entre las finalistas",
-"fecha": "2026-11-25T02:46:13+00:00",
-"seccion": "mundo",
 "palabras_clave": [],
 "edicion_impresa": false,
 "fuentes": [
@@ -290,24 +218,6 @@
 "motivo": "seccion:futbol",
 "home_mejor_pos": 21
 },
-"ba114358ee3b": {
-"id": "ba114358ee3b",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/oms-destina-usd-2-millones-a-reforzar-la-vacunacion-y-los-centros-de-salud-en-cuba/",
-"titulo": "OMS destina USD 2 millones a reforzar la vacunación y los centros de salud en Cuba",
-"bajada": "El financiamiento anunciado por Tedros Adhanom Ghebreyesus respaldará la inmunización de 62.000 recién nacidos, más de 780.000 menores y 110.000 personas vulnerables, además de acciones para prevenir y controlar la rabia",
-"fecha": "2026-11-25T02:24:20+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "bf62e9fb0cf3": {
 "id": "bf62e9fb0cf3",
 "diario": "ambito",
@@ -326,64 +236,10 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 32
-},
-"f82ac9f58f34": {
-"id": "f82ac9f58f34",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/un-joven-con-autismo-cae-desde-un-quinto-piso-de-un-complejo-de-edificios-en-panama/",
-"titulo": "Un joven con autismo cae desde un quinto piso de un complejo de edificios en Panamá",
-"bajada": "La condición que presentaba el adolescente constituye un elemento central en la investigación, manifestaron las autoridades judiciales",
-"fecha": "2026-11-25T02:18:15+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"756073be7332": {
-"id": "756073be7332",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/25/costa-rica-registra-mas-de-7400-denuncias-por-estafas-bancarias-expertos-advierten-sobre-riesgos-durante-navidad/",
-"titulo": "Costa Rica registra más de 7,400 denuncias por estafas bancarias: expertos advierten sobre riesgos durante Navidad",
-"bajada": "El pago de aguinaldos, las compras navideñas y las vacaciones incrementan la exposición a robos y fraudes electrónicos. Una especialista advierte sobre las modalidades utilizadas por los delincuentes y explica cómo proteger el dinero y las viviendas.",
-"fecha": "2026-11-25T02:18:07+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"49c4050aea67": {
-"id": "49c4050aea67",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/25/costa-rica-sigue-en-la-pelea-por-la-corona-mariale-acosta-avanza-al-top-30-de-miss-universo-2026/",
-"titulo": "¡Costa Rica sigue en la pelea por la corona! Mariale Acosta avanza al Top 30 de Miss Universo 2026",
-"bajada": "La representante costarricense logró superar la primera gran eliminación del certamen internacional, que reúne a 116 candidatas en Puerto Rico. La herediana mantiene viva la ilusión de conquistar la primera corona universal para el país.",
-"fecha": "2026-11-25T02:15:12+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "otros",
-"motivo": "palabras_otros:miss universo"
 },
 "c70a0506127e": {
 "id": "c70a0506127e",
@@ -405,25 +261,7 @@
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T06:30:01+00:00",
 "tema": "futbol",
-"motivo": "seccion:deportes+palabras:boca"
-},
-"494f2e025ea4": {
-"id": "494f2e025ea4",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/25/sofia-cordova-la-primera-representante-de-la-diaspora-salvadorena-en-miss-universo-la-eliminacion-que-nadie-esperaba/",
-"titulo": "Sofía Córdova, la primera representante de la diáspora salvadoreña en Miss Universo: la eliminación que nadie esperaba",
-"bajada": "La candidata de El Salvador terminó su camino en la gala de San Juan, Puerto Rico, luego de competir junto a 116 delegadas y destacar durante las actividades preliminares oficiales",
-"fecha": "2026-11-25T02:08:26+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "otros",
-"motivo": "palabras_otros:miss universo"
+"motivo": "seccion:deportes+palabras:boca+salvo_local:boca"
 },
 "95f46aaace2b": {
 "id": "95f46aaace2b",
@@ -442,7 +280,7 @@
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T20:31:39+00:00",
 "tema": "futbol",
-"motivo": "seccion:deportes+palabras:copa libertadores",
+"motivo": "seccion:deportes+palabras:copa libertadores+salvo_local:copa libertadores",
 "home_mejor_pos": 42
 },
 "7edfe5af168f": {
@@ -542,7 +380,7 @@
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-27T12:35:42+00:00",
 "tema": "futbol",
-"motivo": "seccion:deportes+palabras:boca,futbol",
+"motivo": "seccion:deportes+palabras:boca,futbol+salvo_local:boca",
 "home_mejor_pos": 80
 },
 "0f554056ff56": {
@@ -641,8 +479,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-27T00:32:06+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 38
 },
 "c7fabc0daeb8": {
@@ -764,24 +602,6 @@
 "motivo": "seccion:deportes+palabras:futbol,torneo",
 "home_mejor_pos": 35
 },
-"1567346f213f": {
-"id": "1567346f213f",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/25/exprimera-dama-de-costa-rica-es-elegida-entre-los-nueve-jueces-que-definiran-a-la-nueva-miss-universo-2026/",
-"titulo": "Exprimera dama de Costa Rica es elegida entre los nueve jueces que definirán a la nueva Miss Universo 2026",
-"bajada": "Signe Zeikate, esposa del expresidente Rodrigo Chaves, formará parte del panel internacional encargado de seleccionar a la ganadora del certamen de belleza. La economista compartirá esta responsabilidad con exreinas, modelos y figuras del mundo empresarial.",
-"fecha": "2026-11-25T01:26:48+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "otros",
-"motivo": "palabras_otros:miss universo"
-},
 "e5cebbef662d": {
 "id": "e5cebbef662d",
 "diario": "lanacion",
@@ -804,24 +624,6 @@
 "tema": "otros",
 "motivo": "seccion:deportes",
 "home_mejor_pos": 25
-},
-"d3f1490c850c": {
-"id": "d3f1490c850c",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/panama-prepara-una-nueva-estrategia-maritima-para-fortalecer-su-liderazgo-en-el-sector/",
-"titulo": "Panamá prepara una nueva estrategia marítima para fortalecer su liderazgo en el sector",
-"bajada": "Existe una creciente presión competitiva de otros centros portuarios del Caribe, además de transformaciones en el comercio marítimo",
-"fecha": "2026-11-25T01:17:53+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "a705c30d6837": {
 "id": "a705c30d6837",
@@ -906,24 +708,6 @@
 "tema": "otros",
 "motivo": "seccion:opinion",
 "home_mejor_pos": 20
-},
-"3285019eb3ae": {
-"id": "3285019eb3ae",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/esto-es-una-pesadilla-cinco-remolachas-equivalen-a-cerca-del-17-de-la-pension-mensual-de-un-jubilado-cubano/",
-"titulo": "“Esto es una pesadilla”: Cinco remolachas equivalen a cerca del 17% de la pensión mensual de un jubilado cubano",
-"bajada": "Luis Lacosta, diseñador escenográfico retirado, pagó 650 pesos cubanos, unos USD 27, por los vegetales, frente a un ingreso de 3.800 pesos, según una publicación recogida por CiberCuba en redes sociales",
-"fecha": "2026-11-25T01:13:17+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "d78eeabebe09": {
 "id": "d78eeabebe09",
@@ -1016,7 +800,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 3,
@@ -1039,8 +823,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-27T00:32:06+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 75
 },
 "5c2f8401ee5f": {
@@ -1095,7 +879,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 46,
@@ -1175,7 +959,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -1495,7 +1279,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1539,28 +1323,10 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas",
 "home_mejor_pos": 35
-},
-"b35e43779a14": {
-"id": "b35e43779a14",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/primer-ministro-haitiano-defiende-acuerdo-con-el-salvador-contra-las-pandillas-la-poblacion-tiene-derecho-a-un-pais-sin-miedo/",
-"titulo": "Primer ministro haitiano defiende acuerdo con El Salvador: “La población tiene derecho a un país sin miedo”",
-"bajada": "Alix Didier Fils-Aimé respondió a Amnistía Internacional y sostuvo que las garantías individuales y la transparencia deben regir toda operación de seguridad, sin ignorar la violencia que las bandas ejercen sobre gran parte de Haití",
-"fecha": "2026-11-25T00:23:08+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "039e158084e4": {
 "id": "039e158084e4",
@@ -1658,7 +1424,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 16
@@ -1717,7 +1483,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 12
@@ -1786,24 +1552,6 @@
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 23
 },
-"62673dfa8655": {
-"id": "62673dfa8655",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/baltimore-tendra-una-nueva-ruta-sin-escalas-a-el-salvador-con-extension-hacia-guatemala/",
-"titulo": "Baltimore tendrá una nueva ruta sin escalas a El Salvador con extensión hacia Guatemala",
-"bajada": "La empresa prevé hasta dos frecuencias por semana desde BWI Marshall durante el período estival, como parte de su crecimiento internacional y de su oferta regional para pasajeros locales y visitantes",
-"fecha": "2026-11-25T00:14:27+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "59ccee11b538": {
 "id": "59ccee11b538",
 "diario": "cronista",
@@ -1841,24 +1589,6 @@
 "tema": "futbol",
 "motivo": "seccion:futbol",
 "home_mejor_pos": 15
-},
-"9eb91f191acb": {
-"id": "9eb91f191acb",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/25/la-diplomacia-familiar-del-regimen-de-nicaragua-maurice-y-laureano-ortega-amplian-presencia-en-rusia-china-y-bielorrusia/",
-"titulo": "La diplomacia familiar del régimen de Nicaragua: Maurice y Laureano Ortega amplían presencia en Rusia, China y Bielorrusia",
-"bajada": "Maurice Ortega Murillo integra una comitiva deportiva en Beijing, mientras Laureano Ortega Murillo prepara una gira para afianzar vínculos políticos y económicos con Moscú y Minsk durante la última semana de noviembre",
-"fecha": "2026-11-25T00:11:00+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "208179b48ba2": {
 "id": "208179b48ba2",
@@ -1918,7 +1648,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2062,7 +1792,7 @@
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-25T05:15:34+00:00",
 "tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol,river"
+"motivo": "seccion:deportes+palabras:futbol,river+salvo_local:river"
 },
 "218bbf9f1ed1": {
 "id": "218bbf9f1ed1",
@@ -2199,7 +1929,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2549,8 +2279,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T22:31:56+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "8333d126ebdc": {
 "id": "8333d126ebdc",
@@ -2781,7 +2511,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "ciudad",
 "motivo": "palabras:avellaneda"
 },
@@ -2855,7 +2585,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2873,7 +2603,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 17
@@ -2974,8 +2704,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T22:31:56+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 37
 },
 "620f1b222ab7": {
@@ -3036,7 +2766,7 @@
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-27T00:32:06+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol",
+"motivo": "seccion:futbol+salvo_local:boca",
 "home_mejor_pos": 14
 },
 "bf22da6b9363": {
@@ -3109,8 +2839,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T22:31:56+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "1ab791a20b61": {
 "id": "1ab791a20b61",
@@ -3256,7 +2986,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 18
@@ -3411,7 +3141,7 @@
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T22:31:56+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:estudiantes",
 "home_mejor_pos": 48
 },
 "bb56cbf14a47": {
@@ -3473,8 +3203,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T22:31:56+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "c596d5919d6f": {
 "id": "c596d5919d6f",
@@ -3994,8 +3724,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T22:31:56+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 76
 },
 "910cc848d26c": {
@@ -4013,8 +3743,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T22:31:56+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "5e7ea2e49709": {
 "id": "5e7ea2e49709",
@@ -4055,24 +3785,6 @@
 "motivo": "seccion:basquet",
 "home_mejor_pos": 127
 },
-"5a786039ae91": {
-"id": "5a786039ae91",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/tragedia-en-honduras-nino-de-seis-anos-murio-tras-ser-trasladado-en-bus-por-falta-de-ambulancia-en-lempira/",
-"titulo": "Tragedia en Honduras: niño de seis años murió tras ser trasladado en bus por falta de ambulancia en Lempira",
-"bajada": "Isaías Gabriel López presentó diarrea, vómitos y fiebre, por lo que necesitaba atención médica urgente; sin embargo, su familia denunció que no tenía dinero para contratar transporte privado y tampoco encontró una ambulancia disponible.",
-"fecha": "2026-11-24T22:55:30+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "7de254652b24": {
 "id": "7de254652b24",
 "diario": "infobae",
@@ -4087,7 +3799,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -4268,8 +3980,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T22:31:56+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "a04432aa89fc": {
 "id": "a04432aa89fc",
@@ -4494,7 +4206,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -4516,24 +4228,6 @@
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
-"39b5e5ce48ed": {
-"id": "39b5e5ce48ed",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/de-maribel-arrieta-a-sofia-cordova-siete-decadas-de-presencia-salvadorena-en-miss-universo/",
-"titulo": "De Maribel Arrieta a Sofía Córdova: siete décadas de presencia salvadoreña en Miss Universo",
-"bajada": "Cinco avances en siete décadas, un récord que ninguna corona acompañó. La trayectoria salvadoreña en el certamen revela actuaciones memorables y una larga espera entre logros",
-"fecha": "2026-11-24T22:34:56+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "otros",
-"motivo": "palabras_otros:miss universo"
-},
 "03df6ba872ce": {
 "id": "03df6ba872ce",
 "diario": "lanacion",
@@ -4552,8 +4246,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T22:31:56+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "a0142b8c2ccc": {
 "id": "a0142b8c2ccc",
@@ -4588,26 +4282,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T22:31:56+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
-},
-"f4d3a76ea904": {
-"id": "f4d3a76ea904",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/la-seleccion-femenina-de-el-salvador-suspende-su-entrenamiento-por-una-amenaza-de-bomba-en-texas/",
-"titulo": "La selección femenina de El Salvador suspende su entrenamiento por una amenaza de bomba en Texas",
-"bajada": "La evacuación preventiva del campus de Dallas College interrumpió la práctica matutina del equipo salvadoreño, que regresó a su hotel sin incidentes mientras prepara los cuartos de final ante Estados Unidos",
-"fecha": "2026-11-24T22:31:14+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "8bcd3782b96e": {
 "id": "8bcd3782b96e",
@@ -4649,24 +4325,6 @@
 "motivo": "seccion:san-lorenzo",
 "home_mejor_pos": 109
 },
-"ac9ab941dbfd": {
-"id": "ac9ab941dbfd",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/24/diputados-aprueban-convocar-a-extraditable-juan-carlos-tam-para-investigar-posibles-vinculos-con-partido-oficialista-de-costa-rica/",
-"titulo": "Diputados aprueban convocar a extraditable Juan Carlos Tam para investigar posibles vínculos con partido oficialista de Costa Rica",
-"bajada": "El ciudadano chino-costarricense, requerido por Estados Unidos por presuntos delitos relacionados con narcotráfico y lavado de dinero, deberá ser llamado a declarar ante una comisión legislativa. También comparecerán dirigentes de Pueblo Soberano para esclarecer posibles relaciones con la campaña de…",
-"fecha": "2026-11-24T22:29:27+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "6b01fbee18d2": {
 "id": "6b01fbee18d2",
 "diario": "ole",
@@ -4682,8 +4340,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T20:31:39+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "976e0e89cafe": {
 "id": "976e0e89cafe",
@@ -4741,24 +4399,6 @@
 "tema": "politica",
 "motivo": "palabras:1"
 },
-"57d048d34eae": {
-"id": "57d048d34eae",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/el-salvador-amplia-a-usd-2500-las-compras-sin-impuestos-y-a-3500-dolares-en-fiestas-de-fin-de-ano/",
-"titulo": "El Salvador amplía a USD 2,500 las compras sin impuestos y a 3,500 dólares en fiestas de fin de año",
-"bajada": "Los viajeros que ingresen a la nación centroamericana podrán portar más mercadería reciente en sus equipajes, con una franquicia aduanera que alcanzará una cifra todavía mayor durante las festividades de Navidad y Año Nuevo",
-"fecha": "2026-11-24T22:27:48+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "7a4278e2401e": {
 "id": "7a4278e2401e",
 "diario": "ole",
@@ -4813,8 +4453,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T20:31:39+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 85
 },
 "2378a51cca70": {
@@ -4898,24 +4538,6 @@
 "motivo": "seccion:politica",
 "home_mejor_pos": 71
 },
-"c08cfc10ec6a": {
-"id": "c08cfc10ec6a",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/agente-de-policia-queda-en-prision-provisional-en-panama-tras-ser-imputado-por-violacion-agravada-de-una-menor/",
-"titulo": "Agente de policía queda en prisión provisional en Panamá tras ser imputado por violación agravada de una menor",
-"bajada": "El juez de Garantías estableció un plazo de seis meses para la investigación del hecho ocurrido el pasado 21 de noviembre en Veraguas.",
-"fecha": "2026-11-24T22:24:50+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "f149f962efa2": {
 "id": "f149f962efa2",
 "diario": "ole",
@@ -4934,24 +4556,6 @@
 "tema": "futbol",
 "motivo": "seccion:instituto"
 },
-"abe6e9bf153a": {
-"id": "abe6e9bf153a",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/24/el-aeropuerto-mundo-maya-en-peten-guatemala-preve-recibir-121-mil-pasajeros-durante-la-proxima-temporada-alta/",
-"titulo": "El aeropuerto Mundo Maya en Petén, Guatemala prevé recibir 121 mil pasajeros durante la próxima temporada alta",
-"bajada": "El administrador Edson Barrios refuerza los protocolos de seguridad ante el aumento de viajeros. Las medidas incluyen cambios en la atención al público, los controles y la coordinación de las operaciones en tierra para evitar demoras en ingresos, salas de…",
-"fecha": "2026-11-24T22:22:39+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "d424bc940235": {
 "id": "d424bc940235",
 "diario": "infobae",
@@ -4966,27 +4570,9 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
-},
-"cbc273a62ec0": {
-"id": "cbc273a62ec0",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/24/asamblea-legislativa-de-costa-rica-conforma-comision-para-investigar-a-defensora-de-los-habitantes-tras-polemica-visita-al-cacco/",
-"titulo": "Asamblea Legislativa de Costa Rica conforma comisión para investigar a defensora de los Habitantes tras polémica visita al CACCO",
-"bajada": "Cinco diputadas tendrán 15 días hábiles para investigar las actuaciones de Angie Cruickshank durante una inspección al centro penitenciario. El procedimiento podría derivar en una recomendación de destitución, aunque la jerarca rechaza las acusaciones y se niega a renunciar.",
-"fecha": "2026-11-24T22:21:07+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "be91a2a1c4fa": {
 "id": "be91a2a1c4fa",
@@ -5003,8 +4589,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T20:31:39+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "a2c5fa845077": {
 "id": "a2c5fa845077",
@@ -5024,8 +4610,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-27T00:32:06+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 32
 },
 "591a2fc2e525": {
@@ -5042,7 +4628,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "palabras:1"
 },
@@ -5061,8 +4647,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T20:31:39+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "8aadde92e8f0": {
 "id": "8aadde92e8f0",
@@ -5177,60 +4763,6 @@
 "tema": "politica",
 "motivo": "seccion:politica"
 },
-"9ece7f9c1457": {
-"id": "9ece7f9c1457",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/la-asamblea-legislativa-de-el-salvador-aprobo-860-millones-adicionales-para-el-presupuesto-de-2026/",
-"titulo": "La Asamblea Legislativa de El Salvador aprobó $860 millones adicionales para el presupuesto de 2026",
-"bajada": "La reforma, solicitada por el Ministerio de Hacienda, se financiará mediante títulos valores y permitirá cubrir compromisos de cierre anual en salud, educación, seguridad, infraestructura y programas sociales considerados prioritarios por el Ejecutivo",
-"fecha": "2026-11-24T22:10:59+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"3b2533c5670f": {
-"id": "3b2533c5670f",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/24/el-ministerio-de-gobernacion-inaugura-un-centro-de-capacitacion-antidrogas-para-fuerzas-de-seguridad-y-justicia/",
-"titulo": "El Ministerio de Gobernación inaugura un centro de capacitación antidrogas para fuerzas de seguridad y justicia",
-"bajada": "Los tres escenarios permiten simular operativos tácticos y reforzar protocolos ante sustancias químicas vinculadas al crimen organizado. El área de prácticas entrenará a unidades especializadas de la Policía Nacional Civil en condiciones controladas, para evaluar riesgos y aplicar criterios comunes…",
-"fecha": "2026-11-24T22:10:28+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"dbd60d2e037e": {
-"id": "dbd60d2e037e",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/honduras-endurece-la-presion-contra-padres-que-no-pagan-pension-alimenticia-21-detenidos/",
-"titulo": "Honduras endurece la presión contra padres que no pagan pensión alimenticia: 21 detenidos",
-"bajada": "La institución policial ejecutó requerimientos emitidos por juzgados competentes contra padres señalados de evadir deberes familiares, en acciones que no reflejan el total nacional de denuncias ni expedientes abiertos registrados.",
-"fecha": "2026-11-24T22:08:32+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "dd3ed1f18a79": {
 "id": "dd3ed1f18a79",
 "diario": "ole",
@@ -5246,8 +4778,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T20:31:39+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "c4023534ecc3": {
 "id": "c4023534ecc3",
@@ -5329,24 +4861,6 @@
 "tema": "economia",
 "motivo": "seccion:economia"
 },
-"e4e42f01847a": {
-"id": "e4e42f01847a",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/24/sequia-retrasa-la-cosecha-de-cafe-2026-2027-en-nicaragua-y-reduce-la-demanda-de-cortadores/",
-"titulo": "Sequía retrasa la cosecha de café 2026-2027 en Nicaragua y reduce la demanda de cortadores",
-"bajada": "Los productores de Las Segovias, Matagalpa y Jinotega atribuyen la maduración lenta del grano a la falta de lluvias y advierten que la persistencia del clima seco puede alterar el desarrollo de la temporada",
-"fecha": "2026-11-24T22:06:29+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "d77130f02ef1": {
 "id": "d77130f02ef1",
 "diario": "infobae",
@@ -5417,8 +4931,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T20:31:39+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 78
 },
 "7cb481cb79ea": {
@@ -5438,7 +4952,7 @@
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T16:31:11+00:00",
 "tema": "futbol",
-"motivo": "seccion:deportes+palabras:boca"
+"motivo": "seccion:deportes+palabras:boca+salvo_local:boca"
 },
 "e72a9c21d3fd": {
 "id": "e72a9c21d3fd",
@@ -5474,8 +4988,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T20:31:39+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 52
 },
 "2e51ab2a05c0": {
@@ -5574,28 +5088,6 @@
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:seleccion argentina"
 },
-"1446e469a506": {
-"id": "1446e469a506",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/fc-porto-vencio-por-1-0-a-feyenoord-por-la-champions-league-2026-nid24112026/",
-"titulo": "FC Porto venció por 1-0 a Feyenoord, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-24T21:59:50+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Feyenoord",
-"Fútbol Internacional"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
-},
 "99e63a43056d": {
 "id": "99e63a43056d",
 "diario": "ambito",
@@ -5651,7 +5143,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -5676,24 +5168,6 @@
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
-"b794a2acb006": {
-"id": "b794a2acb006",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/24/mia-dio-tiene-todo-para-ganar-miss-universo-2026-afirmo-la-ex-miss-cuba-marianela-ancheta-a-infobae/",
-"titulo": "“Mia Dio tiene todo para ganar Miss Universo 2026”, afirmó la ex Miss Cuba Marianela Ancheta a Infobae",
-"bajada": "La pionera de 2024 analiza las probabilidades de su compatriota ante la velada decisiva, el tributo a las Damas de Blanco y el doloroso desarraigo que enfrenta la diáspora",
-"fecha": "2026-11-24T21:56:04+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
-"tema": "otros",
-"motivo": "palabras_otros:miss universo"
-},
 "413b0c48d7fd": {
 "id": "413b0c48d7fd",
 "diario": "lanacion",
@@ -5715,28 +5189,6 @@
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 30
-},
-"4b11e7481068": {
-"id": "4b11e7481068",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/como-vencio-por-1-0-a-aek-athens-por-la-champions-league-2026-nid24112026/",
-"titulo": "Como venció por 1-0 a AEK Athens, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-24T21:54:33+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Fútbol Internacional",
-"Organización"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
 },
 "b5d9a9fa4dba": {
 "id": "b5d9a9fa4dba",
@@ -5833,50 +5285,6 @@
 "motivo": "seccion:economia",
 "home_mejor_pos": 11
 },
-"48e4f4a0ec12": {
-"id": "48e4f4a0ec12",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/real-madrid-vencio-por-5-1-a-psv-por-la-champions-league-2026-nid24112026/",
-"titulo": "Real Madrid venció por 5-1 a PSV, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-24T21:52:30+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Real Madrid",
-"PSV Eindhoven"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
-},
-"aaa53544a48c": {
-"id": "aaa53544a48c",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/rb-leipzig-vencio-por-3-1-a-lens-por-la-champions-league-2026-nid24112026/",
-"titulo": "RB Leipzig venció por 3-1 a Lens, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-24T21:51:20+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Fútbol Internacional",
-"fútbol exterior"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
-},
 "5aff8c7ace17": {
 "id": "5aff8c7ace17",
 "diario": "lanacion",
@@ -5930,28 +5338,6 @@
 "Champions League",
 "Arsenal Football Club",
 "Borussia Dortmund"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
-},
-"ac4c6e173bd8": {
-"id": "ac4c6e173bd8",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/real-betis-vencio-por-2-0-a-slovan-bratislava-por-la-champions-league-2026-nid24112026/",
-"titulo": "Real Betis venció por 2-0 a Slovan Bratislava, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-24T21:50:04+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Real Betis Balompié",
-"Organización"
 ],
 "edicion_impresa": false,
 "fuentes": [
@@ -6271,24 +5657,6 @@
 "tema": "sindicales",
 "motivo": "palabras:paro de,sindicato,uta"
 },
-"6535453c0caf": {
-"id": "6535453c0caf",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/el-hondureno-que-guarda-la-historia-del-mundo-en-mil-piezas-la-coleccion-que-nacio-de-un-regalo-familiar/",
-"titulo": "El hondureño que guarda la historia del mundo en mil piezas: la colección que nació de un regalo familiar",
-"bajada": "El profesor de finanzas lleva años reuniendo ejemplares internacionales a través de intercambios, compras en línea y los viajes de su hermano por distintos mares y culturas.",
-"fecha": "2026-11-24T21:35:42+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "5dddf5d96e32": {
 "id": "5dddf5d96e32",
 "diario": "clarin",
@@ -6420,60 +5788,6 @@
 "tema": "internacionales",
 "motivo": "seccion:america"
 },
-"3827ec104dfa": {
-"id": "3827ec104dfa",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/panama-busca-blindar-el-financiamiento-politico-ante-los-riesgos-emergentes/",
-"titulo": "Panamá busca blindar el financiamiento político ante los riesgos emergentes",
-"bajada": "La lucha contra la corrupción vinculada al dinero en la política en la región es constante, señalan expertos",
-"fecha": "2026-11-24T21:30:30+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"da46101bbde9": {
-"id": "da46101bbde9",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/honduras-busca-financiar-15-mil-soluciones-habitacionales/",
-"titulo": "Honduras busca financiar 15 mil soluciones habitacionales",
-"bajada": "El acuerdo, primero de un paquete crediticio de USD 400 millones, busca ampliar la inversión estatal en hogares sin acceso al financiamiento hipotecario convencional y contempla dos operaciones posteriores por USD 100 y 150 millones.",
-"fecha": "2026-11-24T21:29:15+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"38771b94a057": {
-"id": "38771b94a057",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/24/el-gobierno-de-guatemala-amplia-el-bono-social-a-350-mil-familias-en-medio-de-denuncias-por-fallas-en-el-registro-de-beneficiarios/",
-"titulo": "El gobierno de Guatemala amplía el Bono Social a 350 mil familias en medio de denuncias por fallas en el registro de beneficiarios",
-"bajada": "El Registro Social de Hogares enfrenta denuncias por demoras e irregularidades en la inscripción de beneficiarios. Los representantes de las zonas 18, 24 y 25 de la capital reportaron ante el Congreso esperas superiores a un año y pedidos repetidos…",
-"fecha": "2026-11-24T21:28:19+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "29f574950dbf": {
 "id": "29f574950dbf",
 "diario": "perfil",
@@ -6531,24 +5845,6 @@
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 47
 },
-"e11c7531bcce": {
-"id": "e11c7531bcce",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/la-css-de-panama-promete-recuperar-el-suministro-de-medicamentos-en-diciembre-ante-las-quejas-de-los-pacientes/",
-"titulo": "La CSS de Panamá promete recuperar el suministro de medicamentos en diciembre ante las quejas de los pacientes",
-"bajada": "La entidad identificó incumplimientos en las entregas de 18 productos y reconoció que la redistribución de inventarios tras el sismo de octubre agravó la situación.",
-"fecha": "2026-11-24T21:25:35+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "50fbf2e67f03": {
 "id": "50fbf2e67f03",
 "diario": "lanacion",
@@ -6568,7 +5864,7 @@
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T20:31:39+00:00",
 "tema": "futbol",
-"motivo": "seccion:deportes+palabras:boca,futbol",
+"motivo": "seccion:deportes+palabras:boca,futbol+salvo_local:boca",
 "home_mejor_pos": 27
 },
 "665f6904f678": {
@@ -6683,24 +5979,6 @@
 "tema": "economia",
 "motivo": "seccion:economia"
 },
-"46c2cd37b35b": {
-"id": "46c2cd37b35b",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/una-masa-de-aire-seco-eleva-la-radiacion-ultravioleta-a-niveles-extremos-en-panama/",
-"titulo": "Una masa de aire seco eleva la radiación ultravioleta a niveles extremos en Panamá",
-"bajada": "La escasa nubosidad favorecerá una sensación térmica de hasta 41 grados centígrados, mientras las autoridades sanitarias advierten sobre los riesgos de la exposición prolongada al sol.",
-"fecha": "2026-11-24T21:20:13+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "14d4ad1508f8": {
 "id": "14d4ad1508f8",
 "diario": "lanacion",
@@ -6738,8 +6016,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T20:31:39+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "508bde82abf0": {
 "id": "508bde82abf0",
@@ -6810,7 +6088,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -6850,42 +6128,6 @@
 "visto_ultimo": "2026-11-25T14:30:01+00:00",
 "tema": "internacionales",
 "motivo": "seccion:america"
-},
-"5db93d024f03": {
-"id": "5db93d024f03",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/24/familia-denuncia-que-una-bebe-murio-en-un-hospital-cubano-ante-la-falta-de-insumos-y-condiciones-insalubres/",
-"titulo": "Familia denuncia que una bebé murió en un hospital cubano ante la falta de insumos y condiciones insalubres",
-"bajada": "Una familiar relató presencia de insectos en la sala de neonatología, escasez de insumos y cobros informales en el Hospital Pediátrico Docente Juan Manuel Márquez, en La Habana, según una publicación difundida en redes sociales",
-"fecha": "2026-11-24T21:13:10+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T14:30:01+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"09f184886f02": {
-"id": "09f184886f02",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/24/kamankola-canta-a-capela-y-sin-filtros-la-cancion-que-acusa-a-fidel-castro-de-inventar-el-bloqueo-para-ocultar-un-genocidio/",
-"titulo": "Kamankola canta a capela y sin filtros: la canción que acusa a Fidel Castro de inventar el bloqueo para ocultar un genocidio",
-"bajada": "El músico habanero difundió en redes un fragmento sin instrumental de su composición crítica, donde cuestiona al Gobierno por la escasez, la represión y el deterioro cotidiano de la isla",
-"fecha": "2026-11-24T21:12:29+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T14:21:27+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "62a8e5cfd7fd": {
 "id": "62a8e5cfd7fd",
@@ -6949,24 +6191,6 @@
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 14
-},
-"13acc94c7e08": {
-"id": "13acc94c7e08",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/los-tres-abatidos-del-cartel-del-diablo-en-honduras-usaban-identidades-falsas-sus-familias-revelaron-quienes-eran-realmente/",
-"titulo": "Los tres abatidos del Cartel del Diablo en Honduras usaban identidades falsas: sus familias revelaron quiénes eran realmente",
-"bajada": "Los parientes llegaron a Medicina Forense de San Pedro Sula con documentos para reclamar los cadáveres y aseguraron que los nombres divulgados inicialmente por la Policía Nacional no correspondían a los fallecidos.",
-"fecha": "2026-11-24T21:10:04+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "221abb08b189": {
 "id": "221abb08b189",
@@ -7447,7 +6671,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
 },
@@ -7531,24 +6755,6 @@
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:independiente"
 },
-"3f6084988ac1": {
-"id": "3f6084988ac1",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/24/republica-dominicana-destruyo-mas-de-19-mil-armas-incautadas-en-operativos-de-seguridad/",
-"titulo": "República Dominicana destruyó más de 19 mil armas incautadas en operativos de seguridad",
-"bajada": "Más de 18.000 cuchillos y otros objetos cortantes, junto a 1.256 armas de fuego, fueron fundidas en las instalaciones de Metaldom. Desde diciembre de 2025, el acumulado ya supera las 38.000 armas y componentes eliminados.",
-"fecha": "2026-11-24T20:44:54+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "c451c7c2626c": {
 "id": "c451c7c2626c",
 "diario": "infobae",
@@ -7566,24 +6772,6 @@
 "visto_ultimo": "2026-11-27T10:33:35+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
-},
-"5bd24a30e6df": {
-"id": "5bd24a30e6df",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/24/cuatro-paises-centroamericanos-del-corredor-seco-ensayan-su-respuesta-alimentaria-ante-la-sequia-asociada-a-el-nino/",
-"titulo": "Cuatro países centroamericanos del corredor seco ensayan su respuesta alimentaria ante la sequía asociada a El Niño",
-"bajada": "La Cepal prevé que la sequía empuje a 4,8 millones de personas a la pobreza regional hacia 2030. El organismo estima además una pérdida acumulada de al menos 2% del producto interno bruto centroamericano durante los próximos tres años, por…",
-"fecha": "2026-11-24T20:43:40+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "2b2d426c8fe6": {
 "id": "2b2d426c8fe6",
@@ -7682,7 +6870,7 @@
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T20:31:39+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:boca",
 "home_mejor_pos": 35
 },
 "e4de52e1f8d1": {
@@ -7719,8 +6907,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T20:31:39+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "daacb7bf906a": {
 "id": "daacb7bf906a",
@@ -7801,26 +6989,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:gol"
-},
-"4f8e94627a31": {
-"id": "4f8e94627a31",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/24/guatemala-encabeza-la-tasa-de-feminicidios-en-america-latina-segun-el-nuevo-informe-de-la-cepal/",
-"titulo": "Guatemala encabeza la tasa de feminicidios en América Latina, según el nuevo informe de la CEPAL",
-"bajada": "Costa Rica, Panamá y República Dominicana también reportaron datos de 2025, con diferencias en el vínculo entre las víctimas y los agresores, los antecedentes de denuncias y el alcance de las medidas de protección.",
-"fecha": "2026-11-24T20:37:25+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "92e3d199ddcf": {
 "id": "92e3d199ddcf",
@@ -7903,24 +7073,6 @@
 "motivo": "seccion:seleccion",
 "home_mejor_pos": 110
 },
-"d73e432d4bd6": {
-"id": "d73e432d4bd6",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/finanzas-asegura-que-pagara-esta-semana-la-deuda-a-transportistas-de-honduras-y-cuestiona-paro-anunciado/",
-"titulo": "Finanzas asegura que pagará esta semana la deuda a transportistas de Honduras y cuestiona paro anunciado",
-"bajada": "El saldo corresponde a septiembre, por 156 millones, y a octubre, cuyo valor continúa bajo revisión, dentro de un programa que ya desembolsó más de 962 millones durante 2026 en el país.",
-"fecha": "2026-11-24T20:35:28+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "e69ca323bf74": {
 "id": "e69ca323bf74",
 "diario": "lanacion",
@@ -7961,24 +7113,6 @@
 "motivo": "seccion:economia",
 "home_mejor_pos": 20
 },
-"79884ce623b2": {
-"id": "79884ce623b2",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/planilla-estatal-de-panama-suma-mas-de-7000-funcionarios-en-un-ano/",
-"titulo": "Planilla estatal de Panamá suma más de 7,000 funcionarios en un año",
-"bajada": "El desembolso acumulado durante los primeros nueve meses de 2026 superó los $4,072 millones.",
-"fecha": "2026-11-24T20:34:14+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "ab80d7783adb": {
 "id": "ab80d7783adb",
 "diario": "lanacion",
@@ -8018,24 +7152,6 @@
 "tema": "politica",
 "motivo": "seccion:politica"
 },
-"7182eca5a56d": {
-"id": "7182eca5a56d",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/24/inauguran-en-republica-dominicana-una-nueva-terminal-de-cruceros-con-una-inversion-privada-de-usd-90-millones/",
-"titulo": "Inauguran en República Dominicana una nueva terminal de cruceros con una inversión privada de USD 90 millones",
-"bajada": "La infraestructura ubicada en el histórico Puerto Duarte de Arroyo Barril busca sumar la provincia a la oferta dominicana de cruceros mediante una alianza entre el Estado y ITM Group",
-"fecha": "2026-11-24T20:32:38+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "e3b69663f5fc": {
 "id": "e3b69663f5fc",
 "diario": "popular",
@@ -8055,24 +7171,6 @@
 "tema": "internacionales",
 "motivo": "seccion:internacionales",
 "home_mejor_pos": 18
-},
-"5123e61ca150": {
-"id": "5123e61ca150",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/cerca-de-100000-personas-padecen-psoriasis-en-panama-y-muchas-no-reciben-tratamiento/",
-"titulo": "Cerca de 100,000 personas padecen psoriasis en Panamá y muchas no reciben tratamiento",
-"bajada": "El Ministerio de Salud presentó una guía técnica de alcance nacional que busca facilitar el diagnóstico oportuno y ampliar el acceso a terapias especializadas.",
-"fecha": "2026-11-24T20:30:33+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "cc9b72980511": {
 "id": "cc9b72980511",
@@ -8260,7 +7358,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 73,
@@ -8358,8 +7456,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "10dce4cb5acb": {
 "id": "10dce4cb5acb",
@@ -8375,7 +7473,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "palabras:1"
 },
@@ -8555,7 +7653,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -8615,24 +7713,6 @@
 "tema": "economia",
 "motivo": "seccion:economia"
 },
-"67dd9d9b4b70": {
-"id": "67dd9d9b4b70",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/24/el-turismo-en-cuba-se-desploma-un-657-en-2026-golpeado-por-los-apagones-la-crisis-energetica-y-las-sanciones/",
-"titulo": "El turismo en Cuba se desploma un 65.7 % en 2026 golpeado por los apagones, la crisis energética y las sanciones",
-"bajada": "La llegada de visitantes extranjeros cayó a 507,083 entre enero y octubre. Los apagones crónicos, el desabastecimiento de combustible, el deterioro de los servicios y la salida de siete cadenas hoteleras por temor a sanciones explican el retroceso",
-"fecha": "2026-11-24T19:58:56+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "cb5ea96fb6fc": {
 "id": "cb5ea96fb6fc",
 "diario": "lanacion",
@@ -8655,24 +7735,6 @@
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 80
-},
-"52f1b93f209f": {
-"id": "52f1b93f209f",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/24/la-exvicepresidenta-roxana-baldetti-recibe-un-brazalete-electronico-para-controlar-su-arresto-domiciliario-en-guatemala/",
-"titulo": "La exvicepresidenta Roxana Baldetti recibe un brazalete electrónico para controlar su arresto domiciliario en Guatemala",
-"bajada": "Las sanciones por alterar el dispositivo de Baldetti pueden superar los diez años de prisión. La normativa también prevé multas superiores a Q 50 mil y extiende la responsabilidad penal a quienes colaboren con la manipulación del sistema de seguimiento…",
-"fecha": "2026-11-24T19:57:47+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "7c649fc3d458": {
 "id": "7c649fc3d458",
@@ -8739,24 +7801,6 @@
 "motivo": "seccion:politica",
 "home_mejor_pos": 99
 },
-"7e30a3629e7e": {
-"id": "7e30a3629e7e",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/el-salvador-prorrogo-el-regimen-de-excepcion-ante-alertas-por-reclutamiento-de-pandillas-a-menores-desde-el-exterior/",
-"titulo": "El Salvador prorrogó el régimen de excepción ante alertas por reclutamiento de pandillas a menores desde el exterior",
-"bajada": "El Gobierno de Nayib Bukele presentó la iniciativa, incorporada con dispensa de trámites durante la plenaria 136, para prolongar por 30 días las facultades extraordinarias contra las pandillas que aún operan",
-"fecha": "2026-11-24T19:53:13+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "865526e52001": {
 "id": "865526e52001",
 "diario": "lanacion",
@@ -8799,25 +7843,6 @@
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
-"035c2130b30d": {
-"id": "035c2130b30d",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/tps-bajo-presion-congresistas-piden-explicaciones-por-fallas-que-afectan-a-salvadorenos-en-estados-unidos/",
-"titulo": "TPS bajo presión: Congresistas piden explicaciones por fallas que afectan a salvadoreños en Estados Unidos",
-"bajada": "El director de INSAMI, Jizi Moza, señaló que los beneficiarios con documentos vigentes afrontan obstáculos ante entidades públicas y privadas, pese a que Washington no ha comunicado el fin de las protecciones",
-"fecha": "2026-11-24T19:50:26+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T11:58:21+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 52
-},
 "19ee16aa2a92": {
 "id": "19ee16aa2a92",
 "diario": "perfil",
@@ -8835,24 +7860,6 @@
 "visto_ultimo": "2026-11-26T18:31:24+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
-},
-"e93f38d89876": {
-"id": "e93f38d89876",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/24/las-advertencias-que-expertos-hacen-sobre-costa-rica-tras-el-primer-asesinato-de-un-periodista-en-25-anos/",
-"titulo": "Las advertencias que expertos hacen sobre Costa Rica tras el primer asesinato de un periodista en 25 años",
-"bajada": "El homicidio de Rodríguez encendió alertas entre académicos, exfuncionarios y organizaciones internacionales sobre el deterioro de las condiciones para ejercer el periodismo en el país centroamericano",
-"fecha": "2026-11-24T19:50:01+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T11:58:21+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "4ac0a3753b3a": {
 "id": "4ac0a3753b3a",
@@ -8892,24 +7899,6 @@
 "motivo": "seccion:san-lorenzo",
 "home_mejor_pos": 58
 },
-"c63a3c5daaa4": {
-"id": "c63a3c5daaa4",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/todas-las-formulas-presidenciales-a-excepcion-de-bukele-tienen-prevenciones-para-participar-en-las-elecciones-de-2027-en-el-salvador/",
-"titulo": "Todas las fórmulas presidenciales, a excepción de Bukele, tienen prevenciones para participar en las elecciones de 2027 en El Salvador",
-"bajada": "El organismo electoral otorgó tres días a los aspirantes notificados entre el 23 y el 24 de noviembre para subsanar requisitos antes de una decisión final sobre sus postulaciones en los comicios de 2027",
-"fecha": "2026-11-24T19:48:14+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T11:58:21+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "6aeb012dd9f9": {
 "id": "6aeb012dd9f9",
 "diario": "ole",
@@ -8925,8 +7914,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "8ee4f2d046a1": {
 "id": "8ee4f2d046a1",
@@ -9008,24 +7997,6 @@
 "motivo": "seccion:politica",
 "home_mejor_pos": 13
 },
-"a4fa602dc085": {
-"id": "a4fa602dc085",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/24/el-pais-que-se-vacia-nicaragua-registra-15-millones-de-habitantes-menos-por-la-migracion-masiva-ante-el-regimen/",
-"titulo": "El país que se vacía: Nicaragua registra 1.5 millones de habitantes menos por la migración masiva ante el régimen",
-"bajada": "Un cálculo de CEPAL revela cómo el éxodo acumulado bajo Daniel Ortega privó al territorio centroamericano de un millón y medio de habitantes y recortó miles de nacimientos anuales",
-"fecha": "2026-11-24T19:47:22+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T11:58:21+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "4192f708bb57": {
 "id": "4192f708bb57",
 "diario": "ambito",
@@ -9043,7 +8014,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 151
@@ -9121,24 +8092,6 @@
 "motivo": "seccion:tecnologia",
 "home_mejor_pos": 61
 },
-"2f63860839de": {
-"id": "2f63860839de",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/al-menos-17-ninos-hondurenos-permanecen-en-albergues-de-texas-durante-su-travesia-hacia-estados-unidos/",
-"titulo": "Al menos 17 niños hondureños permanecen en albergues de Texas durante su travesía hacia Estados Unidos",
-"bajada": "Las autoridades estadounidenses evalúan la reunificación con parientes, el retorno voluntario a Honduras o una deportación, tras verificar quién puede asumir la responsabilidad y cumplir los requisitos de protección correspondientes.",
-"fecha": "2026-11-24T19:45:47+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T11:47:49+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "bb3d15b633e4": {
 "id": "bb3d15b633e4",
 "diario": "clarin",
@@ -9174,7 +8127,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 139
@@ -9230,8 +8183,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 58,
 "titulos_anteriores": [
 "Resultados de la quinta fecha de la Champions League y posiciones"
@@ -9276,28 +8229,6 @@
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
-"3dc52c974758": {
-"id": "3dc52c974758",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/galatasaray-vencio-por-1-0-a-aston-villa-por-la-champions-league-2026-nid24112026/",
-"titulo": "Galatasaray venció por 1-0 a Aston Villa, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-24T19:39:08+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Fútbol Internacional",
-"Galatasaray"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T22:28:44+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
-},
 "e6852849b747": {
 "id": "e6852849b747",
 "diario": "clarin",
@@ -9335,28 +8266,6 @@
 "visto_ultimo": "2026-11-26T14:30:53+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
-},
-"452a615bd4e0": {
-"id": "452a615bd4e0",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/bodoglimt-vencio-por-1-0-a-lask-por-la-champions-league-2026-nid24112026/",
-"titulo": "Bodø/Glimt venció por 1-0 a LASK, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-24T19:36:47+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Fútbol Internacional",
-"fútbol exterior"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T22:28:44+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
 },
 "baff276730c2": {
 "id": "baff276730c2",
@@ -9663,8 +8572,8 @@
 ],
 "visto_primero": "2026-11-24T19:29:54+00:00",
 "visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 70
 },
 "90c379281206": {
@@ -10048,7 +8957,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T19:29:54+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -10222,8 +9131,8 @@
 ],
 "visto_primero": "2026-11-24T19:14:04+00:00",
 "visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 79
 },
 "2e53714a69f7": {
@@ -10357,7 +9266,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 159
@@ -10570,8 +9479,8 @@
 ],
 "visto_primero": "2026-11-24T19:14:04+00:00",
 "visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 68
 },
 "60c1105348fe": {
@@ -10895,8 +9804,8 @@
 ],
 "visto_primero": "2026-11-24T19:01:41+00:00",
 "visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "d6eeb4cb6eb2": {
 "id": "d6eeb4cb6eb2",
@@ -11036,28 +9945,10 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T19:03:26+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 62
-},
-"de955501816b": {
-"id": "de955501816b",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/24/los-cubanos-residentes-en-el-exterior-superan-a-canada-como-principal-grupo-de-visitantes-a-la-isla/",
-"titulo": "Los cubanos residentes en el exterior superan a Canadá como principal grupo de visitantes a la isla",
-"bajada": "Entre enero y octubre, la ONEI registró 132.390 emigrados, frente a 130.253 llegadas procedentes del país norteamericano, tras el desplome de los mercados turísticos tradicionales por la suspensión de conexiones aéreas directas",
-"fecha": "2026-11-24T18:56:39+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T19:01:41+00:00",
-"visto_ultimo": "2026-11-25T05:15:34+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "6879d8a20beb": {
 "id": "6879d8a20beb",
@@ -11104,25 +9995,6 @@
 "home_mejor_pos": 3,
 "home_top10_corridas": 2
 },
-"2ecad5dc7e7e": {
-"id": "2ecad5dc7e7e",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/congreso-de-honduras-analiza-endurecer-sanciones-para-menores-vinculados-al-crimen-organizado/",
-"titulo": "Congreso de Honduras analiza endurecer sanciones para menores vinculados al crimen organizado",
-"bajada": "",
-"fecha": "2026-11-24T18:54:26+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T05:15:34+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 46
-},
 "4c53b9058601": {
 "id": "4c53b9058601",
 "diario": "cronista",
@@ -11142,25 +10014,6 @@
 "visto_ultimo": "2026-11-26T18:31:24+00:00",
 "tema": "politica",
 "motivo": "seccion:economia-politica"
-},
-"226977bc8f04": {
-"id": "226977bc8f04",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/24/el-buque-hospital-usns-comfort-llegara-a-guatemala-en-el-marco-de-una-nueva-mision-humanitaria/",
-"titulo": "El buque hospital USNS Comfort llegará a Guatemala en el marco de una nueva misión humanitaria",
-"bajada": "La misión estadounidense brindará atención sanitaria y capacitación ante desastres durante su escala en Guatemala. El personal del navío colaborará con equipos locales en clínicas comunitarias y ejercicios para mejorar la coordinación logística, el traslado de recursos y la respuesta…",
-"fecha": "2026-11-24T18:53:20+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T05:15:34+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 47
 },
 "b442383d892b": {
 "id": "b442383d892b",
@@ -11234,7 +10087,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -11319,32 +10172,13 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T20:31:39+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 37,
 "titulos_anteriores": [
 "Champions League, EN VIVO"
 ],
 "titulo_de": "rss"
-},
-"6d60089f485e": {
-"id": "6d60089f485e",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/24/ocho-de-cada-10-dolares-en-remesas-que-recibio-republica-dominicana-en-octubre-llegaron-desde-estados-unidos/",
-"titulo": "Ocho de cada 10 dólares en remesas que recibió República Dominicana en octubre llegaron desde Estados Unidos",
-"bajada": "El flujo de transferencias recibido durante el mes alcanzó USD 1,108.6 millones, un aumento de 14.8% frente a octubre de 2025 y el octavo resultado consecutivo por encima de USD 1,000 millones, según el Banco Central de la República Dominicana.",
-"fecha": "2026-11-24T18:51:29+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T05:15:34+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 48
 },
 "86e62c79d871": {
 "id": "86e62c79d871",
@@ -11400,7 +10234,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 10,
@@ -11425,43 +10259,6 @@
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:torneo",
 "home_mejor_pos": 34
-},
-"c3d08de91d7c": {
-"id": "c3d08de91d7c",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/panama-impone-20-anos-de-prision-a-un-hombre-que-solicitaba-material-de-abuso-sexual-infantil-a-menores-de-argentina/",
-"titulo": "Panamá impone 20 años de prisión a un hombre que solicitaba material de abuso sexual infantil a menores de Argentina",
-"bajada": "El acusado recibió una pena de 20 años de prisión tras una investigación que involucró a autoridades de tres países, en momentos en que las denuncias por abusos aumentaron un 9% a nivel nacional.",
-"fecha": "2026-11-24T18:50:31+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T05:15:34+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 49
-},
-"dbe2e6fe3a80": {
-"id": "dbe2e6fe3a80",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/candidato-presidencial-del-partido-pcn-apuesta-por-su-experiencia-militar-para-competir-en-las-elecciones-de-2027-en-el-salvador/",
-"titulo": "Candidato presidencial del partido PCN apuesta por su experiencia militar para competir en las elecciones de 2027 en El Salvador",
-"bajada": "El aspirante del PCN afirmó que su trayectoria en la Fuerza Armada, iniciada en 1984, le permitió conocer los cambios institucionales posteriores a los Acuerdos de Paz y pretende llevarlos al Ejecutivo",
-"fecha": "2026-11-24T18:49:25+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T05:15:34+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "67c4f992a69d": {
 "id": "67c4f992a69d",
@@ -11657,27 +10454,9 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 48
-},
-"c301a10aaba4": {
-"id": "c301a10aaba4",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/el-informe-de-la-onu-sobre-haiti-que-documenta-lo-que-encontraron-las-tropas-salvadorenas-al-llegar-a-puerto-principe/",
-"titulo": "El informe de la ONU sobre Haití que documenta lo que encontraron las tropas salvadoreñas al llegar a Puerto Príncipe",
-"bajada": "Un panel de expertos contabilizó más de 3.000 muertos en seis meses en el mismo territorio donde El Salvador desplegó a sus soldados por fuera de la supervisión del organismo internacional",
-"fecha": "2026-11-24T18:45:25+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T05:15:34+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "ed186b6bf77b": {
 "id": "ed186b6bf77b",
@@ -11828,8 +10607,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 29
 },
 "f2b33f80e415": {
@@ -11847,8 +10626,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "98be7dbdf374": {
 "id": "98be7dbdf374",
@@ -12059,7 +10838,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -12639,7 +11418,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T16:31:11+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_campeon:consagracion",
 "home_mejor_pos": 73
 },
 "3193db56077d": {
@@ -13356,24 +12135,6 @@
 "motivo": "seccion:politica",
 "home_mejor_pos": 27
 },
-"8baa317670a9": {
-"id": "8baa317670a9",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/24/republica-dominicana-abre-un-plan-para-venezolanos-en-situacion-migratoria-irregular/",
-"titulo": "República Dominicana abre un plan para venezolanos en situación migratoria irregular",
-"bajada": "La medida alcanza a ciudadanos venezolanos que ingresaron legalmente entre 2014 y 2023 y permanecieron en el país tras el vencimiento de sus permisos. Tendrán 180 días para iniciar o completar el trámite",
-"fecha": "2026-11-24T17:53:02+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T04:57:48+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "887b59d9c6e8": {
 "id": "887b59d9c6e8",
 "diario": "popular",
@@ -13430,24 +12191,6 @@
 "tema": "sindicales",
 "motivo": "palabras:cgt"
 },
-"84bcae5bb321": {
-"id": "84bcae5bb321",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/24/republica-dominicana-lanza-su-plan-navideno-con-15-millones-de-raciones-de-comida-para-las-familias-mas-vulnerables/",
-"titulo": "República Dominicana lanza su plan navideño con 15 millones de raciones de comida para las familias más vulnerables",
-"bajada": "El presidente Luis Abinader presentó Navidad 360, un plan estatal que incluirá almuerzos, cenas y raciones crudas en las 32 provincias, aunque no informó el monto de inversión ni el criterio de selección",
-"fecha": "2026-11-24T17:52:30+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T03:34:31+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "7274264a21aa": {
 "id": "7274264a21aa",
 "diario": "pagina12",
@@ -13483,7 +12226,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "ciudad",
 "motivo": "palabras:quilmes"
 },
@@ -13508,24 +12251,6 @@
 "visto_ultimo": "2026-11-26T16:31:11+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:seleccion argentina"
-},
-"5afcd583ade1": {
-"id": "5afcd583ade1",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/ataque-armado-contra-un-autobus-de-transporte-publico-deja-un-muerto-y-cuatro-heridos-en-panama/",
-"titulo": "Ataque armado contra un autobús de transporte público deja un muerto y cuatro heridos en Panamá",
-"bajada": "El hecho ocurrió a plena luz del día en Chilibre, uno de los corregimientos con mayor incidencia de violencia en la capital del país.",
-"fecha": "2026-11-24T17:49:44+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T03:34:31+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "1b087b8a581f": {
 "id": "1b087b8a581f",
@@ -13582,24 +12307,6 @@
 "motivo": "seccion:ciencia-y-tecnologia",
 "home_mejor_pos": 43
 },
-"163e5937254f": {
-"id": "163e5937254f",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/la-formula-de-fraternidad-patriota-salvadorena-niega-recibir-fondos-publicos-o-privados-para-su-campana-presidencial/",
-"titulo": "La fórmula de Fraternidad Patriota Salvadoreña niega recibir fondos públicos o privados para su campaña presidencial",
-"bajada": "Orlando del Cid asegura que su campaña se sostiene sin aportes del oficialismo ni de empresas privadas. La fuente de los fondos está ligada a sus casi cuatro décadas en Houston",
-"fecha": "2026-11-24T17:48:41+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T03:34:31+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "443301049956": {
 "id": "443301049956",
 "diario": "lanacion",
@@ -13655,7 +12362,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -13836,24 +12543,6 @@
 "tema": "economia",
 "motivo": "seccion:energia-y-mineria"
 },
-"52653323a31d": {
-"id": "52653323a31d",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/quien-es-la-panamena-que-hizo-historia-como-la-primera-miss-universo-centroamericana-tras-ser-coronada-en-una-limusina/",
-"titulo": "¿Quién es la panameña que hizo historia como la primera Miss Universo centroamericana tras ser coronada en una limusina?",
-"bajada": "Tras el escándalo por la destitución de la ganadora rusa en 2002, la organización del certamen recurrió a un plan secreto para entregar el título a su primera finalista, marcando un antes y un después para Panamá y toda la…",
-"fecha": "2026-11-24T17:43:49+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T03:34:31+00:00",
-"tema": "otros",
-"motivo": "palabras_otros:miss universo"
-},
 "0bccf65b3837": {
 "id": "0bccf65b3837",
 "diario": "perfil",
@@ -13933,24 +12622,6 @@
 "tema": "otros",
 "motivo": "seccion:deportes",
 "home_mejor_pos": 42
-},
-"b15a05bcd987": {
-"id": "b15a05bcd987",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/24/la-comision-de-finanzas-aprueba-un-dictamen-de-q-1724209-millones-unos-22509-millones-de-dolares-para-el-presupuesto-guatemalteco-de-2027/",
-"titulo": "La comisión de finanzas aprueba un dictamen de Q 172.420,9 millones (unos 22.509 millones de dólares) para el presupuesto guatemalteco de 2027",
-"bajada": "El recorte a los bonos del Tesoro reduce el déficit fiscal previsto para 2027 al 3,2% del PIB. El ajuste financiero disminuye la emisión de títulos de Q 42.750 millones a Q 31.394,5 millones y mantiene la inversión pública originalmente…",
-"fecha": "2026-11-24T17:40:31+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T03:34:31+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "a3fead1adc4e": {
 "id": "a3fead1adc4e",
@@ -14056,8 +12727,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 77
 },
 "b8ae0462ac17": {
@@ -14094,7 +12765,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 15,
@@ -14117,7 +12788,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -14156,7 +12827,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 139
@@ -14335,8 +13006,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 57
 },
 "c85a1ac48285": {
@@ -14356,7 +13027,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -14752,8 +13423,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 53
 },
 "352978c31dc1": {
@@ -14989,7 +13660,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -15064,7 +13735,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 2,
@@ -15108,8 +13779,8 @@
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "c3be5ad0c7b8": {
 "id": "c3be5ad0c7b8",
@@ -15235,8 +13906,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 52,
 "titulos_anteriores": [
 "Como vs. AEK Atenas, hoy EN VIVO por la Champions League: posibles formaciones, horario y por dónde ver"
@@ -15644,7 +14315,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 105
@@ -16107,8 +14778,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 34
 },
 "01c187d6e46a": {
@@ -16212,24 +14883,6 @@
 "home_mejor_pos": 9,
 "home_top10_corridas": 2
 },
-"016f16b4941f": {
-"id": "016f16b4941f",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/24/defensa-civil-emite-una-alerta-temprana-por-lluvias-para-el-occidente-de-cuba/",
-"titulo": "Defensa Civil emite una alerta temprana por lluvias para el occidente de Cuba",
-"bajada": "El fenómeno comenzaría en las provincias del oeste y avanzaría progresivamente hacia las regiones central y oriental, mientras un frente frío llegaría entre la noche del miércoles y la madrugada del jueves",
-"fecha": "2026-11-24T16:39:17+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T03:34:31+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "56b924bbf099": {
 "id": "56b924bbf099",
 "diario": "ole",
@@ -16284,24 +14937,6 @@
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
 "tema": "ciudad",
 "motivo": "palabras:caba"
-},
-"cbeb21fa82c4": {
-"id": "cbeb21fa82c4",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/24/sismo-lento-en-el-sur-de-costa-rica-movio-hasta-14-centimetros-las-placas/",
-"titulo": "Sismo lento en el sur de Costa Rica movió hasta 14 centímetros las placas",
-"bajada": "La actividad registrada presenta características similares a episodios documentados en 2018 y 2022, aunque aún no se puede confirmar si habrá una nueva secuencia de deslizamiento",
-"fecha": "2026-11-24T16:36:44+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T03:34:31+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "d001aa9c3e13": {
 "id": "d001aa9c3e13",
@@ -16363,29 +14998,11 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "palabras:2",
 "home_mejor_pos": 3,
-"home_top10_corridas": 57
-},
-"6913acc1a038": {
-"id": "6913acc1a038",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/24/colonos-armados-cercan-comunidades-indigenas-en-nicaragua-tres-asesinados-47-familias-amenazadas-y-el-silencio-del-regimen-de-ortega/",
-"titulo": "Colonos armados cercan comunidades indígenas en Nicaragua: tres asesinados, 47 familias amenazadas y el silencio del régimen de Ortega",
-"bajada": "Los representantes miskitos y mayangnas afirmaron que las incursiones fueron comunicadas al régimen de Daniel Ortega y Rosario Murillo, pero los habitantes no recibieron resguardo ni acciones oficiales frente a la violencia reportada",
-"fecha": "2026-11-24T16:34:37+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T03:34:31+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
+"home_top10_corridas": 58
 },
 "6598dd125f27": {
 "id": "6598dd125f27",
@@ -16594,42 +15211,6 @@
 ],
 "titulo_de": "sitemap"
 },
-"00ca552117e5": {
-"id": "00ca552117e5",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/tribunal-salvadoreno-impone-penas-de-hasta-60-anos-a-129-integrantes-de-la-ms-13/",
-"titulo": "Tribunal salvadoreño impone penas de hasta 60 años a 129 integrantes de la MS-13",
-"bajada": "La autoridad judicial decretó castigos para más de un centenar de personas vinculadas a la clica Big Criminal Locos Salvatruchos por el delito de agrupaciones ilícitas en el territorio de Cuscatlán",
-"fecha": "2026-11-24T16:31:04+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T03:34:31+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"97b6aaa9cec1": {
-"id": "97b6aaa9cec1",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/24/crece-el-rechazo-empresarial-al-presupuesto-2027-de-guatemala-por-el-riesgo-de-mayor-deuda/",
-"titulo": "Crece el rechazo empresarial al presupuesto 2027 de Guatemala por el riesgo de mayor deuda",
-"bajada": "El Congreso negocia recortar Q20.000 millones del gasto antes del plazo constitucional del 30 de noviembre. La iniciativa del Ejecutivo aún carece de dictamen en la Comisión de Finanzas, requisito para llevarla al pleno, donde su falta de aprobación mantendría…",
-"fecha": "2026-11-24T16:30:36+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T03:34:31+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "7f3b73aa3070": {
 "id": "7f3b73aa3070",
 "diario": "perfil",
@@ -16703,7 +15284,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -17033,7 +15614,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 4,
@@ -17200,7 +15781,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T14:30:53+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_campeon:campeon",
 "home_mejor_pos": 78
 },
 "4f156030e646": {
@@ -17315,8 +15896,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "0e5a835a219f": {
 "id": "0e5a835a219f",
@@ -17334,7 +15915,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T14:30:53+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"motivo": "seccion:futbol-internacional+salvo_local:san lorenzo"
 },
 "86661cf2749f": {
 "id": "86661cf2749f",
@@ -17636,24 +16217,6 @@
 "motivo": "seccion:deportes+palabras:futbol,torneo",
 "home_mejor_pos": 35
 },
-"7eab70c9b08a": {
-"id": "7eab70c9b08a",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/honduras-acumula-38-requerimientos-fiscales-por-trata-y-explotacion-sexual-en-2026-advierten-desafios-para-proteger-a-las-victimas/",
-"titulo": "Honduras acumula 38 requerimientos fiscales por trata y explotación sexual en 2026: advierten desafíos para proteger a las víctimas",
-"bajada": "Lucas Valderas señaló debilidades para identificar de forma temprana a las víctimas y enfrentar las estructuras criminales, mientras la unidad especializada reportó 38 requerimientos contra 67 personas durante 2026 en el país.",
-"fecha": "2026-11-24T15:47:58+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "f88a6fa8ab4e": {
 "id": "f88a6fa8ab4e",
 "diario": "ambito",
@@ -17714,7 +16277,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -17735,7 +16298,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 40
@@ -17801,24 +16364,6 @@
 "tema": "internacionales",
 "motivo": "seccion:el-mundo"
 },
-"3b4f40a511a8": {
-"id": "3b4f40a511a8",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/panama-captura-a-alias-fulo-dengue-presunto-lider-de-una-pandilla-vinculada-con-homicidios-y-extorsiones/",
-"titulo": "Panamá captura a alias “Fulo Dengue”, presunto líder de una pandilla vinculada con homicidios y extorsiones",
-"bajada": "La Operación Acero dejó 11 detenidos en San Miguelito, uno de los distritos con mayor incidencia de violencia en el país.",
-"fecha": "2026-11-24T15:44:28+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "cdf3a08c4b84": {
 "id": "cdf3a08c4b84",
 "diario": "cronista",
@@ -17836,60 +16381,6 @@
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
-},
-"5f10bc7e8699": {
-"id": "5f10bc7e8699",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/24/republica-dominicana-supera-los-10-millones-de-visitantes-y-proyecta-125-millones-de-llegadas-en-2026/",
-"titulo": "República Dominicana supera los 10 millones de visitantes y proyecta 12.5 millones de llegadas en 2026",
-"bajada": "El Ministerio de Turismo informó que el flujo acumulado hasta octubre creció 8,2% interanual, impulsado por los ingresos aéreos y marítimos, y prevé sostener un elevado ritmo durante los dos últimos meses",
-"fecha": "2026-11-24T15:44:25+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"2b653a45c6cd": {
-"id": "2b653a45c6cd",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/el-salvador-no-enfrenta-riesgo-de-racionamiento-electrico-afirma-etesal/",
-"titulo": "El Salvador no enfrenta riesgo de racionamiento eléctrico, afirma ETESAL",
-"bajada": "El titular de la empresa transmisora aseguró que los 3,200 megavatios disponibles superan con margen el máximo consumo nacional, apoyados por fuentes diversas y obras para reforzar el traslado de la energía",
-"fecha": "2026-11-24T15:44:22+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"a5b8eb0b291b": {
-"id": "a5b8eb0b291b",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/representante-de-organizacion-civica-reconoce-la-popularidad-de-bukele-ante-las-elecciones-de-2027/",
-"titulo": "Representante de organización cívica reconoce la popularidad de Bukele ante las elecciones de 2027",
-"bajada": "A pesar de sus críticas habituales al rumbo institucional de El Salvador, el director de Acción Ciudadana, Eduardo Escobar, admitió que los partidos de oposición carecen de posibilidades reales para disputar el triunfo al oficialismo",
-"fecha": "2026-11-24T15:44:19+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "ef0ae09e5878": {
 "id": "ef0ae09e5878",
@@ -18029,7 +16520,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -19142,7 +17633,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "sindicales",
 "motivo": "palabras:ate,gremios"
 },
@@ -19204,24 +17695,6 @@
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 140
-},
-"6293113295fb": {
-"id": "6293113295fb",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/24/cuba-prioriza-formacion-de-jovenes-universitarios-para-la-fuerza-armada/",
-"titulo": "Cuba prioriza formación de jóvenes universitarios para la fuerza armada",
-"bajada": "En un video publicado por la Fuerza Armada Revolucionaria, las autoridades cubanas priorizan la formación de jóvenes estudiantes en tácticas de guerra bajo el argumento de “defender la patria”",
-"fecha": "2026-11-24T15:09:13+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "4107de5f1dd3": {
 "id": "4107de5f1dd3",
@@ -19414,8 +17887,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "0c162d3ba28e": {
 "id": "0c162d3ba28e",
@@ -19510,7 +17983,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 123
@@ -19548,7 +18021,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 84,
@@ -19673,7 +18146,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 41
@@ -19813,7 +18286,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 141
@@ -20337,8 +18810,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 70
 },
 "e0d1bf8a3108": {
@@ -20529,24 +19002,6 @@
 "motivo": "seccion:mundo",
 "home_mejor_pos": 30
 },
-"f1d17d9236b5": {
-"id": "f1d17d9236b5",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/24/cinco-ninos-y-adolescentes-de-costa-rica-competiran-en-la-olimpiada-mundial-de-robotica-2026-en-puerto-rico/",
-"titulo": "Cinco niños y adolescentes de Costa Rica competirán en la Olimpiada Mundial de Robótica 2026 en Puerto Rico",
-"bajada": "Los estudiantes, con edades entre los 10 y 15 años, lograron clasificarse tras destacar en una competencia nacional. Ahora buscarán posicionarse entre los mejores equipos del mundo en un torneo que pondrá a prueba sus habilidades tecnológicas.",
-"fecha": "2026-11-24T14:31:11+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "c707a9fc4173": {
 "id": "c707a9fc4173",
 "diario": "lanacion",
@@ -20569,60 +19024,6 @@
 "motivo": "seccion:economia",
 "home_mejor_pos": 105
 },
-"938bd9afd70c": {
-"id": "938bd9afd70c",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/buque-hospital-de-la-armada-de-estados-unidos-visitara-el-salvador-por-primera-vez-en-el-marco-de-la-mision-promesa-continua-2027/",
-"titulo": "Buque hospital de la Armada de Estados Unidos visitará El Salvador por primera vez en el marco de la misión Promesa Continua 2027",
-"bajada": "Un barco con capacidad para brindar atención médica directa, capacitación sanitaria y proyectos comunitarios recorrerá Centroamérica y Sudamérica durante más de dos meses a partir de diciembre de 2026",
-"fecha": "2026-11-24T14:31:07+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"88573ba56fed": {
-"id": "88573ba56fed",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/panama-aplica-estandares-de-seguridad-para-tratamiento-a-pacientes-de-hemodialisis/",
-"titulo": "Panamá aplica estándares de seguridad para tratamiento a pacientes de hemodiálisis",
-"bajada": "Incorpora el citrato de sodio como insumo especializado para el sellado de catéteres venosos",
-"fecha": "2026-11-24T14:31:04+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"d0d36d6f9755": {
-"id": "d0d36d6f9755",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/de-honduras-a-budapest-hesler-gamez-el-hondureno-que-destaca-en-por-su-talento-en-ciberseguridad/",
-"titulo": "De Honduras a Budapest: Hesler Gámez, el hondureño que destaca en por su talento en ciberseguridad",
-"bajada": "El profesional, formado en la UNAH y con experiencia en redes y telecomunicaciones, obtuvo la Stipendium Hungaricum tras preparar documentos, certificaciones de inglés y ahorros durante varios años de trabajo.",
-"fecha": "2026-11-24T14:31:01+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "c522c42272cf": {
 "id": "c522c42272cf",
 "diario": "ambito",
@@ -20640,42 +19041,6 @@
 "visto_ultimo": "2026-11-27T20:34:50+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
-},
-"f1107488adbe": {
-"id": "f1107488adbe",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/bomberos-de-el-salvador-capacita-a-mas-de-1400-vendedores-de-pirotecnia-para-las-fiestas-de-fin-de-ano/",
-"titulo": "Bomberos de El Salvador capacita a más de 1,400 vendedores de pirotecnia para las fiestas de fin de año",
-"bajada": "La formación es parte del trámite para obtener la licencia del Ministerio de la Defensa e incluye prevención de incendios, uso de extintores, almacenamiento y requisitos para los puestos de comercialización",
-"fecha": "2026-11-24T14:30:58+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"8e60af76060e": {
-"id": "8e60af76060e",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/muertes-violentas-de-mujeres-en-centroamerica-la-subregion-con-la-tasa-mas-alta-de-america-tiene-un-problema-de-datos-que-frena-la-respuesta-estatal/",
-"titulo": "Muertes violentas de mujeres en Centroamérica: la subregión con la tasa más alta de América tiene un problema de datos que frena la respuesta estatal",
-"bajada": "Cada 31 horas fallece una mujer de forma violenta en Honduras. Un nuevo informe de la ONU expone la magnitud del problema en las Américas, pero omite las cifras individuales de los países de la subregión",
-"fecha": "2026-11-24T14:30:55+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "0dd2812f6af8": {
 "id": "0dd2812f6af8",
@@ -21189,7 +19554,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 61
@@ -21357,7 +19722,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 147
@@ -21399,24 +19764,6 @@
 "tema": "otros",
 "motivo": "seccion:tecnologia",
 "home_mejor_pos": 31
-},
-"f7af0999c3d4": {
-"id": "f7af0999c3d4",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/la-roya-del-cafe-impulso-una-ola-migratoria-en-la-region-en-los-ultimos-quince-anos-segun-analista-migratorio/",
-"titulo": "La roya del café impulsó una ola migratoria en la región en los últimos quince años, según analista",
-"bajada": "El devastador hongo arruinó cosechas enteras en las montañas centroamericanas, combinándose con severas sequías y caídas de precios internacionales que obligaron a miles de hogares rurales a buscar refugio lejos de sus comunidades",
-"fecha": "2026-11-24T14:03:19+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "c26a869d1854": {
 "id": "c26a869d1854",
@@ -22105,7 +20452,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -22365,99 +20712,9 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T12:30:42+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
-"home_mejor_pos": 70
-},
-"8e5ddaabd11b": {
-"id": "8e5ddaabd11b",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/un-promedio-de-15-casos-de-secuestro-virtual-se-registran-en-honduras-durante-el-2026/",
-"titulo": "Un promedio de 15 casos de secuestro virtual se registran en Honduras durante el 2026",
-"bajada": "La institución señaló que el contacto inicial busca generar confianza antes de las amenazas armadas y las demandas monetarias a los allegados, una vez que los prestadores llegan al destino acordado.",
-"fecha": "2026-11-24T13:34:35+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"abc4918d7a46": {
-"id": "abc4918d7a46",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/24/nicaragua-suena-en-grande-jasmine-blandford-cuenta-con-la-guia-de-sheynnis-palacios-previo-a-la-final-de-miss-universo/",
-"titulo": "Nicaragua sueña en grande: Jasmine Blandford cuenta con la guía de Sheynnis Palacios previo a la final de Miss Universo",
-"bajada": "El respaldo de una reina histórica se hizo sentir en San Juan. Sheynnis Palacios se reencontró con Jasmine Blandford momentos antes de su pasarela en traje de gala durante la preliminar de Miss Universo 2026, brindándole consejos clave de cara…",
-"fecha": "2026-11-24T13:34:32+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
 "tema": "otros",
-"motivo": "palabras_otros:miss universo"
-},
-"eb5512d7cdbc": {
-"id": "eb5512d7cdbc",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/24/mas-de-4000-refugiados-perderan-la-cobertura-medica-financiada-por-acnur-en-costa-rica/",
-"titulo": "Más de 4,000 refugiados perderán la cobertura médica financiada por Acnur en Costa Rica",
-"bajada": "El programa de aseguramiento colectivo funcionó durante siete años y permitió el acceso a consultas, medicamentos y atención especializada para personas refugiadas, solicitantes de protección internacional y apátridas.",
-"fecha": "2026-11-24T13:34:29+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"d187a77ba3e7": {
-"id": "d187a77ba3e7",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/senalan-que-mesoamerica-resguarda-el-8-de-la-biodiversidad-mundial-pero-recibe-una-fraccion-minima-de-los-fondos-climaticos/",
-"titulo": "Señalan que Mesoamérica resguarda el 8% de la biodiversidad mundial, pero recibe una fracción mínima de los fondos climáticos",
-"bajada": "Fundación PRISMA y el Consejo Civil Mexicano para la Silvicultura Sostenible presentaron el documento durante la COP31 en Turquía, con propuestas sobre derechos colectivos, economías locales y financiamiento comunitario para bosques",
-"fecha": "2026-11-24T13:34:26+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"31e1cc7e7ef9": {
-"id": "31e1cc7e7ef9",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/24/guatemala-acumula-34906-casos-de-sarampion-y-arriesga-su-certificacion-de-eliminacion/",
-"titulo": "Guatemala acumula 34.906 casos de sarampión y arriesga su certificación de eliminación",
-"bajada": "Las autoridades aplicaron 2,7 millones de vacunas para contener el brote nacional. La campaña alcanzó principalmente a personas de siete a 49 años y entregó dosis iniciales a lactantes, mientras la primera fase no logró la cobertura prevista, según la…",
-"fecha": "2026-11-24T13:34:23+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
+"motivo": "futbol_exterior",
+"home_mejor_pos": 70
 },
 "d23b4282d37a": {
 "id": "d23b4282d37a",
@@ -22747,8 +21004,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-27T14:33:59+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "74e578fb1de5": {
 "id": "74e578fb1de5",
@@ -22902,7 +21159,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T12:30:42+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:estudiantes",
 "home_mejor_pos": 103
 },
 "b13fa34f9ef2": {
@@ -23336,7 +21593,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -23865,7 +22122,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 44,
@@ -23891,24 +22148,6 @@
 "tema": "politica",
 "motivo": "seccion:economia-politica"
 },
-"b70762b411cd": {
-"id": "b70762b411cd",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/24/vih-en-cuba-lo-que-revela-un-informe-regional-sobre-la-prevalencia-del-virus-y-los-obstaculos-al-tratamiento/",
-"titulo": "VIH en Cuba: lo que revela un informe regional sobre la prevalencia del virus y los obstáculos al tratamiento",
-"bajada": "Un estudio elaborado por la Organización para la Cooperación y el Desarrollo Económicos (OCDE), el BID y el Banco Mundial ubica a la isla por debajo de varios países del Caribe, pero pacientes y activistas denuncian faltantes de medicamentos y…",
-"fecha": "2026-11-24T12:55:06+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "73e7a24d0122": {
 "id": "73e7a24d0122",
 "diario": "ole",
@@ -23924,8 +22163,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T12:30:42+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 85
 },
 "eeee11aae394": {
@@ -23986,8 +22225,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T12:30:42+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 109
 },
 "105f091f80a8": {
@@ -24420,8 +22659,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T12:30:42+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 102
 },
 "8528f81573b7": {
@@ -24516,7 +22755,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -24537,7 +22776,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 149
@@ -24617,100 +22856,10 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 138
-},
-"bdce3a4be3f1": {
-"id": "bdce3a4be3f1",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/24/hotel-de-costa-rica-destaca-entre-los-mejores-del-mundo-de-una-cadena-internacional-y-proyecta-nueva-marina-para-87-embarcaciones/",
-"titulo": "Hotel de Costa Rica destaca entre los mejores del mundo de una cadena internacional y proyecta nueva marina para 87 embarcaciones",
-"bajada": "Ubicado en la Península de Osa, el establecimiento acumula reconocimientos internacionales por su servicio y sostenibilidad. Su crecimiento también está impulsando la llegada de turistas a Puerto Jiménez.",
-"fecha": "2026-11-24T12:16:37+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"fe9fa36fc0d1": {
-"id": "fe9fa36fc0d1",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/24/el-tren-de-los-suenos-llevara-la-navidad-sobre-rieles-por-la-capital-guatemalteca-en-2026/",
-"titulo": "El Tren de los Sueños llevará la Navidad sobre rieles por la capital guatemalteca en 2026",
-"bajada": "El Museo del Ferrocarril de Guatemala prepara paseos familiares con Santa Claus durante cuatro fines de semana, una propuesta cultural que busca acercar su patrimonio histórico a los niños y adultos",
-"fecha": "2026-11-24T12:16:34+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"6e83dfab796f": {
-"id": "6e83dfab796f",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/panama-solicita-adherirse-al-acuerdo-sobre-tecnologia-de-la-informacion-de-la-omc/",
-"titulo": "Panamá solicita adherirse al Acuerdo sobre Tecnología de la Información de la OMC",
-"bajada": "El pacto obliga a los países miembros a eliminar aranceles sobre 201 productos tecnológicos",
-"fecha": "2026-11-24T12:16:31+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"711631d152fb": {
-"id": "711631d152fb",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/honduras-evaluara-la-rentabilidad-y-competitividad-de-la-produccion-de-arroz-maiz-y-soya/",
-"titulo": "Honduras evaluará la rentabilidad y competitividad de la producción de arroz, maíz y soya",
-"bajada": "Moisés Abraham Molina afirmó que las pruebas permitirán definir si conviene mantener los apoyos o dirigir a los productores hacia actividades con ingresos sostenibles según las condiciones de cada zona.",
-"fecha": "2026-11-24T12:16:28+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"e1284d09a09a": {
-"id": "e1284d09a09a",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/24/el-276-de-las-jovenes-dominicanas-inicio-una-union-antes-de-cumplir-los-18-anos-segun-encuesta/",
-"titulo": "El 27.6% de las jóvenes dominicanas inició una unión antes de cumplir los 18 años, según encuesta",
-"bajada": "Casi tres de diez entrevistadas de 20 a 24 años declararon haber empezado una convivencia con pareja antes de llegar a la mayoría de edad",
-"fecha": "2026-11-24T12:16:25+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "67221927de72": {
 "id": "67221927de72",
@@ -24811,8 +22960,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T10:30:25+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "65d61890cd21": {
 "id": "65d61890cd21",
@@ -24831,7 +22980,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 39
@@ -25062,7 +23211,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 68
@@ -25101,7 +23250,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T10:30:25+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_extra:muerte",
 "home_mejor_pos": 107
 },
 "2ba75da54901": {
@@ -25119,8 +23268,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T10:30:25+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 108
 },
 "5fea9be615e6": {
@@ -25252,7 +23401,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -25294,7 +23443,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "sindicales",
 "motivo": "palabras:docentes",
 "home_mejor_pos": 45
@@ -25486,7 +23635,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 146
@@ -25505,7 +23654,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 159
@@ -26967,7 +25116,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -27367,8 +25516,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T08:30:09+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 76
 },
 "50b0bca922b8": {
@@ -27483,7 +25632,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 86,
@@ -29560,226 +27709,6 @@
 "tema": "politica",
 "motivo": "seccion:politica"
 },
-"29f1ac73d23b": {
-"id": "29f1ac73d23b",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/sporting-cp-vs-manchester-united-por-la-champions-league-2026-dia-hora-y-como-seguir-online-nid24112026/",
-"titulo": "Sporting CP vs. Manchester United, por la Champions League 2026: día, hora y cómo seguir online",
-"bajada": "",
-"fecha": "2026-11-24T05:02:30+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Manchester United",
-"Fútbol Internacional"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
-},
-"ab4b087d0716": {
-"id": "ab4b087d0716",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/slavia-prague-vs-villarreal-por-la-champions-league-2026-dia-hora-y-como-seguir-online-nid24112026/",
-"titulo": "Slavia Prague vs. Villarreal, por la Champions League 2026: día, hora y cómo seguir online",
-"bajada": "",
-"fecha": "2026-11-24T05:02:20+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Villarreal Club de Fútbol",
-"Fútbol Internacional"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
-},
-"27d94e0cb6a8": {
-"id": "27d94e0cb6a8",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/shakhtar-donetsk-vs-fenerbahce-por-la-champions-league-2026-dia-hora-y-como-seguir-online-nid24112026/",
-"titulo": "Shakhtar Donetsk vs. Fenerbahçe, por la Champions League 2026: día, hora y cómo seguir online",
-"bajada": "",
-"fecha": "2026-11-24T05:02:10+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Shakhtar Donetsk",
-"Fenerbahce"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
-},
-"0b8ad2f4a63f": {
-"id": "0b8ad2f4a63f",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/sabah-vs-barcelona-por-la-champions-league-2026-dia-hora-y-como-seguir-online-nid24112026/",
-"titulo": "Sabah vs. Barcelona, por la Champions League 2026: día, hora y cómo seguir online",
-"bajada": "",
-"fecha": "2026-11-24T05:01:59+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"FC Barcelona",
-"Organización"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
-},
-"34e9598ce0a0": {
-"id": "34e9598ce0a0",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/paris-saint-germain-vs-roma-por-la-champions-league-2026-dia-hora-y-como-seguir-online-nid24112026/",
-"titulo": "Paris Saint-Germain vs. Roma, por la Champions League 2026: día, hora y cómo seguir online",
-"bajada": "",
-"fecha": "2026-11-24T05:01:49+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"PSG",
-"Roma"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
-},
-"c164f3c49396": {
-"id": "c164f3c49396",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/lille-vs-bayern-munchen-por-la-champions-league-2026-dia-hora-y-como-seguir-online-nid24112026/",
-"titulo": "Lille vs. Bayern München, por la Champions League 2026: día, hora y cómo seguir online",
-"bajada": "",
-"fecha": "2026-11-24T05:01:37+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Lille",
-"Bayern Munich"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
-},
-"5ca0150b6c20": {
-"id": "5ca0150b6c20",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/internazionale-vs-stuttgart-por-la-champions-league-2026-dia-hora-y-como-seguir-online-nid24112026/",
-"titulo": "Internazionale vs. Stuttgart, por la Champions League 2026: día, hora y cómo seguir online",
-"bajada": "",
-"fecha": "2026-11-24T05:01:25+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Fútbol Internacional",
-"fútbol exterior"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
-},
-"2d45a71dac06": {
-"id": "2d45a71dac06",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/san-jose-earthquakes-vs-houston-dynamo-fc-por-el-mls-2026-dia-hora-y-como-seguir-online-nid24112026/",
-"titulo": "San Jose Earthquakes vs. Houston Dynamo FC por el MLS 2026: día, hora y cómo seguir online",
-"bajada": "",
-"fecha": "2026-11-24T05:01:21+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"MLS",
-"Equipo de la MLS",
-"Últimas noticias de los deportes más populares en Estados Unidos"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
-},
-"69cfcc3e886d": {
-"id": "69cfcc3e886d",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/club-brugge-vs-liverpool-por-la-champions-league-2026-dia-hora-y-como-seguir-online-nid24112026/",
-"titulo": "Club Brugge vs. Liverpool, por la Champions League 2026: día, hora y cómo seguir online",
-"bajada": "",
-"fecha": "2026-11-24T05:01:07+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Liverpool Football Club",
-"Fútbol Internacional"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
-},
-"75095ca5eb72": {
-"id": "75095ca5eb72",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/atletico-de-madrid-vs-viking-por-la-champions-league-2026-dia-hora-y-como-seguir-online-nid24112026/",
-"titulo": "Atlético de Madrid vs. Viking, por la Champions League 2026: día, hora y cómo seguir online",
-"bajada": "",
-"fecha": "2026-11-24T05:00:56+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Atlético de Madrid",
-"Organización"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
-},
 "dd013afe46ad": {
 "id": "dd013afe46ad",
 "diario": "lanacion",
@@ -29801,28 +27730,6 @@
 "visto_ultimo": "2026-11-25T12:16:11+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
-},
-"9a5ba194e819": {
-"id": "9a5ba194e819",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/atletico-mineiro-vs-corinthians-por-el-brasileirao-serie-a-2026-dia-hora-y-como-seguir-online-nid24112026/",
-"titulo": "Atlético Mineiro vs. Corinthians por el Brasileirao Serie A 2026: día, hora y cómo seguir online",
-"bajada": "",
-"fecha": "2026-11-24T05:00:42+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Brasileirao",
-"Fútbol brasileño",
-"Atlético Mineiro"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
 },
 "c8317374396b": {
 "id": "c8317374396b",
@@ -30383,42 +28290,6 @@
 "tema": "internacionales",
 "motivo": "seccion:el-mundo"
 },
-"a045204c3ed2": {
-"id": "a045204c3ed2",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/24/los-17-migrantes-cubanos-que-salieron-hace-diez-dias-rumbo-a-cancun-y-de-los-que-nadie-sabe-nada/",
-"titulo": "Los 17 migrantes cubanos que salieron hace diez días rumbo a Cancún y de los que nadie sabe nada",
-"bajada": "Partieron desde Pinar del Río el 13 de noviembre con al menos un motor averiado. Las autoridades de Quintana Roo afirman no tener ningún reporte de búsqueda, mientras sus familias esperan noticias",
-"fecha": "2026-11-24T03:56:45+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"abd5f83591d7": {
-"id": "abd5f83591d7",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/24/la-empresa-de-telecomunicaciones-de-cuba-opera-solo-una-radiobase-de-cinco-en-san-german/",
-"titulo": "La Empresa de Telecomunicaciones de Cuba opera solo una radiobase de cinco en San Germán",
-"bajada": "La empresa estatal atribuyó las restricciones de telefonía móvil a dos instalaciones vandalizadas, los apagones y la falta de inversiones, mientras los daños se concentran en siete municipios de la provincia",
-"fecha": "2026-11-24T03:56:17+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "e1e64131771c": {
 "id": "e1e64131771c",
 "diario": "ambito",
@@ -30469,27 +28340,9 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
-},
-"1e9b050a9528": {
-"id": "1e9b050a9528",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/24/republica-dominicana-mantiene-el-dialogo-comercial-con-estados-unidos-ante-los-nuevos-aranceles/",
-"titulo": "República Dominicana mantiene el diálogo comercial con Estados Unidos ante los nuevos aranceles",
-"bajada": "Los legisladores estadounidenses recorrerán zonas francas e instalaciones industriales esta semana mientras las autoridades del país caribeño buscan abordar los gravámenes de entre 10% y 12,5% aplicados por Washington a 66 naciones",
-"fecha": "2026-11-24T03:44:43+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "271b43079830": {
 "id": "271b43079830",
@@ -30544,78 +28397,6 @@
 "visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
-},
-"a703fd964d4d": {
-"id": "a703fd964d4d",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/presupuesto-estatal-de-agricultura-de-2027-buscara-ampliar-la-produccion-nacional-el-riego-y-la-ayuda-climatica-en-el-salvador/",
-"titulo": "Presupuesto estatal de agricultura de 2027 buscará ampliar la producción nacional, el riego y la ayuda climática en El Salvador",
-"bajada": "La propuesta, expuesta ante la Comisión de Hacienda, contempla riego, asistencia técnica, mecanización y comercialización, mientras el funcionario negó un recorte y lo vinculó con partidas de un crédito previo del BID",
-"fecha": "2026-11-24T03:39:16+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"237311662a3f": {
-"id": "237311662a3f",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/panama-incauta-600-paquetes-de-droga-en-un-contenedor-con-ruta-de-ecuador-al-reino-unido/",
-"titulo": "Panamá incauta 600 paquetes de droga en un contenedor con ruta de Ecuador al Reino Unido",
-"bajada": "La operación se realizó este lunes en una terminal portuaria de Colón, donde las autoridades no identificaron la sustancia ni su peso, y tampoco reportaron detenidos o la remisión del expediente a la Fiscalía",
-"fecha": "2026-11-24T03:36:31+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"bf2139d64f13": {
-"id": "bf2139d64f13",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/apenas-3000-de-80000-abonados-de-energia-en-honduras-han-aprovechado-la-amnistia-para-depurar-deudas/",
-"titulo": "Apenas 3,000 de 80,000 abonados de energía en Honduras han aprovechado la amnistía para depurar deudas",
-"bajada": "El decreto establece que quienes mantengan mecanismos irregulares podrían recibir cobros por electricidad no registrada correspondientes a seis meses o más, según las condiciones contempladas en la legislación vigente del país.",
-"fecha": "2026-11-24T03:35:18+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"b7e12705e830": {
-"id": "b7e12705e830",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/24/republica-dominicana-ocupa-el-segundo-lugar-regional-en-reportes-de-abuso-sexual-infantil-en-internet-advierte-informe-global/",
-"titulo": "República Dominicana ocupa el segundo lugar regional en reportes de abuso sexual infantil en internet, advierte informe global",
-"bajada": "La nación caribeña elevó las notificaciones remitidas al NCMEC de 79.020 a 181.140 entre 2024 y 2025, con 157,23 avisos por cada 10 mil habitantes, una tasa superior al promedio latinoamericano",
-"fecha": "2026-11-24T03:35:13+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "648b72acd34c": {
 "id": "648b72acd34c",
@@ -30768,8 +28549,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T11:19:06+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "36a731190365": {
 "id": "36a731190365",
@@ -30788,24 +28569,6 @@
 "visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
-},
-"7898f079265c": {
-"id": "7898f079265c",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/24/condenan-a-prision-perpetua-al-salvadoreno-que-mato-a-machetazos-a-un-pandillero-en-usulutan/",
-"titulo": "Condenan a prisión perpetua al salvadoreño que mató a machetazos a un pandillero en Usulután",
-"bajada": "El crimen ocurrió en la isla La Pirraya tras una noche de alcohol compartida entre amigos. La condena se dictó pese a que ninguno de los imputados tiene vínculos con estructuras criminales",
-"fecha": "2026-11-24T03:21:58+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "11602ce0a6ec": {
 "id": "11602ce0a6ec",
@@ -30843,24 +28606,6 @@
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
-"8c09695193ff": {
-"id": "8c09695193ff",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/24/congreso-hondureno-prepara-reformas-a-la-ley-de-empleo-a-parcial/",
-"titulo": "Congreso hondureño prepara reformas a la Ley de Empleo a Tiempo Parcial",
-"bajada": "La comisión legislativa recibió instrucciones de Tomás Zambrano para avanzar en las conversaciones, y una iniciativa podría discutirse antes del receso de diciembre, mientras la otra requiere consultas con centrales obreras.",
-"fecha": "2026-11-24T03:19:12+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "919b043b5bb8": {
 "id": "919b043b5bb8",
 "diario": "infobae",
@@ -30878,24 +28623,6 @@
 "visto_ultimo": "2026-11-27T20:34:50+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
-},
-"fd029ed2748e": {
-"id": "fd029ed2748e",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/24/presupuesto-de-guatemala-2027-atrapado-entre-la-falta-de-acuerdos-varios-millones-en-ajustes-y-un-plazo-que-vence-en-siete-dias/",
-"titulo": "Presupuesto de Guatemala 2027 atrapado entre la falta de acuerdos, varios millones en ajustes y un plazo que vence en siete días",
-"bajada": "El Congreso dejó fuera de su agenda la iniciativa por Q192 mil millones sin que la Comisión de Finanzas haya emitido el documento que permite llevarla al pleno. Los recortes por exoneraciones a combustibles y deudas sin consenso complican aún…",
-"fecha": "2026-11-24T03:16:08+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "ae28938bbd87": {
 "id": "ae28938bbd87",
@@ -30973,24 +28700,6 @@
 "visto_ultimo": "2026-11-26T14:30:53+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,sudamericana"
-},
-"cf980e73d1e0": {
-"id": "cf980e73d1e0",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/24/el-plan-de-republica-dominicana-para-convertir-a-su-diaspora-en-motor-de-desarrollo-en-sectores-prioritarios/",
-"titulo": "El plan de República Dominicana para convertir a su diáspora en motor de desarrollo en sectores prioritarios",
-"bajada": "El Gobierno dominicano lanzó una iniciativa para identificar las capacidades profesionales de sus ciudadanos en el exterior y conectarlas con necesidades del país. La OIM acompaña el proceso, que busca ir más allá de un simple registro de profesionales.",
-"fecha": "2026-11-24T03:10:02+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "73828a5b5659": {
 "id": "73828a5b5659",
@@ -31090,24 +28799,6 @@
 "motivo": "seccion:salud",
 "home_mejor_pos": 35
 },
-"cdb54903d9b3": {
-"id": "cdb54903d9b3",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/24/la-camara-de-comercio-industrias-y-agricultura-de-panama-insta-a-mantener-la-disciplina-fiscal/",
-"titulo": "La Cámara de Comercio, Industrias y Agricultura de Panamá insta a mantener la disciplina fiscal",
-"bajada": "El gremio sostiene que la credibilidad financiera depende de la capacidad del Estado para cumplir sus compromisos y administrar los recursos",
-"fecha": "2026-11-24T03:06:23+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "d7f8e9a0c4ef": {
 "id": "d7f8e9a0c4ef",
 "diario": "pagina12",
@@ -31147,24 +28838,6 @@
 "visto_ultimo": "2026-11-25T22:57:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
-},
-"0c6430eb220c": {
-"id": "0c6430eb220c",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/24/teleton-costa-rica-2026-recaudo-421-millones-usd-935-mil-pero-no-logro-alcanzar-la-meta/",
-"titulo": "Teletón Costa Rica 2026 recaudó ₡421 millones (USD 935 mil), pero no logró alcanzar la meta",
-"bajada": "La jornada solidaria concluyó con un faltante cercano a los ₡79 millones. Los recursos se destinarán a fortalecer la atención médica de las personas adultas mayores en el Hospital Nacional de Geriatría y Gerontología.",
-"fecha": "2026-11-24T03:05:08+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:14:04+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "35bf33479bc4": {
 "id": "35bf33479bc4",
@@ -31907,24 +29580,6 @@
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
 "tema": "internacionales",
 "motivo": "palabras:3"
-},
-"fba6177a7c1c": {
-"id": "fba6177a7c1c",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/24/la-guatemalteca-elegida-como-jueza-de-trajes-nacionales-en-miss-universe-2026-y-su-camino-dentro-de-la-organizacion/",
-"titulo": "La guatemalteca elegida como jueza de trajes nacionales en Miss Universe 2026 y su camino dentro de la organización",
-"bajada": "María José Unda Contreras ocupa la vicepresidencia de Relaciones Internacionales del certamen. Su designación la coloca en el centro de una de las competencias con mayor carga cultural de la edición 75",
-"fecha": "2026-11-24T03:01:09+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T19:03:26+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "82c1b2b5d473": {
 "id": "82c1b2b5d473",

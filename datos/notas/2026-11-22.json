@@ -588,8 +588,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "4c0b09d6b5f8": {
 "id": "4c0b09d6b5f8",
@@ -1314,7 +1314,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -1369,8 +1369,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "b93aef699d94": {
 "id": "b93aef699d94",
@@ -1387,8 +1387,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "226fc4355600": {
 "id": "226fc4355600",
@@ -1499,7 +1499,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1633,7 +1633,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"motivo": "seccion:futbol-internacional+salvo_campeon:campeon"
 },
 "fd103b94b366": {
 "id": "fd103b94b366",
@@ -1650,8 +1650,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "a1a25849c662": {
 "id": "a1a25849c662",
@@ -1950,8 +1950,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "75c6ff8e2602": {
 "id": "75c6ff8e2602",
@@ -2026,8 +2026,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "bf9fc99ec3e5": {
 "id": "bf9fc99ec3e5",
@@ -2174,8 +2174,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "760d37459631": {
 "id": "760d37459631",
@@ -2326,7 +2326,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -2611,8 +2611,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "ae061a704e94": {
 "id": "ae061a704e94",
@@ -2703,8 +2703,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "5b0504704008": {
 "id": "5b0504704008",
@@ -2855,7 +2855,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
 "tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
+"motivo": "seccion:deportes+palabras:futbol+salvo_campeon:campeon"
 },
 "1ded7ea7e251": {
 "id": "1ded7ea7e251",
@@ -2890,8 +2890,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "4176e020e06d": {
 "id": "4176e020e06d",
@@ -3503,8 +3503,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "692f84cdfcaa": {
 "id": "692f84cdfcaa",
@@ -3692,8 +3692,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "8b8e5442119b": {
 "id": "8b8e5442119b",
@@ -3879,8 +3879,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "e1f37476ef44": {
 "id": "e1f37476ef44",
@@ -4312,8 +4312,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:14:04+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "8e58fa4a4c22": {
 "id": "8e58fa4a4c22",
@@ -4426,8 +4426,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:03:26+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:dt"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "4b369c8df246": {
 "id": "4b369c8df246",
@@ -4504,8 +4504,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:14:04+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:clasico,futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "1ed0431cb957": {
 "id": "1ed0431cb957",
@@ -4671,7 +4671,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -4726,7 +4726,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -5085,7 +5085,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5103,7 +5103,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 126
@@ -5122,7 +5122,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -5275,7 +5275,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5459,8 +5459,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "4a966d4320f5": {
 "id": "4a966d4320f5",
@@ -5476,7 +5476,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -5608,7 +5608,7 @@
 "ambito/rss:mundo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -5666,7 +5666,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "seccion:salud",
 "home_mejor_pos": 66
@@ -5798,7 +5798,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -5852,7 +5852,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5908,7 +5908,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-24T19:29:54+00:00",
 "tema": "futbol",
-"motivo": "seccion:deportes+palabras:river"
+"motivo": "seccion:deportes+palabras:river+salvo_local:river"
 },
 "ed1de098f20f": {
 "id": "ed1de098f20f",
@@ -5924,7 +5924,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -6719,7 +6719,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6737,7 +6737,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 }

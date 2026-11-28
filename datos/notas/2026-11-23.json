@@ -52,7 +52,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -213,8 +213,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "c119959e7d31": {
 "id": "c119959e7d31",
@@ -235,26 +235,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T09:45:51+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
-},
-"0717196b65b2": {
-"id": "0717196b65b2",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/24/el-jefe-de-mision-de-estados-unidos-en-cuba-recorrio-pinar-del-rio-y-artemisa-para-reunirse-con-activistas/",
-"titulo": "El jefe de misión de Estados Unidos en Cuba recorrió Pinar del Río y Artemisa para reunirse con activistas",
-"bajada": "La embajada informó que Mike Hammer escuchó denuncias de encarcelamientos por la expresión pacífica entre el 16 y el 20 de noviembre, durante contactos con opositores, productores independientes y familias de ambas provincias",
-"fecha": "2026-11-24T02:03:40+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-24T18:59:23+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "104d2848c1c1": {
 "id": "104d2848c1c1",
@@ -329,7 +311,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -506,28 +488,6 @@
 "tema": "politica",
 "motivo": "seccion:politica"
 },
-"a51ff818d3c5": {
-"id": "a51ff818d3c5",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/botafogo-empato-1-1-con-sao-paulo-por-el-brasileirao-serie-a-2026-nid23112026/",
-"titulo": "Botafogo empató 1-1 con São Paulo, por el Brasileirao Serie A 2026",
-"bajada": "",
-"fecha": "2026-11-24T01:04:57+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Brasileirao",
-"Fútbol brasileño",
-"Botafogo"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T05:15:34+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
-},
 "143f325fc881": {
 "id": "143f325fc881",
 "diario": "ole",
@@ -543,8 +503,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "14c391e2e5f0": {
 "id": "14c391e2e5f0",
@@ -757,8 +717,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T05:15:34+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "db5dbefb927c": {
 "id": "db5dbefb927c",
@@ -819,7 +779,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -897,8 +857,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T23:54:13+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "e1293bcb3156": {
 "id": "e1293bcb3156",
@@ -1168,8 +1128,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T10:30:25+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "a1a418f80485": {
 "id": "a1a418f80485",
@@ -1188,7 +1148,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -1394,8 +1354,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "9e3b0f480edf": {
 "id": "9e3b0f480edf",
@@ -1803,7 +1763,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 43
@@ -1944,28 +1904,6 @@
 "visto_ultimo": "2026-11-25T22:57:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
-},
-"ccafe88327fb": {
-"id": "ccafe88327fb",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/gimnasia-la-plata-vencio-por-4-2-a-newells-old-boys-por-el-torneo-clausura-2026-nid23112026/",
-"titulo": "Gimnasia La Plata venció por 4-2 a Newell's Old Boys, por el Torneo Clausura 2026",
-"bajada": "",
-"fecha": "2026-11-23T22:45:44+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Fútbol argentino",
-"Servicios Fútbol",
-"Canchallena"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T05:15:34+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol,torneo"
 },
 "02003e8712a0": {
 "id": "02003e8712a0",
@@ -2460,7 +2398,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -2484,28 +2422,6 @@
 "tema": "otros",
 "motivo": "seccion:seguridad"
 },
-"599b8e0b6609": {
-"id": "599b8e0b6609",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/brentford-vencio-por-4-0-a-everton-por-la-premier-league-2026-nid23112026/",
-"titulo": "Brentford venció por 4-0 a Everton, por la Premier League 2026",
-"bajada": "",
-"fecha": "2026-11-23T22:02:55+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Premier League",
-"Organización",
-"Everton"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T03:34:31+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
-},
 "1aac5a715c75": {
 "id": "1aac5a715c75",
 "diario": "ole",
@@ -2521,8 +2437,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T20:50:48+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "ed15a4231f6a": {
 "id": "ed15a4231f6a",
@@ -2631,7 +2547,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T20:50:48+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:estudiantes",
 "home_mejor_pos": 114
 },
 "925241615a2c": {
@@ -2738,28 +2654,6 @@
 "tema": "economia",
 "motivo": "seccion:finanzas"
 },
-"78e81bb9c404": {
-"id": "78e81bb9c404",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/levante-empato-1-1-con-elche-por-la-liga-de-espana-2026-nid23112026/",
-"titulo": "Levante empató 1-1 con Elche, por la Liga de España 2026",
-"bajada": "",
-"fecha": "2026-11-23T21:53:52+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Liga de España",
-"Levante UD",
-"Elche"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T03:34:31+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
-},
 "6850b2aee8e1": {
 "id": "6850b2aee8e1",
 "diario": "lanacion",
@@ -2854,7 +2748,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T20:50:48+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"motivo": "seccion:futbol-internacional+salvo_local:copa libertadores"
 },
 "0ccbca0844a0": {
 "id": "0ccbca0844a0",
@@ -2871,8 +2765,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T20:50:48+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 123
 },
 "f822f0f8a85e": {
@@ -2948,30 +2842,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T20:50:48+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
-},
-"34d3999fc31b": {
-"id": "34d3999fc31b",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/monza-vencio-por-3-0-a-fiorentina-por-la-liga-de-italia-2026-nid23112026/",
-"titulo": "Monza venció por 3-0 a Fiorentina, por la Liga de Italia 2026",
-"bajada": "",
-"fecha": "2026-11-23T21:37:25+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Serie A",
-"Fiorentina",
-"Fútbol Internacional"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-25T03:34:31+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "6f2e01145971": {
 "id": "6f2e01145971",
@@ -3680,8 +3552,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T20:50:48+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "4d645d71c969": {
 "id": "4d645d71c969",
@@ -4010,7 +3882,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T20:28:29+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"motivo": "seccion:futbol-internacional+salvo_local:estudiantes"
 },
 "74dd1d4c5f3d": {
 "id": "74dd1d4c5f3d",
@@ -4207,7 +4079,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 124
@@ -4380,8 +4252,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "2404b1d7c54b": {
 "id": "2404b1d7c54b",
@@ -4515,8 +4387,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "d3d0d089ac5d": {
 "id": "d3d0d089ac5d",
@@ -5004,7 +4876,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T18:28:12+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_campeon:campeon",
 "home_mejor_pos": 55
 },
 "87c9af9634df": {
@@ -5156,8 +5028,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "0496e2fe7683": {
 "id": "0496e2fe7683",
@@ -5357,8 +5229,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "d80d45288d7b": {
 "id": "d80d45288d7b",
@@ -5601,7 +5473,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -5720,7 +5592,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 148
@@ -5806,7 +5678,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -6271,7 +6143,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"motivo": "seccion:futbol-internacional+salvo_local:estudiantes"
 },
 "a71f36050f7a": {
 "id": "a71f36050f7a",
@@ -6436,8 +6308,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "b54218dcf2e7": {
 "id": "b54218dcf2e7",
@@ -6454,7 +6326,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6473,8 +6345,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "b18347d2a6ee": {
 "id": "b18347d2a6ee",
@@ -6590,7 +6462,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:sub 17",
 "home_mejor_pos": 66
 },
 "d53a4f1114e1": {
@@ -6780,7 +6652,7 @@
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T15:24:54+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"motivo": "seccion:futbol-internacional+salvo_local:estudiantes"
 },
 "5efdbb3defe3": {
 "id": "5efdbb3defe3",
@@ -7055,8 +6927,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "37fb0e462989": {
 "id": "37fb0e462989",
@@ -7347,7 +7219,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -7770,7 +7642,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -7867,8 +7739,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T14:30:01+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:dt"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "c2a33fe982e8": {
 "id": "c2a33fe982e8",
@@ -7945,8 +7817,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "b541363499c8": {
 "id": "b541363499c8",
@@ -8056,8 +7928,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T15:24:54+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "022874aa4b8e": {
 "id": "022874aa4b8e",
@@ -8903,7 +8775,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -9094,8 +8966,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T14:21:27+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "00f0fa0431d6": {
 "id": "00f0fa0431d6",
@@ -9361,8 +9233,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "da5bf48cff99": {
 "id": "da5bf48cff99",
@@ -9680,8 +9552,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 51
 },
 "aa7d33d6c809": {
@@ -9944,8 +9816,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "a72190b23a87": {
 "id": "a72190b23a87",
@@ -10111,7 +9983,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -10184,7 +10056,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -10899,7 +10771,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -11379,7 +11251,7 @@
 "cronista/rss:ultimo"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -11515,8 +11387,8 @@
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
 "visto_ultimo": "2026-11-25T12:16:11+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:dt,futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "ff0d856af33c": {
 "id": "ff0d856af33c",
@@ -14410,7 +14282,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-24T18:59:23+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },

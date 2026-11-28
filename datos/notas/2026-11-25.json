@@ -1,23 +1,4 @@
 {
-"bb32cf667158": {
-"id": "bb32cf667158",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/26/panama-busca-posicionarse-como-referente-regional-del-turismo-indigena-sostenible/",
-"titulo": "Panamá busca posicionarse como referente regional del turismo indígena sostenible",
-"bajada": "En el país se realizó la II Cumbre de Turismo Indígena de América Latina y el Caribe",
-"fecha": "2026-11-26T02:59:01+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "976ed0353c03": {
 "id": "976ed0353c03",
 "diario": "cronista",
@@ -74,28 +55,9 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente"
-},
-"24f8a4358328": {
-"id": "24f8a4358328",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/26/miss-universo-2027-en-costa-rica-el-gobierno-apuesta-por-un-impacto-millonario-en-el-turismo-y-el-comercio-nacional/",
-"titulo": "Miss Universo 2027 en Costa Rica: el Gobierno apuesta por un impacto millonario en el turismo y el comercio nacional",
-"bajada": "La presidenta Laura Fernández destacó las oportunidades económicas que podría generar el certamen internacional, mientras el Ministerio de Cultura inició coordinaciones para proyectar la imagen del país ante el mundo",
-"fecha": "2026-11-26T02:53:36+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "otros",
-"motivo": "palabras_otros:miss universo"
 },
 "f508d2dcb06f": {
 "id": "f508d2dcb06f",
@@ -112,7 +74,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:boca-juniors"
 },
@@ -133,7 +95,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:boca-juniors",
 "home_mejor_pos": 29
@@ -153,7 +115,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:boca-juniors"
 },
@@ -172,7 +134,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:boca-juniors"
 },
@@ -191,7 +153,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:boca-juniors"
 },
@@ -210,7 +172,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:boca-juniors"
 },
@@ -230,29 +192,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "diario",
 "home_mejor_pos": 36
-},
-"14b27d0f58c2": {
-"id": "14b27d0f58c2",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/26/colectivo-nicaragua-nunca-mas-demanda-el-fin-de-la-incomunicacion-de-16-mujeres-y-ninas-detenidas/",
-"titulo": "Colectivo Nicaragua Nunca Más demanda el fin de la incomunicación de 16 mujeres y niñas detenidas",
-"bajada": "Un colectivo de derechos humanos denunció que al menos 14 mujeres permanecen desaparecidas bajo custodia del Estado nicaragüense. Sus familias buscan información y no obtienen respuesta sobre paradero ni condiciones de salud.",
-"fecha": "2026-11-26T02:37:56+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "9bbed204e9d6": {
 "id": "9bbed204e9d6",
@@ -270,7 +213,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:futbol",
 "home_mejor_pos": 4,
@@ -291,7 +234,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -359,7 +302,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:boca-juniors",
 "home_mejor_pos": 33
@@ -379,7 +322,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:independiente"
 },
@@ -399,7 +342,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T04:24:15+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente,torneo"
 },
@@ -419,7 +362,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente,liga profesional",
 "home_mejor_pos": 30
@@ -443,29 +386,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:el-mundo",
 "home_mejor_pos": 17
-},
-"d04ec76896a4": {
-"id": "d04ec76896a4",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/26/wilder-eusse-la-dea-lo-vincula-con-cargamentos-de-hasta-15-toneladas-de-cocaina-y-costa-rica-aprueba-su-extradicion-a-estados-unidos/",
-"titulo": "Wilder Eusse: la DEA lo vincula con cargamentos de hasta 15 toneladas de cocaína y Costa Rica aprueba su extradición a Estados Unidos",
-"bajada": "El expresidente del Municipal Liberia, conocido con los alias de “El Soldado” y “El Tío”, es señalado por autoridades estadounidenses como presunto coordinador de una red internacional de narcotráfico que habría operado desde 2011. Un tribunal costarricense autorizó su extradición,…",
-"fecha": "2026-11-26T02:21:50+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-26T18:31:24+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "751dd4968db3": {
 "id": "751dd4968db3",
@@ -483,7 +407,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:futbol",
 "home_mejor_pos": 3,
@@ -504,7 +428,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente"
 },
@@ -567,26 +491,6 @@
 "motivo": "seccion:boca-juniors",
 "home_mejor_pos": 27
 },
-"ad3a1e5d039e": {
-"id": "ad3a1e5d039e",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/26/el-marathon-y-sus-101-anos-la-historia-de-un-club-que-forjo-la-identidad-futbolistica-de-san-pedro-sula-en-honduras/",
-"titulo": "El Marathón y sus 101 años: la historia de un club que forjó la identidad futbolística de San Pedro Sula en Honduras",
-"bajada": "La institución verde celebra su centenario más uno con nueve campeonatos nacionales, figuras históricas y una trayectoria que trasciende los resultados para convertirse en patrimonio deportivo de Honduras",
-"fecha": "2026-11-26T02:11:48+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 45
-},
 "d90d88ae06a2": {
 "id": "d90d88ae06a2",
 "diario": "lanacion",
@@ -637,46 +541,6 @@
 "tema": "otros",
 "motivo": "seccion:deportes",
 "home_mejor_pos": 21
-},
-"98806d94c0b5": {
-"id": "98806d94c0b5",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/26/panama-impulsa-acuerdos-regionales-sobre-carbono-restauracion-y-gobernanza-ambiental/",
-"titulo": "Panamá impulsa acuerdos regionales sobre carbono, restauración y gobernanza ambiental",
-"bajada": "Guatemala asumió de forma formal la relatoría del Foro, un rol que mantendrá hasta la celebración de la vigésima quinta reunión prevista para 2027",
-"fecha": "2026-11-26T02:07:11+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 46
-},
-"4dbdf49373d9": {
-"id": "4dbdf49373d9",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/26/asfura-exige-acelerar-programas-sociales-y-unir-esfuerzos-para-reducir-la-pobreza-en-honduras/",
-"titulo": "Asfura exige acelerar programas sociales y unir esfuerzos para reducir la pobreza en Honduras",
-"bajada": "El mandatario pidió optimizar los recursos públicos y aprovechar los años 2027, 2028 y 2029 para avanzar en la Política de Protección Social antes de concluir su gestión en enero de 2030.",
-"fecha": "2026-11-26T02:05:02+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 47
 },
 "ef26f0cd2a90": {
 "id": "ef26f0cd2a90",
@@ -743,26 +607,6 @@
 "tema": "futbol",
 "motivo": "seccion:futbol-primera"
 },
-"2f8e119061ab": {
-"id": "2f8e119061ab",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/26/mayoria-de-costarricenses-rechaza-reeleccion-presidencial-consecutiva-que-impulsa-el-oficialismo-revela-encuesta-de-la-ucr/",
-"titulo": "Mayoría de costarricenses rechaza reelección presidencial consecutiva que impulsa el oficialismo, revela encuesta de la UCR",
-"bajada": "El 52% de la población se opone a que un presidente pueda gobernar durante ocho años seguidos, mientras que el 41% respalda la propuesta. El rechazo es mayor entre mujeres, jóvenes y personas con estudios universitarios",
-"fecha": "2026-11-26T02:01:38+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 48
-},
 "581b9ac6b940": {
 "id": "581b9ac6b940",
 "diario": "ole",
@@ -799,7 +643,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:futbol",
 "home_mejor_pos": 22
@@ -868,29 +712,6 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
 "visto_ultimo": "2026-11-27T21:46:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:boca,futbol,independiente"
-},
-"57f17e61d710": {
-"id": "57f17e61d710",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/boca-juniors-vencio-por-2-0-a-independiente-rivadavia-por-el-torneo-clausura-2026-nid25112026/",
-"titulo": "Boca Juniors venció por 2-0 a Independiente Rivadavia, por el Torneo Clausura 2026",
-"bajada": "",
-"fecha": "2026-11-26T01:56:48+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Mundo Boca",
-"Fútbol argentino",
-"Independiente Rivadavia de Mendoza"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"titulo_de": "sitemap",
-"visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-27T10:33:35+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,futbol,independiente"
 },
@@ -1007,7 +828,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 68
@@ -1154,7 +975,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente"
 },
@@ -1272,7 +1093,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 122
@@ -1379,7 +1200,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 18
@@ -1539,7 +1360,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes",
 "home_mejor_pos": 28
@@ -1561,7 +1382,7 @@
 "visto_primero": "2026-11-26T02:29:30+00:00",
 "visto_ultimo": "2026-11-28T00:35:29+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"motivo": "seccion:futbol-internacional+salvo_local:estudiantes"
 },
 "6db87fe8a0a0": {
 "id": "6db87fe8a0a0",
@@ -1602,7 +1423,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "palabras:1"
 },
@@ -1622,27 +1443,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T02:29:30+00:00",
 "visto_ultimo": "2026-11-28T00:35:29+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
-},
-"50a8d4d25bf6": {
-"id": "50a8d4d25bf6",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/26/nicaragua-casi-la-mitad-de-los-feminicidios-entre-2018-y-2024-no-tenia-un-proceso-penal-identificado/",
-"titulo": "Nicaragua: casi la mitad de los feminicidios entre 2018 y 2024 no tenía un proceso penal identificado",
-"bajada": "La revisión de expedientes judiciales reveló que 166 de los 360 feminicidios registrados no tenían una causa penal identificable, de acuerdo con una investigación de ContraData",
-"fecha": "2026-11-26T01:14:40+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "e7a8f23f3fea": {
 "id": "e7a8f23f3fea",
@@ -1663,28 +1465,9 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
-},
-"0d4679c404fa": {
-"id": "0d4679c404fa",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/26/sin-liberacion-de-presos-politicos-sera-dificil-para-cuba-un-acercamiento-con-ee-uu-dice-cardenal-sean-patrick-omalley/",
-"titulo": "Sin liberación de presos políticos será difícil para Cuba un acercamiento con EE. UU., dice cardenal Seán Patrick O’Malley",
-"bajada": "El cardenal estadounidense sostuvo que los gestos de La Habana son necesarios para abrir conversaciones, mientras la Iglesia canaliza parte de los USD 100 millones de ayuda anunciados por Estados Unidos",
-"fecha": "2026-11-26T01:12:51+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "166956d2dfdc": {
 "id": "166956d2dfdc",
@@ -1722,7 +1505,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente"
 },
@@ -1745,36 +1528,13 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 13,
 "titulos_anteriores": [
 "Diego Santilli evidenció su oficio político en un Senado que sólo puede pensar en la reforma electoral"
 ]
-},
-"b61792a6c1fc": {
-"id": "b61792a6c1fc",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/atletico-mineiro-empato-1-1-con-corinthians-por-el-brasileirao-serie-a-2026-nid25112026/",
-"titulo": "Atlético Mineiro empató 1-1 con Corinthians, por el Brasileirao Serie A 2026",
-"bajada": "",
-"fecha": "2026-11-26T01:07:16+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Brasileirao",
-"Fútbol brasileño",
-"Atlético Mineiro"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"titulo_de": "sitemap",
-"visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-27T10:33:35+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
 },
 "ff56e8e8702a": {
 "id": "ff56e8e8702a",
@@ -1839,8 +1599,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
 "visto_ultimo": "2026-11-28T00:35:29+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 38
 },
 "8c6cafc58693": {
@@ -1859,7 +1619,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:futbol",
 "home_mejor_pos": 11
@@ -1883,7 +1643,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,futbol,independiente",
 "home_mejor_pos": 15
@@ -1953,7 +1713,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -2157,7 +1917,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 17
@@ -2222,7 +1982,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -2287,7 +2047,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 11
@@ -2398,25 +2158,6 @@
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
-"53f4c25aeceb": {
-"id": "53f4c25aeceb",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/26/el-clan-lorenzana-como-medio-siglo-de-pactos-terror-y-cooptacion-social-forjo-el-cartel-mas-arraigado-de-guatemala/",
-"titulo": "El clan Lorenzana, cómo medio siglo de pactos, terror y cooptación social forjó el cartel más arraigado de Guatemala",
-"bajada": "La designación del grupo como organización terrorista extranjera por Washington revela la escala de una estructura que sobrevivió extradiciones y recambios generacionales gracias a su integración en la vida económica y política del oriente guatemalteco",
-"fecha": "2026-11-26T00:31:27+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "79bd713cffe1": {
 "id": "79bd713cffe1",
 "diario": "lanacion",
@@ -2484,7 +2225,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T16:31:11+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 3,
@@ -2608,7 +2349,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T02:29:30+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 42
@@ -2759,9 +2500,9 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T00:29:04+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:gol"
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "e9863a90b4f7": {
 "id": "e9863a90b4f7",
@@ -2802,7 +2543,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T00:29:04+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente,sudamericana"
 },
@@ -2823,7 +2564,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T00:29:04+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 13
@@ -2939,26 +2680,6 @@
 "motivo": "seccion:boca-juniors",
 "home_mejor_pos": 24
 },
-"87042cf01be5": {
-"id": "87042cf01be5",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/26/panama-registra-la-tercera-rebaja-consecutiva-de-la-gasolina-y-el-diesel-baja-mas-de-50-centavos-por-galon/",
-"titulo": "Panamá registra la tercera rebaja consecutiva de la gasolina y el diésel baja más de 50 centavos por galón",
-"bajada": "Las nuevas tarifas estarán vigentes desde el viernes 27 de noviembre hasta el 11 de diciembre, en medio de una caída de las cotizaciones internacionales de los combustibles refinados.",
-"fecha": "2026-11-26T00:08:44+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T00:29:04+00:00",
-"visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 44
-},
 "cd5defca97b4": {
 "id": "cd5defca97b4",
 "diario": "lanacion",
@@ -3006,26 +2727,6 @@
 "home_mejor_pos": 2,
 "home_top10_corridas": 1
 },
-"bb3538fcde53": {
-"id": "bb3538fcde53",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/26/nasry-asfura-instala-gabinete-social-con-19-instituciones-para-coordinar-programas-y-combatir-la-pobreza/",
-"titulo": "Nasry Asfura instala Gabinete Social con 19 instituciones para coordinar programas y combatir la pobreza",
-"bajada": "La nueva estructura tendrá una conducción estratégica desde la Presidencia y contará con 34 instituciones en cuatro mesas técnicas. El Gobierno también prepara una Política de Protección Social con metas hasta 2037.",
-"fecha": "2026-11-26T00:07:29+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T00:29:04+00:00",
-"visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 45
-},
 "574de8bc5049": {
 "id": "574de8bc5049",
 "diario": "pagina12",
@@ -3048,26 +2749,6 @@
 "visto_ultimo": "2026-11-26T16:31:11+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
-},
-"8fd7616ebb9c": {
-"id": "8fd7616ebb9c",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/26/honduras-aixa-zelaya-pide-aprobar-ley-contra-la-violencia-politica-hacia-las-mujeres-y-denuncian-temor-de-diputados/",
-"titulo": "Honduras: Aixa Zelaya pide aprobar ley contra la violencia política hacia las mujeres y denuncian temor de diputados",
-"bajada": "La representante del Foro Mujeres Políticas, Honorina Rodríguez, aseguró que la iniciativa lleva varios periodos legislativos sin avanzar, pese a los compromisos de diferentes bancadas para respaldarla.",
-"fecha": "2026-11-26T00:05:14+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T00:29:04+00:00",
-"visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 46
 },
 "29da1a089bf2": {
 "id": "29da1a089bf2",
@@ -3151,26 +2832,6 @@
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 19
-},
-"67da4f4a75cd": {
-"id": "67da4f4a75cd",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/26/las-fuerzas-de-el-salvador-y-haiti-recuperan-el-hospital-general-de-puerto-principe-tras-dos-anos-de-ocupacion/",
-"titulo": "Las fuerzas de El Salvador y Haití recuperan el Hospital General de Puerto Príncipe tras dos años de ocupación",
-"bajada": "El centro público, empleado por las pandillas como refugio y base operativa, quedó con equipos destruidos y daños estructurales, mientras las autoridades evalúan las condiciones necesarias para restablecer la atención médica",
-"fecha": "2026-11-26T00:00:28+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-26T00:29:04+00:00",
-"visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 47
 },
 "92545f2603f1": {
 "id": "92545f2603f1",
@@ -3257,7 +2918,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T00:29:04+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas",
 "home_mejor_pos": 13
@@ -3451,8 +3112,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T23:54:13+00:00",
 "visto_ultimo": "2026-11-28T00:35:29+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 12
 },
 "d31a1af59841": {
@@ -3470,7 +3131,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-26T00:29:04+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
 },
@@ -3882,7 +3543,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T23:46:26+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,futbol,independiente",
 "home_mejor_pos": 10,
@@ -4108,7 +3769,7 @@
 "visto_primero": "2026-11-25T23:46:26+00:00",
 "visto_ultimo": "2026-11-27T22:35:10+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:copa libertadores",
 "home_mejor_pos": 80
 },
 "51b7f0db3aed": {
@@ -4126,7 +3787,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T23:46:26+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -4169,7 +3830,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T23:46:26+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 17
@@ -4191,7 +3852,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T23:46:26+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 42
@@ -4403,7 +4064,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T23:46:26+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:river"
 },
@@ -4424,8 +4085,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T23:46:26+00:00",
 "visto_ultimo": "2026-11-27T22:35:10+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 70
 },
 "4561310412b4": {
@@ -4443,7 +4104,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T23:46:26+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -4535,7 +4196,7 @@
 "visto_primero": "2026-11-25T23:46:26+00:00",
 "visto_ultimo": "2026-11-27T22:35:10+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:estudiantes",
 "home_mejor_pos": 50
 },
 "eab994b73a68": {
@@ -4618,7 +4279,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T23:46:26+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 18
@@ -4730,7 +4391,7 @@
 "visto_primero": "2026-11-25T23:46:26+00:00",
 "visto_ultimo": "2026-11-27T22:35:10+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:seleccion argentina",
 "home_mejor_pos": 45
 },
 "a98a752a9d15": {
@@ -4778,25 +4439,6 @@
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 35
 },
-"7c814f5127ee": {
-"id": "7c814f5127ee",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/solicitudes-de-refugio-de-cubanos-en-brasil-alcanzan-un-record-de-4885-en-septiembre/",
-"titulo": "Solicitudes de refugio de cubanos en Brasil alcanzan un récord de 4,885 en septiembre",
-"bajada": "Los pedidos de protección internacional sumaron 33.185 en los primeros nueve meses, un 8% más frente a 2025, y equivalieron al 60% de las peticiones nacionales, según el Observatorio de las Migraciones Internacionales",
-"fecha": "2026-11-25T22:54:32+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T23:46:26+00:00",
-"visto_ultimo": "2026-11-26T16:31:11+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "0429aeee425a": {
 "id": "0429aeee425a",
 "diario": "infobae",
@@ -4812,9 +4454,9 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:57:20+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:gol"
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "fcf9ad6fda8f": {
 "id": "fcf9ad6fda8f",
@@ -4852,7 +4494,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:57:20+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -4898,26 +4540,6 @@
 "tema": "futbol",
 "motivo": "seccion:futbol-ascenso",
 "home_mejor_pos": 129
-},
-"75366900ab60": {
-"id": "75366900ab60",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/25/el-exvicepresidente-nicaraguense-en-el-exilio-sergio-ramirez-mantiene-la-esperanza-de-volver-aunque-no-ve-un-cambio-cercano/",
-"titulo": "El exvicepresidente nicaragüense en el exilio Sergio Ramírez mantiene la esperanza de volver, aunque no ve un cambio cercano",
-"bajada": "El exvicepresidente, exiliado desde 2021, afirmó que solo volvería cuando cesara el riesgo de represalias, hubiera libertades públicas y los medios pudieran operar sin restricciones bajo otra administración en el país",
-"fecha": "2026-11-25T22:46:49+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:57:20+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 45
 },
 "32fc9909d873": {
 "id": "32fc9909d873",
@@ -5077,9 +4699,9 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:57:20+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:gol",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 80
 },
 "470c892aab4d": {
@@ -5166,7 +4788,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:57:20+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -5185,7 +4807,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:57:20+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -5273,26 +4895,6 @@
 "motivo": "seccion:novedades-fiscales",
 "home_mejor_pos": 71
 },
-"c93906b529c8": {
-"id": "c93906b529c8",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/instituto-oncologico-realiza-la-primera-cirugia-para-tratar-el-cancer-avanzado-en-panama/",
-"titulo": "Instituto Oncológico realiza la primera cirugía para tratar el cáncer avanzado en Panamá",
-"bajada": "Se trata de un procedimiento que hasta ahora obligaba a los pacientes a viajar al extranjero, dijeron las autoridades de salud",
-"fecha": "2026-11-25T22:37:06+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:57:20+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 46
-},
 "712e18ec3e21": {
 "id": "712e18ec3e21",
 "diario": "ole",
@@ -5309,8 +4911,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T22:57:20+00:00",
 "visto_ultimo": "2026-11-27T22:35:10+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "e5ea10eda865": {
 "id": "e5ea10eda865",
@@ -5586,7 +5188,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:57:20+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -5629,8 +5231,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T21:46:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "65129c22b3fc": {
 "id": "65129c22b3fc",
@@ -5652,26 +5254,6 @@
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 57
 },
-"aeaca065c714": {
-"id": "aeaca065c714",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/al-menos-24-feminicidios-ocurrieron-en-el-salvador-durante-2026-segun-organizaciones-de-mujeres/",
-"titulo": "Al menos 24 feminicidios ocurrieron en El Salvador durante 2026, según organizaciones de mujeres",
-"bajada": "Los colectivos señalaron que contabilizaron 26 asesinatos por razones de género en 2025 y atribuyeron su monitoreo a la ausencia de estadísticas estatales de acceso público sobre esos crímenes en el país",
-"fecha": "2026-11-25T22:25:56+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:57:20+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 47
-},
 "318f27b3d407": {
 "id": "318f27b3d407",
 "diario": "ole",
@@ -5689,8 +5271,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T21:46:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 79
 },
 "dce60e4840a7": {
@@ -5789,66 +5371,6 @@
 "motivo": "seccion:deportes",
 "home_mejor_pos": 38
 },
-"4e9347c17259": {
-"id": "4e9347c17259",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/la-congresista-democrata-delia-ramirez-encabeza-un-reclamo-al-congreso-por-la-muerte-de-un-exfiscal-anticorrupcion-en-guatemala/",
-"titulo": "La congresista Demócrata Delia Ramírez encabeza un reclamo al Congreso por la muerte de un exfiscal anticorrupción en Guatemala",
-"bajada": "El Ministerio Público confirma a Barrio 18 como autor material de los asesinatos de Solórzano Foppa y Aguilar. La fiscalía mantiene abiertas las pesquisas para establecer responsabilidades intelectuales y una posible participación de agentes policiales en la planificación del ataque…",
-"fecha": "2026-11-25T22:21:48+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 46
-},
-"632264aac295": {
-"id": "632264aac295",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/crisis-de-medicamentos-en-panama-la-css-revela-nuevos-incumplimientos-millonarios-de-sus-proveedores/",
-"titulo": "Crisis de medicamentos en Panamá: la CSS revela nuevos incumplimientos millonarios de sus proveedores",
-"bajada": "Más de ocho millones de tabletas corresponden a tratamientos para controlar la diabetes, mientras la institución evalúa nuevas sanciones contra las empresas.",
-"fecha": "2026-11-25T22:20:20+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 47
-},
-"f7524f13a67f": {
-"id": "f7524f13a67f",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/guatemala-el-politico-roberto-arzu-exige-al-presidente-de-diario-republica-gt-una-retractacion-publica-en-cinco-dias-para-evitar-una-demanda-civil/",
-"titulo": "Guatemala: el político Roberto Arzú exige al presidente de Diario República GT, una retractación pública en cinco días para evitar una demanda civil",
-"bajada": "El dirigente niega haber planeado un ataque contra Arenas y cita su declaración jurada en Guatemala. En un video difundido el miércoles, Roberto Arzú García-Granados afirmó que nunca participó en acciones para dañar al editor de República y sostuvo que…",
-"fecha": "2026-11-25T22:20:00+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 48
-},
 "e374d0a8e02e": {
 "id": "e374d0a8e02e",
 "diario": "ole",
@@ -5865,8 +5387,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T21:46:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "34198a16d394": {
 "id": "34198a16d394",
@@ -5885,8 +5407,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T22:35:10+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:gol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "d6dbce6de680": {
 "id": "d6dbce6de680",
@@ -5926,7 +5448,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 17
@@ -6083,28 +5605,9 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T21:46:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 32
-},
-"c1dc79754ef6": {
-"id": "c1dc79754ef6",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/25/costa-rica-habria-perdido-usd-2000-millones-por-la-extraccion-ilegal-de-oro-en-crucitas-se-nos-esta-saliendo-de-las-manos/",
-"titulo": "Costa Rica habría perdido USD 2,000 millones por la extracción ilegal de oro en Crucitas: “Se nos está saliendo de las manos”",
-"bajada": "La presidenta Laura Fernández advirtió sobre la expansión de actividades criminales en la zona norte del país y exigió a la Asamblea Legislativa endurecer las sanciones contra quienes se dedican a la explotación minera ilegal",
-"fecha": "2026-11-25T22:14:01+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "f016c965d86e": {
 "id": "f016c965d86e",
@@ -6231,7 +5734,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "ciudad",
 "motivo": "seccion:ciudades"
 },
@@ -6338,7 +5841,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -6380,8 +5883,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T21:46:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "7f27ca8f51d8": {
 "id": "7f27ca8f51d8",
@@ -6399,8 +5902,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T21:46:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "d46d34bcf7e6": {
 "id": "d46d34bcf7e6",
@@ -6418,8 +5921,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T21:46:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "f3acd7724bb4": {
 "id": "f3acd7724bb4",
@@ -6460,8 +5963,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T21:46:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "cc34276d4803": {
 "id": "cc34276d4803",
@@ -6525,7 +6028,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 121
@@ -6547,8 +6050,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T21:46:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:gol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "368f9f5f251f": {
 "id": "368f9f5f251f",
@@ -6588,8 +6091,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T21:46:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "b5c2db164b48": {
 "id": "b5c2db164b48",
@@ -6610,7 +6113,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:el-mundo",
 "home_mejor_pos": 11
@@ -6661,75 +6164,6 @@
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
-"1c7fcde480f2": {
-"id": "1c7fcde480f2",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/liverpool-vencio-por-3-0-a-club-brugge-por-la-champions-league-2026-nid25112026/",
-"titulo": "Liverpool venció por 3-0 a Club Brugge, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-25T21:54:45+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Liverpool Football Club",
-"Fútbol Internacional"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"titulo_de": "sitemap",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-27T04:32:46+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
-},
-"0b6f9f94d1bc": {
-"id": "0b6f9f94d1bc",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/fenerbahce-vencio-por-1-0-a-shakhtar-donetsk-por-la-champions-league-2026-nid25112026/",
-"titulo": "Fenerbahçe venció por 1-0 a Shakhtar Donetsk, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-25T21:54:36+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Fenerbahce",
-"Shakhtar Donetsk"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"titulo_de": "sitemap",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-27T04:32:46+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
-},
-"b903f8da8382": {
-"id": "b903f8da8382",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/internazionale-vencio-por-2-0-a-stuttgart-por-la-champions-league-2026-nid25112026/",
-"titulo": "Internazionale venció por 2-0 a Stuttgart, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-25T21:53:39+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Fútbol Internacional",
-"fútbol exterior"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"titulo_de": "sitemap",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-27T04:32:46+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
-},
 "e3168692e7fc": {
 "id": "e3168692e7fc",
 "diario": "infobae",
@@ -6745,7 +6179,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -6796,52 +6230,6 @@
 "motivo": "palabras:reforma laboral",
 "home_mejor_pos": 19
 },
-"f49f803f911b": {
-"id": "f49f803f911b",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/lille-vencio-por-2-1-a-bayern-munchen-por-la-champions-league-2026-nid25112026/",
-"titulo": "Lille venció por 2-1 a Bayern München, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-25T21:52:29+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Lille",
-"Bayern Munich"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"titulo_de": "sitemap",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-27T04:32:46+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
-},
-"0d42c733649d": {
-"id": "0d42c733649d",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/atletico-de-madrid-vencio-por-2-0-a-viking-por-la-champions-league-2026-nid25112026/",
-"titulo": "Atlético de Madrid venció por 2-0 a Viking, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-25T21:51:18+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Atlético de Madrid",
-"Organización"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"titulo_de": "sitemap",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-27T04:32:46+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
-},
 "cb65f71b04d0": {
 "id": "cb65f71b04d0",
 "diario": "pagina12",
@@ -6885,7 +6273,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:economia-politica",
 "home_mejor_pos": 53
@@ -7000,25 +6388,6 @@
 "motivo": "seccion:salud",
 "home_mejor_pos": 89
 },
-"b9fe7e728914": {
-"id": "b9fe7e728914",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/oxford-economics-preve-que-la-economia-cubana-se-contraiga-un-25-en-2027/",
-"titulo": "Oxford Economics prevé que la economía cubana se contraiga un 2.5% en 2027",
-"bajada": "La consultora británica anticipa una inflación promedio del 30% y una caída del consumo del 5,5%, mientras la crisis energética y el deterioro de la infraestructura limitarán la actividad productiva de la isla",
-"fecha": "2026-11-25T21:46:24+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "645b2343e373": {
 "id": "645b2343e373",
 "diario": "ambito",
@@ -7124,25 +6493,6 @@
 "visto_ultimo": "2026-11-27T20:34:50+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
-},
-"274ebc19e1d6": {
-"id": "274ebc19e1d6",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/25/femicidios-aumentaron-un-30-en-costa-rica-y-tentativas-de-asesinato-contra-mujeres-se-dispararon-un-82-en-cinco-anos/",
-"titulo": "Femicidios aumentaron un 30% en Costa Rica y tentativas de asesinato contra mujeres se dispararon un 82% en cinco años",
-"bajada": "Las estadísticas oficiales del INEC revelan que durante 2025 se registraron 39 femicidios, 207 tentativas y más de 25,600 denuncias por violencia contra las mujeres. Los casos también reflejan un incremento de las víctimas que necesitan refugio ante amenazas de…",
-"fecha": "2026-11-25T21:42:38+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "a00870bf3453": {
 "id": "a00870bf3453",
@@ -7313,7 +6663,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -7530,7 +6880,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -7572,7 +6922,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 49
@@ -7660,7 +7010,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 66
@@ -7684,7 +7034,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 30
@@ -7725,7 +7075,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -7745,8 +7095,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T20:34:50+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "a805329abf26": {
 "id": "a805329abf26",
@@ -7904,25 +7254,6 @@
 "tema": "futbol",
 "motivo": "seccion:river-plate"
 },
-"d08a2686dd84": {
-"id": "d08a2686dd84",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/doce-dias-sin-noticias-de-una-lancha-con-migrantes-cubanos-que-sufrio-una-averia-rumbo-a-cancun/",
-"titulo": "Doce días sin noticias de una lancha con migrantes cubanos que sufrió una avería rumbo a Cancún",
-"bajada": "La embarcación salió el 13 de noviembre de Bailén, Pinar del Río, y perdió comunicación tras reportar averías en sus dos motores durante la travesía por el estrecho de Yucatán",
-"fecha": "2026-11-25T21:15:10+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "96f00b83b69c": {
 "id": "96f00b83b69c",
 "diario": "ole",
@@ -7957,7 +7288,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes",
 "home_mejor_pos": 82
@@ -8022,7 +7353,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "seccion:deportes"
 },
@@ -8064,25 +7395,6 @@
 "visto_ultimo": "2026-11-27T20:34:50+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
-},
-"43bf99bdd2da": {
-"id": "43bf99bdd2da",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/25/republica-dominicana-reconocio-a-151-estudiantes-con-el-galardon-de-maxima-excelencia-en-educacion/",
-"titulo": "República Dominicana reconoció a 151 estudiantes con el Galardón de Máxima Excelencia en Educación",
-"bajada": "El presidente Luis Abinader entregó el Galardón Diploma de Máxima Excelencia 2025-2026 a alumnos de las 18 regionales educativas del país. Crisbel Almánzar Santos, de San Francisco de Macorís, obtuvo el primer lugar nacional y recibió una distinción especial del…",
-"fecha": "2026-11-25T21:11:57+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "2284e6085dfa": {
 "id": "2284e6085dfa",
@@ -8216,8 +7528,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T22:35:10+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 19
 },
 "ce1b137b3d98": {
@@ -8300,25 +7612,6 @@
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
-"590fcb97c5f6": {
-"id": "590fcb97c5f6",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/25/la-pobreza-multidimensional-en-republica-dominicana-cae-al-203-en-2025-anuncia-el-gobierno/",
-"titulo": "La pobreza multidimensional en República Dominicana cae al 20.3% en 2025, anuncia el gobierno",
-"bajada": "El indicador descendió 23,8 puntos porcentuales desde 2016 y quedó por debajo de la mitad del nivel de una década antes, tras evaluar carencias en salud, educación, servicios básicos y energía",
-"fecha": "2026-11-25T21:06:36+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "c275da7d2431": {
 "id": "c275da7d2431",
 "diario": "infobae",
@@ -8334,7 +7627,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
 },
@@ -8383,25 +7676,6 @@
 "motivo": "seccion:river-plate",
 "home_mejor_pos": 34
 },
-"085b8297667e": {
-"id": "085b8297667e",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/la-economia-guatemalteca-queda-fuera-de-la-nueva-ronda-arancelaria-de-estados-unidos-para-14-economias/",
-"titulo": "La economía guatemalteca queda fuera de la nueva ronda arancelaria de Estados Unidos para 14 economías",
-"bajada": "El 70% de las exportaciones guatemaltecas mantiene el gravamen del 10% en Estados Unidos. La carga comercial sigue afectando a al menos siete de cada diez productos enviados al principal mercado externo del país, pese a que no fue incluido…",
-"fecha": "2026-11-25T21:04:10+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "4508233c064a": {
 "id": "4508233c064a",
 "diario": "clarin",
@@ -8421,25 +7695,6 @@
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 37
-},
-"0056650411a4": {
-"id": "0056650411a4",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/25/no-estoy-profugo-rompe-el-silencio-el-presunto-involucrado-de-la-muerte-de-la-empresaria-dominicana-melissa-medina/",
-"titulo": "“No estoy prófugo”: rompe el silencio el presunto involucrado de la muerte de la empresaria dominicana Melissa Medina",
-"bajada": "El empresario vinculado a los últimos momentos de vida de la influencer dominicana Melissa Medina, Eliezer Salvador, acudió voluntariamente a la Fiscalía del Distrito Nacional para sostener su inocencia",
-"fecha": "2026-11-25T21:02:56+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "abffe16c2fef": {
 "id": "abffe16c2fef",
@@ -8463,25 +7718,6 @@
 "Dorothy Creighton, superanciana británica de 107 años: \"No puedo vivir sin mi tocino y huevos todas las mañanas, ni sin mis caramelos\""
 ]
 },
-"83f2aa5ccd8c": {
-"id": "83f2aa5ccd8c",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/centroamerica-recibio-49-de-cada-usd-100-exportados-por-el-salvador-entre-enero-y-octubre-de-2026/",
-"titulo": "Centroamérica recibió 49 de cada USD 100 exportados por El Salvador entre enero y octubre de 2026",
-"bajada": "La región se mantuvo como un destino clave para la producción salvadoreña, con una demanda concentrada en bienes manufacturados. El aumento de los envíos regionales coincidió con una expansión mayor de las importaciones nacionales.",
-"fecha": "2026-11-25T21:01:12+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "0260e17381f0": {
 "id": "0260e17381f0",
 "diario": "ambito",
@@ -8500,7 +7736,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-27T22:35:10+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo"
 },
@@ -8589,25 +7825,6 @@
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
-"e3c34a388998": {
-"id": "e3c34a388998",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/25/mas-de-18-mil-accidentes-de-transito-en-honduras-y-1809-muertes-en-lo-que-va-de-2026/",
-"titulo": "Más de 18 mil accidentes de tránsito en Honduras y 1,809 muertes en lo que va de 2026",
-"bajada": "El portavoz César Aguilar confirmó que 1.809 personas perdieron la vida en hechos en carretera durante 2026 y señaló que la DNVT mantiene vigilancia para contener el incremento de los casos registrados.",
-"fecha": "2026-11-25T20:59:58+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "91643ebfb95f": {
 "id": "91643ebfb95f",
 "diario": "ambito",
@@ -8630,25 +7847,6 @@
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 67
-},
-"41e258e6e285": {
-"id": "41e258e6e285",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/el-alcohol-lidera-el-consumo-de-sustancias-psicoactivas-en-panama/",
-"titulo": "El alcohol lidera el consumo de sustancias psicoactivas en Panamá",
-"bajada": "Cerca de 25.576 personas son dependientes, incluidos 756 adolescentes, de acuerdo con la Política Nacional sobre Drogas 2026-2036",
-"fecha": "2026-11-25T20:57:36+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "08655f1ecc2a": {
 "id": "08655f1ecc2a",
@@ -8714,7 +7912,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 52
@@ -8734,28 +7932,9 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
-},
-"7b8f418d3cbd": {
-"id": "7b8f418d3cbd",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/el-ministerio-publico-pide-autorizacion-para-rastrear-fondos-de-alvaro-arzu-uno-de-los-punteros-para-las-elecciones-de-2027-y-monroy-vanegas-por-presunto-lavado/",
-"titulo": "El Ministerio Público pide autorización para rastrear fondos de Álvaro Arzú, uno de los punteros para las elecciones de 2027, y Monroy Vanegas por presunto lavado",
-"bajada": "El candidato Roberto Arzú lidera los sondeos presidenciales mientras enfrenta una investigación financiera. El promedio de las mediciones recientes le atribuye 18,6% de respaldo, por delante de Sandra Torres, con 11,7%, y Carlos Pineda, con 8%, para los comicios de…",
-"fecha": "2026-11-25T20:56:05+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "fa67a4757d91": {
 "id": "fa67a4757d91",
@@ -8774,8 +7953,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
 "visto_ultimo": "2026-11-27T20:34:50+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 99
 },
 "703f4eab6769": {
@@ -8793,7 +7972,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "ciudad",
 "motivo": "palabras:conurbano"
 },
@@ -8836,7 +8015,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -8907,25 +8086,6 @@
 "motivo": "seccion:seguridad",
 "home_mejor_pos": 26
 },
-"add4b9f2948b": {
-"id": "add4b9f2948b",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/25/los-hogares-de-menores-ingresos-en-honduras-destinan-casi-un-tercio-de-su-presupuesto-a-alimentos-revela-estudio/",
-"titulo": "Los hogares de menores ingresos en Honduras destinan casi un tercio de su presupuesto a alimentos, revela estudio",
-"bajada": "El informe advierte que un indicador nacional único puede ocultar los patrones de consumo y limitar la identificación de quienes soportan mayores presiones sobre el costo de vida en Honduras.",
-"fecha": "2026-11-25T20:53:12+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "fe236223f849": {
 "id": "fe236223f849",
 "diario": "pagina12",
@@ -8989,7 +8149,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "palabras:1"
 },
@@ -9035,25 +8195,6 @@
 "home_mejor_pos": 4,
 "home_top10_corridas": 5
 },
-"98dea298332a": {
-"id": "98dea298332a",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/el-gobierno-de-guatemala-conmemora-el-25n-con-cifras-que-exponen-168-denuncias-diarias-contra-mujeres-y-menores/",
-"titulo": "El gobierno de Guatemala conmemora el 25N con cifras que exponen 168 denuncias diarias contra mujeres y menores",
-"bajada": "La Alerta Isabel-Claudina localiza al 95% de las mujeres reportadas como desaparecidas en 2026. El mecanismo de búsqueda contabilizó 1.530 casos entre enero y noviembre, dejó 84 expedientes activos y registró un promedio de cuatro notificaciones al día durante el…",
-"fecha": "2026-11-25T20:48:08+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "817741610584": {
 "id": "817741610584",
 "diario": "lanacion",
@@ -9077,25 +8218,6 @@
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,futbol,independiente"
 },
-"20ea9fb7acb7": {
-"id": "20ea9fb7acb7",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/25/mujeres-exigen-declarar-emergencia-nacional-por-femicidios-en-honduras/",
-"titulo": "Mujeres exigen declarar emergencia nacional por femicidios en Honduras",
-"bajada": "Los datos divulgados durante la protesta ubicaron 56 casos en esa zona y señalaron incidencias posteriores en Cortés, Colón y Yoro, dentro de un problema extendido por el territorio nacional.",
-"fecha": "2026-11-25T20:46:57+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T22:28:44+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "db629eeaee9a": {
 "id": "db629eeaee9a",
 "diario": "ole",
@@ -9113,8 +8235,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:50:48+00:00",
 "visto_ultimo": "2026-11-27T20:34:50+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 23
 },
 "b278813ac690": {
@@ -9262,8 +8384,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T20:50:48+00:00",
 "visto_ultimo": "2026-11-27T20:34:50+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "90dbe398aab6": {
 "id": "90dbe398aab6",
@@ -9525,8 +8647,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:50:48+00:00",
 "visto_ultimo": "2026-11-27T20:34:50+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 81
 },
 "d396d0f612c2": {
@@ -9628,7 +8750,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:50:48+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "palabras:2"
 },
@@ -9706,7 +8828,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -9793,8 +8915,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T20:28:29+00:00",
 "visto_ultimo": "2026-11-27T18:46:25+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "9565422dcdfa": {
 "id": "9565422dcdfa",
@@ -9901,7 +9023,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 29
@@ -9921,7 +9043,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -9972,31 +9094,12 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
 "visto_ultimo": "2026-11-27T21:46:24+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol,gol",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 25,
 "titulos_anteriores": [
 "Champions League, EN VIVO: el minuto a minuto de los partidos"
 ]
-},
-"daed7fc609e0": {
-"id": "daed7fc609e0",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/tres-cubanos-robaron-13-ovejas-mataron-a-un-custodio-y-recibieron-cadena-perpetua/",
-"titulo": "Tres cubanos robaron 13 ovejas, mataron a un custodio y recibieron cadena perpetua",
-"bajada": "El Tribunal Provincial Popular de Santiago de Cuba condenó a tres hombres por el ataque en una cooperativa de Baire, donde otro trabajador sufrió heridas graves y secuelas funcionales durante el robo, según la versión del régimen",
-"fecha": "2026-11-25T20:18:53+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "e3868a0b388b": {
 "id": "e3868a0b388b",
@@ -10037,7 +9140,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:economia-politica",
 "home_mejor_pos": 54
@@ -10126,26 +9229,6 @@
 "visto_ultimo": "2026-11-27T18:46:25+00:00",
 "tema": "futbol",
 "motivo": "diario"
-},
-"1b529158b6e6": {
-"id": "1b529158b6e6",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/25/destinaran-mas-de-usd-500-mil-a-la-inclusion-digital-de-personas-con-discapacidad-auditiva-en-republica-dominicana/",
-"titulo": "Destinarán más de USD 500 mil a la inclusión digital de personas con discapacidad auditiva en República Dominicana",
-"bajada": "La inversión forma parte de un conjunto de programas anunciados por Guido Gómez Mazara, que incluye infraestructura tecnológica en Neiba y una sala equipada en el Hospital Infantil Robert Reid Cabral de Santo Domingo",
-"fecha": "2026-11-25T20:15:48+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 44
 },
 "e9f4ed9b1a3c": {
 "id": "e9f4ed9b1a3c",
@@ -10264,7 +9347,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -10407,8 +9490,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
 "visto_ultimo": "2026-11-27T18:46:25+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 65
 },
 "2bcdd2ff79d8": {
@@ -10606,8 +9689,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
 "visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "futbol",
-"motivo": "palabras:1",
+"tema": "otros",
+"motivo": "otro_deporte:basquet",
 "home_mejor_pos": 45
 },
 "01a66ebf9bc9": {
@@ -10625,7 +9708,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca",
 "home_mejor_pos": 118
@@ -10645,7 +9728,7 @@
 ],
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-26T14:28:48+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "seccion:tecnologia"
 },
@@ -10795,7 +9878,7 @@
 "visto_primero": "2026-11-25T20:28:29+00:00",
 "visto_ultimo": "2026-11-27T18:46:25+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:velez",
 "home_mejor_pos": 52
 },
 "45f23f89615b": {
@@ -10899,8 +9982,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T20:28:29+00:00",
 "visto_ultimo": "2026-11-27T18:46:25+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "c7d6c3964d15": {
 "id": "c7d6c3964d15",
@@ -10922,26 +10005,6 @@
 "tema": "politica",
 "motivo": "seccion:politica"
 },
-"351d40bb8844": {
-"id": "351d40bb8844",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/el-puerto-santo-tomas-de-castilla-en-guatemala-inaugura-la-temporada-de-cruceros-con-759-turistas-extranjeros/",
-"titulo": "El puerto Santo Tomás de Castilla en Guatemala inaugura la temporada de cruceros con 759 turistas extranjeros",
-"bajada": "Los dos cruceros atracarán simultáneamente el 1 de enero y exigirán coordinación con las operaciones de carga. La terminal multipropósito deberá atender el desembarque de pasajeros mientras mantiene su actividad comercial, en la jornada más exigente de las nueve escalas…",
-"fecha": "2026-11-25T19:58:38+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 45
-},
 "f9d8bb1bdd53": {
 "id": "f9d8bb1bdd53",
 "diario": "perfil",
@@ -10962,25 +10025,6 @@
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 52
-},
-"2f5e6dd26e52": {
-"id": "2f5e6dd26e52",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/cuba-perdio-mas-de-un-millon-de-habitantes-por-la-emigracion-y-enfrenta-una-crisis-demografica-sin-precedentes/",
-"titulo": "Cuba perdió más de un millón de habitantes por la emigración y enfrenta una crisis demográfica sin precedentes",
-"bajada": "Casi 1.9 millones de personas nacidas en Cuba residen hoy fuera de su país, lo que representa un salto cercano al 82 % desde el inicio del siglo XXI y deja a la isla con una población envejecida y en…",
-"fecha": "2026-11-25T19:58:15+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "09ea2385ffc1": {
 "id": "09ea2385ffc1",
@@ -11070,26 +10114,6 @@
 "motivo": "seccion:river-plate",
 "home_mejor_pos": 30
 },
-"94483f0c2e34": {
-"id": "94483f0c2e34",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/25/honduras-rechazan-recurso-de-exjefe-militiar-y-ratifican-procesamiento-por-caso-relacionado-con-periodistas/",
-"titulo": "Honduras: rechazan recurso de exjefe militiar y ratifican procesamiento por caso relacionado con periodistas",
-"bajada": "El tribunal de alzada desestimó por unanimidad la impugnación de la defensa, que buscaba anular actuaciones iniciales y obtener el sobreseimiento definitivo, según confirmó la defensora de derechos humanos Dina Meza.",
-"fecha": "2026-11-25T19:56:47+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 46
-},
 "696e476da60b": {
 "id": "696e476da60b",
 "diario": "lanacion",
@@ -11160,45 +10184,6 @@
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,futbol,independiente"
 },
-"a6610ffd03c8": {
-"id": "a6610ffd03c8",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/la-princesa-marroqui-lalla-asmaa-visita-el-salvador-para-revisar-los-acuerdos-de-cooperacion-en-salud-auditiva-infantil/",
-"titulo": "La princesa marroquí Lalla Asmaa visita El Salvador para revisar los acuerdos de cooperación en salud auditiva infantil",
-"bajada": "La representante marroquí se reunió con Gabriela de Bukele y el ministro del ramo para evaluar el avance de las misiones clínicas, la capacitación del personal salvadoreño y el suministro de dispositivos",
-"fecha": "2026-11-25T19:55:27+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 47
-},
-"2b70e6f828f0": {
-"id": "2b70e6f828f0",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/25/nicaragua-registra-al-menos-35-asesinatos-de-mujeres-y-ninas-en-2026/",
-"titulo": "Nicaragua registra al menos 35 asesinatos de mujeres y niñas en 2026",
-"bajada": "Un observatorio documentó 50 asesinatos de mujeres y niñas en menos de un año. Diez víctimas habían denunciado previamente violencia intrafamiliar antes de morir",
-"fecha": "2026-11-25T19:54:33+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T14:30:53+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "22e27ced7c8e": {
 "id": "22e27ced7c8e",
 "diario": "infobae",
@@ -11240,25 +10225,6 @@
 "motivo": "seccion:internacionales",
 "home_mejor_pos": 11
 },
-"1ec400022954": {
-"id": "1ec400022954",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/25/laura-fernandez-mantiene-respaldo-del-60-en-costa-rica-pero-su-valoracion-positiva-cayo-cuatro-puntos-segun-encuesta-de-la-ucr/",
-"titulo": "Laura Fernández mantiene respaldo del 60% en Costa Rica, pero su valoración positiva cayó cuatro puntos, según encuesta de la UCR",
-"bajada": "La presidenta conserva una evaluación favorable entre seis de cada diez costarricenses, aunque el apoyo a su gestión pasó del 64% al 60% entre setiembre y noviembre. La valoración positiva del Gobierno también descendió ligeramente hasta el 58%.",
-"fecha": "2026-11-25T19:53:37+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T12:30:42+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "fb7381703736": {
 "id": "fb7381703736",
 "diario": "cronista",
@@ -11277,44 +10243,6 @@
 "visto_ultimo": "2026-11-25T23:54:13+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
-},
-"5b4496ea6ab1": {
-"id": "5b4496ea6ab1",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/las-mujeres-reciben-mas-de-la-mitad-de-las-remesas-en-el-salvador-pero-son-los-hombres-los-que-envian-mas-dinero/",
-"titulo": "Las mujeres reciben más de la mitad de las remesas en El Salvador, pero son los hombres los que envían más dinero",
-"bajada": "Un informe del Banco Central de Reserva revela una brecha significativa entre quienes mandan el dinero y quienes lo reciben, con implicaciones directas en la gestión de recursos para alimentación, salud y educación familiar",
-"fecha": "2026-11-25T19:52:40+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T12:30:42+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"bdacd7fe2273": {
-"id": "bdacd7fe2273",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/panama-supera-los-12600-casos-de-dengue-en-medio-de-un-repunte-de-los-contagios-semanales/",
-"titulo": "Panamá supera los 12,600 casos de dengue en medio de un repunte de los contagios semanales",
-"bajada": "La población de entre 10 y 14 años presenta la mayor tasa de incidencia de la enfermedad transmitida por el mosquito Aedes aegypti.",
-"fecha": "2026-11-25T19:51:53+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T12:30:42+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "b5bd7dfc9725": {
 "id": "b5bd7dfc9725",
@@ -11353,7 +10281,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -11536,8 +10464,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
 "visto_ultimo": "2026-11-27T18:46:25+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 32,
 "titulos_anteriores": [
 "PSG vs. Roma, por la Champions League, EN VIVO: la Roma se adelanta tras una gran jugada de Soulé"
@@ -11714,7 +10642,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol,seleccion argentina",
 "home_mejor_pos": 25
@@ -11762,29 +10690,6 @@
 "tema": "internacionales",
 "motivo": "seccion:america",
 "home_mejor_pos": 25
-},
-"9f5c93534788": {
-"id": "9f5c93534788",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/villarreal-vencio-por-1-0-a-slavia-prague-por-la-champions-league-2026-nid25112026/",
-"titulo": "Villarreal venció por 1-0 a Slavia Prague, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-25T19:39:25+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"Villarreal Club de Fútbol",
-"fútbol exterior"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"titulo_de": "sitemap",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-27T00:32:06+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
 },
 "6b04a9604e04": {
 "id": "6b04a9604e04",
@@ -11849,29 +10754,6 @@
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol,torneo",
 "home_mejor_pos": 13
-},
-"8f4d8158f04a": {
-"id": "8f4d8158f04a",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/canchallena/barcelona-vencio-por-4-1-a-sabah-por-la-champions-league-2026-nid25112026/",
-"titulo": "Barcelona venció por 4-1 a Sabah, por la Champions League 2026",
-"bajada": "",
-"fecha": "2026-11-25T19:36:29+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Champions League",
-"FC Barcelona",
-"Organización"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"titulo_de": "sitemap",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-27T00:32:06+00:00",
-"tema": "otros",
-"motivo": "seccion:deportes"
 },
 "18cb5d7a4689": {
 "id": "18cb5d7a4689",
@@ -12223,7 +11105,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -12246,7 +11128,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 13
@@ -12337,8 +11219,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
 "visto_ultimo": "2026-11-27T18:46:25+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 46
 },
 "50eab980dfd2": {
@@ -12399,7 +11281,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 17
@@ -12482,8 +11364,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
 "visto_ultimo": "2026-11-27T18:46:25+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 26
 },
 "b67e045c4fae": {
@@ -12504,7 +11386,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-27T18:46:25+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 68
@@ -12547,7 +11429,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "seccion:ciencia",
 "home_mejor_pos": 101
@@ -12674,7 +11556,7 @@
 "visto_primero": "2026-11-25T20:28:29+00:00",
 "visto_ultimo": "2026-11-27T18:46:25+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"motivo": "seccion:futbol-internacional+salvo_local:sub 17"
 },
 "73de1a7c9bf6": {
 "id": "73de1a7c9bf6",
@@ -12745,25 +11627,6 @@
 "tema": "otros",
 "motivo": "seccion:opinion",
 "home_mejor_pos": 41
-},
-"4d227c123766": {
-"id": "4d227c123766",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/cuba-un-informe-alerto-sobre-casos-de-feminicidio-con-antecedentes-de-violencia-y-pedidos-de-ayuda/",
-"titulo": "Cuba: un informe alertó sobre casos de feminicidio con antecedentes de violencia y pedidos de ayuda",
-"bajada": "El relevamiento abarcó crímenes vinculados principalmente con parejas o exparejas, además de casos familiares y sociales",
-"fecha": "2026-11-25T19:10:03+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T12:30:42+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "56855861450c": {
 "id": "56855861450c",
@@ -12893,7 +11756,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 59
@@ -12919,25 +11782,6 @@
 "tema": "politica",
 "motivo": "seccion:economia-politica"
 },
-"6a13def613ce": {
-"id": "6a13def613ce",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/banco-de-guatemala-preve-que-las-remesas-familiares-moderaran-su-ritmo-de-aumento-el-proximo-ano/",
-"titulo": "Banco de Guatemala prevé que las remesas familiares moderarán su ritmo de aumento el próximo año",
-"bajada": "Las transferencias desde el exterior sostienen el consumo de más de 6,5 millones de guatemaltecos. Los recursos enviados por migrantes se destinan a gastos básicos de los hogares y respaldan la demanda interna, que representa cerca del 90% del producto…",
-"fecha": "2026-11-25T19:08:13+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T10:30:25+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "af7be7549adf": {
 "id": "af7be7549adf",
 "diario": "clarin",
@@ -12956,44 +11800,6 @@
 "visto_ultimo": "2026-11-27T18:46:25+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
-},
-"4185e9d963e3": {
-"id": "4185e9d963e3",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/25/reformas-electorales-en-honduras-siguen-sin-fecha-de-aprobacion/",
-"titulo": "Reformas electorales en Honduras siguen sin fecha de aprobación",
-"bajada": "La preparación institucional demanda recursos humanos, tecnología, planificación y ajustes administrativos, según Eduardo Fuentes, quien alertó que las decisiones cercanas a las elecciones pueden dificultar la ejecución de las nuevas reglas.",
-"fecha": "2026-11-25T19:06:49+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T10:30:25+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"362fea5dd93e": {
-"id": "362fea5dd93e",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/guatemala-los-hermanos-lopez-verifican-por-videollamada-el-estado-de-los-siete-tigres-entregados-por-el-circo-rey-gitano/",
-"titulo": "Guatemala: los hermanos López verifican por videollamada el estado de los siete tigres entregados por el Circo Rey Gitano",
-"bajada": "Los siete tigres del Circo Rey Gitano serán trasladados a un santuario en África tras los controles veterinarios. El MAGA prevé que la reubicación tome entre cuatro y seis meses, condicionada por la salud de cada ejemplar y por los…",
-"fecha": "2026-11-25T19:06:39+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T10:30:25+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "2582a37665ba": {
 "id": "2582a37665ba",
@@ -13037,25 +11843,6 @@
 "motivo": "seccion:economia-politica",
 "home_mejor_pos": 64
 },
-"5da19ee05ace": {
-"id": "5da19ee05ace",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/25/el-director-de-la-oms-se-reunio-con-el-presidente-dominicano-luis-abinader-para-reforzar-la-cooperacion-sanitaria/",
-"titulo": "El director de la OMS se reunió con el presidente Dominicano Luis Abinader para reforzar la cooperación sanitaria",
-"bajada": "Tedros Adhanom Ghebreyesus visitó el Palacio Nacional de Santo Domingo, donde ambos líderes abordaron los desafíos de la salud global y la agenda multilateral prevista para 2027, incluido el Acuerdo sobre Pandemias",
-"fecha": "2026-11-25T19:04:34+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T10:30:25+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "c25f72c630e5": {
 "id": "c25f72c630e5",
 "diario": "cronista",
@@ -13074,25 +11861,6 @@
 "visto_ultimo": "2026-11-25T23:54:13+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
-},
-"0f6fd79f1df9": {
-"id": "0f6fd79f1df9",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/hay-pandillas-de-corbata-historiador-sostiene-que-la-violencia-se-convirtio-en-una-economia-de-poder-en-haiti/",
-"titulo": "“Hay pandillas de corbata”: Historiador sostiene que la violencia se convirtió en una economía de poder en Haití",
-"bajada": "El exdiplomático sostuvo que dirigentes recurrieron a estructuras armadas para controlar territorios e intimidar votantes, aunque no aportó evidencias concretas sobre funcionarios, organizaciones o empresarios relacionados con esos grupos durante la entrevista",
-"fecha": "2026-11-25T19:02:42+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T10:30:25+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "1d9bf9296c3e": {
 "id": "1d9bf9296c3e",
@@ -13117,25 +11885,6 @@
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 62
-},
-"caca58ca7b96": {
-"id": "caca58ca7b96",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/inteligencia-artificial-la-nueva-herramienta-de-las-mipymes-salvadorenas-para-vender-las-24-horas/",
-"titulo": "Inteligencia artificial: la nueva herramienta de las mipymes salvadoreñas para vender las 24 horas",
-"bajada": "Durante un foro celebrado en San Salvador, directivos y consultores presentaron estrategias destinadas a optimizar procedimientos administrativos y abrir nuevas oportunidades productivas en negocios que sostienen la mayor parte del trabajo nacional",
-"fecha": "2026-11-25T19:02:23+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T10:30:25+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "5b7c99a547f8": {
 "id": "5b7c99a547f8",
@@ -13192,29 +11941,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "sindicales",
 "motivo": "palabras:sindicato,uom",
 "home_mejor_pos": 18
-},
-"bfc14c80550d": {
-"id": "bfc14c80550d",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/puertos-en-panama-movilizan-mas-de-84-millones-de-teu-durante-los-primeros-diez-meses-de-2026/",
-"titulo": "Puertos en Panamá movilizan más de 8.4 millones de TEU durante los primeros diez meses de 2026",
-"bajada": "SSA Marine MIT lidera la actividad nacional con un incremento del 16.9%, seguido de avances en Colon Container Terminal y PSA.",
-"fecha": "2026-11-25T19:00:11+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-26T08:30:09+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "1785cdf9872a": {
 "id": "1785cdf9872a",
@@ -13252,7 +11982,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -13291,7 +12021,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -13654,7 +12384,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 19
@@ -13743,7 +12473,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -13766,7 +12496,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 16
@@ -13911,8 +12641,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T20:28:29+00:00",
 "visto_ultimo": "2026-11-27T18:34:37+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "8f6657eb9398": {
 "id": "8f6657eb9398",
@@ -13988,8 +12718,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T20:28:29+00:00",
 "visto_ultimo": "2026-11-27T18:34:37+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "b1a353053dc8": {
 "id": "b1a353053dc8",
@@ -14049,7 +12779,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios",
 "home_mejor_pos": 93
@@ -14069,7 +12799,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T20:28:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -14114,7 +12844,7 @@
 "visto_primero": "2026-11-25T20:28:29+00:00",
 "visto_ultimo": "2026-11-27T16:34:23+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:copa libertadores",
 "home_mejor_pos": 59
 },
 "ecac1094398f": {
@@ -14322,7 +13052,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "palabras:1"
 },
@@ -14442,7 +13172,7 @@
 "visto_primero": "2026-11-25T18:28:12+00:00",
 "visto_ultimo": "2026-11-27T16:34:23+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:estudiantes",
 "home_mejor_pos": 45
 },
 "533a701d66b6": {
@@ -14505,7 +13235,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 18,
@@ -14678,7 +13408,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -14834,7 +13564,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 17
@@ -15112,46 +13842,6 @@
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
-"c52c651a98ce": {
-"id": "c52c651a98ce",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/guatemala-coloca-eurobonos-por-us800-millones-mientras-su-deuda-publica-supera-los-us33000-millones/",
-"titulo": "Guatemala coloca eurobonos por US$800 millones mientras su deuda pública supera los US$33.000 millones",
-"bajada": "El país alcanza el menor diferencial histórico, con 185 puntos básicos sobre los bonos del Tesoro estadounidense. La brecha quedó 95 unidades por debajo del promedio de las recientes colocaciones soberanas y refleja una reducida percepción de riesgo sobre la…",
-"fecha": "2026-11-25T18:04:36+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T06:30:01+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 44
-},
-"d717acbc1c46": {
-"id": "d717acbc1c46",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/25/costa-rica-eleva-588-el-salario-minimo-del-trabajo-domestico-desde-enero-de-2027/",
-"titulo": "Costa Rica eleva 5.88% el salario mínimo del trabajo doméstico desde enero de 2027",
-"bajada": "El decreto para el sector privado dispone un alza general de 1,70% y sitúa la remuneración mensual de esta actividad en 284.532 colones, equivalentes a USD 640,54, a partir del 1 de enero de 2027",
-"fecha": "2026-11-25T18:02:27+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T06:30:01+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 45
-},
 "1d083baec7a8": {
 "id": "1d083baec7a8",
 "diario": "lanacion",
@@ -15194,7 +13884,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 19
@@ -15309,26 +13999,6 @@
 "motivo": "seccion:economia",
 "home_mejor_pos": 63
 },
-"f291cba433d9": {
-"id": "f291cba433d9",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/asamblea-feminista-reporta-426-agresiones-digitales-contra-mujeres-periodistas-en-el-salvador/",
-"titulo": "Asamblea Feminista reporta 426 agresiones digitales contra mujeres periodistas en El Salvador",
-"bajada": "Ataques en redes sociales, discursos de odio y campañas de estigmatización forman parte de un patrón que, según activistas salvadoreñas, reduce la participación pública de comunicadoras, defensoras y lideresas comunitarias",
-"fecha": "2026-11-25T18:00:56+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T06:30:01+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 46
-},
 "ff493c6db9fb": {
 "id": "ff493c6db9fb",
 "diario": "clarin",
@@ -15391,7 +14061,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 118
@@ -15419,26 +14089,6 @@
 ],
 "home_mejor_pos": 16
 },
-"8fd23858bde0": {
-"id": "8fd23858bde0",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/25/nicaragua-incrementa-las-importaciones-de-camiones-microbuses-y-camionetas-en-2026/",
-"titulo": "Nicaragua incrementa las importaciones de camiones, microbuses y camionetas en 2026",
-"bajada": "El aumento en las compras de vehículos de carga y transporte formó parte del crecimiento de 23% que registraron las importaciones nicaragüenses de medios de transporte, repuestos y accesorios entre enero y septiembre de 2026.",
-"fecha": "2026-11-25T17:59:12+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 47
-},
 "a234c1898a1d": {
 "id": "a234c1898a1d",
 "diario": "cronista",
@@ -15458,44 +14108,6 @@
 "visto_ultimo": "2026-11-27T16:34:23+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
-},
-"c0eff72e1843": {
-"id": "c0eff72e1843",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/diez-personas-son-detenidas-en-panama-durante-una-operacion-internacional-contra-la-explotacion-sexual-infantil/",
-"titulo": "Diez personas son detenidas en Panamá durante una operación internacional contra la explotación sexual infantil",
-"bajada": "La iniciativa Aliados por la Infancia VII se desarrolla simultáneamente en 16 países de Latinoamérica y Europa, donde las autoridades han identificado a más de 105 objetivos de investigación.",
-"fecha": "2026-11-25T17:58:21+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"944db2e15ade": {
-"id": "944db2e15ade",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/las-remesas-familiares-a-el-salvador-crecen-33-hasta-octubre-tras-avanzar-183-en-2025/",
-"titulo": "Las remesas familiares a El Salvador crecen 3.3% hasta octubre, tras avanzar 18.3% en 2025",
-"bajada": "El Banco Central de Reserva reportó ingresos por USD 8.484,9 millones entre enero y octubre, frente a USD 8.212 millones en igual lapso del año previo, según su informe estadístico",
-"fecha": "2026-11-25T17:57:14+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "c70b612d8de4": {
 "id": "c70b612d8de4",
@@ -15558,25 +14170,6 @@
 "visto_ultimo": "2026-11-27T16:34:23+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
-},
-"b091f977e0c4": {
-"id": "b091f977e0c4",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/organizacion-alerta-sobre-la-criminalizacion-de-mujeres-que-reclaman-servicios-basicos-y-defienden-derechos-en-cuba/",
-"titulo": "Organización alerta sobre la criminalización de mujeres que reclaman servicios básicos y defienden derechos en Cuba",
-"bajada": "El pronunciamiento de Alas Tensas vincula las protestas de madres por agua y electricidad con una crisis económica, social y de cuidados que agrava la precariedad familiar",
-"fecha": "2026-11-25T17:52:14+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "1f8c0e8ffbeb": {
 "id": "1f8c0e8ffbeb",
@@ -15950,7 +14543,7 @@
 "visto_primero": "2026-11-25T18:28:12+00:00",
 "visto_ultimo": "2026-11-27T14:33:59+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:sub 17",
 "home_mejor_pos": 66
 },
 "528c06e4c341": {
@@ -16097,7 +14690,7 @@
 "visto_primero": "2026-11-25T18:28:12+00:00",
 "visto_ultimo": "2026-11-27T16:34:23+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:seleccion argentina",
 "home_mejor_pos": 28
 },
 "2fffdbadb29f": {
@@ -16181,7 +14774,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:negocios"
 },
@@ -16308,7 +14901,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-27T16:34:23+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 147
@@ -16667,7 +15260,7 @@
 "visto_primero": "2026-11-25T18:28:12+00:00",
 "visto_ultimo": "2026-11-27T16:34:23+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:copa libertadores",
 "home_mejor_pos": 44
 },
 "7d6e86f2134f": {
@@ -16770,7 +15363,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -16835,7 +15428,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -16974,8 +15567,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
 "visto_ultimo": "2026-11-27T16:34:23+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 32
 },
 "f721e8106d74": {
@@ -17120,28 +15713,9 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
-},
-"5cda22ee786d": {
-"id": "5cda22ee786d",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/el-sector-de-la-construccion-suma-mas-de-1700-nuevas-empresas-impulsadas-por-los-proyectos-privados-en-el-salvador/",
-"titulo": "El sector de la construcción suma más de 1,700 nuevas empresas impulsadas por los proyectos privados en El Salvador",
-"bajada": "El director ejecutivo de COAMSS-OPAMSS atribuyó la expansión a desarrollos inmobiliarios, logísticos y de servicios, y señaló que la actividad aumentó más del 40% desde 2024 y emplea a cerca de 187 mil personas",
-"fecha": "2026-11-25T17:03:26+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T04:29:40+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "61de7f3cfcf3": {
 "id": "61de7f3cfcf3",
@@ -17199,26 +15773,7 @@
 "visto_primero": "2026-11-25T18:28:12+00:00",
 "visto_ultimo": "2026-11-27T16:34:23+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional"
-},
-"9313e92e6d4b": {
-"id": "9313e92e6d4b",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/mientras-miles-de-migrantes-regresan-a-sudamerica-a-traves-de-panama-otros-siguen-cruzando-el-darien-rumbo-a-estados-unidos/",
-"titulo": "Mientras miles de migrantes regresan a Sudamérica a través de Panamá, otros siguen cruzando el Darién rumbo a Estados Unidos",
-"bajada": "Hasta el 22 de noviembre de 2026, las autoridades contabilizaron 7,166 personas en flujo inverso y 773 ingresos irregulares por la frontera selvática con Colombia, entre ellos 96 menores de edad.",
-"fecha": "2026-11-25T17:02:25+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
+"motivo": "seccion:futbol-internacional+salvo_local:copa libertadores"
 },
 "8ee7ecd28b6c": {
 "id": "8ee7ecd28b6c",
@@ -17241,25 +15796,6 @@
 "motivo": "seccion:mundo",
 "home_mejor_pos": 37
 },
-"4b36e3dfc176": {
-"id": "4b36e3dfc176",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/guatemala-la-gobernacion-de-san-marcos-exige-el-cese-de-las-hostilidades-entre-ixchiguan-y-tajumulco/",
-"titulo": "Guatemala: La Gobernación de San Marcos exige el cese de las hostilidades entre Ixchiguán y Tajumulco",
-"bajada": "El conflicto entre Ixchiguán y Tajumulco persiste desde hace más de 90 años por linderos sin definir. La controversia surgió cuando el primer municipio obtuvo esa categoría sin una delimitación precisa frente al territorio vecino, según antecedentes del Ministerio de…",
-"fecha": "2026-11-25T17:01:29+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "a4e7cb580408": {
 "id": "a4e7cb580408",
 "diario": "ambito",
@@ -17278,7 +15814,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-27T16:34:23+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 105
@@ -17302,7 +15838,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -17531,7 +16067,7 @@
 "visto_primero": "2026-11-25T18:28:12+00:00",
 "visto_ultimo": "2026-11-27T16:34:23+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"motivo": "seccion:futbol-internacional+salvo_local:copa libertadores"
 },
 "9c6cc55c2d58": {
 "id": "9c6cc55c2d58",
@@ -17548,7 +16084,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -17590,29 +16126,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "ciudad",
 "motivo": "seccion:ciudades",
 "home_mejor_pos": 24
-},
-"1ee12b7a9431": {
-"id": "1ee12b7a9431",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/un-millon-de-dolares-recibiran-las-futbolistas-salvadorenas-si-consiguen-el-pase-al-mundial-2027/",
-"titulo": "Un millón de dólares recibirán las futbolistas salvadoreñas si consiguen el pase al Mundial 2027",
-"bajada": "Con un incentivo histórico de un millón de dólares por repartirse entre la plantilla, las futbolistas salvadoreñas encararán este viernes el duelo decisivo ante Estados Unidos en busca del boleto al Mundial de Brasil 2027",
-"fecha": "2026-11-25T16:54:58+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "b80a00215b81": {
 "id": "b80a00215b81",
@@ -17629,7 +16146,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -17652,44 +16169,6 @@
 "tema": "futbol",
 "motivo": "seccion:boca-juniors"
 },
-"403c55757ee8": {
-"id": "403c55757ee8",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/como-registrar-una-marca-en-el-salvador-y-cuanto-tarda-el-tramite/",
-"titulo": "¿Cómo registrar una marca en El Salvador y cuánto tarda el trámite?",
-"bajada": "La institución señaló que las gestiones pueden hacerse por internet, incluyen una publicación electrónica y contemplan tarifas preferenciales para micro y pequeñas empresas inscritas en Conamype",
-"fecha": "2026-11-25T16:53:44+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"03be1f0f9162": {
-"id": "03be1f0f9162",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/25/policia-captura-a-dos-presuntos-integrantes-del-cartel-del-diablo-en-yoro/",
-"titulo": "Policía captura a dos presuntos integrantes del Cártel del Diablo en Yoro",
-"bajada": "Las intervenciones realizadas el miércoles se desarrollaron en paralelo a las acciones de Yoro y no necesariamente guardan relación con los dos arrestos vinculados con una estructura criminal.",
-"fecha": "2026-11-25T16:53:21+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "c15fe0e4975d": {
 "id": "c15fe0e4975d",
 "diario": "perfil",
@@ -17707,7 +16186,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 50
@@ -17748,7 +16227,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -17839,25 +16318,6 @@
 "motivo": "seccion:river-plate",
 "home_mejor_pos": 35
 },
-"29aa42efa901": {
-"id": "29aa42efa901",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/la-violencia-vivida-no-la-define-a-usted-afirma-activista-salvadorena-sobre-el-abuso-sexual-en-el-hogar/",
-"titulo": "“La violencia vivida no la define a usted”, afirma activista salvadoreña sobre el abuso sexual en el hogar",
-"bajada": "Ima Rocío Guirola expone ante Infobae los ultrajes sexuales contra menores dentro del círculo de parentesco y las deudas bancarias forzadas que arruinan a miles de mujeres en territorio cuscatleco",
-"fecha": "2026-11-25T16:46:19+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "6c366752efda": {
 "id": "6c366752efda",
 "diario": "clarin",
@@ -17918,8 +16378,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T18:28:12+00:00",
 "visto_ultimo": "2026-11-27T16:34:23+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "6df12443ea56": {
 "id": "6df12443ea56",
@@ -18045,7 +16505,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 3,
@@ -18168,8 +16628,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T18:28:12+00:00",
 "visto_ultimo": "2026-11-27T16:34:23+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 56
 },
 "90b65614f704": {
@@ -18255,7 +16715,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -18300,8 +16760,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
 "visto_ultimo": "2026-11-27T16:34:23+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:torneo",
+"tema": "otros",
+"motivo": "otro_deporte:nba",
 "home_mejor_pos": 44
 },
 "b6dfd3301e26": {
@@ -18388,25 +16848,6 @@
 "home_mejor_pos": 7,
 "home_top10_corridas": 1
 },
-"eca8396e23cc": {
-"id": "eca8396e23cc",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/las-mujeres-concentraron-el-22-de-los-incidentes-registrados-en-cuba-durante-2026/",
-"titulo": "Las mujeres concentraron el 22% de los incidentes registrados en Cuba durante 2026",
-"bajada": "La vigilancia, las restricciones de movimiento y los cortes de internet concentraron una parte relevante de los casos incluidos en el relevamiento. El informe también registró situaciones vinculadas con la maternidad, la vivienda y familiares de personas encarceladas.",
-"fecha": "2026-11-25T16:24:41+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "770fa131a2a5": {
 "id": "770fa131a2a5",
 "diario": "ole",
@@ -18423,8 +16864,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T18:28:12+00:00",
 "visto_ultimo": "2026-11-27T14:33:59+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 55
 },
 "801dcce1b0ac": {
@@ -18545,7 +16986,7 @@
 "visto_primero": "2026-11-25T18:28:12+00:00",
 "visto_ultimo": "2026-11-27T14:33:59+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"motivo": "seccion:futbol-internacional+salvo_local:estudiantes",
 "home_mejor_pos": 35
 },
 "b238a97034a5": {
@@ -18609,7 +17050,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -18690,7 +17131,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -18728,7 +17169,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "titulos_anteriores": [
@@ -19010,7 +17451,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 56
@@ -19377,25 +17818,6 @@
 "tema": "politica",
 "motivo": "palabras:2"
 },
-"30da5607599e": {
-"id": "30da5607599e",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/periodista-cubano-adelth-bonne-denuncio-que-la-seguridad-del-estado-le-prohibe-salir-de-su-vivienda-mi-delito-es-decir-la-verdad/",
-"titulo": "Periodista cubano Adelth Bonne denunció que la Seguridad del Estado le prohíbe salir de su vivienda: “Mi delito es decir la verdad”",
-"bajada": "El comunicador afirmó que un agente sin identificar le advirtió que sería detenido si abandonaba su domicilio el 24 o el 25 de noviembre",
-"fecha": "2026-11-25T15:50:11+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "708141aad994": {
 "id": "708141aad994",
 "diario": "cronista",
@@ -19413,28 +17835,9 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:economia-politica"
-},
-"e98fea06e113": {
-"id": "e98fea06e113",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/los-vientos-nortes-ingresaran-a-el-salvador-este-miercoles-por-la-noche-con-rafagas-de-hasta-70-kmh/",
-"titulo": "Los Vientos Nortes ingresarán a El Salvador este miércoles por la noche con ráfagas de hasta 70 km/h",
-"bajada": "El Ministerio de Medio Ambiente prevé un cambio en las condiciones atmosféricas desde el miércoles, impulsado por alta presión en Texas y una vaguada prefrontal que traerá nubosidad y tormentas locales",
-"fecha": "2026-11-25T15:47:06+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "06afd7be92f2": {
 "id": "06afd7be92f2",
@@ -19536,26 +17939,6 @@
 "motivo": "seccion:ciudades",
 "home_mejor_pos": 40
 },
-"5b923369d26e": {
-"id": "5b923369d26e",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/especialista-advierte-a-salvadorenos-con-tps-evitar-vuelos-internos-durante-accion-de-gracias-por-operativos-de-ice/",
-"titulo": "Especialista advierte a salvadoreños con TPS evitar vuelos internos durante Acción de Gracias por operativos de ICE",
-"bajada": "El director de SOS Inmigración advirtió que quienes tienen asilo pendiente u otros trámites sin resolución afrontan mayor exposición en terminales aéreas, por el incremento previsto de pasajeros en Estados Unidos",
-"fecha": "2026-11-25T15:44:33+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 12
-},
 "9feb56bd620f": {
 "id": "9feb56bd620f",
 "diario": "ambito",
@@ -19638,25 +18021,6 @@
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:torneo"
 },
-"e9c75183fdd1": {
-"id": "e9c75183fdd1",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/25/que-factores-se-relacionan-con-el-consumo-de-sustancias-en-personas-jovenes-de-costa-rica/",
-"titulo": "¿Qué factores se relacionan con el consumo de sustancias en personas jóvenes de Costa Rica?",
-"bajada": "El consumo de sustancias psicoactivas puede adquirir sentidos distintos según la edad, las redes de apoyo y el contexto cotidiano de cada persona, de acuerdo con un estudio cualitativo realizado en Costa Rica.",
-"fecha": "2026-11-25T15:43:18+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "f3b0ce50e231": {
 "id": "f3b0ce50e231",
 "diario": "pagina12",
@@ -19721,25 +18085,6 @@
 "tema": "politica",
 "motivo": "seccion:economia-politica"
 },
-"5e84d4f493c1": {
-"id": "5e84d4f493c1",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/conducia-un-camion-con-270-miligramos-de-alcohol-y-solo-recibio-tres-anos-de-prision-en-el-salvador/",
-"titulo": "Conducía un camión con 270 miligramos de alcohol y solo recibió tres años de prisión en El Salvador",
-"bajada": "El procesado recibió tres años de cárcel, sustituidos por labores comunitarias, después de admitir que manejaba un camión bajo aparente ebriedad tras un percance con daños materiales ocurrido en septiembre de 2026",
-"fecha": "2026-11-25T15:41:16+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "0a540e06aed2": {
 "id": "0a540e06aed2",
 "diario": "clarin",
@@ -19795,28 +18140,9 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "ciudad",
 "motivo": "palabras:ciudad de buenos aires,legislatura portena"
-},
-"8213e89dbc81": {
-"id": "8213e89dbc81",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/el-abogado-que-fue-acusado-de-poseer-pornografia-infantil-abusar-de-siete-ninas-y-que-quedo-impune-en-el-salvador/",
-"titulo": "El abogado que fue acusado de poseer pornografía infantil, abusar de siete niñas y que quedó impune en El Salvador",
-"bajada": "En 2002, siete niñas de entre 10 y 11 años denunciaron en El Salvador al influyente abogado Nelson García por abuso sexual y producción de pornografía infantil, tras ser captadas mediante promesas de regalos y ayuda comunitaria en una zona…",
-"fecha": "2026-11-25T15:39:28+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-26T12:30:42+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "d14b7e57b637": {
 "id": "d14b7e57b637",
@@ -19833,7 +18159,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -19998,7 +18324,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-27T16:34:23+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 49
@@ -20041,7 +18367,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 47
@@ -20164,7 +18490,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 44
@@ -20207,7 +18533,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 68
@@ -20549,30 +18875,10 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 114
-},
-"c1225d9db341": {
-"id": "c1225d9db341",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/25/congreso-de-honduras-inicia-socializacion-del-presupuesto-2027-en-medio-de-cuestionamientos/",
-"titulo": "Congreso de Honduras inicia socialización del Presupuesto 2027 en medio de cuestionamientos",
-"bajada": "La propuesta remitida al Congreso Nacional incorpora L11.039 millones adicionales frente a 2026 y prevé sostener el déficit del Sector Público No Financiero en 1% del PIB bajo disciplina fiscal como criterio rector.",
-"fecha": "2026-11-25T15:15:59+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 43
 },
 "d2a57e37dd2b": {
 "id": "d2a57e37dd2b",
@@ -20589,7 +18895,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -20655,7 +18961,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T18:28:12+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -20678,7 +18984,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 17
@@ -20779,7 +19085,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
 },
@@ -20798,7 +19104,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -20981,8 +19287,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
 "visto_ultimo": "2026-11-27T14:33:59+00:00",
-"tema": "futbol",
-"motivo": "diario",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 47
 },
 "f407a1a210f9": {
@@ -21000,32 +19306,12 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "titulos_anteriores": [
 "Suben el dólar oficial y el blue en medio de una nueva rueda negativa para los bonos y acciones"
 ]
-},
-"20fd4f3619a4": {
-"id": "20fd4f3619a4",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/25/republica-dominicana-senado-aprueba-la-modificacion-del-presupuesto-de-2026-por-alza-internacional-de-insumos/",
-"titulo": "República Dominicana: Senado aprueba la modificación del Presupuesto de 2026 por alza internacional de insumos",
-"bajada": "La Cámara Alta dio curso, en dos debates de urgencia, a mayores subsidios para combustibles y electricidad, además de partidas para inversión pública, con el objetivo de sostener la economía ante el encarecimiento importado",
-"fecha": "2026-11-25T15:04:28+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 44
 },
 "b1b5308b58c9": {
 "id": "b1b5308b58c9",
@@ -21212,7 +19498,7 @@
 "visto_primero": "2026-11-25T15:24:54+00:00",
 "visto_ultimo": "2026-11-27T18:46:25+00:00",
 "tema": "futbol",
-"motivo": "seccion:deportes+palabras:seleccion argentina",
+"motivo": "seccion:deportes+palabras:seleccion argentina+salvo_local:seleccion argentina",
 "home_mejor_pos": 81
 },
 "6202766a6a6a": {
@@ -21296,25 +19582,6 @@
 "visto_ultimo": "2026-11-27T14:33:59+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
-},
-"c2d6223e2560": {
-"id": "c2d6223e2560",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/procesan-a-ciudadano-chino-por-lesiones-culposas-tras-accidente-de-transito-en-el-salvador/",
-"titulo": "Procesan a ciudadano chino por lesiones culposas tras accidente de tránsito en El Salvador",
-"bajada": "La resolución impuso una medida alterna a la prisión preventiva y prohibió al imputado abandonar El Salvador mientras el expediente pasa al tribunal especializado de tránsito para continuar las etapas procesales",
-"fecha": "2026-11-25T14:59:44+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-26T02:29:30+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "35362c215efb": {
 "id": "35362c215efb",
@@ -21711,8 +19978,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
 "visto_ultimo": "2026-11-27T14:33:59+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "a7ddcc05940d": {
 "id": "a7ddcc05940d",
@@ -21828,7 +20095,7 @@
 "visto_primero": "2026-11-25T15:24:54+00:00",
 "visto_ultimo": "2026-11-27T14:33:59+00:00",
 "tema": "futbol",
-"motivo": "seccion:deportes+palabras:boca,seleccion argentina"
+"motivo": "seccion:deportes+palabras:boca,seleccion argentina+salvo_local:boca"
 },
 "bf602403b850": {
 "id": "bf602403b850",
@@ -21939,25 +20206,6 @@
 "motivo": "seccion:economia",
 "home_mejor_pos": 39
 },
-"5203efc2682c": {
-"id": "5203efc2682c",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/25/mineria-ilegal-en-crucitas-amenaza-con-extender-sus-impactos-ambientales-hasta-la-cuenca-compartida-del-rio-san-juan-en-nicaragua/",
-"titulo": "Minería ilegal en Crucitas amenaza con extender sus impactos ambientales hasta la cuenca compartida del río San Juan en Nicaragua",
-"bajada": "Las conexiones hídricas de la zona fronteriza podrían transportar mercurio, cianuro y sedimentos hacia Nicaragua, con riesgos para ecosistemas y comunidades que utilizan el recurso en consumo, pesca, agricultura, ganadería y turismo",
-"fecha": "2026-11-25T14:41:47+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "5d0163f2c721": {
 "id": "5d0163f2c721",
 "diario": "lanacion",
@@ -21984,25 +20232,6 @@
 "titulos_anteriores": [
 "El riesgo país supera los 1100 puntos y el dólar quiebra su récord nominal"
 ]
-},
-"4b11de4c03e2": {
-"id": "4b11de4c03e2",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/las-autoridades-indigenas-en-guatemala-rechazan-las-iniciativas-de-agua-y-agricultura-y-advierten-movilizaciones-ante-su-eventual-reactivacion/",
-"titulo": "Las autoridades indígenas en Guatemala rechazan las iniciativas de agua y agricultura y advierten movilizaciones ante su eventual reactivación",
-"bajada": "Las 39 propuestas sobre el recurso hídrico siguen sin convertirse en ley desde 1990. La Constitución ordena desde 1985 normar el aprovechamiento del bien público, mientras tres proyectos permanecen detenidos y el más reciente contempla una entidad nacional y cobros…",
-"fecha": "2026-11-25T14:40:28+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "b3d8a0725b90": {
 "id": "b3d8a0725b90",
@@ -22061,7 +20290,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 21
@@ -22105,7 +20334,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 69
@@ -22173,25 +20402,6 @@
 "motivo": "seccion:politica",
 "home_mejor_pos": 32
 },
-"e31f5abe8f29": {
-"id": "e31f5abe8f29",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/canciller-de-panama-viaja-a-cuba-para-gestionar-la-liberacion-de-siete-ciudadanos-detenidos-desde-febrero/",
-"titulo": "Canciller de Panamá viaja a Cuba para gestionar la liberación de siete ciudadanos detenidos desde febrero",
-"bajada": "La etapa de investigación judicial concluyó y los acusados cuentan con un equipo de abogados proporcionado por el Estado panameño.",
-"fecha": "2026-11-25T14:36:36+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "e8ff3cd3e67d": {
 "id": "e8ff3cd3e67d",
 "diario": "infobae",
@@ -22207,7 +20417,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 17
@@ -22252,7 +20462,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
 },
@@ -22343,25 +20553,6 @@
 "motivo": "seccion:energia-y-mineria",
 "home_mejor_pos": 54
 },
-"cbf40a64a8d7": {
-"id": "cbf40a64a8d7",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/25/mayor-del-ejercito-fue-condenado-por-la-muerte-de-una-adolescente-dominicana-11-meses-despues-del-crimen/",
-"titulo": "Mayor del Ejército fue condenado por la muerte de una adolescente dominicana, 11 meses después del crimen",
-"bajada": "La Justicia dominicana impuso una pena de 20 años de prisión a Diego Geraldo Mesa Arismendy por el disparo que mató a Perla Jokasta Santos Pacheco, de 19 años, durante un trayecto en motocicleta en Santo Domingo. La defensa anunció…",
-"fecha": "2026-11-25T14:33:17+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "5b28c0477e98": {
 "id": "5b28c0477e98",
 "diario": "clarin",
@@ -22445,25 +20636,6 @@
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:futbol",
 "home_mejor_pos": 118
-},
-"2fa2898f7a07": {
-"id": "2fa2898f7a07",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/guatemala-tiene-nuevo-presupuesto-el-congreso-aprueba-22392-millones-de-dolares-recortes-y-denuncias-por-fondos-a-ong-tras-16-horas-de-sesion/",
-"titulo": "Guatemala tiene nuevo presupuesto: el Congreso aprueba 22,392 millones de dólares, recortes y denuncias por fondos a ONG tras 16 horas de sesión",
-"bajada": "Los consejos de desarrollo administrarán cerca de Q12.000 millones en 2027 tras el aumento aprobado por los diputados. La partida extraordinaria subió de Q1.200 millones previstos por el Ejecutivo a Q7.046 millones, mientras San Marcos obtuvo Q672 millones y los…",
-"fecha": "2026-11-25T14:30:56+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T15:24:54+00:00",
-"visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "94452d279d23": {
 "id": "94452d279d23",
@@ -23312,7 +21484,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "ciudad",
 "motivo": "palabras:la matanza"
 },
@@ -23641,7 +21813,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 67
@@ -23811,7 +21983,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 41
@@ -23950,7 +22122,7 @@
 "visto_primero": "2026-11-25T14:21:27+00:00",
 "visto_ultimo": "2026-11-27T12:35:42+00:00",
 "tema": "futbol",
-"motivo": "diario",
+"motivo": "diario+salvo_local:seleccion argentina",
 "home_mejor_pos": 26
 },
 "3f7d79b9bd16": {
@@ -24014,7 +22186,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 17
@@ -24073,7 +22245,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -24160,7 +22332,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas",
 "home_mejor_pos": 13,
@@ -24214,7 +22386,7 @@
 "visto_primero": "2026-11-25T14:21:27+00:00",
 "visto_ultimo": "2026-11-27T14:33:59+00:00",
 "tema": "futbol",
-"motivo": "seccion:futbol",
+"motivo": "seccion:futbol+salvo_local:boca",
 "home_mejor_pos": 11
 },
 "9c3650933520": {
@@ -24255,7 +22427,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "titulos_anteriores": [
@@ -24343,7 +22515,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -24505,7 +22677,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 46
@@ -24670,7 +22842,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 18
@@ -24895,8 +23067,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
 "visto_ultimo": "2026-11-27T12:35:42+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 48
 },
 "e9605358758f": {
@@ -24937,7 +23109,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 22
@@ -25194,7 +23366,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-27T18:46:25+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 70
@@ -25347,7 +23519,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 73
@@ -25370,7 +23542,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 72
@@ -25396,26 +23568,6 @@
 "tema": "politica",
 "motivo": "seccion:economia-politica",
 "home_mejor_pos": 80
-},
-"26c6005a8397": {
-"id": "26c6005a8397",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/panama-ha-decomisado-mas-de-tres-toneladas-de-droga-y-capturado-a-5289-personas-en-operativos-fronterizos/",
-"titulo": "Panamá ha decomisado más de tres toneladas de droga y capturado a 5,289 personas en operativos fronterizos",
-"bajada": "El Senafront realizó alrededor de 680 allanamientos entre enero y noviembre de 2026, con especial énfasis en el combate al microtráfico, la minería ilegal y el desmantelamiento de estructuras criminales.",
-"fecha": "2026-11-25T13:23:10+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 42
 },
 "43d899b9b2da": {
 "id": "43d899b9b2da",
@@ -25461,26 +23613,6 @@
 "home_mejor_pos": 4,
 "home_top10_corridas": 4
 },
-"3678c4edc099": {
-"id": "3678c4edc099",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/las-mujeres-si-podemos-vivir-sin-violencia-la-consigna-frente-al-59-de-feminicidios-cometidos-por-parejas-en-el-salvador/",
-"titulo": "“Las mujeres sí podemos vivir sin violencia”, la consigna frente al 59% de feminicidios cometidos por parejas en El Salvador",
-"bajada": "En un escenario de castigos severos y reducción del crimen común, los ataques de parejas y exparejas concentran la mayor cantidad de muertes en el territorio centroamericano",
-"fecha": "2026-11-25T13:21:33+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-26T00:29:04+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 43
-},
 "cf3fc075ce5b": {
 "id": "cf3fc075ce5b",
 "diario": "ole",
@@ -25498,8 +23630,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
 "visto_ultimo": "2026-11-27T12:35:42+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 49
 },
 "90b5085cb8fb": {
@@ -25555,7 +23687,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "ciudad",
 "motivo": "palabras:palermo"
 },
@@ -26147,8 +24279,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
 "visto_ultimo": "2026-11-27T12:35:42+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 56
 },
 "cf37e6181512": {
@@ -26517,7 +24649,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "ciudad",
 "motivo": "palabras:porteno"
 },
@@ -26661,29 +24793,9 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
 "visto_ultimo": "2026-11-27T12:35:42+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 55
-},
-"0a7881d84d3a": {
-"id": "0a7881d84d3a",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/la-corte-de-constitucionalidad-mantiene-vigente-la-exencion-del-impuesto-inmobiliario-para-viviendas-en-guatemala/",
-"titulo": "La Corte de Constitucionalidad mantiene vigente la exención del impuesto inmobiliario para viviendas en Guatemala",
-"bajada": "El tribunal rechazó provisionalmente cinco amparos contra el Decreto 18-2026, que fija una tasa de cero por millar para inmuebles residenciales y mixtos desde enero de 2027, sin suspender su aplicación",
-"fecha": "2026-11-25T12:49:31+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-25T22:57:20+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 44
 },
 "242301c0a4c9": {
 "id": "242301c0a4c9",
@@ -26703,26 +24815,6 @@
 "visto_ultimo": "2026-11-26T12:30:42+00:00",
 "tema": "economia",
 "motivo": "seccion:economia"
-},
-"631312b8c050": {
-"id": "631312b8c050",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/25/republica-dominicana-elimina-el-permiso-sanitario-para-importar-hoja-de-tabaco-curada-industrial/",
-"titulo": "República Dominicana elimina el permiso sanitario para importar hoja de tabaco curada industrial",
-"bajada": "Las empresas inscritas en el Registro de Importadores de Productos Agropecuarios podrán tramitar el ingreso de este insumo sin habilitación del establecimiento, siempre que su destino sea la fabricación de productos tabacaleros",
-"fecha": "2026-11-25T12:48:31+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-25T22:28:44+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 45
 },
 "da81ea797956": {
 "id": "da81ea797956",
@@ -26761,25 +24853,6 @@
 "visto_ultimo": "2026-11-25T23:54:13+00:00",
 "tema": "politica",
 "motivo": "palabras:1"
-},
-"5962bc057337": {
-"id": "5962bc057337",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/panama-estrena-la-primera-variedad-de-arroz-de-grano-extralargo-liberada-en-el-pais/",
-"titulo": "Panamá estrena la primera variedad de arroz de grano extralargo liberada en el país",
-"bajada": "La semilla está concebida para suplir la demanda del mercado molinero premium bajo condiciones exclusivas de riego",
-"fecha": "2026-11-25T12:47:09+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-25T22:28:44+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "5b386ffd0335": {
 "id": "5b386ffd0335",
@@ -26862,8 +24935,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
 "visto_ultimo": "2026-11-27T12:35:42+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 46
 },
 "bffbb88cef29": {
@@ -26883,8 +24956,8 @@
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
 "visto_ultimo": "2026-11-27T12:35:42+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 57
 },
 "04b01a417980": {
@@ -26971,8 +25044,8 @@
 "titulo_de": "sitemap",
 "visto_primero": "2026-11-25T14:21:27+00:00",
 "visto_ultimo": "2026-11-27T12:35:42+00:00",
-"tema": "futbol",
-"motivo": "seccion:futbol-internacional"
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "5bc98857f413": {
 "id": "5bc98857f413",
@@ -27479,7 +25552,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -27594,7 +25667,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 76
@@ -27642,25 +25715,6 @@
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 19
-},
-"3f198b95deec": {
-"id": "3f198b95deec",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/de-la-alegria-de-los-cubanos-exiliados-en-miami-al-llanto-en-la-habana-asi-se-vivio-la-muerte-de-fidel-castro-hace-10-anos/",
-"titulo": "De la alegría de los cubanos exiliados en Miami al llanto en La Habana: Así se vivió la muerte de Fidel Castro hace 10 años",
-"bajada": "El 25 de noviembre de 2016, el ex mandatario Fidel Castro falleció en su residencia en Cuba, a los 90 años luego de atravesar caídas graves de su estado de salud desde el 2006.",
-"fecha": "2026-11-25T12:16:21+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"titulo_de": "rss",
-"visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-25T22:28:44+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "81ec96bc30b2": {
 "id": "81ec96bc30b2",
@@ -27719,7 +25773,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T12:16:11+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 29
@@ -27743,7 +25797,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T12:16:11+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:finanzas",
 "home_mejor_pos": 14,
@@ -27877,7 +25931,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T12:16:11+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 15
@@ -28021,7 +26075,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T14:21:27+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 47
@@ -28130,7 +26184,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T12:09:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 1,
@@ -28139,25 +26193,6 @@
 ],
 "titulo_de": "rss",
 "home_top10_corridas": 18
-},
-"adadad7abb30": {
-"id": "adadad7abb30",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/25/senadores-estadounidenses-acusan-a-nicaragua-de-profundizar-su-aislamiento-tras-rechazar-a-natasha-franceschi-como-embajadora/",
-"titulo": "Senadores estadounidenses acusan a Nicaragua de profundizar su aislamiento tras rechazar a Natasha Franceschi como embajadora",
-"bajada": "El Comité de Relaciones Exteriores del Senado de EE.UU. condenó la decisión del régimen nicaragüense de no acreditar a la diplomática confirmada por unanimidad para asumir como embajadora en Managua",
-"fecha": "2026-11-25T11:58:59+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T12:09:29+00:00",
-"visto_ultimo": "2026-11-25T22:28:44+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 42
 },
 "5a5c2f734e1d": {
 "id": "5a5c2f734e1d",
@@ -28198,25 +26233,6 @@
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 64
-},
-"c2a513d3d481": {
-"id": "c2a513d3d481",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/25/asfura-anuncia-llegada-de-helicopteros-fusiles-y-vehiculos-blindados-para-reforzar-la-seguridad-en-honduras/",
-"titulo": "Asfura anuncia llegada de helicópteros, fusiles y vehículos blindados para reforzar la seguridad en Honduras",
-"bajada": "El mandatario adelantó que también llegarán cascos, chalecos y pistolas para fortalecer a la Policía Nacional y la Policía Militar, mientras anunció nuevas leyes para endurecer las penas contra maras, pandillas y el crimen organizado.",
-"fecha": "2026-11-25T11:57:06+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T12:09:29+00:00",
-"visto_ultimo": "2026-11-25T22:28:44+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 43
 },
 "317d938b62f9": {
 "id": "317d938b62f9",
@@ -28260,25 +26276,6 @@
 "motivo": "palabras:ciudad de buenos aires,porteno",
 "home_mejor_pos": 53
 },
-"55a63960ab20": {
-"id": "55a63960ab20",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/25/organizaciones-denuncian-tortura-por-razon-de-genero-y-desaparicion-forzada-contra-presas-politicas-en-nicaragua/",
-"titulo": "Organizaciones denuncian tortura por razón de género y desaparición forzada contra presas políticas en Nicaragua",
-"bajada": "El Colectivo de Derechos Humanos para la Memoria Histórica de Nicaragua afirmó que las detenidas permanecieron incomunicadas tras su captura, según denuncias difundidas antes del Día de la Eliminación de la Violencia contra las Mujeres",
-"fecha": "2026-11-25T11:53:45+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T12:09:29+00:00",
-"visto_ultimo": "2026-11-25T20:50:48+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 44
-},
 "921facd507a4": {
 "id": "921facd507a4",
 "diario": "infobae",
@@ -28319,25 +26316,6 @@
 "Alerta por ola de calor en Buenos Aires: el pronóstico anticipa temperaturas superiores a los 34 grados este fin de semana en el AMBA"
 ],
 "titulo_de": "sitemap"
-},
-"119c8ea409e9": {
-"id": "119c8ea409e9",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/25/como-el-crimen-contra-3-hermanas-dominicanas-dio-origen-al-dia-internacional-de-la-eliminacion-de-la-violencia-contra-la-mujer/",
-"titulo": "¿Cómo el crimen contra 3 hermanas dominicanas dio origen al Día Internacional de la Eliminación de la Violencia contra la Mujer?",
-"bajada": "Detrás de cada conmemoración del 25 de noviembre existe una historia real marcada por la valentía y el dolor: el crimen de tres hermanas activistas en la República Dominicana que, lejos de silenciar su lucha, dio origen a una de…",
-"fecha": "2026-11-25T11:51:24+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T11:58:21+00:00",
-"visto_ultimo": "2026-11-25T20:50:48+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 45
 },
 "178af882394e": {
 "id": "178af882394e",
@@ -28434,7 +26412,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T11:58:21+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 15
@@ -28478,7 +26456,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T11:58:21+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -28582,8 +26560,8 @@
 ],
 "visto_primero": "2026-11-25T11:43:54+00:00",
 "visto_ultimo": "2026-11-27T10:33:35+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 40
 },
 "bdb3b550cad4": {
@@ -28619,7 +26597,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T11:43:54+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 15,
@@ -28705,7 +26683,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-25T11:41:34+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 16,
@@ -28775,7 +26753,7 @@
 "lanacion/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T11:36:22+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "ciudad",
 "motivo": "palabras:amba"
 },
@@ -28817,7 +26795,7 @@
 "lanacion/rss:ultimo"
 ],
 "visto_primero": "2026-11-25T11:36:22+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "seccion:tecnologia",
 "home_mejor_pos": 98
@@ -28983,7 +26961,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T11:36:22+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -29048,7 +27026,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T11:36:22+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 110
@@ -29224,7 +27202,7 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-25T11:19:06+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "futbol",
 "motivo": "seccion:deportes+palabras:boca,independiente,sudamericana",
 "titulos_anteriores": [
@@ -29496,9 +27474,9 @@
 "infobae/rss:deportes"
 ],
 "visto_primero": "2026-11-25T11:19:06+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:torneo",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 35,
 "titulos_anteriores": [
 "El Inter de Lautaro Martínez y el Atlético de Madrid de Julián Álvarez salen a la cancha por la fecha 5 de la Champions League: la agenda de la jornada",
@@ -29669,8 +27647,8 @@
 ],
 "visto_primero": "2026-11-25T11:19:06+00:00",
 "visto_ultimo": "2026-11-27T10:33:35+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 39
 },
 "6fe6fbaaf0fc": {
@@ -29739,8 +27717,8 @@
 ],
 "visto_primero": "2026-11-25T11:19:06+00:00",
 "visto_ultimo": "2026-11-27T10:33:35+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol",
+"tema": "otros",
+"motivo": "futbol_exterior",
 "home_mejor_pos": 19
 },
 "cba253d19c3a": {
@@ -31069,7 +29047,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T11:19:06+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "ciudad",
 "motivo": "palabras:la matanza"
 },
@@ -31298,7 +29276,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T11:19:06+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 42
@@ -31321,7 +29299,7 @@
 "ambito/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T11:19:06+00:00",
-"visto_ultimo": "2026-11-27T14:33:59+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:mundo",
 "home_mejor_pos": 27
@@ -31340,7 +29318,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T11:19:06+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "ciudad",
 "motivo": "palabras:amba"
 },
@@ -31358,7 +29336,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T11:19:06+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 15
@@ -31514,7 +29492,7 @@
 ],
 "titulo_de": "rss",
 "visto_primero": "2026-11-25T23:46:26+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 2,
@@ -31676,7 +29654,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-25T11:19:06+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 12
@@ -33045,7 +31023,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 47,
@@ -33065,7 +31043,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "ciudad",
 "motivo": "palabras:colectivos"
 },
@@ -33814,7 +31792,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -34083,7 +32061,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -34407,7 +32385,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-25T12:09:29+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 51,
@@ -34508,7 +32486,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 16
@@ -34527,7 +32505,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 17
@@ -34546,7 +32524,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 18
@@ -34565,7 +32543,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -34583,7 +32561,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -34601,7 +32579,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -34619,7 +32597,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -34637,7 +32615,7 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica"
 },
@@ -34660,25 +32638,6 @@
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 39
-},
-"7df528ae98ee": {
-"id": "7df528ae98ee",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/25/melissa-nunez-lleva-a-republica-dominicana-al-primer-lugar-de-finalistas-de-miss-universo-tras-17-anos/",
-"titulo": "Melissa Núñez lleva a República Dominicana al primer lugar de finalistas de Miss Universo tras 17 años",
-"bajada": "La representante caribeña quedó a un paso de la corona en San Juan, donde Jennifer Barreto se impuso en una final marcada por la espera tomada de la mano con su rival",
-"fecha": "2026-11-25T06:06:01+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-25T20:50:48+00:00",
-"tema": "otros",
-"motivo": "palabras_otros:miss universo",
-"home_mejor_pos": 42
 },
 "b0e198aef27d": {
 "id": "b0e198aef27d",
@@ -34849,7 +32808,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -34913,27 +32872,8 @@
 ],
 "visto_primero": "2026-11-25T09:45:51+00:00",
 "visto_ultimo": "2026-11-26T08:30:09+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
-},
-"b6eb00e97c92": {
-"id": "b6eb00e97c92",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/presupuesto-de-guatemala-2027-negociaciones-en-cuarto-cerrado-ministerios-recortados-y-miles-de-millones-hacia-los-codedes-en-ano-electoral/",
-"titulo": "Presupuesto de Guatemala 2027: negociaciones en cuarto cerrado, ministerios recortados y miles de millones hacia los Codedes en año electoral",
-"bajada": "El Congreso guatemalteco aprobó en la madrugada un dictamen cuestionado desde adentro. Legisladores cerraron puertas, diputados firmaron sin leer el documento completo y el dinero para salud y educación cedió terreno frente a los consejos de desarrollo.",
-"fecha": "2026-11-25T05:11:44+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T05:15:34+00:00",
-"visto_ultimo": "2026-11-25T20:50:48+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 43
+"tema": "otros",
+"motivo": "futbol_exterior"
 },
 "6a3f3c83431f": {
 "id": "6a3f3c83431f",
@@ -34986,7 +32926,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T05:15:34+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -35009,28 +32949,6 @@
 "motivo": "seccion:america",
 "home_mejor_pos": 22
 },
-"b44813948080": {
-"id": "b44813948080",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/al-fateh-vs-al-riyadh-saudi-pro-league-2026-dia-hora-y-como-seguir-online-nid25112026/",
-"titulo": "Al Fateh vs. Al Riyadh, Saudí Pro League 2026: día, hora y cómo seguir online",
-"bajada": "",
-"fecha": "2026-11-25T05:01:36+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Organización",
-"Fútbol Internacional",
-"Arabia Saudita"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-25T05:15:34+00:00",
-"visto_ultimo": "2026-11-26T08:30:09+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
-},
 "5488c9e137be": {
 "id": "5488c9e137be",
 "diario": "lanacion",
@@ -35052,28 +32970,6 @@
 "visto_ultimo": "2026-11-26T08:30:09+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
-},
-"9caa09c390f3": {
-"id": "9caa09c390f3",
-"diario": "lanacion",
-"url": "https://www.lanacion.com.ar/deportes/futbol/sao-paulo-vs-remo-por-el-brasileirao-serie-a-2026-dia-hora-y-como-seguir-online-nid25112026/",
-"titulo": "São Paulo vs. Remo por el Brasileirao Serie A 2026: día, hora y cómo seguir online",
-"bajada": "",
-"fecha": "2026-11-25T05:00:42+00:00",
-"seccion": "deportes",
-"palabras_clave": [
-"Brasileirao",
-"Fútbol brasileño",
-"São Paulo"
-],
-"edicion_impresa": false,
-"fuentes": [
-"lanacion/sitemap:sitemap"
-],
-"visto_primero": "2026-11-25T05:06:02+00:00",
-"visto_ultimo": "2026-11-26T08:30:09+00:00",
-"tema": "futbol",
-"motivo": "seccion:deportes+palabras:futbol"
 },
 "13c485df6103": {
 "id": "13c485df6103",
@@ -35157,7 +33053,7 @@
 "lanacion/sitemap:sitemap"
 ],
 "visto_primero": "2026-11-25T05:06:02+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -35218,7 +33114,7 @@
 "infobae/rss:sociedad"
 ],
 "visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
@@ -35410,25 +33306,6 @@
 "motivo": "seccion:politica",
 "home_mejor_pos": 36
 },
-"1b4405fa3fb5": {
-"id": "1b4405fa3fb5",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/25/historico-costa-rica-sera-sede-de-miss-universo-2027-por-primera-vez-y-recibira-a-las-reinas-de-belleza-del-mundo/",
-"titulo": "¡Histórico! Costa Rica será sede de Miss Universo 2027 por primera vez y recibirá a las mujeres más bellas del mundo",
-"bajada": "La organización internacional confirmó la elección del país durante la gala de la edición número 75, celebrada en Puerto Rico. La presidenta Laura Fernández respaldó la designación, que representa una oportunidad de proyección internacional para el turismo costarricense.",
-"fecha": "2026-11-25T04:33:58+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "otros",
-"motivo": "palabras_otros:miss universo",
-"home_mejor_pos": 44
-},
 "c64b3a6a25f9": {
 "id": "c64b3a6a25f9",
 "diario": "clarin",
@@ -35474,43 +33351,6 @@
 "motivo": "seccion:el-mundo",
 "home_mejor_pos": 39
 },
-"2e47ba56c3bc": {
-"id": "2e47ba56c3bc",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/jefe-de-mision-de-ee-uu-en-cuba-ratifica-asistencia-directa-al-pueblo-cubano-junto-a-la-iglesia-catolica/",
-"titulo": "Jefe de misión de EE. UU. en Cuba ratifica asistencia directa al pueblo cubano junto a la Iglesia católica",
-"bajada": "Mike Hammer se reunió con representantes católicos y voluntarios para conocer las necesidades de familias vulnerables, durante un recorrido realizado entre el 16 y el 20 de noviembre por el occidente cubano",
-"fecha": "2026-11-25T04:12:23+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"827699542f1d": {
-"id": "827699542f1d",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/25/honduras-diputado-denuncia-amenazas-del-cartel-del-diablo-tras-la-llegada-de-cuatro-hombres-armados-a-buscarlo-a-la-sede-de-su-partido/",
-"titulo": "Honduras: diputado denuncia amenazas del Cartel del Diablo tras la llegada de cuatro hombres armados a buscarlo a la sede de su partido",
-"bajada": "El diputado aseguró que cuatro presuntos integrantes de la estructura criminal llegaron a las oficinas del Consejo Central Ejecutivo del Partido Liberal para preguntar por él. Las cámaras de seguridad habrían captado el vehículo y los rostros de los sospechosos.",
-"fecha": "2026-11-25T04:08:19+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 45
-},
 "d1e60e2e364b": {
 "id": "d1e60e2e364b",
 "diario": "clarin",
@@ -35548,25 +33388,6 @@
 "tema": "otros",
 "motivo": "palabras_otros:miss universo",
 "home_mejor_pos": 16
-},
-"556f626a16c8": {
-"id": "556f626a16c8",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/25/conductor-se-puso-nervioso-en-control-policial-y-termino-detenido-con-100-kilos-de-cocaina-en-costa-rica/",
-"titulo": "Conductor se puso nervioso en control policial y terminó detenido con 100 kilos de cocaína en Costa Rica",
-"bajada": "El sospechoso, un costarricense de 56 años, fue interceptado durante la madrugada en Guanacaste. Los oficiales descubrieron la droga oculta en el piso del vehículo y decomisaron USD 1,700 en efectivo.",
-"fecha": "2026-11-25T04:07:01+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 46
 },
 "3b395c43e1c4": {
 "id": "3b395c43e1c4",
@@ -35626,25 +33447,6 @@
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 14
-},
-"17dcefb38c20": {
-"id": "17dcefb38c20",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/gobierno-inicia-conversaciones-con-la-sociedad-civil-sobre-futuro-de-la-mina-de-cobre-de-minera-panama/",
-"titulo": "Gobierno inicia conversaciones con la sociedad civil sobre futuro de la mina de cobre de Minera Panamá",
-"bajada": "Durante el encuentro se indicó que esta semana se anunciará al organizador de la participación ciudadana",
-"fecha": "2026-11-25T04:02:55+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 47
 },
 "5a7f02aa7527": {
 "id": "5a7f02aa7527",
@@ -35754,60 +33556,6 @@
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 21
 },
-"063ff39f717c": {
-"id": "063ff39f717c",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/25/asfura-entrega-maquinaria-pesada-a-siete-municipios-y-anuncia-cobertura-para-las-298-alcaldias-de-honduras/",
-"titulo": "Asfura entrega maquinaria pesada a siete municipios y anuncia cobertura para las 298 alcaldías de Honduras",
-"bajada": "Los equipos permitirán reparar caminos rurales, facilitar el traslado de cosechas y ejecutar obras comunitarias. El programa incluye cuatro años de mantenimiento y busca fortalecer la capacidad de los gobiernos locales.",
-"fecha": "2026-11-25T03:58:45+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"ba22905d0aca": {
-"id": "ba22905d0aca",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/presunto-incendiario-del-atentado-en-casa-del-periodista-panameno-rolando-rodriguez-vuelve-a-quedar-a-disposicion-de-la-fiscalia/",
-"titulo": "Presunto incendiario del atentado en casa del periodista panameño Rolando Rodríguez vuelve a quedar a disposición de la fiscalía",
-"bajada": "La fiscal solicitó la reaprehensión tras constatar señales de recuperación",
-"fecha": "2026-11-25T03:58:33+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"e1899e549aac": {
-"id": "e1899e549aac",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/25/de-tardar-medio-dia-a-solo-cinco-minutos-inteligencia-artificial-transforma-negocios-de-mas-de-1100-emprendedores-en-costa-rica/",
-"titulo": "De tardar medio día a solo cinco minutos: inteligencia artificial transforma negocios de más de 1,100 emprendedores en Costa Rica",
-"bajada": "Pequeños comerciantes aprendieron a utilizar herramientas digitales para mejorar sus ventas, crear publicidad y administrar sus negocios. El programa gratuito también busca reducir las barreras tecnológicas que enfrentan los emprendedores.",
-"fecha": "2026-11-25T03:57:39+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
 "441142ac4de7": {
 "id": "441142ac4de7",
 "diario": "lanacion",
@@ -35872,28 +33620,10 @@
 "infobae/rss:politica"
 ],
 "visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 16
-},
-"c78c8471e1c3": {
-"id": "c78c8471e1c3",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/una-adopcion-las-separo-y-38-anos-despues-un-abrazo-las-volvio-a-unir-en-el-salvador/",
-"titulo": "Una adopción las separó y 38 años después un abrazo las volvió a unir en El Salvador",
-"bajada": "Nancy creció en Francia tras ser dada en adopción. En noviembre de 2026 viajó a El Salvador y abrazó por primera vez a Emilia, su madre biológica, luego de 38 años de separación",
-"fecha": "2026-11-25T03:53:02+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-25T20:50:48+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "71cbe3355e63": {
 "id": "71cbe3355e63",
@@ -35920,42 +33650,6 @@
 "El dólar oficial sigue su espiral ascendente y suma otros $ 15: ya subió 5% en lo que va de noviembre"
 ],
 "titulo_de": "sitemap"
-},
-"f60204e75836": {
-"id": "f60204e75836",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/panama-apuesta-al-black-friday-para-impulsar-el-comercio-y-recuperar-parte-del-dinamismo-economico/",
-"titulo": "Panamá apuesta al Black Friday para impulsar el comercio y recuperar parte del dinamismo económico",
-"bajada": "Consumidores deben revisar con atención las ofertas y adoptar precauciones, aconseja la Autoridad de Protección al Consumidor y Defensa de la Competencia",
-"fecha": "2026-11-25T03:52:05+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"03a1057a209b": {
-"id": "03a1057a209b",
-"diario": "infobae",
-"url": "https://www.infobae.com/el-salvador/2026/11/25/el-salvador-aprueba-un-prestamo-de-hasta-usd-30-millones-para-movilidad-urbana-en-san-salvador/",
-"titulo": "El Salvador aprueba un préstamo de hasta USD 30 millones para movilidad urbana en San Salvador",
-"bajada": "La financiación respaldará parcialmente la primera etapa de un plan de carreteras y transporte en el área metropolitana capitalina, pero la norma no identifica las obras beneficiadas ni el reparto de los recursos",
-"fecha": "2026-11-25T03:50:22+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "4ea8cc6153e6": {
 "id": "4ea8cc6153e6",
@@ -35994,42 +33688,6 @@
 "tema": "otros",
 "motivo": "sin_coincidencias",
 "home_mejor_pos": 33
-},
-"b5a7f4937aa4": {
-"id": "b5a7f4937aa4",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/capturan-a-presuntos-pandilleros-que-despojaron-una-vivienda-y-la-convirtieron-en-su-centro-de-operaciones-en-guatemala/",
-"titulo": "Capturan a presuntos pandilleros que despojaron una vivienda y la convirtieron en su centro de operaciones en Guatemala",
-"bajada": "Un mes y medio habitaron una vivienda que no era suya en la colonia Lomas de Santa Faz. Cuando la policía irrumpió, encontró rifles, pistolas, chalecos antibalas y paquetes de marihuana ocultos en los cuartos.",
-"fecha": "2026-11-25T03:48:32+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
-},
-"d0fc2bfc0267": {
-"id": "d0fc2bfc0267",
-"diario": "infobae",
-"url": "https://www.infobae.com/honduras/2026/11/25/frente-frio-amenaza-a-honduras-con-lluvias-de-hasta-120-milimetros-y-activa-alerta-verde-en-seis-departamentos/",
-"titulo": "Frente frío amenaza a Honduras con lluvias de hasta 120 milímetros y activa Alerta Verde en seis departamentos",
-"bajada": "Copeco declaró una alerta preventiva por 48 horas ante el ingreso del primer frente frío de la temporada, que provocará lluvias de moderadas a fuertes, tormentas eléctricas y un descenso de las temperaturas, principalmente en la zona norte del país.",
-"fecha": "2026-11-25T03:43:53+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo"
 },
 "73026d611ab5": {
 "id": "73026d611ab5",
@@ -36083,7 +33741,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 42,
@@ -36123,7 +33781,7 @@
 "perfil/rss:mundo"
 ],
 "visto_primero": "2026-11-25T04:57:48+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "internacionales",
 "motivo": "seccion:internacional",
 "home_mejor_pos": 43,
@@ -36293,25 +33951,6 @@
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
-"72b22bda1420": {
-"id": "72b22bda1420",
-"diario": "infobae",
-"url": "https://www.infobae.com/costa-rica/2026/11/25/locura-por-shakira-en-costa-rica-entradas-se-agotaron-en-menos-de-cuatro-horas-y-adelantan-venta-general-por-alta-demanda/",
-"titulo": "Locura por Shakira en Costa Rica: entradas se agotaron en menos de cuatro horas y adelantan venta general por alta demanda",
-"bajada": "El regreso de la cantante colombiana después de más de 15 años desató una fuerte demanda de boletos. Las dos etapas de preventa agotaron sus cupos y los organizadores modificaron el calendario de ventas para ofrecer nuevas oportunidades a sus…",
-"fecha": "2026-11-25T03:26:51+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 44
-},
 "85051e88c808": {
 "id": "85051e88c808",
 "diario": "perfil",
@@ -36350,28 +33989,6 @@
 "home_mejor_pos": 3,
 "home_top10_corridas": 3
 },
-"b53c0a506f23": {
-"id": "b53c0a506f23",
-"diario": "infobae",
-"url": "https://www.infobae.com/cuba/2026/11/25/representante-de-cuba-mia-dio-clasifico-entre-las-12-semifinalistas-de-miss-universo-2026/",
-"titulo": "La representante de Cuba, Mia Dio, cierra su partición en Miss Universo 2026 dentro del Top 12",
-"bajada": "Cuba llegó al Top 12 de Miss Universo 2026 de la mano de Mia Dio. La joven se despidió de la competencia tras destacar en las pasarelas de traje de baño y vestido de noche",
-"fecha": "2026-11-25T03:24:17+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T20:50:48+00:00",
-"tema": "otros",
-"motivo": "palabras_otros:miss universo",
-"titulos_anteriores": [
-"La representante de Cuba, Mia Dio, avanzó a las semifinales de Miss Universo 2026"
-],
-"titulo_de": "rss"
-},
 "0eb2785e9c9a": {
 "id": "0eb2785e9c9a",
 "diario": "clarin",
@@ -36392,25 +34009,6 @@
 "tema": "politica",
 "motivo": "seccion:politica",
 "home_mejor_pos": 38
-},
-"23ce2c6a9628": {
-"id": "23ce2c6a9628",
-"diario": "infobae",
-"url": "https://www.infobae.com/nicaragua/2026/11/25/miss-nicaragua-jasmine-blandford-avanzo-al-top-12-de-miss-universo-2026-con-el-respaldo-de-sheynnis-palacios/",
-"titulo": "Miss Nicaragua, Jasmine Blandford, avanzó al top 12 de Miss Universo 2026 con el respaldo de Sheynnis Palacios",
-"bajada": "Un gesto en los bastidores, consejos de último momento y una defensa pública contra ataques racistas marcaron el camino de Nicaragua hacia la final del certamen más importante del mundo",
-"fecha": "2026-11-25T03:24:06+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "otros",
-"motivo": "palabras_otros:miss universo",
-"home_mejor_pos": 45
 },
 "69eb4c0fd076": {
 "id": "69eb4c0fd076",
@@ -36494,24 +34092,6 @@
 "tema": "otros",
 "motivo": "sin_coincidencias"
 },
-"ca7af0e18e0d": {
-"id": "ca7af0e18e0d",
-"diario": "infobae",
-"url": "https://www.infobae.com/panama/2026/11/25/gabriela-gonzalez-logro-que-panama-brillara-al-llegar-al-top-30-de-miss-universo-2026/",
-"titulo": "Gabriela González logró que Panamá brillara al llegar al Top 30 de Miss Universo 2026",
-"bajada": "La joven chiricana de 20 años avanzó entre las semifinalistas del certamen celebrado en San Juan, Puerto Rico, tras la elección del jurado y junto a representantes de América Latina, Francia, Filipinas, Ucrania y Tanzania",
-"fecha": "2026-11-25T03:12:31+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "otros",
-"motivo": "palabras_otros:miss universo"
-},
 "f9e2cae90ec2": {
 "id": "f9e2cae90ec2",
 "diario": "pagina12",
@@ -36574,7 +34154,7 @@
 "visto_primero": "2026-11-25T03:34:31+00:00",
 "visto_ultimo": "2026-11-27T02:32:30+00:00",
 "tema": "futbol",
-"motivo": "seccion:deportes+palabras:boca"
+"motivo": "seccion:deportes+palabras:boca+salvo_local:boca"
 },
 "80df432eb665": {
 "id": "80df432eb665",
@@ -36637,25 +34217,6 @@
 "tema": "economia",
 "motivo": "seccion:finanzas",
 "home_mejor_pos": 119
-},
-"ecb1b2732678": {
-"id": "ecb1b2732678",
-"diario": "infobae",
-"url": "https://www.infobae.com/guatemala/2026/11/25/el-ministerio-de-gobernacion-de-guatemala-condena-ataques-contra-policias-y-danos-publicos-en-san-pedro-soloma/",
-"titulo": "El Ministerio de Gobernación de Guatemala condena ataques contra policías y daños públicos en San Pedro Soloma",
-"bajada": "Una multitud de cerca de 500 personas incendió una motocicleta oficial y un vehículo consignado tras la captura de un hombre señalado por herir con arma blanca a otra persona",
-"fecha": "2026-11-25T03:09:29+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 46
 },
 "ae4302be896f": {
 "id": "ae4302be896f",
@@ -36794,25 +34355,6 @@
 "visto_ultimo": "2026-11-26T22:31:56+00:00",
 "tema": "economia",
 "motivo": "seccion:rural"
-},
-"eec9bebe1dc6": {
-"id": "eec9bebe1dc6",
-"diario": "infobae",
-"url": "https://www.infobae.com/republica-dominicana/2026/11/25/gobierno-dominicano-decreta-tres-dias-de-duelo-por-el-fallecimiento-del-comandante-cubano-delio-gomez/",
-"titulo": "Gobierno dominicano decreta tres días de duelo por el fallecimiento del comandante cubano Delio Gómez",
-"bajada": "La disposición ordena izar la enseña nacional a media asta entre el 25 y el 27 de noviembre y encarga al Ministerio de Defensa rendir honores militares al homenajeado en actos oficiales",
-"fecha": "2026-11-25T03:05:14+00:00",
-"seccion": "mundo",
-"palabras_clave": [],
-"edicion_impresa": false,
-"fuentes": [
-"infobae/rss:mundo"
-],
-"visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-25T18:28:12+00:00",
-"tema": "internacionales",
-"motivo": "seccion:mundo",
-"home_mejor_pos": 47
 },
 "72944b8a8e18": {
 "id": "72944b8a8e18",
@@ -38105,7 +35647,7 @@
 "ambito/rss:economia"
 ],
 "visto_primero": "2026-11-25T03:34:31+00:00",
-"visto_ultimo": "2026-11-28T00:35:29+00:00",
+"visto_ultimo": "2026-11-28T02:22:20+00:00",
 "tema": "economia",
 "motivo": "seccion:economia",
 "home_mejor_pos": 13
