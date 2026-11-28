@@ -67,7 +67,7 @@
 - [x] App web instalable: Hoy, Semana, Tema comparado, Armá tu semana, Guardadas, búsqueda de temas propios, feedback como issue.
 - [ ] Fusionar temas desde la app (versión 1.1).
 - [x] Reportes de errores de otras personas y banderitas en los nombres de los temas (27/11). Probado en un navegador simulado: guardar, compartir archivo, plan B de texto, cargar en el celular de Nico sin duplicar, issue con `de-otros` y modo Nico.
-- [x] Decisiones del 27/11 a la noche aplicadas el 28/11 (22 pruebas). Alertas del SMN: falta verificar en la primera corrida de GitHub que `datos/alertas_smn.json` diga `ok: true` y revisar `zonas_vistas` (los nombres de zona del SMN no se pudieron ver desde la sesión).
+- [x] Decisiones del 27/11 a la noche aplicadas el 28/11 (22 pruebas). Alertas del SMN verificadas en GitHub el 28/11: el feed CAP responde (60 avisos, 40 vigentes) y manda las zonas como polígonos sin nombre, así que se prueba si contienen 9 puntos de referencia del AMBA. Esa noche ninguna alerta vigente tocaba el AMBA. *Para la revisión diaria:* mirar `control` en `datos/alertas_smn.json` y comparar con smn.gob.ar/alertas el primer día que haya alerta en el AMBA.
 - [ ] «Enviar mi semana» (curaduría) de otras personas todavía abre GitHub, y la calibración lo ignora. Si hace falta, se puede llevar por el mismo camino que los reportes (sin decidir).
 - [x] «Tu día» (25/11): reemplaza «Afecta tu día» en Hoy y está arriba de Temas › Hoy. Clima (con «Alerta en el AMBA» solo si el título lo dice), dólar y paros/transporte por asunto, con estado (Hoy, Mañana, Anunciado, Sin paro).
 - [x] Títulos (25/11): el recolector sigue el título que el diario le cambia a una nota; el tema toma su nombre de la última nota de cada diario.
