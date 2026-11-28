@@ -119,8 +119,9 @@ def main():
     datos = {"actualizado": ahora.isoformat(timespec="seconds"), "fuente": "SMN", "url": PAGINA,
              "ok": False, "amba": [], "zonas_vistas": []}
     try:
-        raiz = ET.fromstring(bajar(FEED))
-        avisos = []
+        crudo = bajar(FEED)
+        raiz = ET.fromstring(crudo)
+        avisos, muestra = [], {"indice": crudo[:1500].decode("utf-8", "ignore")}
         if local(raiz.tag) == "alert":
             avisos += leer_cap(raiz)
         else:
@@ -130,9 +131,11 @@ def main():
             if not alertas_dentro:
                 for url in enlaces_del_indice(raiz)[:MAX_ALERTAS]:
                     try:
-                        sub = ET.fromstring(bajar(url))
+                        sub_crudo = bajar(url)
+                        sub = ET.fromstring(sub_crudo)
                     except (OSError, ET.ParseError):
                         continue
+                    muestra.setdefault("alerta", sub_crudo[:4000].decode("utf-8", "ignore"))
                     if local(sub.tag) == "alert":
                         avisos += leer_cap(sub)
         vistas = []
@@ -152,6 +155,8 @@ def main():
         datos["amba"].sort(key=lambda a: (orden.get(a["nivel"], 3), a["desde"] or ""))
         datos["zonas_vistas"] = vistas[:80]
         datos["avisos_leidos"] = len(avisos)
+        if not vistas:  # sin zonas reconocidas: se guarda una muestra para revisar el formato
+            datos["muestra"] = muestra
         datos["ok"] = True
     except (OSError, ET.ParseError, ValueError) as e:
         datos["error"] = f"{type(e).__name__}: {e}"[:200]
