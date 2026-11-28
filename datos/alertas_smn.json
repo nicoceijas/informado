@@ -1,9 +1,13 @@
 {
- "actualizado": "2026-11-28T02:31:59+00:00",
+ "actualizado": "2026-11-28T02:34:14+00:00",
  "fuente": "SMN",
  "url": "https://www.smn.gob.ar/alertas",
  "ok": true,
  "amba": [],
  "zonas_vistas": [],
- "avisos_leidos": 60
+ "avisos_leidos": 60,
+ "control": {
+  "vigentes": 40,
+  "amba_cualquier_vigencia": 0
+ }
 }

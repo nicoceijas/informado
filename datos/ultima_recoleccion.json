@@ -1,5 +1,5 @@
 {
- "inicio": "2026-11-28T02:30:42+00:00",
+ "inicio": "2026-11-28T02:32:59+00:00",
  "fuentes": {
   "clarin/home": {
    "enlaces": 119
@@ -230,10 +230,10 @@
    "viejas": 0
   },
   "perfil/sitemap:sitemap": {
-   "leidas": 552,
+   "leidas": 553,
    "nuevas": 0,
    "actualizadas": 0,
-   "excluidas": 247,
+   "excluidas": 248,
    "viejas": 0
   },
   "cronista/home": {
@@ -266,7 +266,7 @@
   "ole/rss:ultimo": {
    "leidas": 10,
    "nuevas": 0,
-   "actualizadas": 0,
+   "actualizadas": 2,
    "excluidas": 0,
    "viejas": 0
   },
@@ -278,8 +278,8 @@
    "viejas": 0
   },
   "ole/sitemap:sitemap": {
-   "leidas": 300,
-   "nuevas": 1,
+   "leidas": 299,
+   "nuevas": 0,
    "actualizadas": 0,
    "excluidas": 31,
    "viejas": 0
@@ -334,5 +334,5 @@
  },
  "reclasificadas": 0,
  "descartadas": 0,
- "fin": "2026-11-28T02:31:40+00:00"
+ "fin": "2026-11-28T02:33:59+00:00"
 }
